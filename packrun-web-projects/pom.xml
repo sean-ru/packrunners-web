@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.magnolia.maven.poms</groupId>
+    <artifactId>magnolia-parent-pom-community</artifactId>
+    <version>38</version>
+  </parent>
+  <groupId>org.packrunners</groupId>
+  <artifactId>packrun-web-projects</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>PACKRUN :: Project Root</name>
+  <inceptionYear>2020</inceptionYear>
+
+  <modules>
+    <module>packrun-web-parent</module>
+    <module>packrun-web-app</module>
+    <module>packrun-web-courses</module>
+  </modules>
+
+</project>
