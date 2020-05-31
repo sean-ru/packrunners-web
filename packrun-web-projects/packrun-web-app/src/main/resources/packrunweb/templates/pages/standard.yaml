@@ -1,0 +1,43 @@
+# When using 'renderType=site' all pages inherit their 'templateScript' value from the site definition which is
+# globally defined for whole the site. This is the reason no page YAML definition defines an explicit 'templateScript'
+# to use. The value inherited and currently used is:
+# templateScript: /packrunweb/templates/pages/main.ftl
+# This might be replaced with the template from 'packrunweb-marketing-tags':
+# templateScript: /packrunweb-marketing-tags/templates/pages/main-marketing-tags.ftl
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: feature
+areas:
+  main:
+    templateScript: /packrunweb/templates/pages/areas/contentContainer.ftl
+    type: list
+    parameters:
+      cssClass: container
+    availableComponents:
+      textImage:
+        id: packrunweb:components/textImage
+      jumbotron:
+        id: packrunweb:components/jumbotron
+      linkList:
+        id: packrunweb:components/linkList
+      teaser:
+        id: packrunweb:components/teaser
+      carousel:
+        id: packrunweb:components/carousel
+      video:
+        id: mtk:components/video
+      social:
+        id: packrunweb:components/social
+      columnLayout:
+        id: packrunweb:components/columnLayout
+      html:
+        id: mtk:components/html
+      form:
+        id: packrunweb:components/form
+      formStep:
+        id: form:components/formStep
+  footer:
+    editable: false

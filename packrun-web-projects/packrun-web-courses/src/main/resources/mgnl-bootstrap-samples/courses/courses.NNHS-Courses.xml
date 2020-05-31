@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="NNHS-Courses">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>5288a0c7-1334-4093-b011-d290d00c7252</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-05-27T16:06:19.986-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-05-27T16:06:34.163-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="Introduction-to-Business">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>58509728-343c-4f5c-a35b-a08d47d639d7</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumber" sv:type="String">
+      <sv:value>B10011, B10012</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b5ef3220-2931-4bef-a3d8-7b1b236ccdb1</sv:value>
+      <sv:value>69c0d42a-8a59-43ac-9458-805e8ffd9281</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>0.50</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;This course is recommended for freshmen and sophomores, especially for those who may be interested in a career in business. This course will introduce students to major concepts in business &amp;ndash; foundations of business, finance in the business world including the stock market, entrepreneurship, marketing, management, business ethics, law, and international business. Students may participate in field trips to places such as the Federal Reserve Bank, the Kane County Cougars, and more. Students will participate in activities such as an online stock market game, a marketing project, and a mock trial. After completing this course, students will have a better understanding of how business is organized and operates. May be eligible for Dual Credit through COD.&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>1</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:6e0bdd80-4ff9-4eee-b497-5847701656bd</sv:value>
+    </sv:property>
+    <sv:property sv:name="isWeighted" sv:type="Long">
+      <sv:value>0</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>9,10</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-05-27T15:52:04.382-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:39.058-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:37.916-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-05-27T16:06:38.869-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Introduction to Business</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>None</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>John Doe</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Honors-Algebra-2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>034c05a3-0de5-4577-818a-e7d23df1f696</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumber" sv:type="String">
+      <sv:value>M19011 – M19012</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>1.00</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;This highly challenging course includes an intense treatment of all topics in Algebra 2 with additional work on permutations, combinations, and math-contest problems. Students will work exercises requiring innovative thinking, applications, and extensions of traditional Algebra 2 material. An exceptional grasp of Algebra 1 concepts is assumed as a prerequisite. A graphing calculator is required. &amp;ndash; Department Placement Required&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>2</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:5627c1ca-13d3-49be-9495-fe91d401756a</sv:value>
+    </sv:property>
+    <sv:property sv:name="isWeighted" sv:type="Long">
+      <sv:value>1</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>9,10,11</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-05-27T15:55:50.616-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:41.247-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:41.098-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-05-27T16:06:40.531-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Honors Algebra 2</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>Honors Geometry</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>John Doe</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="AP-Physics-1">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bbf841a0-f9c4-43ac-ad71-1c0fe9f21460</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumber" sv:type="String">
+      <sv:value>S600A1 – S600A2</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>61c823ed-8660-4f30-a1f9-7847c2f3afb5</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>1.00</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;AP Physics 1 is an algebra-based physics course equivalent to a first-semester college course in physics. Students enrolled in this course will learn Newtonian mechanics (including rotational dynamics and angular momentum); work, energy, and power; mechanical waves and sound; and will also be introduced to electric circuits. The AP Physics 1 course will include student-conducted laboratory investigations that provide an experience comparable to introductory college-level physics laboratories. This course is intended for self-motivated students with strong mathematical skills who enjoy scientific inquiry and are interested in a variety of physics topics. &amp;ndash; Co requisite: Algebra 2&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>2</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:120ace49-8c54-480f-9918-2a61812849e5</sv:value>
+    </sv:property>
+    <sv:property sv:name="isWeighted" sv:type="Long">
+      <sv:value>1</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>10 (with department consent), 11,12</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-05-27T15:58:50.072-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:43.679-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:43.531-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-05-27T16:06:41.834-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>AP Physics 1</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>Geometry</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>John Doe</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="AP-Human-Geography">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>29466d2f-f129-41e1-80bb-a7eae2b774fe</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumber" sv:type="String">
+      <sv:value>T150A1-T150A2</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>d6e2c895-309b-4d68-9fa1-2e5e444d6afd</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>1.00</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;AP Human Geography presents students with the curricular equivalent of an introductory college-level course in human cultural geography. Content is presented thematically and is organized around economic, cultural, political, and urban geography. The approach is spatial and problem oriented, and case studies are drawn from all world regions. Historical information serves to enrich analysis of the impacts of phenomena such as globalization, colonialism, and human-environment relationships on places, regions, cultural landscapes, and patterns of interactions. Students are expected to take the College Board exam in May &amp;ndash; Teacher Recommendation Required. This course qualifies for the Illinois Global Scholar Certificate.&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>2</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:a03517d1-b9ce-4761-bce6-92f4e1da9afe</sv:value>
+    </sv:property>
+    <sv:property sv:name="isWeighted" sv:type="Long">
+      <sv:value>1</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>9, 10, 11, 12</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-05-27T16:02:14.034-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:45.328-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:45.216-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-05-27T16:06:43.072-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>AP Human Geography</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>None</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>John Doe</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Spanish-2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9a43a511-db14-4b51-899a-6379547175b6</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumber" sv:type="String">
+      <sv:value>W82011 – W82012</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>e3f20e52-0227-4ddb-b70b-f87943d51310</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>1.00</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;In this intermediate language course, students continue to develop communication skills in the areas of listening, speaking, reading and writing in everyday situations, and the understanding of culture as defined in the Spanish I objectives. Vocabulary is expanded and used in situational contexts toward increased proficiency in listening, reading, and writing. Increased usage of Spanish as the language of conversation in the classroom is an integral part of student participation. Additional resources are used to enhance the curriculum. This course qualifies for the Illinois Global Scholar Certificate.&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>2</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:d55fd5d7-bc7e-474e-bdbb-aacead4e59d5</sv:value>
+    </sv:property>
+    <sv:property sv:name="isWeighted" sv:type="Long">
+      <sv:value>0</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>9,10,11,12</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-05-27T16:04:15.140-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:46.664-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-05-27T16:04:46.581-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-05-27T16:06:44.203-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Spanish 2</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>Spanish 1- or Teacher Recommendation</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>John Doe</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,66 @@
+# When using 'renderType=site' all pages inherit their 'templateScript' value from the site definition which is
+# globally defined for whole the site. This is the reason no page YAML definition defines an explicit 'templateScript'
+# to use. The value inherited and currently used is:
+# templateScript: /packrunweb/templates/pages/main.ftl
+# This might be replaced with the template from 'packrunweb-marketing-tags':
+# templateScript: /packrunweb-marketing-tags/templates/pages/main-marketing-tags.ftl
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PrototypeTemplateDefinition
+
+templateScript: /packrunweb/templates/pages/main.ftl
+renderType: site
+type: feature
+
+jsFiles:
+  - link: /.resources/packrunweb-theme/libs/twitterbootstrap/js/bootstrap.min.js
+    addFingerPrint: true
+  - link: /.resources/packrunweb-theme/libs/twitterbootstrap-extras/ie10-viewport-bug-workaround.js
+    addFingerPrint: true
+  - link: /.resources/packrunweb-theme/js/viewport-units-buggyfill.js
+    addFingerPrint: true
+
+areas:
+  htmlHeader:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /packrunweb/templates/pages/areas/htmlHeader.ftl
+    type: noComponent
+  main:
+    type: list
+  footer:
+    editable: false
+    templateScript: /packrunweb/templates/pages/areas/footer.ftl
+    type: noComponent
+    parameters:
+      columns: 4
+    areas:
+      footer1: &footer1
+        type: list
+        templateScript: /packrunweb/templates/pages/areas/contentContainer.ftl
+        parameters:
+          cssClass: col-md-3
+        inheritance:
+          components: all
+          enabled: true
+        availableComponents:
+          textImage:
+            id: packrunweb:components/textImage
+          linkList:
+            id: packrunweb:components/linkList
+      footer2: *footer1
+      footer3: *footer1
+      footer4: *footer1
+  navigation:
+    class: org.packrunners.webapp.definition.NavigationAreaDefinition
+    createAreaNode: false
+    modelClass: org.packrunners.webapp.model.NavigationAreaModel
+    renderType: freemarker
+    templateScript: /packrunweb/templates/pages/areas/navigation.ftl
+    type: noComponent
+    userLinksResolvers:
+      public-user-registration:
+        class: org.packrunners.webapp.user.DefaultUserLinksResolver
+        loginPageTemplateId: public-user-registration:components/login
+        profilePageTemplateId: public-user-registration:components/userUpdate
+        registrationPageTemplateId: public-user-registration:components/registration

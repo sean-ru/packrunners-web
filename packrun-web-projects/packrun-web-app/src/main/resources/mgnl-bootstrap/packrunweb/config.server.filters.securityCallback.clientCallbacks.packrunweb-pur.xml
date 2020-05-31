@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="packrunweb-pur" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="class" sv:type="String">
+    <sv:value>info.magnolia.cms.security.auth.callback.RedirectClientCallback</sv:value>
+  </sv:property>
+  <sv:property sv:name="location" sv:type="String">
+    <sv:value>/packrunweb/members/login.html</sv:value>
+  </sv:property>
+  <sv:node sv:name="originalUrlPattern">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.cms.util.SimpleUrlPattern</sv:value>
+    </sv:property>
+    <sv:property sv:name="patternString" sv:type="String">
+      <sv:value>(*|packrunweb)/members/(profile-update|protected)*</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
+

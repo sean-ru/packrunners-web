@@ -1,0 +1,8 @@
+courseCarousel:
+  id: courses:components/courseCarousel
+courseTypeTeaserRow:
+  id: courses:components/courseTypeTeaserRow
+courseList:
+  id: courses:components/courseList
+courseFinderRow:
+  id: courses:components/courseFinderRow

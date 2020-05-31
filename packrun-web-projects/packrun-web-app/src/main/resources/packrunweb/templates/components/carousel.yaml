@@ -1,0 +1,14 @@
+templateScript: /packrunweb/templates/components/carousel.ftl
+dialog: packrunweb:components/carousel
+
+renderType: freemarker
+
+areas:
+  carouselItems:
+    templateScript: /packrunweb/templates/components/carouselArea.ftl
+    type: list
+    availableComponents:
+      textImage:
+        id: packrunweb:components/textImage
+      teaser:
+        id: packrunweb:components/teaser

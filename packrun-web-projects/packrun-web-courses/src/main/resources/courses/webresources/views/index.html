@@ -1,0 +1,30 @@
+<!-- Main Form -->
+<div class="finder-header">
+    <h1><img src="{{ contextPath }}/.resources/courses/webresources/img/map_red.png">{{ i18n['courseFinder.title'] }}</h1>
+    <div class="finder-search-container">
+        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+        <input class="finder-search" type="text" placeholder="{{ i18n['courseFinder.search.placeholder'] }}" ng-model="search.query" ng-model-options="{ updateOn: 'change blur' }" />
+    </div>
+</div>
+
+<!-- Search Filters -->
+<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/filters.html'">
+</div>
+
+<!-- Results -->
+<div class="finder-list">
+    <div class="finder-summary col-md-12">
+        <span class="finder-count">{{ filteredCourses.length }}</span> {{ i18n['courseFinder.search.resultsFound'] }}
+    </div>
+    <div class="finder-summary-no-courses col-md-12" ng-hide="filteredTours.length" ng-cloak>
+        {{ i18n[notFoundMessage] }}
+    </div>
+    <div class="course-list">
+        <div class="row" ng-show="filteredTours.length">
+            <div class="col-md-6 course-card card" ng-repeat="course in filteredTours" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+        </div>
+        <div class="row" ng-hide="filteredTours.length">
+            <div class="col-md-6 course-card card" ng-repeat="course in courses" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+        </div>
+    </div>
+</div>

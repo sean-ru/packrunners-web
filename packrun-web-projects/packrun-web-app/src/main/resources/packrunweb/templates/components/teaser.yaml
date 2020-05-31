@@ -1,0 +1,8 @@
+templateScript: /packrunweb/templates/components/teaser.ftl
+dialog: packrunweb:components/teaser
+
+renderType: freemarker
+parameters:
+  divClass: teaser
+  divIDPrefix: teaser
+  headlineLevel: h2

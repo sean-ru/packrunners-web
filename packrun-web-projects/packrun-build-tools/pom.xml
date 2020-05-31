@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.packrunners</groupId>
+    <artifactId>packrun-web-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../packrun-web-parent/pom.xml</relativePath>
+  </parent>
+  <artifactId>packrun-build-tools</artifactId>
+  <name>PACKRUN :: packrun-build-tools</name>
+  <packaging>jar</packaging>
+
+  <properties>
+    <local.tomcat.location>/Users/wru/DEV/magnolia/apache-tomcat</local.tomcat.location>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.0.0-M1</version>
+        <executions>
+          <!-- disable standard deploy -->
+          <execution>
+            <id>default-deploy</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>wagon-maven-plugin</artifactId>
+        <version>2.0.0</version>
+        <executions>
+          <execution>
+            <id>deploy-packrun-web-app-local-magnoliaAuthor</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+              <goal>upload-single</goal>
+            </goals>
+            <configuration>
+              <url>file:${local.tomcat.location}</url>
+              <fromFile>${project.basedir}/../packrun-web-app/target/packrun-web-app-${project.version}.jar</fromFile>
+              <toFile>/webapps/magnoliaAuthor/WEB-INF/lib/packrun-web-app-${project.version}.jar</toFile>
+            </configuration>
+          </execution>
+          <execution>
+            <id>deploy-packrun-web-app-local-magnoliaPublic</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+              <goal>upload-single</goal>
+            </goals>
+            <configuration>
+              <url>file:${local.tomcat.location}</url>
+              <fromFile>${project.basedir}/../packrun-web-app/target/packrun-web-app-${project.version}.jar</fromFile>
+              <toFile>/webapps/magnoliaPublic/WEB-INF/lib/packrun-web-app-${project.version}.jar</toFile>
+            </configuration>
+          </execution>
+          <execution>
+            <id>deploy-packrun-web-courses-local-magnoliaAuthor</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+              <goal>upload-single</goal>
+            </goals>
+            <configuration>
+              <url>file:${local.tomcat.location}</url>
+              <fromFile>${project.basedir}/../packrun-web-courses/target/packrun-web-courses-${project.version}.jar</fromFile>
+              <toFile>/webapps/magnoliaAuthor/WEB-INF/lib/packrun-web-courses-${project.version}.jar</toFile>
+            </configuration>
+          </execution>
+          <execution>
+            <id>deploy-packrun-web-courses-local-magnoliaPublic</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+              <goal>upload-single</goal>
+            </goals>
+            <configuration>
+              <url>file:${local.tomcat.location}</url>
+              <fromFile>${project.basedir}/../packrun-web-courses/target/packrun-web-courses-${project.version}.jar</fromFile>
+              <toFile>/webapps/magnoliaPublic/WEB-INF/lib/packrun-web-courses-${project.version}.jar</toFile>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

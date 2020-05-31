@@ -1,0 +1,10 @@
+templateScript: /courses/templates/components/courseDetail.ftl
+modelClass: org.packrunners.courses.model.CourseDetailModel
+renderType: freemarker
+
+areas:
+  summary:
+    type: single
+    availableComponents:
+      social:
+        id: packrunweb:components/social

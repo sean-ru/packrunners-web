@@ -1,0 +1,24 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+nodeTypes:
+  - mgnl:content
+includeSystemProperties: false
+bypassWorkspaceAcls: false
+limit: 50
+workspace: courses
+references:
+  - name: courseTypes
+    propertyName: courseTypes
+    referenceResolver:
+      class: info.magnolia.rest.reference.jcr.JcrReferenceResolverDefinition
+      targetWorkspace: category
+  - name: schools
+    propertyName: schools
+    referenceResolver:
+      class: info.magnolia.rest.reference.jcr.JcrReferenceResolverDefinition
+      targetWorkspace: category
+  - name: courseImageReference
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+      assetRenditions:
+        - 960x720

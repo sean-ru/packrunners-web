@@ -1,0 +1,6 @@
+workspace: courses
+nodeTypes:
+- mgnl:content
+fullTextSearch: true
+titleProperty: name
+class: info.magnolia.periscope.search.jcr.JcrSearchResultSupplierDefinition

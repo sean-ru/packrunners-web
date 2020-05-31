@@ -10,6 +10,7 @@
   <artifactId>packrun-web-app</artifactId>
   <name>PACKRUN :: packrun-web-app</name>
   <packaging>jar</packaging>
+
   <dependencies>
     <dependency>
       <groupId>info.magnolia</groupId>
@@ -23,7 +24,10 @@
       <groupId>info.magnolia</groupId>
       <artifactId>magnolia-templating</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>info.magnolia.site</groupId>
+      <artifactId>magnolia-site</artifactId>
+    </dependency>
     <dependency>
       <groupId>info.magnolia.resources</groupId>
       <artifactId>magnolia-resources</artifactId>
@@ -73,6 +77,11 @@
     <dependency>
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
     </dependency>
 
     <!-- For tests -->

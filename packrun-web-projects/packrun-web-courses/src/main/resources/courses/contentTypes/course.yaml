@@ -1,0 +1,3 @@
+datasource:
+  workspace: courses
+  autoCreate: false

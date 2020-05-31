@@ -1,0 +1,4 @@
+templateScript: /packrunweb/templates/components/textImage.ftl
+dialog: packrunweb:components/textImage
+
+renderType: freemarker

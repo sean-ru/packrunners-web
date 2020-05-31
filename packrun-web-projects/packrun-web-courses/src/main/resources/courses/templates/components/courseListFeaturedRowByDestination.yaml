@@ -1,0 +1,6 @@
+templateScript: /courses/templates/components/courseListFeaturedRow.ftl
+modelClass: org.packrunners.courses.model.RelatedCoursesModel
+class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
+
+renderType: freemarker
+category: destination
