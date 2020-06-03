@@ -14,7 +14,7 @@
   <packaging>jar</packaging>
 
   <properties>
-    <local.tomcat.location>/Users/wru/DEV/magnolia/apache-tomcat</local.tomcat.location>
+    <local.tomcat.location>/Users/matthewru/DEV/magnolia/apache-tomcat</local.tomcat.location>
   </properties>
 
   <build>
