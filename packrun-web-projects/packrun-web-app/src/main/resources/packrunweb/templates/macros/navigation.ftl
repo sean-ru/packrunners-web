@@ -1,6 +1,6 @@
 [#--
 Customized /mtk/templates/macros/navigation.ftl macro for packrunweb project.
-Uncommented and adjusted section for resolving menu for destination and packrunweb from the category content app.
+Uncommented and adjusted section for resolving menu for course-types and schools from the category content app.
 --]
 [#macro navigation navParentItem depth=1 expandAll=false navClass="nav"]
 
@@ -9,7 +9,7 @@ Uncommented and adjusted section for resolving menu for destination and packrunw
 
         [#assign navItems = navfn.navItems(navParentItem)]
         [#list navItems as navItem]
-            [#if navfn.hasTemplateSubtype(navItem, "courseTypeCatOverview")]
+            [#if navfn.hasTemplateSubtype(navItem, "courseTypeOverview")]
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                         ${navItem.navigationTitle!navItem.title!navItem.@name}
@@ -17,13 +17,13 @@ Uncommented and adjusted section for resolving menu for destination and packrunw
                     </a>
 
                     <ul class="dropdown-menu" role="menu">
-                        [#assign navContentItems = navfn.navItemsFromApp("category", "/destinations", "mgnl:category")]
+                        [#assign navContentItems = navfn.navItemsFromApp("category", "/course-types", "mgnl:category")]
                         [#list navContentItems as navContentItem]
                             <li><a href="${navfn.linkWithSelector(navItem, navContentItem)!"#"}">${navContentItem.displayName!navContentItem.@name}</a></li>
                         [/#list]
                     </ul>
                 </li>
-            [#elseif navfn.hasTemplateSubtype(navItem, "packrunwebCatOverview")]
+            [#elseif navfn.hasTemplateSubtype(navItem, "schoolOverview")]
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             ${navItem.navigationTitle!navItem.title!navItem.@name}
@@ -31,7 +31,7 @@ Uncommented and adjusted section for resolving menu for destination and packrunw
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            [#assign navContentItems = navfn.navItemsFromApp("category", "/course-types", "mgnl:category")]
+                            [#assign navContentItems = navfn.navItemsFromApp("category", "/schools", "mgnl:category")]
                             [#list navContentItems as navContentItem]
                                 <li><a href="${navfn.linkWithSelector(navItem, navContentItem)!"#"}">${navContentItem.displayName!navContentItem.@name}</a></li>
                             [/#list]
