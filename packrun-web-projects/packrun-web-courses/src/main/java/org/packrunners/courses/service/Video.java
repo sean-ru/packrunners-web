@@ -1,31 +1,28 @@
 package org.packrunners.courses.service;
 
 import info.magnolia.dam.api.Asset;
-
 import java.util.Date;
 import java.util.List;
 
 
 /**
- * Simple POJO for wrapping a studyGuide node.
+ * Simple POJO for wrapping a video node.
  */
-public class StudyGuide {
+public class Video {
 
-  public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
-  public static final String PROPERTY_NAME_CONTENT = "content";
+  public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_AUTHOR = "author";
   public static final String PROPERTY_NAME_COURSE = "course";
   public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-  public static final String PROPERTY_NAME_ATTACHMENTS = "attachments";
+  public static final String PROPERTY_NAME_ATTACHMENTS = "video";
   public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
   public static final String PROPERTY_NAME_SCHOOL = "school";
 
   private String name;
-  private String content;
   private String author;
-  private Course course;
+  private String course;
   private Date lastModifiedDate;
-  private List<Asset> attachments;
+  private Asset video;
   private List<Category> schools;
   private List<Category> courseTypes;
 
@@ -37,14 +34,6 @@ public class StudyGuide {
     this.name = name;
   }
 
-  public String getContent() {
-    return content;
-  }
-
-  public void setContent(String content) {
-    this.content = content;
-  }
-
   public String getAuthor() {
     return author;
   }
@@ -53,11 +42,11 @@ public class StudyGuide {
     this.author = author;
   }
 
-  public Course getCourse() {
+  public String getCourse() {
     return course;
   }
 
-  public void setCourse(Course course) {
+  public void setCourse(String course) {
     this.course = course;
   }
 
@@ -69,12 +58,12 @@ public class StudyGuide {
     this.lastModifiedDate = lastModifiedDate;
   }
 
-  public List<Asset> getAttachments() {
-    return attachments;
+  public Asset getVideo() {
+    return video;
   }
 
-  public void setAttachments(List<Asset> attachments) {
-    this.attachments = attachments;
+  public void setVideo(Asset video) {
+    this.video = video;
   }
 
   public List<Category> getSchools() {

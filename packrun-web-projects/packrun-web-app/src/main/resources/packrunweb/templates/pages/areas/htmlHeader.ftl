@@ -33,7 +33,7 @@
 [/#if]
 
 [#if cmsfn.editMode]
-<link rel="stylesheet" type="text/css" href="${ctx.contextPath}/.resources/packrunweb-theme/css/packrunwebs-magnolia-author.css" media="all" />
+<link rel="stylesheet" type="text/css" href="${ctx.contextPath}/.resources/packrunweb-theme/css/packrunweb-magnolia-author.css" media="all" />
 [/#if]
 
 [#-- jsFiles from the theme are here --]
