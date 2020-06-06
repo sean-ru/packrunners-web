@@ -1,22 +1,18 @@
 'packrunners':
-  'description': Magnolia Travels is a demonstration project for Magnolia CMS. Browse
-    the site to get an overview of Magnolia CMS features, and learn how to edit the
-    content online. Or download the project and dig into the sources to learn the
-    key templating features of Magnolia CMS.
+  'description': Packrunners Web Site.
   'hideInNav': false
   'jcr:mixinTypes': ['mgnl:hasVersion']
   'jcr:primaryType': mgnl:page
   'jcr:uuid': b06b82a2-74b0-4994-8015-028c4fd60716
-  'keywords': Magnolia CMS, Open Source CMS, Content management, Demonstration project,
-    Demo project, Demo, Online demo, Website builder
+  'keywords': Packrunners, NNHS, Tutoring, Student, Website builder
   'mgnl:activationStatus': true
   'mgnl:created': 2015-01-26T10:17:02.306-06:00
   'mgnl:createdBy': superuser
-  'mgnl:lastActivated': 2020-05-31T22:01:33.915-05:00
+  'mgnl:lastActivated': 2020-06-06T11:42:04.007-05:00
   'mgnl:lastActivatedBy': superuser
   'mgnl:lastActivatedVersion': 1.1
-  'mgnl:lastActivatedVersionCreated': 2020-05-31T22:01:33.643-05:00
-  'mgnl:lastModified': 2020-05-31T22:00:06.850-05:00
+  'mgnl:lastActivatedVersionCreated': 2020-06-06T11:41:58.192-05:00
+  'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
   'mgnl:lastModifiedBy': superuser
   'mgnl:template': packrunweb:pages/home
   'searchResultPage': 6df1ebd8-fc9d-4db3-8539-02829c56b9f2
@@ -27,19 +23,62 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.795-06:00
     'mgnl:createdBy': superuser
-    'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
+    'mgnl:lastActivated': 2020-06-06T11:42:04.009-05:00
     'mgnl:lastActivatedBy': superuser
-    'mgnl:lastModified': 2015-10-27T10:58:23.431-05:00
+    'mgnl:lastModified': 2020-06-04T23:09:15.466-05:00
     'mgnl:lastModifiedBy': superuser
+    '0':
+      'arrows': true
+      'autoplay': true
+      'autoplaySeconds': 5
+      'dots': true
+      'fade': false
+      'id': 00
+      'jcr:primaryType': mgnl:component
+      'jcr:uuid': 0ce52da5-f747-44e8-b8de-2a7f02d8cf8c
+      'mgnl:activationStatus': true
+      'mgnl:created': 2020-06-04T23:02:57.538-05:00
+      'mgnl:createdBy': superuser
+      'mgnl:lastActivated': 2020-06-06T11:42:04.009-05:00
+      'mgnl:lastActivatedBy': superuser
+      'mgnl:lastModified': 2020-06-04T23:09:15.466-05:00
+      'mgnl:lastModifiedBy': superuser
+      'mgnl:template': packrunweb:components/carousel
+      'slidesToShow': 1
+      'variableWidth': false
+      'carouselItems':
+        'jcr:primaryType': mgnl:area
+        'jcr:uuid': a11171ed-3d44-4a1b-86f6-87bcb1c641bd
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-04T23:02:57.672-05:00
+        'mgnl:createdBy': superuser
+        'mgnl:lastActivated': 2020-06-06T11:42:04.010-05:00
+        'mgnl:lastActivatedBy': superuser
+        'mgnl:lastModified': 2020-06-04T23:09:15.466-05:00
+        'mgnl:lastModifiedBy': superuser
+        '0':
+          'constrainAspectRatio': false
+          'headlineLevel': small
+          'imagePosition': below
+          'jcr:primaryType': mgnl:component
+          'jcr:uuid': 91e9610e-e355-4be0-bf87-365380798e61
+          'mgnl:activationStatus': true
+          'mgnl:created': 2020-06-04T23:09:15.466-05:00
+          'mgnl:createdBy': superuser
+          'mgnl:lastActivated': 2020-06-06T11:42:04.010-05:00
+          'mgnl:lastActivatedBy': superuser
+          'mgnl:lastModified': 2020-06-04T23:09:15.466-05:00
+          'mgnl:lastModifiedBy': superuser
+          'mgnl:template': packrunweb:components/textImage
   'footer':
     'jcr:primaryType': mgnl:area
     'jcr:uuid': 73703795-6a14-480e-8875-25a457a4db31
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.810-06:00
     'mgnl:createdBy': superuser
-    'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
+    'mgnl:lastActivated': 2020-06-06T11:42:04.012-05:00
     'mgnl:lastActivatedBy': superuser
-    'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
+    'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
     'mgnl:lastModifiedBy': superuser
     'footer1':
       'jcr:primaryType': mgnl:area
@@ -47,9 +86,9 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.011-06:00
       'mgnl:createdBy': superuser
-      'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
+      'mgnl:lastActivated': 2020-06-06T11:42:04.012-05:00
       'mgnl:lastActivatedBy': superuser
-      'mgnl:lastModified': 2015-06-18T08:11:05.076-05:00
+      'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
       'mgnl:lastModifiedBy': superuser
       '0':
         'inline': true
@@ -59,9 +98,9 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:37:21.175-06:00
         'mgnl:createdBy': superuser
-        'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
+        'mgnl:lastActivated': 2020-06-06T11:42:04.012-05:00
         'mgnl:lastActivatedBy': superuser
-        'mgnl:lastModified': 2015-06-18T08:11:05.076-05:00
+        'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
         'mgnl:lastModifiedBy': superuser
         'mgnl:template': packrunweb:components/linkList
         'subtitle': Follow Us
@@ -72,115 +111,19 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:37:21.247-06:00
           'mgnl:createdBy': superuser
-          'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
+          'mgnl:lastActivated': 2020-06-06T11:42:04.012-05:00
           'mgnl:lastActivatedBy': superuser
-          'mgnl:lastModified': 2015-02-25T11:37:21.247-06:00
+          'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
           'mgnl:lastModifiedBy': superuser
-          '0':
-            'altText': Youtube
-            'image': jcr:5b9ee0d9-9ee2-4943-ba91-ff8240065fda
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': 980ff1bc-0a16-43b6-9833-df96d7cd2bba
-            'linkType': external
-            'linkTypeexternal': https://www.youtube.com/user/MagnoliaCMSystem
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:05:45.189-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:05:45.189-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Youtube
-          '00':
-            'altText': Pinterest
-            'image': jcr:5c1870bc-d486-4b38-b5ce-287694b23c9c
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': 42a5146b-3dac-45b0-9241-3467dd8fc010
-            'linkType': external
-            'linkTypeexternal': https://www.pinterest.com/magnolia_cms/
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:06:19.607-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:06:19.607-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Pinterest
-          '01':
-            'altText': Google+
-            'image': jcr:52469758-3875-4ac1-b2bb-8deac5c8419b
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': a5b5255a-b54e-4d5d-8071-1e4a759fa6e4
-            'linkType': external
-            'linkTypeexternal': https://plus.google.com/+MagnoliaCMSPlus
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:06:51.696-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.916-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:06:51.696-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Google+
-          '02':
-            'altText': Twitter
-            'image': jcr:f65f38bf-9e8b-482f-b5a9-30049bbf350a
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': c952cae3-727e-4745-832b-5e086b57dd25
-            'linkType': external
-            'linkTypeexternal': https://twitter.com/magnolia_cms
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:07:18.391-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:07:18.391-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Twitter
-          '03':
-            'altText': Facebook
-            'image': jcr:d314ca8b-32f2-444a-a82a-858532956882
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': ec829c68-793c-4cf9-bc94-acb26703c95a
-            'linkType': external
-            'linkTypeexternal': https://www.facebook.com/Magnolia
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:07:42.195-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:07:42.195-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Facebook
-          '04':
-            'altText': Linkedin
-            'image': jcr:942d9647-d54b-4eb7-b8be-abc5ce3fd50f
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': 5a838beb-4333-4552-8070-6bdc64f135fd
-            'linkType': external
-            'linkTypeexternal': https://www.linkedin.com/groups/Magnolia-CMS-2236763/about
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-02-25T12:08:11.404-06:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-02-25T12:08:11.404-06:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
-            'title': Linkedin
     'footer2':
       'jcr:primaryType': mgnl:area
       'jcr:uuid': e2e7bb6c-e7b6-4230-a6dd-d6e4d5382d66
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.020-06:00
       'mgnl:createdBy': superuser
-      'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+      'mgnl:lastActivated': 2020-06-06T11:42:04.013-05:00
       'mgnl:lastActivatedBy': superuser
-      'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
+      'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
       'mgnl:lastModifiedBy': superuser
       '0':
         'jcr:primaryType': mgnl:component
@@ -189,9 +132,9 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:27:16.380-06:00
         'mgnl:createdBy': superuser
-        'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+        'mgnl:lastActivated': 2020-06-06T11:42:04.013-05:00
         'mgnl:lastActivatedBy': superuser
-        'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
+        'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
         'mgnl:lastModifiedBy': superuser
         'mgnl:template': packrunweb:components/linkList
         'subtitle': General
@@ -202,9 +145,9 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:27:16.571-06:00
           'mgnl:createdBy': superuser
-          'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+          'mgnl:lastActivated': 2020-06-06T11:42:04.013-05:00
           'mgnl:lastActivatedBy': superuser
-          'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
+          'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
           'mgnl:lastModifiedBy': superuser
           '0':
             'jcr:primaryType': mgnl:component
@@ -214,12 +157,12 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:29:36.482-06:00
             'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+            'mgnl:lastActivated': 2020-06-06T11:42:04.013-05:00
             'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-06-18T10:53:01.930-05:00
+            'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
             'mgnl:lastModifiedBy': superuser
             'mgnl:template': packrunweb:components/link
-            'title': About Magnolia Travels
+            'title': About Pack Runners
             'title_de': Über Magnolia Travels
           '00':
             'jcr:primaryType': mgnl:component
@@ -229,7 +172,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:32:33.335-06:00
             'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+            'mgnl:lastActivated': 2020-06-06T11:42:04.014-05:00
             'mgnl:lastActivatedBy': superuser
             'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
             'mgnl:lastModifiedBy': superuser
@@ -240,9 +183,9 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.027-06:00
       'mgnl:createdBy': superuser
-      'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+      'mgnl:lastActivated': 2020-06-06T11:42:04.014-05:00
       'mgnl:lastActivatedBy': superuser
-      'mgnl:lastModified': 2015-06-18T08:13:18.574-05:00
+      'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
       'mgnl:lastModifiedBy': superuser
       '0':
         'jcr:primaryType': mgnl:component
@@ -251,9 +194,9 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:33:49.396-06:00
         'mgnl:createdBy': superuser
-        'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+        'mgnl:lastActivated': 2020-06-06T11:42:04.014-05:00
         'mgnl:lastActivatedBy': superuser
-        'mgnl:lastModified': 2015-06-18T08:13:18.574-05:00
+        'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
         'mgnl:lastModifiedBy': superuser
         'mgnl:template': packrunweb:components/linkList
         'subtitle': Services
@@ -264,35 +207,23 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:33:49.481-06:00
           'mgnl:createdBy': superuser
-          'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
+          'mgnl:lastActivated': 2020-06-06T11:42:04.014-05:00
           'mgnl:lastActivatedBy': superuser
-          'mgnl:lastModified': 2015-06-03T13:41:39.430-05:00
+          'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
           'mgnl:lastModifiedBy': superuser
-          '0':
-            'jcr:primaryType': mgnl:component
-            'jcr:uuid': f9c9d614-caa8-421c-b8c5-c8061f00bd18
-            'linkType': page
-            'linkTypepage': c1e9ac13-60c1-430a-8ee3-6c70078bf403
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-06-03T13:41:39.431-05:00
-            'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.917-05:00
-            'mgnl:lastActivatedBy': superuser
-            'mgnl:lastModified': 2015-06-03T13:41:39.431-05:00
-            'mgnl:lastModifiedBy': superuser
-            'mgnl:template': packrunweb:components/link
     'footer4':
       'jcr:primaryType': mgnl:area
       'jcr:uuid': d57479c1-0420-4ff5-b8cd-7dab7dec981c
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.036-06:00
       'mgnl:createdBy': superuser
-      'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+      'mgnl:lastActivated': 2020-06-06T11:42:04.014-05:00
       'mgnl:lastActivatedBy': superuser
-      'mgnl:lastModified': 2015-06-18T08:44:41.056-05:00
+      'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
       'mgnl:lastModifiedBy': superuser
       '0':
-        'headline': Magnolia CMS
+        'constrainAspectRatio': false
+        'headline': Tutors
         'headlineLevel': small
         'headline_de': Magnolia CMS
         'imagePosition': below
@@ -301,17 +232,11 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:34:50.575-06:00
         'mgnl:createdBy': superuser
-        'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+        'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
         'mgnl:lastActivatedBy': superuser
-        'mgnl:lastModified': 2015-06-18T08:44:41.056-05:00
+        'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
         'mgnl:lastModifiedBy': superuser
         'mgnl:template': packrunweb:components/textImage
-        'text': '<p>This website is a demonstration project for Magnolia, the digital
-          business platform with a CMS at its core.</p>
-
-          <p>&nbsp;</p>
-
-          <p><a href="https://www.magnolia-cms.com/" target="_blank">Learn more</a></p> '
         'text_de': '<p>Dieser Website dient als Beispielprojekt f&uuml;r Magnolia,
           der Digital Business Plattform mit einem CMS als Kern.</p>
 
@@ -324,7 +249,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-06-18T09:27:18.306-05:00
       'mgnl:createdBy': superuser
-      'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+      'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
       'mgnl:lastActivatedBy': superuser
       'mgnl:lastModified': 2015-06-18T09:58:44.424-05:00
       'mgnl:lastModifiedBy': superuser
@@ -335,7 +260,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T09:27:59.610-05:00
         'mgnl:createdBy': superuser
-        'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+        'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
         'mgnl:lastActivatedBy': superuser
         'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
         'mgnl:lastModifiedBy': superuser
@@ -346,7 +271,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T09:27:59.916-05:00
           'mgnl:createdBy': superuser
-          'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+          'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
           'mgnl:lastActivatedBy': superuser
           'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
           'mgnl:lastModifiedBy': superuser
@@ -358,7 +283,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:26.664-05:00
             'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+            'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
             'mgnl:lastActivatedBy': superuser
             'mgnl:lastModified': 2015-06-18T09:28:26.664-05:00
             'mgnl:lastModifiedBy': superuser
@@ -371,7 +296,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:55.983-05:00
             'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+            'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
             'mgnl:lastActivatedBy': superuser
             'mgnl:lastModified': 2015-06-18T09:28:55.983-05:00
             'mgnl:lastModifiedBy': superuser
@@ -384,7 +309,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:29:16.321-05:00
             'mgnl:createdBy': superuser
-            'mgnl:lastActivated': 2020-05-31T22:01:33.918-05:00
+            'mgnl:lastActivated': 2020-06-06T11:42:04.015-05:00
             'mgnl:lastActivatedBy': superuser
             'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
             'mgnl:lastModifiedBy': superuser
@@ -801,7 +726,6 @@
               </ul> '
       '01':
         'confirmContentType': text
-        'confirmContentTypecode':
         'confirmContentTypetext': We have received a message sent from ${email} through
           our contact form. For your convenience, the message is repeated below.
 
@@ -815,7 +739,6 @@
         'contactMailSubject': ${subject}
         'contactMailTo': contact@magnolia-packrunwebs-example.com
         'contentType': text
-        'contentTypehtml':
         'contentTypetext': 'Message:
 
           Email: ${email}
@@ -842,6 +765,10 @@
         'rightText_de': erforderlich
         'sendConfirmation': false
         'trackMail': false
+        'confirmContentTypecode':
+          'jcr:uuid': 3e5a50b2-3c41-4509-841a-e65b6753e65b
+        'contentTypehtml':
+          'jcr:uuid': 247c3f36-3fdd-4de3-80ee-310a33e20c9d
         'fieldsets':
           'jcr:primaryType': mgnl:area
           'jcr:uuid': 4d399f43-3a13-45eb-80d0-f42a1f45ef2c

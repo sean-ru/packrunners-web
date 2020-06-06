@@ -14,7 +14,8 @@
   <packaging>jar</packaging>
 
   <properties>
-    <local.tomcat.location>/Users/wru/DEV/magnolia/apache-tomcat</local.tomcat.location>
+    <!--suppress UnresolvedMavenProperty -->
+    <local.tomcat.location>${tomcat.home}</local.tomcat.location>
   </properties>
 
   <build>
