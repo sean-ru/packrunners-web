@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class Course {
 
-  public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
+  public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_DESCRIPTION = "description";
   public static final String PROPERTY_NAME_IMAGE = "image";
   public static final String PROPERTY_NAME_COURSE_NUMBER = "courseNumber";
