@@ -39,7 +39,7 @@
         [/#if]
 
         [#assign constrainAspectRatio = (content.constrainAspectRatio!false)]
-        [@responsiveImageTravel image.asset imageAlt imageTitle imgClass "" constrainAspectRatio /]
+        [@responsiveImageMain image.asset imageAlt imageTitle imgClass "" constrainAspectRatio /]
 
         [#if imageCaption?has_content || imageCredit?has_content]
             [#if imageCaption?has_content]
@@ -55,7 +55,7 @@
 
 
 [#-- Macro to render a responsive image with the variations configured in the theme. --]
-[#macro responsiveImageTravel asset  alt="" title="" cssClass="" additional="" constrainAspectRatio=false]
+[#macro responsiveImageMain asset  alt="" title="" cssClass="" additional="" constrainAspectRatio=false]
 
     [#if constrainAspectRatio ]
         [#assign srcs = [

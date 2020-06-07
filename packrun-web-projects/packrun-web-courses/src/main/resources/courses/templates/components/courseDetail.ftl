@@ -8,7 +8,7 @@
 [#assign dc = damfn.getAssetMap(asset).metadata.dc!]
 [#if asset?exists]
     [#assign assetCredit = dc.contributor?first!]
-    [#assign imageHtml][@responsiveImageTravel asset "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
+    [#assign imageHtml][@responsiveImageMain asset "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
 [/#if]
 
 [#if def.parameters.showSchools?? && def.parameters.showSchools == false]

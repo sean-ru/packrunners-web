@@ -52,7 +52,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="${homeLink}">
-                <img src="${ctx.contextPath}/.resources/${theme.name}/img/logo-white.png" alt=""/>
+                <img src="${ctx.contextPath}/.resources/${theme.name}/img/packrunners-logo.png" alt=""/>
             </a>
         </div>
 
