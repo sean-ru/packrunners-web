@@ -16,7 +16,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-05-27T15:27:47.757-05:00</sv:value>
+    <sv:value>2020-06-06T21:55:28.137-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -30,6 +30,9 @@
   <sv:node sv:name="CTE">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>69c0d42a-8a59-43ac-9458-805e8ffd9281</sv:value>
@@ -56,7 +59,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T15:27:48.815-05:00</sv:value>
+      <sv:value>2020-06-06T21:55:28.623-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -87,7 +90,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:48.817-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.623-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -115,7 +118,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:48.819-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.623-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -135,6 +138,9 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:category</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mgnl:hasVersion</sv:value>
+      </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b5ef3220-2931-4bef-a3d8-7b1b236ccdb1</sv:value>
       </sv:property>
@@ -142,7 +148,7 @@
         <sv:value>Business Department</sv:value>
       </sv:property>
       <sv:property sv:name="icon" sv:type="String">
-        <sv:value>jcr:5840dab8-b5c6-435a-b359-8a99b6a952d8</sv:value>
+        <sv:value>jcr:3077ca0d-07c4-4517-b48c-61ead30c3bf3</sv:value>
       </sv:property>
       <sv:property sv:name="image" sv:type="String">
         <sv:value>jcr:2cdc20d4-bd2a-432b-b456-9a40b4251e99</sv:value>
@@ -160,13 +166,13 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:49.166-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.708-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-05-27T15:42:08.774-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:16.720-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -191,7 +197,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:49.168-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.709-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -219,7 +225,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-            <sv:value>2020-05-27T15:27:49.169-05:00</sv:value>
+            <sv:value>2020-06-06T21:55:28.709-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -251,7 +257,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-            <sv:value>2020-05-27T15:27:49.170-05:00</sv:value>
+            <sv:value>2020-06-06T21:55:28.709-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -273,6 +279,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
     </sv:property>
@@ -280,7 +289,7 @@
       <sv:value>Mathematics</sv:value>
     </sv:property>
     <sv:property sv:name="icon" sv:type="String">
-      <sv:value>jcr:c4e6e789-9989-497e-9619-cf8104376586</sv:value>
+      <sv:value>jcr:d5aadc2e-8c8c-4c51-aa16-16e37943a4d5</sv:value>
     </sv:property>
     <sv:property sv:name="image" sv:type="String">
       <sv:value>jcr:fe72b782-dcb9-40b3-8e70-c7f2e7a3e70e</sv:value>
@@ -298,13 +307,13 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T15:27:48.504-05:00</sv:value>
+      <sv:value>2020-06-06T21:55:28.557-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T15:42:36.955-05:00</sv:value>
+      <sv:value>2020-06-06T21:54:06.733-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -329,7 +338,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:48.505-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.557-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -357,7 +366,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:48.511-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.558-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -378,6 +387,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>61c823ed-8660-4f30-a1f9-7847c2f3afb5</sv:value>
     </sv:property>
@@ -385,7 +397,7 @@
       <sv:value>Science</sv:value>
     </sv:property>
     <sv:property sv:name="icon" sv:type="String">
-      <sv:value>jcr:b671508d-0df2-49c3-b8a9-7fa103f5c93d</sv:value>
+      <sv:value>jcr:973dbfb0-d259-4e67-87af-c8b2ffe39c02</sv:value>
     </sv:property>
     <sv:property sv:name="image" sv:type="String">
       <sv:value>jcr:893686ba-58bb-45f0-af40-2fd53c33d1a3</sv:value>
@@ -403,13 +415,13 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T15:27:48.351-05:00</sv:value>
+      <sv:value>2020-06-06T21:55:28.499-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T15:42:49.516-05:00</sv:value>
+      <sv:value>2020-06-06T21:54:22.255-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -434,7 +446,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:48.352-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.499-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -462,7 +474,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:48.353-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.500-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -483,6 +495,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>d6e2c895-309b-4d68-9fa1-2e5e444d6afd</sv:value>
     </sv:property>
@@ -490,7 +505,7 @@
       <sv:value>Social Studies</sv:value>
     </sv:property>
     <sv:property sv:name="icon" sv:type="String">
-      <sv:value>jcr:e8fdd6de-740e-4339-bb96-faa8d1bdeddd</sv:value>
+      <sv:value>jcr:0725c209-7a2c-4c2c-8fb1-4ded498f6b92</sv:value>
     </sv:property>
     <sv:property sv:name="image" sv:type="String">
       <sv:value>jcr:7157ea43-3052-40dd-87ee-13a85f50e278</sv:value>
@@ -508,13 +523,13 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T15:27:48.147-05:00</sv:value>
+      <sv:value>2020-06-06T21:55:28.341-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T15:59:14.478-05:00</sv:value>
+      <sv:value>2020-06-06T21:54:37.789-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -539,7 +554,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:48.149-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.342-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -567,7 +582,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:48.150-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.342-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -588,6 +603,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>e3f20e52-0227-4ddb-b70b-f87943d51310</sv:value>
     </sv:property>
@@ -595,7 +613,7 @@
       <sv:value>World &amp; Classical Languages</sv:value>
     </sv:property>
     <sv:property sv:name="icon" sv:type="String">
-      <sv:value>jcr:76f4c11a-7198-4bfd-b4db-8ee0e5ba9cb3</sv:value>
+      <sv:value>jcr:444da535-05b9-40bf-80fd-8f481e6e6ca5</sv:value>
     </sv:property>
     <sv:property sv:name="image" sv:type="String">
       <sv:value>jcr:d9fdcb9c-600b-4289-ae1e-87ddc62537b7</sv:value>
@@ -613,13 +631,13 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T15:27:47.968-05:00</sv:value>
+      <sv:value>2020-06-06T21:55:28.247-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T15:43:31.921-05:00</sv:value>
+      <sv:value>2020-06-06T21:54:57.239-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -644,7 +662,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-05-27T15:27:47.970-05:00</sv:value>
+        <sv:value>2020-06-06T21:55:28.247-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -672,7 +690,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-05-27T15:27:47.971-05:00</sv:value>
+          <sv:value>2020-06-06T21:55:28.247-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
