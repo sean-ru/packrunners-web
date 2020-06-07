@@ -643,8 +643,9 @@ h1.category {
 .lead-caption .category-icon {
     border-radius: 50%;
     margin-top: 20px;
-    height: 80px;
-    width: 80px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
     display: inline-block;
 }
 
@@ -899,9 +900,10 @@ h1.category {
 }
 
 .carousel-caption .category-icon {
-    margin-top: -20px;
-    height: 80px;
-    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
     display: inline-block;
 }
 
@@ -1025,13 +1027,13 @@ a.category-card-anchor {
 }
 
 .category-card .category-icon img {
-    width: 75%;
+    width: 50%;
     display: block;
     transition: width 0.1s;
 }
 
 a:hover .category-card .category-icon img {
-    width: 80%;
+    width: 65%;
 }
 
 .category-card-content {
