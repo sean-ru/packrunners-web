@@ -38,6 +38,7 @@ import org.packrunners.courses.CoursesModule;
 public class CourseServices {
 
   public static final String COURSE_QUERY_PARAMETER = "course";
+  public static final String DEFAULT_COURSE_TYPE = "Mathematics";
 
   private final CoursesModule coursesModule;
   private final TemplateTypeHelper templateTypeHelper;
@@ -64,7 +65,7 @@ public class CourseServices {
    * <code>/page~category_name~.html</code>).
    */
   public Category getCategoryByUrl() {
-    final String categoryName = StringUtils.defaultIfBlank(SelectorUtil.getSelector(0), "active");
+    final String categoryName = StringUtils.defaultIfBlank(SelectorUtil.getSelector(0), DEFAULT_COURSE_TYPE);
     return getCategoryByName(categoryName);
   }
 
@@ -299,16 +300,16 @@ public class CourseServices {
   public String getCategoryLink(Node content, String categoryName, String featureSubType) {
     try {
       Node siteRoot = templatingFunctions.siteRoot(content);
-      Node categoryOverviewPage = categorizationTemplatingFunctions
+      Node courseTypeOverviewPage = categorizationTemplatingFunctions
           .getContentByTemplateCategorySubCategory(siteRoot, DefaultTemplateTypes.FEATURE,
               featureSubType);
 
-      if (categoryOverviewPage != null) {
-        return templatingFunctions.link(categoryOverviewPage).replace(".html",
+      if (courseTypeOverviewPage != null) {
+        return templatingFunctions.link(courseTypeOverviewPage).replace(".html",
             SelectorUtil.SELECTOR_DELIMITER + categoryName + SelectorUtil.SELECTOR_DELIMITER + ".html");
       }
     } catch (RepositoryException e) {
-      log.warn("Can't get categoryOverview page link [subType={}]", featureSubType, e);
+      log.warn("Can't get courseTypeOverviewPage page link [subType={}]", featureSubType, e);
     }
 
     return StringUtils.EMPTY;

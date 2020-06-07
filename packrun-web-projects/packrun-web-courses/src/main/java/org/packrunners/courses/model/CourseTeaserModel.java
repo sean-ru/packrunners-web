@@ -67,7 +67,7 @@ public class CourseTeaserModel<RD extends RenderableDefinition> extends Renderin
     final Category category = courseServices.marshallCategoryNode(categoryNode);
     if (category != null) {
       String link = courseServices.getCategoryLink(content, categoryNode.getName(),
-          CoursesModule.TEMPLATE_SUB_TYPE_COURSE_CATEGORY_OVERVIEW);
+          CoursesModule.TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW);
       category.setLink(link);
     }
 

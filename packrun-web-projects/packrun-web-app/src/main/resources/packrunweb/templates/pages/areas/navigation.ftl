@@ -16,13 +16,13 @@
 [#assign site = sitefn.site()!]
 [#assign theme = sitefn.theme(site)!]
 
-[#assign aboutPage=model.aboutDemoLink!]
+[#assign aboutPage=model.aboutLink!]
 
 [#-------------- RENDERING --------------]
 <nav class="navbar navbar-default navbar-fixed-top " role="navigation" style="clear:both;">
 
     <div class="container">
-        [#if aboutPage?has_content]<div id="about-link"><a href="${aboutPage}">${i18n['navigation.aboutDemo']}</a></div>[/#if]
+        [#if aboutPage?has_content]<div id="about-link"><a href="${aboutPage}">${i18n['navigation.about']}</a></div>[/#if]
 
         [@userLinks model.username!"" model.logoutLink!"" model.loginPageLink!"" model.profilePageLink!"" model.registrationPageLink!"" /]
 

@@ -2,7 +2,7 @@
 
     [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
     [#include "/courses/templates/macros/courseTypeIcon.ftl" /]
-    [#assign imageHtml][@responsiveImageTravel course.image "" "" "course-card-image" "data-ratio='1.33'" true /][/#assign]
+    [#assign imageHtml][@responsiveImageMain course.image "" "" "course-card-image" "data-ratio='1.33'" true /][/#assign]
 
     <!-- Course Teaser -->
     <div class="${additionalWrapperClass} course-card card">

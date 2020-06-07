@@ -1,5 +1,5 @@
 [#--
-Customized /mtk/templates/macros/navigation.ftl macro for packrunweb project.
+Customized /mtk/templates/macros/navigation.ftl macro for packrunners project.
 Uncommented and adjusted section for resolving menu for course-types and schools from the category content app.
 --]
 [#macro navigation navParentItem depth=1 expandAll=false navClass="nav"]

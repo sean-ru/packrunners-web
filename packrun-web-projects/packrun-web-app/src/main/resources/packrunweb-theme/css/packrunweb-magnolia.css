@@ -318,19 +318,19 @@ h2 {
 
 /* Dropdowns */
 .dropdown-menu {
-    background-color: #386338;
+    background-color: #efefef;
     border: none;
     border-radius: 0;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #333;
     text-transform: uppercase;
 }
 
 .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
-    background-color: #386338;
+    color: #777;
+    background-color: #efefef;
 }
 
 #about-link {

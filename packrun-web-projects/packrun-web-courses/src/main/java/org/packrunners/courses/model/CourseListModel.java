@@ -37,7 +37,7 @@ public class CourseListModel<RD extends CourseCategoryTemplateDefinition> extend
     return courseServices.getCategoryByName(categoryName);
   }
 
-  public List<Course> getCourseByCategory(String identifier) {
+  public List<Course> getCoursesByCategory(String identifier) {
     return courseServices.getCoursesByCategory(definition.getCategory(), identifier);
   }
 

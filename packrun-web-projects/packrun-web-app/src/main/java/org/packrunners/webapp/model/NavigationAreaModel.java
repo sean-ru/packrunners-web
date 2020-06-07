@@ -31,7 +31,7 @@ public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
     this.templatingFunctions = templatingFunctions;
   }
 
-  public String getAboutDemoLink() {
+  public String getAboutLink() {
     Node siteRoot = templatingFunctions.siteRoot(content);
     String link = null;
     try {

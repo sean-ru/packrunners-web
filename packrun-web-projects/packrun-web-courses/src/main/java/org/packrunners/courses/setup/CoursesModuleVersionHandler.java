@@ -185,18 +185,18 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
         "multisite",
         new ArrayDelegateTask("",
             new CopyNodeTask("Copy course template",
-                "/modules/packrunweb/config/packrunweb/templates/availability/templates/course",
-                "/modules/multisite/config/sites/packrunweb/templates/availability/templates/course",
+                "/modules/packrunweb/config/packrunners/templates/availability/templates/course",
+                "/modules/multisite/config/sites/packrunners/templates/availability/templates/course",
                 false),
-            new CopyNodeTask("Copy categoryOverview template",
-                "/modules/packrunweb/config/packrunweb/templates/availability/templates/categoryOverview",
-                "/modules/multisite/config/sites/packrunweb/templates/availability/templates/categoryOverview",
+            new CopyNodeTask("Copy courseTypeOverview template",
+                "/modules/packrunweb/config/packrunners/templates/availability/templates/courseTypeOverview",
+                "/modules/multisite/config/sites/packrunners/templates/availability/templates/courseTypeOverview",
                 false),
-            new CopyNodeTask("Copy categoryOverview template",
-                "/modules/packrunweb/config/packrunweb/templates/availability/templates/destinationCatOverview",
-                "/modules/multisite/config/sites/packrunweb/templates/availability/templates/destinationCatOverview",
+            new CopyNodeTask("Copy schoolOverview template",
+                "/modules/packrunweb/config/packrunners/templates/availability/templates/schoolOverview",
+                "/modules/multisite/config/sites/packrunners/templates/availability/templates/schoolOverview",
                 false))));
-    tasks.add(new SetPageAsPublishedTask("/packrunweb", true));
+    tasks.add(new SetPageAsPublishedTask("/packrunners", true));
     return tasks;
   }
 
