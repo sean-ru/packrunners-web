@@ -15,7 +15,6 @@ import javax.jcr.Session;
 import lombok.extern.slf4j.Slf4j;
 import org.packrunners.courses.CoursesModule;
 import org.packrunners.courses.service.Category;
-import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 
 
@@ -37,11 +36,19 @@ public class CourseTeaserModel<RD extends RenderableDefinition> extends Renderin
     this.courseServices = courseServices;
   }
 
-  public List<Category> getCourses() {
+  public List<Category> getCourseTypes() {
+    return getCategoriesByName(Category.PROPERTY_NAME_COURSE_TYPES);
+  }
+
+  public List<Category> getResourceTypes() {
+    return getCategoriesByName(Category.PROPERTY_NAME_RESOURCE_TYPES);
+  }
+
+  private List<Category> getCategoriesByName(String categoryName) {
     final List<Category> categories = new LinkedList<Category>();
 
     final Object object = PropertyUtil
-        .getPropertyValueObject(content, Course.PROPERTY_NAME_COURSE_TYPE);
+        .getPropertyValueObject(content, categoryName);
     if (object instanceof List) {
       List<String> results = (List<String>) object;
       for (String identifier : results) {
@@ -51,7 +58,7 @@ public class CourseTeaserModel<RD extends RenderableDefinition> extends Renderin
             categories.add(category);
           }
         } catch (RepositoryException e) {
-          log.error("Could not retrieve linked course.", e);
+          log.error("Could not retrieve categories.", e);
         }
       }
     }
