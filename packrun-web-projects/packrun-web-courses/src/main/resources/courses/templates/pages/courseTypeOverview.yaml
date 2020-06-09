@@ -17,9 +17,7 @@ areas:
     availableComponents:
       courseTypeOverviewHeader:
         id: courses:components/courseTypeOverviewHeader
-      tourListFeaturedRowByDestination:
-        id: courses:components/courseListFeaturedRow
-      tourListByDestination:
+      courseListByDestination:
         id: courses:components/courseList
       social:
         id: packrunweb:components/social
