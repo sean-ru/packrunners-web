@@ -2,6 +2,8 @@ courseCarousel:
   id: courses:components/courseCarousel
 courseTypeTeaserRow:
   id: courses:components/courseTypeTeaserRow
+resourceTypeTeaserRow:
+  id: courses:components/resourceTypeTeaserRow
 courseList:
   id: courses:components/courseList
 courseFinderRow:
