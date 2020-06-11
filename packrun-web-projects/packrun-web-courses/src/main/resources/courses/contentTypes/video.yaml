@@ -1,0 +1,3 @@
+datasource:
+  workspace: videos
+  autoCreate: true
