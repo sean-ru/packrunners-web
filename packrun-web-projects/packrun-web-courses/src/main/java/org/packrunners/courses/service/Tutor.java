@@ -1,15 +1,16 @@
 package org.packrunners.courses.service;
 
 import info.magnolia.dam.api.Asset;
+import java.util.List;
 
 
 /**
- * Simple POJO for wrapping a video node.
+ * Simple POJO for wrapping a tutor node.
  */
 public class Tutor {
 
   public static final String PROPERTY_NAME_ID = "id";
-  public static final String PROPERTY_NAME_NAME = "name";
+  public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_PHOTO = "photo";
   public static final String PROPERTY_NAME_PROFILE = "profile";
   public static final String PROPERTY_NAME_EMAIL = "email";
@@ -21,6 +22,9 @@ public class Tutor {
   private String profile;
   private String email;
   private String grade;
+  private String link;
+  private String identifier;
+  private List<Category> schools;
 
   public String getId() {
     return id;
@@ -68,5 +72,29 @@ public class Tutor {
 
   public void setGrade(String grade) {
     this.grade = grade;
+  }
+
+  public String getLink() {
+    return link;
+  }
+
+  public void setLink(String link) {
+    this.link = link;
+  }
+
+  public String getIdentifier() {
+    return identifier;
+  }
+
+  public void setIdentifier(String identifier) {
+    this.identifier = identifier;
+  }
+
+  public List<Category> getSchools() {
+    return schools;
+  }
+
+  public void setSchools(List<Category> schools) {
+    this.schools = schools;
   }
 }

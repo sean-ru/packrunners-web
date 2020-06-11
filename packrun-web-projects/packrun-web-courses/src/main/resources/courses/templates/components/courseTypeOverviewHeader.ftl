@@ -6,7 +6,7 @@
 [#assign assetCredit = category.image.caption!]
 
 [#-------------- RENDERING --------------]
-<!-- CourseType Overview Header -->
+<!-- Course Type Overview Header -->
 <div class="category-header">
     <div class="navbar-spacer"></div>
     <div class="header-wrapper">

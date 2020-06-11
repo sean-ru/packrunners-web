@@ -31,6 +31,7 @@ import info.magnolia.ui.contentapp.contenttypes.ConfiguredContentTypeAppDescript
 import java.util.ArrayList;
 import java.util.List;
 import org.packrunners.courses.CourseTemplatingFunctions;
+import org.packrunners.courses.TutorTemplatingFunctions;
 import org.packrunners.webapp.setup.AddPermissionTask;
 import org.packrunners.webapp.setup.CopySiteToMultiSiteAndMakeItFallback;
 import org.packrunners.webapp.setup.FolderBootstrapTask;
@@ -166,6 +167,9 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
     tasks.add(new InstallRendererContextAttributeTask("rendering", "freemarker", "coursefn",
         CourseTemplatingFunctions.class.getName()));
 
+    tasks.add(new InstallRendererContextAttributeTask("rendering", "freemarker", "tutorfn",
+        TutorTemplatingFunctions.class.getName()));
+
     /* Order bootstrapped pages accordingly */
     tasks.add(orderPageNodes);
 //    tasks.add(new OrderNodeBeforeTask("Order careers zeroFive node before zeroFix",
@@ -191,6 +195,10 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
             new CopyNodeTask("Copy courseTypeOverview template",
                 "/modules/packrunweb/config/packrunners/templates/availability/templates/courseTypeOverview",
                 "/modules/multisite/config/sites/packrunners/templates/availability/templates/courseTypeOverview",
+                false),
+            new CopyNodeTask("Copy tutorOverview template",
+                "/modules/packrunweb/config/packrunners/templates/availability/templates/tutorOverview",
+                "/modules/multisite/config/sites/packrunners/templates/availability/templates/tutorOverview",
                 false),
             new CopyNodeTask("Copy schoolOverview template",
                 "/modules/packrunweb/config/packrunners/templates/availability/templates/schoolOverview",

@@ -12,13 +12,12 @@
                  "courseFinder.search.noResults1",
                  "courseFinder.search.noResults2",
                  "courseFinder.search.noResults3",
-                 "courseFinder.filter.duration",
-                 "courseFinder.filter.destination",
+                 "courseFinder.filter.resource",
+                 "courseFinder.filter.tutor",
                  "courseFinder.filter.type",
-                 "courseFinder.duration.options.2-days",
-                 "courseFinder.duration.options.7-days",
-                 "courseFinder.duration.options.14-days",
-                 "courseFinder.duration.options.21-days",
+                 "courseFinder.resource.options.studyGuide",
+                 "courseFinder.resource.options.video",
+                 "courseFinder.resource.options.quiz",
                  "course.view",
                  "courseFinder.title"] ]
 

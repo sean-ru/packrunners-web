@@ -5,13 +5,13 @@ class: info.magnolia.module.site.templates.PageTemplateDefinition
 
 renderType: site
 type: feature
-subtype: courseTypeOverview
+subtype: tutorOverview
 areas:
   main:
     type: list
     availableComponents:
-      courseTypeOverviewHeader:
-        id: courses:components/courseTypeOverviewHeader
+      tutorOverviewHeader:
+        id: courses:components/tutorOverviewHeader
       tutorListByDestination:
         id: courses:components/tutorList
       social:

@@ -3,4 +3,4 @@ modelClass: org.packrunners.courses.model.CourseListModel
 class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
 
 renderType: freemarker
-category: destination
+category: schools
