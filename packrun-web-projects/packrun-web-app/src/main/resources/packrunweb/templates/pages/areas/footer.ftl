@@ -36,7 +36,7 @@
             <div class="col-lg-12">
                 <p class="footer-logo">
                     <a class="home" href="${homeLink}">
-                        <img src="${ctx.contextPath}/.resources/${theme.name}/img/logo-white.png" alt=""/>
+                        <img src="${ctx.contextPath}/.resources/${theme.name}/img/packrunners-logo.png" alt=""/>
                     </a>
                 </p>
             </div>

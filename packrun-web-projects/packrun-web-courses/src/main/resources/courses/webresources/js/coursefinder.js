@@ -11,15 +11,14 @@ var CourseFinder = CourseFinder || (function(){
                     });
                 })
                 .controller('MainController', ['$scope', '$routeParams', '$http', '$location', function($scope, $routeParams, $http, $location) {
-                    var notFoundMessages = ["tourFinder.search.noResults1",
-                                            "tourFinder.search.noResults2",
-                                            "tourFinder.search.noResults3"];
+                    var notFoundMessages = ["courseFinder.search.noResults1",
+                                            "courseFinder.search.noResults2",
+                                            "courseFinder.search.noResults3"];
                     var randomIndex = Math.floor(Math.random() * notFoundMessages.length);
                     $scope.notFoundMessage = notFoundMessages[randomIndex];
-                    $scope.durations = [{ value: 2, name: 'tourFinder.duration.options.2-days' },
-                                        { value: 7, name: 'tourFinder.duration.options.7-days' },
-                                        { value: 14, name: 'tourFinder.duration.options.14-days' },
-                                        { value: 21, name: 'tourFinder.duration.options.21-days' }];
+                    $scope.durations = [{ value: 2, name: 'courseFinder.resource.options.studyGuide' },
+                                        { value: 7, name: 'courseFinder.resource.options.video' },
+                                        { value: 21, name: 'courseFinder.resource.options.quiz' }];
                     $scope.useDurations = {};
                     $scope.useDestinations = {};
                     $scope.useCourseTypes = {};
@@ -41,7 +40,7 @@ var CourseFinder = CourseFinder || (function(){
                     }
 
                     // obtain the data
-                    $http.get(args.restBase + '/destinations/v1/?lang=' + args.language).then(function(response) {
+                    $http.get(args.restBase + '/tutors/v1/?lang=' + args.language).then(function(response) {
                         $scope.destinations = response.data.results;
                         if ($routeParams.destination) {
                             var split = $routeParams.destination.split(',');
@@ -52,10 +51,10 @@ var CourseFinder = CourseFinder || (function(){
                     }, function(response) {
                         console.error("Couldn't reach endpoint.");
                     });
-                    $http.get(args.restBase + '/tourTypes/v1/?lang=' + args.language).then(function(response) {
-                        $scope.tourTypes = response.data.results;
-                        if ($routeParams.tourTypes) {
-                            var split = $routeParams.tourTypes.split(',');
+                    $http.get(args.restBase + '/courseTypes/v1/?lang=' + args.language).then(function(response) {
+                        $scope.courseTypes = response.data.results;
+                        if ($routeParams.courseTypes) {
+                            var split = $routeParams.courseTypes.split(',');
                             for (var i in split) {
                                 $scope.useCourseTypes[split[i]] = true;
                             }
@@ -77,16 +76,16 @@ var CourseFinder = CourseFinder || (function(){
                             useCourseTypes: $scope.useCourseTypes,
                             search: $scope.search,
                             destinations: $scope.destinations,
-                            tourTypes: $scope.tourTypes,
+                            courseTypes: $scope.courseTypes,
                         };
                     }, function (newValues, oldValues) {
-                        // wait for both tourTypes & destinations to be populated by async calls
-                        if (newValues !== oldValues && newValues.tourTypes && newValues.destinations) {
+                        // wait for both courseTypes & tutors to be populated by async calls
+                        if (newValues !== oldValues && newValues.courseTypes && newValues.tutors) {
                             var randomIndex = Math.floor(Math.random() * notFoundMessages.length);
                             $scope.notFoundMessage = notFoundMessages[randomIndex];
 
                             var qs = '';
-                            var parameters = {duration: [], destination: [], tourTypes: [], q: []};
+                            var parameters = {duration: [], destination: [], courseTypes: [], q: []};
                             var durations = Object.keys(newValues.useDurations).reduce(function (filtered, key) {
                                     if (newValues.useDurations[key]) filtered.push(key);
                                     return filtered;
@@ -95,7 +94,7 @@ var CourseFinder = CourseFinder || (function(){
                                     if (newValues.useDestinations[key]) filtered.push(key);
                                     return filtered;
                             }, []);
-                            var tourTypeKeys = Object.keys(newValues.useCourseTypes).reduce(function (filtered, key) {
+                            var courseTypeKeys = Object.keys(newValues.useCourseTypes).reduce(function (filtered, key) {
                                     if (newValues.useCourseTypes[key]) filtered.push(key);
                                     return filtered;
                             }, []);
@@ -105,8 +104,8 @@ var CourseFinder = CourseFinder || (function(){
                             if (destinationKeys.length > 0 && destinationKeys.length < newValues.destinations.length) {
                                 parameters.destination = destinationKeys;
                             }
-                            if (tourTypeKeys.length > 0 && tourTypeKeys.length < newValues.tourTypes.length) {
-                                parameters.tourTypes = tourTypeKeys;
+                            if (courseTypeKeys.length > 0 && courseTypeKeys.length < newValues.courseTypes.length) {
+                                parameters.courseTypes = courseTypeKeys;
                             }
                             if (newValues.search.query) {
                                 parameters.q = [newValues.search.query];

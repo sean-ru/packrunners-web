@@ -20,6 +20,16 @@
       <implementation>org.packrunners.courses.service.CourseServices</implementation>
       <scope>singleton</scope>
     </component>
+    <component>
+      <type>org.packrunners.courses.TutorTemplatingFunctions</type>
+      <implementation>org.packrunners.courses.TutorTemplatingFunctions</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>org.packrunners.courses.service.TutorServices</type>
+      <implementation>org.packrunners.courses.service.TutorServices</implementation>
+      <scope>singleton</scope>
+    </component>
   </components>
 
   <dependencies>

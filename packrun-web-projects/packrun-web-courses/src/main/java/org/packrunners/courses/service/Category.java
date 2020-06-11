@@ -14,6 +14,10 @@ public class Category {
   public static final String PROPERTY_NAME_ICON = "icon";
   public static final String PROPERTY_NAME_BODY = "body";
 
+  public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+  public static final String PROPERTY_NAME_RESOURCE_TYPES = "resourceTypes";
+
+
   private String name;
   private String identifier;
   private String link;

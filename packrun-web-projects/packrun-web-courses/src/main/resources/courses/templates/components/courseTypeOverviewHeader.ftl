@@ -2,11 +2,11 @@
 [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
 
 [#assign category = coursefn.categoryByUrl]
-[#assign imageHtml][@responsiveImageTravel category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
+[#assign imageHtml][@responsiveImageMain category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
 [#assign assetCredit = category.image.caption!]
 
 [#-------------- RENDERING --------------]
-<!-- CourseType Overview Header -->
+<!-- Course Type Overview Header -->
 <div class="category-header">
     <div class="navbar-spacer"></div>
     <div class="header-wrapper">

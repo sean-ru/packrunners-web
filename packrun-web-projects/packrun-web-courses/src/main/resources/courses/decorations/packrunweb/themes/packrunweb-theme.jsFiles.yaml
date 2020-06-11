@@ -1,0 +1,12 @@
+angular:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular.min.js
+angular-animate:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular-animate.min.js
+angular-route:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular-route.min.js
+coursefinder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/coursefinder.js

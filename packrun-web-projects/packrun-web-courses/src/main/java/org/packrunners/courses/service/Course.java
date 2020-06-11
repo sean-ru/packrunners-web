@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class Course {
 
-  public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
+  public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_DESCRIPTION = "description";
   public static final String PROPERTY_NAME_IMAGE = "image";
   public static final String PROPERTY_NAME_COURSE_NUMBER = "courseNumber";
@@ -20,8 +20,8 @@ public class Course {
   public static final String PROPERTY_NAME_CREDIT = "credit";
   public static final String PROPERTY_NAME_TEACHERS = "teachers";
   public static final String PROPERTY_NAME_SYLLABUS = "syllabus";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
-  public static final String PROPERTY_NAME_SCHOOL = "school";
+  public static final String PROPERTY_NAME_COURSE_TYPE = "courseTypes";
+  public static final String PROPERTY_NAME_SCHOOL = "schools";
 
   private String name;
   private String description;

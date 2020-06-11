@@ -1,23 +1,23 @@
 <div class="finder-filter">
     <div class="finder-filter-header">
-        <span>{{ i18n['courseFinder.filter.duration'] }}</span>
+        <span>{{ i18n['courseFinder.filter.resource'] }}</span>
     </div>
     <div class="form-group">
-        <div class="checkbox" ng-repeat="duration in durations" ng-cloak>
+        <div class="checkbox" ng-repeat="resource in resources" ng-cloak>
             <label>
-                <input type="checkbox" value="{{ duration.value }}" ng-model="useDurations[duration.value]" />{{ i18n[duration.name] }}
+                <input type="checkbox" value="{{ resource.value }}" ng-model="useResource[resource.value]" />{{ i18n[resource.name] }}
             </label>
         </div>
     </div>
 </div>
 <div class="finder-filter">
     <div class="finder-filter-header">
-        <span>{{ i18n['courseFinder.filter.destination'] }}</span>
+        <span>{{ i18n['courseFinder.filter.tutor'] }}</span>
     </div>
     <div class="form-group">
-        <div class="checkbox" ng-repeat="destination in destinations" ng-cloak>
+        <div class="checkbox" ng-repeat="tutor in tutors" ng-cloak>
             <label>
-                <input type="checkbox" value="{{ destination['@id'] }}" ng-model="useDestinations[destination['@id']]" />{{ destination.displayName }}
+                <input type="checkbox" value="{{ tutor['@id'] }}" ng-model="useTutor[tutor['@id']]" />{{ tutor.name }}
             </label>
         </div>
     </div>

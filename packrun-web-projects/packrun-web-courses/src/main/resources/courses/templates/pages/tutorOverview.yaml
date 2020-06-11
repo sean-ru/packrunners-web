@@ -1,0 +1,20 @@
+
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: feature
+subtype: tutorOverview
+areas:
+  main:
+    type: list
+    availableComponents:
+      tutorOverviewHeader:
+        id: courses:components/tutorOverviewHeader
+      tutorListByDestination:
+        id: courses:components/tutorList
+      social:
+        id: packrunweb:components/social
+  footer:
+    editable: false

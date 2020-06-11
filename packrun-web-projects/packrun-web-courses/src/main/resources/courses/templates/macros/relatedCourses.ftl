@@ -15,7 +15,7 @@
                 [#assign name = course.name!course.@name /]
                 [#assign description = course.description!"" /]
                 [#assign courseLink = course.link /]
-                [#assign imageHtml][@responsiveImageTravel course.image "" "" "featured-image" "data-ratio='1.33'" true /][/#assign]
+                [#assign imageHtml][@responsiveImageMain course.image "" "" "featured-image" "data-ratio='1.33'" true /][/#assign]
 
                 <a class="featured-card-anchor" href="${courseLink!}">
                     <div class="col-md-4 featured-card card">

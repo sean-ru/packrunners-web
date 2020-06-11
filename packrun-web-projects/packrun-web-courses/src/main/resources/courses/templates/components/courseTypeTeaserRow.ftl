@@ -1,11 +1,11 @@
 [#-------------- ASSIGNMENTS --------------]
 [#include "/courses/templates/macros/courseTypeIcon.ftl" /]
 
-[#assign courseTypes = model.courses]
+[#assign courseTypes = model.courseTypes]
 
 
 [#-------------- RENDERING --------------]
-<!-- CourseType Teaser Row -->
+<!-- Course Type Teaser Row -->
 <div class="container category-card-row after-lead-image">
     <div class="row">
 
