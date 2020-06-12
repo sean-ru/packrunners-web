@@ -197,13 +197,6 @@ public class VideoServices {
               damFunctions.getAsset(videoNode.getProperty(Video.PROPERTY_NAME_ATTACHMENTS).getString()));
         }
 
-        if (videoNode.hasProperty(Video.PROPERTY_NAME_EMAIL)) {
-          video.setEmail(videoNode.getProperty(Video.PROPERTY_NAME_EMAIL).getString());
-        }
-
-        if (videoNode.hasProperty(Video.PROPERTY_NAME_GRADE)) {
-          video.setGrade(videoNode.getProperty(Video.PROPERTY_NAME_GRADE).getString());
-        }
 
         final String videoLink = getVideoLink(videoNode);
         if (StringUtils.isNotBlank(videoLink)) {
