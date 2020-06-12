@@ -10,6 +10,7 @@ public class CoursesModule {
 
   public static final String COURSES_REPOSITORY_NAME = "courses";
   public static final String TUTORS_REPOSITORY_NAME = "tutors";
+  public static final String VIDEOS_REPOSITORY_NAME = "videos";
   public final static String TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW = "schoolOverview";
   public final static String TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW = "courseTypeOverview";
   public final static String TEMPLATE_SUB_TYPE_TUTOR_OVERVIEW = "tutorOverview";
@@ -37,6 +38,11 @@ public class CoursesModule {
    * Specifies the default tutor node name.
    */
   private String defaultTutorName;
+
+  /**
+   * Specifies the default video node name (slug).
+   */
+  private String defaultVideoName;
 
   public String getSchoolRootNode() {
     return schoolRootNode;
@@ -76,5 +82,13 @@ public class CoursesModule {
 
   public void setDefaultTutorName(String defaultTutorName) {
     this.defaultTutorName = defaultTutorName;
+  }
+
+  public String getDefaultVideoName() {
+    return defaultVideoName;
+  }
+
+  public void setDefaultVideoName(String defaultVideoName) {
+    this.defaultVideoName = defaultVideoName;
   }
 }

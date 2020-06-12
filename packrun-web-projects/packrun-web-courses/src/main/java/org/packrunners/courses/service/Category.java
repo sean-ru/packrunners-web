@@ -16,7 +16,7 @@ public class Category {
 
   public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
   public static final String PROPERTY_NAME_RESOURCE_TYPES = "resourceTypes";
-
+  public static final String PROPERTY_NAME_COURSES = "courses";
 
   private String name;
   private String identifier;
