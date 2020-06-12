@@ -1,0 +1,2 @@
+templateScript: /courses/templates/components/videoOverviewHeader.ftl
+renderType: freemarker

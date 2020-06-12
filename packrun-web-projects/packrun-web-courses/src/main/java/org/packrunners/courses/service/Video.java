@@ -1,6 +1,7 @@
 package org.packrunners.courses.service;
 
 import info.magnolia.dam.api.Asset;
+
 import java.util.Date;
 import java.util.List;
 
@@ -10,75 +11,94 @@ import java.util.List;
  */
 public class Video {
 
-  public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
-  public static final String PROPERTY_NAME_AUTHOR = "author";
-  public static final String PROPERTY_NAME_COURSE = "course";
-  public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-  public static final String PROPERTY_NAME_ATTACHMENTS = "video";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
-  public static final String PROPERTY_NAME_SCHOOL = "school";
+    public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
+    public static final String PROPERTY_NAME_AUTHOR = "author";
+    public static final String PROPERTY_NAME_COURSE = "course";
+    public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
+    public static final String PROPERTY_NAME_ATTACHMENTS = "video";
+    public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
+    public static final String PROPERTY_NAME_SCHOOL = "school";
 
-  private String name;
-  private String author;
-  private String course;
-  private Date lastModifiedDate;
-  private Asset video;
-  private List<Category> schools;
-  private List<Category> courseTypes;
+    private String name;
+    private String author;
+    private String course;
+    private Date lastModifiedDate;
+    private Asset video;
+    private String link;
 
-  public String getName() {
-    return name;
-  }
+    public String getLink() {
+        return link;
+    }
 
-  public void setName(String name) {
-    this.name = name;
-  }
+    public void setLink(String link) {
+        this.link = link;
+    }
 
-  public String getAuthor() {
-    return author;
-  }
+    public String getIdentifier() {
+        return identifier;
+    }
 
-  public void setAuthor(String author) {
-    this.author = author;
-  }
+    public void setIdentifier(String identifier) {
+        this.identifier = identifier;
+    }
 
-  public String getCourse() {
-    return course;
-  }
+    private String identifier;
+    private List<Category> schools;
+    private List<Category> courseTypes;
 
-  public void setCourse(String course) {
-    this.course = course;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public Date getLastModifiedDate() {
-    return lastModifiedDate;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-  public void setLastModifiedDate(Date lastModifiedDate) {
-    this.lastModifiedDate = lastModifiedDate;
-  }
+    public String getAuthor() {
+        return author;
+    }
 
-  public Asset getVideo() {
-    return video;
-  }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
-  public void setVideo(Asset video) {
-    this.video = video;
-  }
+    public String getCourse() {
+        return course;
+    }
 
-  public List<Category> getSchools() {
-    return schools;
-  }
+    public void setCourse(String course) {
+        this.course = course;
+    }
 
-  public void setSchools(List<Category> schools) {
-    this.schools = schools;
-  }
+    public Date getLastModifiedDate() {
+        return lastModifiedDate;
+    }
 
-  public List<Category> getCourseTypes() {
-    return courseTypes;
-  }
+    public void setLastModifiedDate(Date lastModifiedDate) {
+        this.lastModifiedDate = lastModifiedDate;
+    }
 
-  public void setCourseTypes(List<Category> courseTypes) {
-    this.courseTypes = courseTypes;
-  }
+    public Asset getVideo() {
+        return video;
+    }
+
+    public void setVideo(Asset video) {
+        this.video = video;
+    }
+
+    public List<Category> getSchools() {
+        return schools;
+    }
+
+    public void setSchools(List<Category> schools) {
+        this.schools = schools;
+    }
+
+    public List<Category> getCourseTypes() {
+        return courseTypes;
+    }
+
+    public void setCourseTypes(List<Category> courseTypes) {
+        this.courseTypes = courseTypes;
+    }
 }

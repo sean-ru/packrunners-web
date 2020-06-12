@@ -5,15 +5,15 @@ class: info.magnolia.module.site.templates.PageTemplateDefinition
 
 renderType: site
 type: feature
-subtype: tutorOverview
+subtype: videoOverview
 areas:
   main:
     type: list
     availableComponents:
-      tutorOverviewHeader:
-        id: courses:components/tutorOverviewHeader
-      tutorListByDestination:
-        id: courses:components/tutorListtutorOverview.yaml
+      videoOverviewHeader:
+        id: courses:components/videoOverviewHeader
+      videoListByDestination:
+        id: courses:components/videoListtutorOverview.yaml
       social:
         id: packrunweb:components/social
   footer:
