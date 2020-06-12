@@ -3,6 +3,9 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:content</sv:value>
   </sv:property>
+  <sv:property sv:name="courseRootNode" sv:type="String">
+    <sv:value>courses</sv:value>
+  </sv:property>
   <sv:property sv:name="courseTypeRootNode" sv:type="String">
     <sv:value>course-types</sv:value>
   </sv:property>
