@@ -57,6 +57,7 @@
       <artifactId>magnolia-form</artifactId>
     </dependency>
 
+
     <!-- Other dependencies -->
     <dependency>
       <groupId>org.apache.commons</groupId>
