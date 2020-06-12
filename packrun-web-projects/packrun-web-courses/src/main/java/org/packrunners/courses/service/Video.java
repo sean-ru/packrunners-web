@@ -11,20 +11,20 @@ import java.util.List;
 public class Video {
 
   public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
+  public static final String PROPERTY_NAME_DESCRIPTION = "description";
   public static final String PROPERTY_NAME_AUTHOR = "author";
-  public static final String PROPERTY_NAME_COURSE = "course";
+  public static final String PROPERTY_NAME_COURSES = "courses";
   public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-  public static final String PROPERTY_NAME_ATTACHMENTS = "video";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
-  public static final String PROPERTY_NAME_SCHOOL = "school";
+  public static final String PROPERTY_NAME_VIDEO = "video";
 
   private String name;
+  private String description;
   private String author;
-  private String course;
   private Date lastModifiedDate;
   private Asset video;
-  private List<Category> schools;
-  private List<Category> courseTypes;
+  private String link;
+  private String identifier;
+  private List<Category> courses;
 
   public String getName() {
     return name;
@@ -40,14 +40,6 @@ public class Video {
 
   public void setAuthor(String author) {
     this.author = author;
-  }
-
-  public String getCourse() {
-    return course;
-  }
-
-  public void setCourse(String course) {
-    this.course = course;
   }
 
   public Date getLastModifiedDate() {
@@ -66,19 +58,35 @@ public class Video {
     this.video = video;
   }
 
-  public List<Category> getSchools() {
-    return schools;
+  public String getLink() {
+    return link;
   }
 
-  public void setSchools(List<Category> schools) {
-    this.schools = schools;
+  public void setLink(String link) {
+    this.link = link;
   }
 
-  public List<Category> getCourseTypes() {
-    return courseTypes;
+  public String getIdentifier() {
+    return identifier;
   }
 
-  public void setCourseTypes(List<Category> courseTypes) {
-    this.courseTypes = courseTypes;
+  public void setIdentifier(String identifier) {
+    this.identifier = identifier;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  public List<Category> getCourses() {
+    return courses;
+  }
+
+  public void setCourses(List<Category> courses) {
+    this.courses = courses;
   }
 }
