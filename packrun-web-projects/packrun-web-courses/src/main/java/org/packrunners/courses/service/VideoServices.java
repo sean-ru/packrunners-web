@@ -14,20 +14,17 @@ import info.magnolia.module.categorization.functions.CategorizationTemplatingFun
 import info.magnolia.rendering.template.type.DefaultTemplateTypes;
 import info.magnolia.rendering.template.type.TemplateTypeHelper;
 import info.magnolia.templating.functions.TemplatingFunctions;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import javax.inject.Inject;
-import javax.inject.Singleton;
-import javax.jcr.Node;
-import javax.jcr.NodeIterator;
-import javax.jcr.Property;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-import javax.jcr.query.Query;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.packrunners.courses.CoursesModule;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
+import javax.jcr.*;
+import javax.jcr.query.Query;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**
@@ -38,6 +35,7 @@ import org.packrunners.courses.CoursesModule;
 public class VideoServices {
 
   public static final String VIDEO_QUERY_PARAMETER = "video";
+  public static final String DEFAULT_COURSE = "HA2";
 
   private final CoursesModule coursesModule;
   private final TemplateTypeHelper templateTypeHelper;
@@ -48,15 +46,25 @@ public class VideoServices {
 
   @Inject
   public VideoServices(CoursesModule coursesModule, TemplateTypeHelper templateTypeHelper,
-      TemplatingFunctions templatingFunctions,
-      CategorizationTemplatingFunctions categorizationTemplatingFunctions,
-      DamTemplatingFunctions damFunctions, LinkTransformerManager linkTransformerManager) {
+                       TemplatingFunctions templatingFunctions,
+                       CategorizationTemplatingFunctions categorizationTemplatingFunctions,
+                       DamTemplatingFunctions damFunctions, LinkTransformerManager linkTransformerManager) {
     this.coursesModule = coursesModule;
     this.templateTypeHelper = templateTypeHelper;
     this.templatingFunctions = templatingFunctions;
     this.categorizationTemplatingFunctions = categorizationTemplatingFunctions;
     this.damFunctions = damFunctions;
     this.linkTransformerManager = linkTransformerManager;
+  }
+
+  /**
+   * Tries to determine {@link Category} from passed URL selector (e.g.
+   * <code>/page~category_name~.html</code>).
+   */
+  public Category getCategoryByUrl() {
+    final String categoryName = StringUtils
+        .defaultIfBlank(SelectorUtil.getSelector(0), DEFAULT_COURSE);
+    return getCategoryByName(categoryName);
   }
 
   /**
@@ -162,7 +170,7 @@ public class VideoServices {
   }
 
   /**
-   * Creates a {@link Video} from a {@link Node}.
+   * Creates a {@link video} from a {@link Node}.
    */
   public Video marshallVideoNode(Node videoNodeRaw) {
     Video video = null;
@@ -180,36 +188,15 @@ public class VideoServices {
           video.setName(videoNode.getProperty(Video.PROPERTY_NAME_DISPLAY_NAME).getString());
         }
 
-        if (videoNode.hasProperty(Video.PROPERTY_NAME_DESCRIPTION)) {
-          Property description = videoNode.getProperty(Video.PROPERTY_NAME_DESCRIPTION);
-          if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
-            try {
-              String bodyWithResolvedLinks = LinkUtil
-                  .convertLinksFromUUIDPattern(description.getString(),
-                      linkTransformerManager.getBrowserLink(videoNode.getPath()));
-              video.setDescription(bodyWithResolvedLinks);
-            } catch (LinkException e) {
-              log.warn("Failed to parse links with from {}", description.getName(), e);
-            }
-          } else {
-            video.setDescription(description.getString());
-          }
-        }
-
         if (videoNode.hasProperty(Video.PROPERTY_NAME_AUTHOR)) {
           video.setAuthor(videoNode.getProperty(Video.PROPERTY_NAME_AUTHOR).getString());
         }
 
-        if (videoNode.hasProperty(Video.PROPERTY_NAME_VIDEO)) {
+        if (videoNode.hasProperty(Video.PROPERTY_NAME_ATTACHMENTS)) {
           video.setVideo(
-              damFunctions.getAsset(videoNode.getProperty(Video.PROPERTY_NAME_VIDEO).getString()));
+              damFunctions.getAsset(videoNode.getProperty(Video.PROPERTY_NAME_ATTACHMENTS).getString()));
         }
 
-        if (videoNode.hasProperty(Video.PROPERTY_NAME_COURSES)) {
-          final List<Category> courseTypes = getCategories(videoNode,
-              Video.PROPERTY_NAME_COURSES);
-          video.setCourses(courseTypes);
-        }
 
         final String videoLink = getVideoLink(videoNode);
         if (StringUtils.isNotBlank(videoLink)) {
@@ -221,25 +208,6 @@ public class VideoServices {
     }
 
     return video;
-  }
-
-  /**
-   * Get and marshall all categories of a {@link Node} stored under the given
-   * <code>categoryPropertyName</code>.
-   */
-  private List<Category> getCategories(Node node, String categoryPropertyName) {
-    final List<Category> categories = new ArrayList<>();
-
-    final List<Node> nodes = categorizationTemplatingFunctions
-        .getCategories(node, categoryPropertyName);
-    for (Node n : nodes) {
-      final Category category = marshallCategoryNode(n);
-      if (category != null) {
-        categories.add(category);
-      }
-    }
-
-    return categories;
   }
 
   public Node getVideoNodeByParameter() throws RepositoryException {
@@ -266,7 +234,7 @@ public class VideoServices {
                 + ".html");
       }
     } catch (RepositoryException e) {
-      log.warn("Can't get videoOverviewPage page link [subType={}]", featureSubType, e);
+      log.warn("Can't get schoolOverviewPage page link [subType={}]", featureSubType, e);
     }
 
     return StringUtils.EMPTY;
@@ -291,21 +259,13 @@ public class VideoServices {
     return null;
   }
 
+  public List<Video> getVideosBySchool(String categoryPropertyName, String identifier) {
 
-  public List<Video> getVideosByCategory(String categoryPropertyName, String identifier) {
-    return getVideosByCategory(categoryPropertyName, identifier, false);
-  }
-
-  public List<Video> getVideosByCategory(String categoryPropertyName, String identifier,
-      boolean featured) {
     final List<Video> videos = new LinkedList<>();
 
     try {
-      final Session session = MgnlContext.getJCRSession(CoursesModule.VIDEOS_REPOSITORY_NAME);
+      final Session session = MgnlContext.getJCRSession(CoursesModule.TUTORS_REPOSITORY_NAME);
       String query = String.format("%s LIKE '%%%s%%'", categoryPropertyName, identifier);
-      if (featured) {
-        query += " AND isFeatured = 'true'";
-      }
 
       final List<Node> videoNodes = templateTypeHelper
           .getContentListByTemplateIds(session.getRootNode(), null, Integer.MAX_VALUE, query, null);
@@ -315,7 +275,7 @@ public class VideoServices {
       }
 
     } catch (RepositoryException e) {
-      log.error("Could not get related videos by category identifier [{}={}].",
+      log.error("Could not get videos by school identifier [{}={}].",
           categoryPropertyName,
           identifier, e);
     }

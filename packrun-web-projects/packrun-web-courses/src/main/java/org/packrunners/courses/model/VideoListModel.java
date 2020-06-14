@@ -2,42 +2,47 @@ package org.packrunners.courses.model;
 
 import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;
-import java.util.List;
-import javax.inject.Inject;
-import javax.jcr.Node;
 import org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition;
 import org.packrunners.courses.service.Category;
-import org.packrunners.courses.service.Video;
-import org.packrunners.courses.service.VideoServices;
+import org.packrunners.courses.service.Tutor;
+import org.packrunners.courses.service.TutorServices;
+
+import javax.inject.Inject;
+import javax.jcr.Node;
+import java.util.List;
 
 
 /**
- * Model for retrieving videos by type or category.
+ * Model for retrieving courses by type or category.
  *
  * @param <RD> The {@link CourseCategoryTemplateDefinition} of the model.
  */
 public class VideoListModel<RD extends CourseCategoryTemplateDefinition> extends
     RenderingModelImpl<RD> {
 
-  private final VideoServices videoServices;
+  private final TutorServices tutorServices;
 
   @Inject
   public VideoListModel(Node content, RD definition, RenderingModel<?> parent,
-      VideoServices videoServices) {
+                        TutorServices tutorServices) {
     super(content, definition, parent);
 
-    this.videoServices = videoServices;
+    this.tutorServices = tutorServices;
+  }
+
+  public Category getCategoryByUrl() {
+    return tutorServices.getCategoryByUrl();
   }
 
   public Category getCategoryByName(String categoryName) {
-    return videoServices.getCategoryByName(categoryName);
+    return tutorServices.getCategoryByName(categoryName);
   }
 
-  public List<Video> getVideosByCategory(String identifier) {
-    return videoServices.getVideosByCategory(definition.getCategory(), identifier);
+  public List<Tutor> getTutorsBySchool(String identifier) {
+    return tutorServices.getTutorsBySchool(definition.getCategory(), identifier);
   }
 
-  protected VideoServices getVideoServices() {
-    return videoServices;
+  protected TutorServices getTutorServices() {
+    return tutorServices;
   }
 }

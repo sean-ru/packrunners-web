@@ -30,6 +30,11 @@ public class CoursesModule {
   private String resourceTypeRootNode;
 
   /**
+   * Specifies the root node of course categories.
+   */
+  private String courseRootNode;
+
+  /**
    * Specifies the default course node name (slug).
    */
   private String defaultCourseName;
@@ -91,4 +96,13 @@ public class CoursesModule {
   public void setDefaultVideoName(String defaultVideoName) {
     this.defaultVideoName = defaultVideoName;
   }
+
+  public String getCourseRootNode() {
+    return courseRootNode;
+  }
+
+  public void setCourseRootNode(String courseRootNode) {
+    this.courseRootNode = courseRootNode;
+  }
 }
+

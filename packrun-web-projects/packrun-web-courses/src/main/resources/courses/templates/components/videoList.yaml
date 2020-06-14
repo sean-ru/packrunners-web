@@ -1,0 +1,6 @@
+templateScript: /courses/templates/components/videoList.ftl
+modelClass: org.packrunners.courses.model.VideoListModel
+class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
+
+renderType: freemarker
+category: schools

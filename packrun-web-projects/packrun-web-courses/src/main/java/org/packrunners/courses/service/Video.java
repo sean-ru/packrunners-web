@@ -1,6 +1,7 @@
 package org.packrunners.courses.service;
 
 import info.magnolia.dam.api.Asset;
+
 import java.util.Date;
 import java.util.List;
 
@@ -11,20 +12,37 @@ import java.util.List;
 public class Video {
 
   public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
-  public static final String PROPERTY_NAME_DESCRIPTION = "description";
   public static final String PROPERTY_NAME_AUTHOR = "author";
-  public static final String PROPERTY_NAME_COURSES = "courses";
+  public static final String PROPERTY_NAME_COURSE = "course";
   public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-  public static final String PROPERTY_NAME_VIDEO = "video";
-
+  public static final String PROPERTY_NAME_ATTACHMENTS = "video";
+  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
+  public static final String PROPERTY_NAME_SCHOOL = "school";
   private String name;
-  private String description;
   private String author;
+  private List<Category> courses;
+  private List<Category> schools;
   private Date lastModifiedDate;
   private Asset video;
   private String link;
   private String identifier;
-  private List<Category> courses;
+
+  public String getLink() {
+
+    return link;
+  }
+
+  public void setLink(String link) {
+    this.link = link;
+  }
+
+  public String getIdentifier() {
+    return identifier;
+  }
+
+  public void setIdentifier(String identifier) {
+    this.identifier = identifier;
+  }
 
   public String getName() {
     return name;
@@ -40,6 +58,14 @@ public class Video {
 
   public void setAuthor(String author) {
     this.author = author;
+  }
+
+  public List<Category> getCourses() {
+    return courses;
+  }
+
+  public void setCourses(List<Category> courses) {
+    this.courses = courses;
   }
 
   public Date getLastModifiedDate() {
@@ -58,35 +84,12 @@ public class Video {
     this.video = video;
   }
 
-  public String getLink() {
-    return link;
+  public List<Category> getSchools() {
+    return schools;
   }
 
-  public void setLink(String link) {
-    this.link = link;
+  public void setSchools(List<Category> schools) {
+    this.schools = schools;
   }
 
-  public String getIdentifier() {
-    return identifier;
-  }
-
-  public void setIdentifier(String identifier) {
-    this.identifier = identifier;
-  }
-
-  public String getDescription() {
-    return description;
-  }
-
-  public void setDescription(String description) {
-    this.description = description;
-  }
-
-  public List<Category> getCourses() {
-    return courses;
-  }
-
-  public void setCourses(List<Category> courses) {
-    this.courses = courses;
-  }
 }

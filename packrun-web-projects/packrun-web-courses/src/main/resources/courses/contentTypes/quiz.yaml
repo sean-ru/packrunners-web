@@ -1,0 +1,3 @@
+datasource:
+  workspace: quizzes
+  autoCreate: true

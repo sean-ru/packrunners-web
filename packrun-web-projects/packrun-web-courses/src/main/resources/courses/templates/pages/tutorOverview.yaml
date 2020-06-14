@@ -13,7 +13,7 @@ areas:
       tutorOverviewHeader:
         id: courses:components/tutorOverviewHeader
       tutorListByDestination:
-        id: courses:components/tutorList
+        id: courses:components/tutorListtutorOverview.yaml
       social:
         id: packrunweb:components/social
   footer:

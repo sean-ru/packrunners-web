@@ -1,0 +1,20 @@
+
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: feature
+subtype: videoOverview
+areas:
+  main:
+    type: list
+    availableComponents:
+      videoOverviewHeader:
+        id: courses:components/videoOverviewHeader
+      videoListByDestination:
+        id: courses:components/videoListtutorOverview.yaml
+      social:
+        id: packrunweb:components/social
+  footer:
+    editable: false
