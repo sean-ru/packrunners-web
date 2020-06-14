@@ -1501,7 +1501,7 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="Id">
+                <sv:node sv:name="id">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1515,7 +1515,7 @@
                     <sv:value>true</sv:value>
                   </sv:property>
                 </sv:node>
-                <sv:node sv:name="Name">
+                <sv:node sv:name="name">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1529,7 +1529,7 @@
                     <sv:value>true</sv:value>
                   </sv:property>
                 </sv:node>
-                <sv:node sv:name="Photo">
+                <sv:node sv:name="photo">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1562,7 +1562,7 @@
                     </sv:property>
                   </sv:node>
                 </sv:node>
-                <sv:node sv:name="Profile">
+                <sv:node sv:name="profile">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1576,7 +1576,7 @@
                     <sv:value>false</sv:value>
                   </sv:property>
                 </sv:node>
-                <sv:node sv:name="Email">
+                <sv:node sv:name="email">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1590,7 +1590,7 @@
                     <sv:value>false</sv:value>
                   </sv:property>
                 </sv:node>
-                <sv:node sv:name="Grade">
+                <sv:node sv:name="grade">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1636,6 +1636,28 @@
                         <sv:value>12</sv:value>
                       </sv:property>
                     </sv:node>
+                  </sv:node>
+                </sv:node>
+                <sv:node sv:name="schools">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="description" sv:type="String">
+                    <sv:value>courses.detail.editor.schools.description</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="extends" sv:type="String">
+                    <sv:value>/modules/categorization/dialogs/generic/tabCategorization/fields/categories</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>courses.detail.editor.schools.label</sv:value>
+                  </sv:property>
+                  <sv:node sv:name="field">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="targetTreeRootPath" sv:type="String">
+                      <sv:value>/schools</sv:value>
+                    </sv:property>
                   </sv:node>
                 </sv:node>
               </sv:node>
