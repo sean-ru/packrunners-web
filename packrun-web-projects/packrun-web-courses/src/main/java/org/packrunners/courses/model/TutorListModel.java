@@ -37,7 +37,7 @@ public class TutorListModel<RD extends CourseCategoryTemplateDefinition> extends
     return tutorServices.getCategoryByName(categoryName);
   }
 
-  public List<Tutor> getTutorsBySchool(String identifier) {
+  public List<Tutor> getTutorsByCategory(String identifier) {
     return tutorServices.getTutorsBySchool(definition.getCategory(), identifier);
   }
 

@@ -8,7 +8,7 @@
     [#assign category = model.getCategoryByUrl()!]
 [/#if]
 
-[#assign tutors = model.getTutorsBySchool(category.identifier)]
+[#assign tutors = model.getTutorsByCategory(category.identifier)]
 [#assign title = content.title!i18n.get('tutor.all.tutors', [category.name!""])!]
 
 [#-------------- RENDERING --------------]
