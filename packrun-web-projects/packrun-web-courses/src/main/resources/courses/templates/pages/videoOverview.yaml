@@ -12,9 +12,7 @@ areas:
     availableComponents:
       videoOverviewHeader:
         id: courses:components/videoOverviewHeader
-      videoListByDestination:
-        id: courses:components/videoListtutorOverview.yaml
-      social:
-        id: packrunweb:components/social
+      videoList:
+        id: courses:components/videoList
   footer:
     editable: false

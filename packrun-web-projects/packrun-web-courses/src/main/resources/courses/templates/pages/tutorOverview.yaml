@@ -12,9 +12,7 @@ areas:
     availableComponents:
       tutorOverviewHeader:
         id: courses:components/tutorOverviewHeader
-      tutorListByDestination:
-        id: courses:components/tutorListtutorOverview.yaml
-      social:
-        id: packrunweb:components/social
+      tutorList:
+        id: courses:components/tutorList
   footer:
     editable: false
