@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="image-assets">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mgnl:hasVersion</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>65fd0618-2b3c-468c-b1cf-652b0b1dab4e</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcrName" sv:type="String">
+    <sv:value>image-assets</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-06-10T18:23:41.278-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2020-06-10T18:34:04.807-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+    <sv:value>1.0</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+    <sv:value>2020-06-10T18:34:04.752-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-06-10T18:23:41.278-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="name" sv:type="String">
+    <sv:value>image-assets</sv:value>
+  </sv:property>
+  <sv:node sv:name="portrait_placeholder.png0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:asset</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>350ac296-d5eb-45b1-b4ff-042f5b7b1f00</sv:value>
+    </sv:property>
+    <sv:property sv:name="metadataStandard" sv:type="String">
+      <sv:value>Simple Dublin Core Metadata Element Set (DCMES)</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-06-10T18:22:28.001-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-06-10T18:34:08.154-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-06-10T18:34:08.073-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-06-10T18:24:16.051-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Portrait Placeholder</sv:value>
+    </sv:property>
+    <sv:node sv:name="jcr:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:resource</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8f136aa7-6aa8-4343-9d61-16319b9a424a</sv:value>
+      </sv:property>
+      <sv:property sv:name="extension" sv:type="String">
+        <sv:value>png</sv:value>
+      </sv:property>
+      <sv:property sv:name="fileName" sv:type="String">
+        <sv:value>portrait_placeholder.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="height" sv:type="Long">
+        <sv:value>220</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:data" sv:type="Binary">
+        <sv:value>iVBORw0KGgoAAAANSUhEUgAAALQAAADcCAIAAABWCBxSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADGklEQVR42u3d2W0DQQxEQeYf6KSx/vcBWNIeTU69CBbNAgzLklxL+qMygeAQHIJDcAgOwSE4BIfgEBwSHIJDcAgOwSE4BIfgEByCQ4JDcAiO/3V8EBxAsLIBjuOu4GBiRyWFBSKTcRx5wYHFcCKFBSKjcBzdggOLaUSKDD7a4zimBAcWE4gUGXy0xHFMDw4yuvooMvjohOPYLzjIaOajyOADDjg64zgU5qPI4CMaBxCZPooMPuCAoxsOCJJ9wAFHJA7nD/cBBxx5OBw+3wcccIThcPIWPuCAIwmHY3fxAQcccMCRj8OZG/mAAw444AjH4cC9fMABBxxwwAFHSxxO284HHHDAAQcccMABBxyCQ3AIDjjggAMOOOCAAw444IADDjjggENwCA7BAQcccMDBx2Yy4IADDjjggAMOOCbi4KORDDjggAOOFjj46CIDDjjggKMLDj5ayIADjjwcfOTLgAOOSBx8hMuAA45UHHwky4ADjmAcfMTKgAOObBx8ZMpIwcFHoIwgHHykycjCwccKCw44muDY2cfKqwKfiQw4+IiWkYtjHx8ruEp+ODLg2NTHiq/yH5EMOHYhsvpUjZ6VDDjG+ljdqtUwLOAY4mO1rVbnsICj/U8WOJjw2woW2xDxCikiPXH4qywc+8rwfg4svE2QjHE+fG4FkWwcQGQS8UFqPiJxOH84EV8Yx0cYDvdu4cPXW/ORgcOBexHxf2X5eBqHi3b0UWTw8RgOV+zro8jg4wEcLtfdR5HBx604XGuGjyKDj5twuNAkH0UGH3DA8RwOV5nno8jgAw44nsDhElN9FBl8XILD+rN9wAHHBTjsPt5HkcEHHHDcgsPWm/goMviAQxfjsO9WPooMPuAQHLofh0039AEHHJ/hsOaePuCA4wMcdtzWBxxwvIvDgjv7gAOOt3DYbnMfcMDxOg6r8QGH4NBZOOzFBxx6EYel+IBDcAgOXY7DRnzAITh0Fg7rCA7BITh0OQ676JsPOASH4ND5OCyinz7gEByCQyfjsIV+9QGH4BAcgkNwCA5lViYQHIJDcAgOwSE41KsvWTD3PlCHJ48AAAAASUVORK5CYII=</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:lastModified" sv:type="Date">
+        <sv:value>2020-06-10T18:21:55.655-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mimeType" sv:type="String">
+        <sv:value>image/png</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2020-06-10T18:22:28.002-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2020-06-10T18:34:08.155-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2020-06-10T18:24:16.051-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="size" sv:type="Long">
+        <sv:value>872</sv:value>
+      </sv:property>
+      <sv:property sv:name="width" sv:type="Long">
+        <sv:value>180</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
