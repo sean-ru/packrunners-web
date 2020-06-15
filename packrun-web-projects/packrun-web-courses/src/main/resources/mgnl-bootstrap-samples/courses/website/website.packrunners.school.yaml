@@ -1,6 +1,6 @@
 'destination': 
   'hideInNav': 'false'
-  'title': 'Destinations'
+  'title': 'Schools'
   jcr:primaryType: 'mgnl:page'
   jcr:uuid: '028a4a92-35df-45a3-b6ff-58381db74eb5'
   mgnl:activationStatus: true
@@ -10,7 +10,7 @@
   mgnl:lastActivatedBy: 'superuser'
   mgnl:lastModified: 2015-10-27T13:14:27.140+01:00
   mgnl:lastModifiedBy: 'superuser'
-  mgnl:template: 'courses:pages/destinationCatOverview'
+  mgnl:template: 'courses:pages/schoolOverview'
   'main': 
     jcr:primaryType: 'mgnl:area'
     jcr:uuid: '59a5dcd9-fd89-47d6-9959-dbebda5357fc'
