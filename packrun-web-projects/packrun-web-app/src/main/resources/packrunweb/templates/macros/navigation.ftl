@@ -23,20 +23,6 @@ Uncommented and adjusted section for resolving menu for course-types and schools
                         [/#list]
                     </ul>
                 </li>
-            [#elseif navfn.hasTemplateSubtype(navItem, "tutorOverview")]
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        ${navItem.navigationTitle!navItem.title!navItem.@name}
-                        <span class="caret"></span>
-                    </a>
-
-                    <ul class="dropdown-menu" role="menu">
-                        [#assign navContentItems = navfn.navItemsFromApp("category", "/schools", "mgnl:category")]
-                        [#list navContentItems as navContentItem]
-                            <li><a href="${navfn.linkWithSelector(navItem, navContentItem)!"#"}">${navContentItem.displayName!navContentItem.@name}</a></li>
-                        [/#list]
-                    </ul>
-                </li>
             [#elseif navfn.hasTemplateSubtype(navItem, "schoolOverview")]
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">

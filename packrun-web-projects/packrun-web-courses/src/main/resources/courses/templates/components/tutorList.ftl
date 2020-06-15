@@ -7,7 +7,7 @@
 [#else]
     [#assign category = model.getCategoryByUrl()!]
 [/#if]
-[#assign category = model.getCategoryByUrl()!]
+
 [#assign tutors = model.getTutorsByCategory(category.identifier)]
 [#assign title = content.title!i18n.get('tutor.all.tutors', [category.name!""])!]
 
@@ -15,8 +15,6 @@
 <!-- Tutor List -->
 <div class="container course-list">
 
-    <h2>${category.name}</h2>
-    <h2>${category.identifier}</h2>
     <h2>${title}</h2>
     <div class="row">
         [#list tutors as tutor]

@@ -1,5 +1,4 @@
 'packrunners':
-  'description': 'Packrunners Web Site.'
   'hideInNav': false
   'jcr:mixinTypes': ['mgnl:hasVersion']
   'jcr:primaryType': 'mgnl:page'
@@ -8,11 +7,11 @@
   'mgnl:activationStatus': true
   'mgnl:created': 2015-01-26T10:17:02.306-06:00
   'mgnl:createdBy': 'superuser'
-  'mgnl:lastActivated': 2020-06-08T21:36:22.123-05:00
+  'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
   'mgnl:lastActivatedBy': 'superuser'
-  'mgnl:lastActivatedVersion': '1.3'
-  'mgnl:lastActivatedVersionCreated': 2020-06-08T21:36:21.074-05:00
-  'mgnl:lastModified': 2020-06-08T21:16:45.171-05:00
+  'mgnl:lastActivatedVersion': '1.4'
+  'mgnl:lastActivatedVersionCreated': 2020-06-14T20:53:32.997-05:00
+  'mgnl:lastModified': 2020-06-14T20:48:45.596-05:00
   'mgnl:lastModifiedBy': 'superuser'
   'mgnl:template': 'packrunweb:pages/home'
   'searchResultPage': '6df1ebd8-fc9d-4db3-8539-02829c56b9f2'
@@ -23,24 +22,10 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.795-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastModified': 2020-06-08T21:16:45.171-05:00
+    'mgnl:lastModified': 2020-06-14T20:19:02.105-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    '0':
-      'courses': ['034c05a3-0de5-4577-818a-e7d23df1f696', 'bbf841a0-f9c4-43ac-ad71-1c0fe9f21460',
-        '9a43a511-db14-4b51-899a-6379547175b6']
-      'jcr:primaryType': 'mgnl:component'
-      'jcr:uuid': '9b13970f-6b1b-451e-83fc-36cfde37f78e'
-      'mgnl:activationStatus': true
-      'mgnl:created': 2015-02-24T08:43:35.913-06:00
-      'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
-      'mgnl:lastActivatedBy': 'superuser'
-      'mgnl:lastModified': 2020-06-08T17:49:44.050-05:00
-      'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'courses:components/courseCarousel'
-      'showCourseTypes': true
     '01':
       'courseFinder': 'd25e69d9-27d0-4477-824c-7cc0714c97ce'
       'jcr:primaryType': 'mgnl:component'
@@ -48,26 +33,26 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:05:57.163-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:05:57.163-05:00
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'courses:components/courseFinderRow'
     '00':
       'courseTypes': ['eaf9a648-fae1-48ae-a293-69bed874f159', 'e007e401-1bf8-4658-8293-b9c743784264',
-        '415025c6-e4b5-4506-9384-34f428a52104']
+                      '415025c6-e4b5-4506-9384-34f428a52104']
       'jcr:primaryType': 'mgnl:component'
       'jcr:uuid': '2bf3e57c-11b5-497e-806b-0e06dacffded'
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-12T10:45:09.155-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-08T21:16:45.171-05:00
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'courses:components/resourceTypeTeaserRow'
       'resourceTypes': ['4567c7ca-5a70-471d-98f8-3dc911d934d6', 'e426d81e-0742-4118-9404-5e3c094a72e1',
-        'ac2ee632-2c83-4528-be6f-e9b5a7774036']
+                        'ac2ee632-2c83-4528-be6f-e9b5a7774036']
       'title': 'Looking for study guide, video or quizzes for your exam?'
       'title_de': 'Welcher Reisetyp bist Du?'
   'footer':
@@ -76,7 +61,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.810-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -86,7 +71,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.011-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -98,7 +83,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:37:21.175-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -111,7 +96,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:37:21.247-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -121,7 +106,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.020-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -132,7 +117,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:27:16.380-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.547-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -145,7 +130,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:27:16.571-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:22.124-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -157,7 +142,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:29:36.482-06:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -172,7 +157,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:32:33.335-06:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -183,7 +168,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.027-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -194,7 +179,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:33:49.396-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -207,7 +192,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:33:49.481-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -217,7 +202,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.036-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -232,7 +217,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:34:50.575-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -249,7 +234,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-06-18T09:27:18.306-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T09:58:44.424-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -260,7 +245,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T09:27:59.610-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -271,7 +256,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T09:27:59.916-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -283,7 +268,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:26.664-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:26.664-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -296,7 +281,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:55.983-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:55.983-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -309,7 +294,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:29:16.321-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:22.125-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:53.548-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -322,7 +307,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-27T06:21:08.859-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:55.293-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.0'
     'mgnl:lastActivatedVersionCreated': 2020-06-08T21:00:20.795-05:00
@@ -337,7 +322,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-27T06:21:12.019-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-10-27T04:41:44.110-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -347,7 +332,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-28T09:47:31.831-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-01-28T09:47:31.831-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -358,7 +343,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-29T15:24:50.086-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-01-29T15:24:50.086-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -370,7 +355,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-10-27T04:41:07.164-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T04:41:44.110-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -385,7 +370,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-29T09:46:43.704-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-01-29T09:46:43.704-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -396,7 +381,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-26T09:14:31.940-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:22:48.868-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -406,7 +391,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:31.955-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:31.955-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -416,7 +401,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:31.990-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:31.990-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -426,7 +411,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:32.016-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:32.016-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -436,7 +421,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:32.035-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:32.035-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -446,9 +431,108 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:22:48.872-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.397-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.294-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:22:48.872-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+  'tutors':
+    'hideInNav': false
+    'jcr:mixinTypes': ['mgnl:hasVersion']
+    'jcr:primaryType': 'mgnl:page'
+    'jcr:uuid': 'd96e2d50-d524-4a4b-8296-fa7c29ff4c25'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2020-06-14T20:39:24.530-05:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastActivatedVersion': '1.10'
+    'mgnl:lastActivatedVersionCreated': 2020-06-14T21:17:48.006-05:00
+    'mgnl:lastModified': 2020-06-14T21:11:29.008-05:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'mgnl:template': 'courses:pages/tutorOverview'
+    'title': 'Tutors'
+    'main':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': '65434c91-f3f0-4400-9bda-11a0f5537970'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2020-06-14T20:39:43.780-05:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2020-06-14T21:11:29.008-05:00
+      'mgnl:lastModifiedBy': 'superuser'
+      '0':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '8ead3bd7-6616-4697-a69f-65ad7695cebd'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T20:39:51.456-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T20:39:51.456-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'courses:components/tutorOverviewHeader'
+      '00':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': 'f6a68651-a73f-442e-b711-b919d0a3c0f3'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T21:11:29.009-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T21:11:29.009-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'courses:components/tutorList'
+        'title': 'NNHS Tutors'
+    'footer':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': '7a163b0c-0452-415c-82df-cab10844928a'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2020-06-14T20:39:43.813-05:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2020-06-14T20:39:43.939-05:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'footer1':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': 'f58e4d19-47d1-4b9c-a33d-84335144a573'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T20:39:43.838-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T20:39:43.838-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'footer2':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '61fa391d-b553-418d-ac87-2bd946ae299e'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T20:39:43.874-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T20:39:43.874-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'footer3':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '9a23cdad-ace1-4e74-a026-d1c29762eb38'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T20:39:43.910-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T20:39:43.910-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'footer4':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '9d7accf2-a968-4a33-9c1f-37bbce527515'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-06-14T20:39:43.940-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-06-14T21:17:55.173-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-06-14T20:39:43.940-05:00
         'mgnl:lastModifiedBy': 'superuser'
   'course':
     'hideInNav': 'true'
@@ -457,7 +541,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-31T13:48:17.516-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:06.275-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -469,7 +553,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-31T13:48:28.133-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:06.275-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -479,7 +563,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-31T13:48:35.191-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.275-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -490,7 +574,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-10-27T07:33:40.633-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -501,7 +585,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-10-27T07:36:20.084-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:36:20.084-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -516,7 +600,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T10:18:45.018-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-02T10:18:45.018-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -527,7 +611,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-31T13:48:28.153-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:10:44.661-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -537,7 +621,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.390-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.035-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.390-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -547,7 +631,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.421-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.036-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.421-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -557,7 +641,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.450-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.036-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.450-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -567,7 +651,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.467-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.036-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.467-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -577,7 +661,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:10:44.666-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.276-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:55.036-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:10:44.666-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -589,7 +673,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T10:34:28.816-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:17.602-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:54.679-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.1'
     'mgnl:lastActivatedVersionCreated': 2020-06-08T21:36:17.247-05:00
@@ -604,7 +688,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T10:34:34.651-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:17.603-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.679-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-10-27T07:50:28.322-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -618,7 +702,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T13:23:37.199-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.603-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.679-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:08:06.983-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -639,7 +723,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-10-27T06:03:30.193-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.603-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.679-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T07:50:28.322-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -650,7 +734,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-10-27T06:50:49.241-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:17.603-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.679-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-27T07:47:55.803-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -666,7 +750,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-10-25T03:37:41.142-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:48:35.936-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -679,7 +763,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-10-27T06:50:49.343-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-27T07:49:40.553-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -693,7 +777,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-03T11:28:22.750-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:40.553-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -708,7 +792,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-03T11:27:04.516-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:30.754-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -723,7 +807,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-03T11:27:43.922-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:28.120-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -738,7 +822,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-03T11:28:02.172-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:17.604-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:16.881-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -749,7 +833,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T10:34:34.666-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:43:12.575-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -759,7 +843,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.082-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.082-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -769,7 +853,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.109-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.109-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -779,7 +863,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.138-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.138-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -789,7 +873,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.155-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.155-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -799,7 +883,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:43:12.583-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:17.605-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.680-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:43:12.583-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -809,7 +893,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2020-06-08T17:38:00.485-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:06.107-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.774-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-08T17:38:00.485-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -819,7 +903,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2020-06-08T17:38:00.485-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-08T17:38:00.485-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -835,7 +919,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-10-07T07:12:15.135-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-08T07:51:28.236-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -848,7 +932,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-10-07T07:12:15.435-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-08T05:50:50.058-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -863,7 +947,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-10-07T07:17:10.645-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:02.561-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -881,7 +965,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-10-07T07:16:06.495-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:50:50.058-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -898,7 +982,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-10-07T07:23:31.545-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.907-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:14.013-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -915,7 +999,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-10-07T07:24:56.808-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.908-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:34.261-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -932,7 +1016,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-10-07T07:27:28.722-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:06.179-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.908-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:58.215-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -944,7 +1028,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T14:04:23.355-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:05.840-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:54.436-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -957,7 +1041,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T14:23:58.043-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.840-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.436-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -971,7 +1055,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:24:42.507-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.840-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.436-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:31:04.095-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -987,7 +1071,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:28:45.700-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.436-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:41:42.039-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1030,7 +1114,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2016-09-21T08:46:29.735-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1042,7 +1126,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.279-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1056,7 +1140,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:47:02.903-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -1071,7 +1155,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.480-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2016-09-21T08:49:22.583-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1085,7 +1169,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:47:34.849-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:22.583-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -1105,7 +1189,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.702-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2016-09-21T08:49:15.418-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1119,7 +1203,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:48:06.298-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:15.418-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -1159,7 +1243,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-09-03T02:36:33.087-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.841-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1172,12 +1256,12 @@
         'confirmContentTypecode':
           'jcr:uuid': '3e5a50b2-3c41-4509-841a-e65b6753e65b'
           'mgnl:activationStatus': true
-          'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
         'contentTypehtml':
           'jcr:uuid': '247c3f36-3fdd-4de3-80ee-310a33e20c9d'
           'mgnl:activationStatus': true
-          'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
         'fieldsets':
           'jcr:primaryType': 'mgnl:area'
@@ -1185,7 +1269,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-09-03T02:36:33.253-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1195,7 +1279,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-09-03T02:37:09.255-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+            'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -1206,7 +1290,7 @@
               'mgnl:activationStatus': true
               'mgnl:created': 2015-09-03T02:37:09.416-05:00
               'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+              'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
               'mgnl:lastModifiedBy': 'superuser'
@@ -1222,7 +1306,7 @@
                 'mgnl:activationStatus': true
                 'mgnl:created': 2015-09-03T02:37:47.300-05:00
                 'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+                'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
                 'mgnl:lastActivatedBy': 'superuser'
                 'mgnl:lastModified': 2015-10-30T05:42:31.429-05:00
                 'mgnl:lastModifiedBy': 'superuser'
@@ -1244,7 +1328,7 @@
                 'mgnl:activationStatus': true
                 'mgnl:created': 2015-09-03T02:39:20.636-05:00
                 'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+                'mgnl:lastActivated': 2020-06-14T21:17:54.437-05:00
                 'mgnl:lastActivatedBy': 'superuser'
                 'mgnl:lastModified': 2015-10-30T05:43:43.193-05:00
                 'mgnl:lastModifiedBy': 'superuser'
@@ -1267,7 +1351,7 @@
                 'mgnl:activationStatus': true
                 'mgnl:created': 2015-09-03T02:40:11.327-05:00
                 'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+                'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
                 'mgnl:lastActivatedBy': 'superuser'
                 'mgnl:lastModified': 2015-10-30T05:44:40.902-05:00
                 'mgnl:lastModifiedBy': 'superuser'
@@ -1284,7 +1368,7 @@
                 'mgnl:activationStatus': true
                 'mgnl:created': 2015-09-03T03:02:32.319-05:00
                 'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+                'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
                 'mgnl:lastActivatedBy': 'superuser'
                 'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
                 'mgnl:lastModifiedBy': 'superuser'
@@ -1295,7 +1379,7 @@
                   'mgnl:activationStatus': true
                   'mgnl:created': 2015-09-03T03:02:32.456-05:00
                   'mgnl:createdBy': 'superuser'
-                  'mgnl:lastActivated': 2020-06-08T21:36:05.842-05:00
+                  'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
                   'mgnl:lastActivatedBy': 'superuser'
                   'mgnl:lastModified': 2015-09-03T03:02:32.456-05:00
                   'mgnl:lastModifiedBy': 'superuser'
@@ -1305,7 +1389,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T14:23:58.056-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-07-01T03:41:43.498-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1315,7 +1399,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.864-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.864-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1325,7 +1409,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.886-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.886-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1335,7 +1419,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.906-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.906-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1345,7 +1429,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.931-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.931-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1355,7 +1439,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-07-01T03:41:43.502-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.843-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.438-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-07-01T03:41:43.502-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1366,7 +1450,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T13:58:23.939-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:05.137-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:53.777-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-05-31T22:01:04.432-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -1379,7 +1463,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:58:43.044-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.183-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:33.104-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1392,7 +1476,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:30:49.947-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.183-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-02T14:30:49.947-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1406,7 +1490,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T10:16:08.308-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:16:08.308-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1432,7 +1516,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T10:16:38.410-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:16:38.410-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1454,7 +1538,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T10:17:15.345-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:17:15.345-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1473,7 +1557,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-03T13:23:52.672-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:48:33.104-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1483,7 +1567,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:23:52.708-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.572-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:23:52.708-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1493,7 +1577,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:23:53.920-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.573-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:23:53.920-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1503,7 +1587,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:23:54.019-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.573-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.184-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:23:54.019-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1513,7 +1597,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:23:54.080-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.573-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.185-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:23:54.080-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1523,7 +1607,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T10:48:33.111-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.573-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.185-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T10:48:33.111-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1534,7 +1618,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:59:02.922-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:35.913-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1547,7 +1631,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:30:52.415-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-03T13:26:24.203-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1560,7 +1644,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:26:24.204-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:26:24.204-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1661,7 +1745,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:30:52.427-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:48:35.913-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1671,7 +1755,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:46.193-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:46.193-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1681,7 +1765,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:46.335-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:46.335-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1691,7 +1775,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:46.417-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:46.417-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1701,7 +1785,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:46.471-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:46.471-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1711,7 +1795,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T10:48:35.917-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.454-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:54.058-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T10:48:35.917-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1721,7 +1805,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:59:19.503-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:36.948-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1733,7 +1817,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:30:54.043-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-03T13:36:38.787-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1746,7 +1830,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-03T13:35:10.034-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:36:38.787-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1765,7 +1849,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:30:54.055-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:48:36.948-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1775,7 +1859,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:54.505-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:54.505-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1785,7 +1869,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:54.549-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.351-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:54.549-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1795,7 +1879,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:54.585-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.352-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:54.585-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1805,7 +1889,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-03-06T08:34:54.620-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.352-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-03-06T08:34:54.620-06:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1815,7 +1899,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T10:48:36.951-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.352-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.959-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T10:48:36.951-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1826,7 +1910,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-04-22T05:45:53.243-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:39.452-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1839,7 +1923,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-04-22T05:45:53.243-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T08:46:26.931-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1851,7 +1935,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-05-28T04:13:47.389-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T08:46:26.931-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1862,7 +1946,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T07:33:51.921-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:48:39.452-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1872,7 +1956,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T07:33:51.943-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T07:33:51.943-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1882,7 +1966,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T07:33:52.066-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T07:33:52.066-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1892,7 +1976,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T07:33:52.093-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.876-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T07:33:52.093-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1902,7 +1986,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T07:33:52.116-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.877-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T07:33:52.116-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1912,7 +1996,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T10:48:39.455-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-06-08T21:36:05.232-05:00
+          'mgnl:lastActivated': 2020-06-14T21:17:53.877-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T10:48:39.455-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1923,7 +2007,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2018-03-27T04:02:36.701-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-06-08T21:36:05.060-05:00
+    'mgnl:lastActivated': 2020-06-14T21:17:53.687-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-08T17:38:00.483-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -1935,7 +2019,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:02:45.786-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.687-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:03:06.652-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1945,7 +2029,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:03:06.654-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:03:06.654-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1956,7 +2040,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:02:45.924-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+      'mgnl:lastActivated': 2020-06-14T21:17:53.687-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:02:46.822-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1966,7 +2050,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.032-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.032-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1976,7 +2060,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.468-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.688-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.468-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1986,7 +2070,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.707-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.688-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.707-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1996,7 +2080,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.831-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-06-08T21:36:05.061-05:00
+        'mgnl:lastActivated': 2020-06-14T21:17:53.688-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.831-05:00
         'mgnl:lastModifiedBy': 'superuser'
