@@ -7,7 +7,7 @@
     <!-- Tutor Teaser -->
     <div class="${additionalWrapperClass}">
 
-       <div class="col-md-6 course-card card">
+       <div class="col-md-4 course-card card">
           <div class="course-card-background">
               ${imageHtml}
           </div>
@@ -22,10 +22,12 @@
           </a>
        </div>
 
-       <div class="col-md-6">
+       <div class="col-md-8">
           <div><h3>Personal Profile<h3></div>
           <div>
-            ${tutor.profile!}
+            [#if tutor.profile?has_content]
+                ${cmsfn.decode(tutor.profile).text}
+            [/#if]
           </div>
        </div>
 
