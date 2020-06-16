@@ -2,7 +2,7 @@
 [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
 
 [#assign category = videofn.categoryByUrl]
-[#assign imageHtml][@responsiveImageMain category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
+[#assign imageHtml][@responsiveImageLandscape category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
 [#assign assetCredit = category.image.caption!]
 
 [#-------------- RENDERING --------------]

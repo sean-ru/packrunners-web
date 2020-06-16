@@ -92,3 +92,27 @@ imaging:
       class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
       height: 180
       width: 240
+    "1200x1600":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 1600
+      width: 1200
+    "1024x1366":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 1366
+      width: 1024
+    "720x960":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 960
+      width: 720
+    "360x480":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 480
+      width: 360
+    "240x320":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 320
+      width: 240
+    "180x240":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      height: 240
+      width: 180

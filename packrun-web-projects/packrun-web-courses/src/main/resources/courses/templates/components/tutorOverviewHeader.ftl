@@ -2,7 +2,7 @@
 [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
 
 [#assign category = tutorfn.categoryByUrl]
-[#assign imageHtml][@responsiveImageMain category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
+[#assign imageHtml][@responsiveImagePortrait category.image "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
 [#assign assetCredit = category.image.caption!]
 
 [#-------------- RENDERING --------------]

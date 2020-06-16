@@ -39,7 +39,7 @@
         [/#if]
 
         [#assign constrainAspectRatio = (content.constrainAspectRatio!false)]
-        [@responsiveImageMain image.asset imageAlt imageTitle imgClass "" constrainAspectRatio /]
+        [@responsiveImageLandscape image.asset imageAlt imageTitle imgClass "" constrainAspectRatio /]
 
         [#if imageCaption?has_content || imageCredit?has_content]
             [#if imageCaption?has_content]
@@ -55,7 +55,7 @@
 
 
 [#-- Macro to render a responsive image with the variations configured in the theme. --]
-[#macro responsiveImageMain asset  alt="" title="" cssClass="" additional="" constrainAspectRatio=false]
+[#macro responsiveImageLandscape asset  alt="" title="" cssClass="" additional="" constrainAspectRatio=false]
 
     [#if constrainAspectRatio ]
         [#assign srcs = [
@@ -65,6 +65,31 @@
             {"name":"1600x1200", "width":"1600"}]]
 
         [#assign fallback="960x720"]
+
+        [@responsiveImageLazySizes asset alt title cssClass srcs fallback additional /]
+    [#else]
+        [#assign srcs = [
+            {"name":"480", "width":"480"},
+            {"name":"960", "width":"960"},
+            {"name":"1366","width":"1366"},
+            {"name":"1600","width":"1600"}]]
+
+        [#assign fallback="960"]
+
+        [@responsiveImageLazySizes asset alt title cssClass srcs fallback additional /]
+    [/#if]
+[/#macro]
+
+[#macro responsiveImagePortrait asset  alt="" title="" cssClass="" additional="" constrainAspectRatio=false]
+
+    [#if constrainAspectRatio ]
+        [#assign srcs = [
+            {"name":"360x480", "width":"360"},
+            {"name":"720x960", "width":"720"},
+            {"name":"1024x1366","width":"1024"},
+            {"name":"1200x1600", "width":"1200"}]]
+
+        [#assign fallback="720x960"]
 
         [@responsiveImageLazySizes asset alt title cssClass srcs fallback additional /]
     [#else]
