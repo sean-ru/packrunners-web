@@ -12,9 +12,7 @@
               ${imageHtml}
           </div>
           <a class="course-card-anchor" href="${tutor.link!}">
-              <div class="course-card-content-shader"></div>
               <div class="course-card-content">
-                  <h3>${tutor.name!}</h3>
                   <div class="card-button">
                       <div class="btn btn-primary">${i18n['tutor.view']}</div>
                   </div>
@@ -23,10 +21,10 @@
        </div>
 
        <div class="col-md-8">
-          <div><h3>Personal Profile<h3></div>
+          <div><h3>${tutor.name!}<h3></div>
           <div>
             [#if tutor.profile?has_content]
-                ${cmsfn.decode(tutor.profile).text}
+                ${tutor.profile!}
             [/#if]
           </div>
        </div>

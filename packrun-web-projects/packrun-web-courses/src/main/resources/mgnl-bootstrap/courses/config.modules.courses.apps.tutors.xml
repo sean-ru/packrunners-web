@@ -1567,13 +1567,16 @@
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
                   <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.RichTextFieldDefinition</sv:value>
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
                   </sv:property>
                   <sv:property sv:name="i18n" sv:type="String">
                     <sv:value>true</sv:value>
                   </sv:property>
                   <sv:property sv:name="required" sv:type="String">
                     <sv:value>false</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="rows" sv:type="String">
+                    <sv:value>10</sv:value>
                   </sv:property>
                 </sv:node>
                 <sv:node sv:name="email">
