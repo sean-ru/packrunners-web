@@ -4,8 +4,8 @@ import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;
 import org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition;
 import org.packrunners.courses.service.Category;
-import org.packrunners.courses.service.Tutor;
-import org.packrunners.courses.service.TutorServices;
+import org.packrunners.courses.service.Video;
+import org.packrunners.courses.service.VideoServices;
 
 import javax.inject.Inject;
 import javax.jcr.Node;
@@ -20,29 +20,29 @@ import java.util.List;
 public class VideoListModel<RD extends CourseCategoryTemplateDefinition> extends
     RenderingModelImpl<RD> {
 
-  private final TutorServices tutorServices;
+  private final VideoServices videoServices;
 
   @Inject
   public VideoListModel(Node content, RD definition, RenderingModel<?> parent,
-                        TutorServices tutorServices) {
+                        VideoServices videoServices) {
     super(content, definition, parent);
 
-    this.tutorServices = tutorServices;
+    this.videoServices = videoServices;
   }
 
   public Category getCategoryByUrl() {
-    return tutorServices.getCategoryByUrl();
+    return videoServices.getCategoryByUrl();
   }
 
   public Category getCategoryByName(String categoryName) {
-    return tutorServices.getCategoryByName(categoryName);
+    return videoServices.getCategoryByName(categoryName);
   }
 
-  public List<Tutor> getTutorsBySchool(String identifier) {
-    return tutorServices.getTutorsBySchool(definition.getCategory(), identifier);
+  public List<Video> getVideosByCourseName(String identifier) {
+    return videoServices.getVideosByCourseName(definition.getCategory(), identifier);
   }
 
-  protected TutorServices getTutorServices() {
-    return tutorServices;
+  protected VideoServices getVideoServices() {
+    return videoServices;
   }
 }

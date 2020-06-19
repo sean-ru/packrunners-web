@@ -16,13 +16,15 @@ public class StudyGuide {
   public static final String PROPERTY_NAME_AUTHOR = "author";
   public static final String PROPERTY_NAME_COURSE_NAMES = "courseNames";
   public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
+  public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
   public static final String PROPERTY_NAME_ATTACHMENTS = "attachments";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
-  public static final String PROPERTY_NAME_SCHOOL = "school";
+  public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+  public static final String PROPERTY_NAME_SCHOOLS = "schools";
 
   private String name;
   private String content;
   private String author;
+  private List<Category> courseNumbers;
   private Date lastModifiedDate;
   private String identifier;
   private String link;
@@ -109,5 +111,13 @@ public class StudyGuide {
 
   public void setLink(String link) {
     this.link = link;
+  }
+
+  public List<Category> getCourseNumbers() {
+    return courseNumbers;
+  }
+
+  public void setCourseNumbers(List<Category> courseNumbers) {
+    this.courseNumbers = courseNumbers;
   }
 }

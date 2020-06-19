@@ -222,15 +222,15 @@ public class StudyGuideServices {
           studyGuide.setAttachments(assetList);
         }
 
-        if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_TYPE)) {
+        if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_TYPES)) {
           final List<Category> courseTypes = getCategories(studyGuideNode,
-              StudyGuide.PROPERTY_NAME_COURSE_TYPE);
+              StudyGuide.PROPERTY_NAME_COURSE_TYPES);
           studyGuide.setCourseTypes(courseTypes);
         }
 
-        if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_SCHOOL)) {
+        if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_SCHOOLS)) {
           final List<Category> schools = getCategories(studyGuideNode,
-              StudyGuide.PROPERTY_NAME_SCHOOL);
+              StudyGuide.PROPERTY_NAME_SCHOOLS);
           studyGuide.setSchools(schools);
         }
 

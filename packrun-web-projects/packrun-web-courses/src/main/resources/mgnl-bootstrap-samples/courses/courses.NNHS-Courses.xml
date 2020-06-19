@@ -3,14 +3,32 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:folder</sv:value>
   </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mgnl:hasVersion</sv:value>
+  </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>5288a0c7-1334-4093-b011-d290d00c7252</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:created" sv:type="Date">
     <sv:value>2020-05-27T16:06:19.986-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:createdBy" sv:type="String">
     <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2020-06-15T11:03:51.963-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+    <sv:value>1.0</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+    <sv:value>2020-06-15T11:03:50.402-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
     <sv:value>2020-05-27T16:06:34.163-05:00</sv:value>
@@ -28,12 +46,12 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>58509728-343c-4f5c-a35b-a08d47d639d7</sv:value>
     </sv:property>
-    <sv:property sv:name="courseNumber" sv:type="String">
-      <sv:value>B10011, B10012</sv:value>
+    <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
+      <sv:value>58be148c-ad06-42a1-9865-281d49263c99</sv:value>
+      <sv:value>4b8a6253-173e-47da-b2c8-eacfe56805a3</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
       <sv:value>b5ef3220-2931-4bef-a3d8-7b1b236ccdb1</sv:value>
-      <sv:value>69c0d42a-8a59-43ac-9458-805e8ffd9281</sv:value>
     </sv:property>
     <sv:property sv:name="credit" sv:type="String">
       <sv:value>0.50</sv:value>
@@ -64,19 +82,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:39.058-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:55.412-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.0</sv:value>
+      <sv:value>1.1</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:37.916-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:34.643-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T16:06:38.869-05:00</sv:value>
+      <sv:value>2020-06-18T18:24:18.498-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -104,8 +122,9 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>034c05a3-0de5-4577-818a-e7d23df1f696</sv:value>
     </sv:property>
-    <sv:property sv:name="courseNumber" sv:type="String">
-      <sv:value>M19011 – M19012</sv:value>
+    <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
+      <sv:value>ac2b9da9-4527-4c3c-bba8-68a11e64abd6</sv:value>
+      <sv:value>5b375a12-b37d-4ec0-a410-799d74d678b7</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
       <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
@@ -139,19 +158,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:41.247-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:59.216-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.0</sv:value>
+      <sv:value>1.1</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:41.098-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:58.604-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T16:06:40.531-05:00</sv:value>
+      <sv:value>2020-06-18T18:24:36.229-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -179,8 +198,9 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>bbf841a0-f9c4-43ac-ad71-1c0fe9f21460</sv:value>
     </sv:property>
-    <sv:property sv:name="courseNumber" sv:type="String">
-      <sv:value>S600A1 – S600A2</sv:value>
+    <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
+      <sv:value>d8938d68-626f-41d3-9671-98feaa29514c</sv:value>
+      <sv:value>1404cdfa-356c-4099-a78d-51712f733e64</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
       <sv:value>61c823ed-8660-4f30-a1f9-7847c2f3afb5</sv:value>
@@ -214,19 +234,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:43.679-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:01.703-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.0</sv:value>
+      <sv:value>1.1</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:43.531-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:01.531-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T16:06:41.834-05:00</sv:value>
+      <sv:value>2020-06-18T18:24:54.898-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -254,8 +274,9 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>29466d2f-f129-41e1-80bb-a7eae2b774fe</sv:value>
     </sv:property>
-    <sv:property sv:name="courseNumber" sv:type="String">
-      <sv:value>T150A1-T150A2</sv:value>
+    <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
+      <sv:value>dca3f896-ccc2-4018-96c4-ed7c2c1b2b22</sv:value>
+      <sv:value>f46a008d-aac5-4d3b-8674-28ad26a466d2</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
       <sv:value>d6e2c895-309b-4d68-9fa1-2e5e444d6afd</sv:value>
@@ -289,19 +310,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:45.328-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:03.617-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.0</sv:value>
+      <sv:value>1.1</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:45.216-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:03.484-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T16:06:43.072-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:09.560-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -329,8 +350,9 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>9a43a511-db14-4b51-899a-6379547175b6</sv:value>
     </sv:property>
-    <sv:property sv:name="courseNumber" sv:type="String">
-      <sv:value>W82011 – W82012</sv:value>
+    <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
+      <sv:value>8ebd7821-6428-4621-a6cb-1d9236455317</sv:value>
+      <sv:value>66006611-ea08-471f-bdf8-53b53781b24b</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
       <sv:value>e3f20e52-0227-4ddb-b70b-f87943d51310</sv:value>
@@ -364,19 +386,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:46.664-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:05.202-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.0</sv:value>
+      <sv:value>1.1</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-05-27T16:04:46.581-05:00</sv:value>
+      <sv:value>2020-06-18T18:26:05.033-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-05-27T16:06:44.203-05:00</sv:value>
+      <sv:value>2020-06-18T18:25:25.114-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>

@@ -1,2 +1,4 @@
 courseFinder:
   id: courses:components/courseFinder
+videoList:
+  id: courses:components/videoList
