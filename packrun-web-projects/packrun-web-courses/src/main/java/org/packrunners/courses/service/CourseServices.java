@@ -65,7 +65,8 @@ public class CourseServices {
    * <code>/page~category_name~.html</code>).
    */
   public Category getCategoryByUrl() {
-    final String categoryName = StringUtils.defaultIfBlank(SelectorUtil.getSelector(0), DEFAULT_COURSE_TYPE);
+    final String categoryName = StringUtils
+        .defaultIfBlank(SelectorUtil.getSelector(0), DEFAULT_COURSE_TYPE);
     return getCategoryByName(categoryName);
   }
 
@@ -194,8 +195,9 @@ public class CourseServices {
           Property description = courseNode.getProperty(Course.PROPERTY_NAME_DESCRIPTION);
           if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
             try {
-              String bodyWithResolvedLinks = LinkUtil.convertLinksFromUUIDPattern(description.getString(),
-                  linkTransformerManager.getBrowserLink(courseNode.getPath()));
+              String bodyWithResolvedLinks = LinkUtil
+                  .convertLinksFromUUIDPattern(description.getString(),
+                      linkTransformerManager.getBrowserLink(courseNode.getPath()));
               course.setDescription(bodyWithResolvedLinks);
             } catch (LinkException e) {
               log.warn("Failed to parse links with from {}", description.getName(), e);
@@ -205,8 +207,10 @@ public class CourseServices {
           }
         }
 
-        if (courseNode.hasProperty(Course.PROPERTY_NAME_COURSE_NUMBER)) {
-          course.setCourseNumber(courseNode.getProperty(Course.PROPERTY_NAME_COURSE_NUMBER).getString());
+        if (courseNode.hasProperty(Course.PROPERTY_NAME_COURSE_NUMBERS)) {
+          final List<Category> courseNumbers = getCategories(courseNode,
+              Course.PROPERTY_NAME_COURSE_NUMBERS);
+          course.setCourseNumbers(courseNumbers);
         }
 
         if (courseNode.hasProperty(Course.PROPERTY_NAME_WEIGHTED)) {
@@ -214,7 +218,8 @@ public class CourseServices {
         }
 
         if (courseNode.hasProperty(Course.PROPERTY_NAME_PREREQUISITE)) {
-          course.setPrerequisite(courseNode.getProperty(Course.PROPERTY_NAME_PREREQUISITE).getString());
+          course.setPrerequisite(
+              courseNode.getProperty(Course.PROPERTY_NAME_PREREQUISITE).getString());
         }
 
         if (courseNode.hasProperty(Course.PROPERTY_NAME_DURATION)) {
@@ -235,23 +240,25 @@ public class CourseServices {
 
         if (courseNode.hasProperty(Course.PROPERTY_NAME_IMAGE)) {
           course.setImage(
-              damFunctions.getAsset(courseNode.getProperty(Course.PROPERTY_NAME_IMAGE).getString()));
+              damFunctions
+                  .getAsset(courseNode.getProperty(Course.PROPERTY_NAME_IMAGE).getString()));
         }
 
         if (courseNode.hasProperty(Course.PROPERTY_NAME_SYLLABUS)) {
           course.setSyllabus(
-              damFunctions.getAsset(courseNode.getProperty(Course.PROPERTY_NAME_SYLLABUS).getString()));
+              damFunctions
+                  .getAsset(courseNode.getProperty(Course.PROPERTY_NAME_SYLLABUS).getString()));
         }
 
-        if (courseNode.hasProperty(Course.PROPERTY_NAME_COURSE_TYPE)) {
+        if (courseNode.hasProperty(Course.PROPERTY_NAME_COURSE_TYPES)) {
           final List<Category> courseTypes = getCategories(courseNode,
-              Course.PROPERTY_NAME_COURSE_TYPE);
+              Course.PROPERTY_NAME_COURSE_TYPES);
           course.setCourseTypes(courseTypes);
         }
 
-        if (courseNode.hasProperty(Course.PROPERTY_NAME_SCHOOL)) {
+        if (courseNode.hasProperty(Course.PROPERTY_NAME_SCHOOLS)) {
           final List<Category> schools = getCategories(courseNode,
-              Course.PROPERTY_NAME_SCHOOL);
+              Course.PROPERTY_NAME_SCHOOLS);
           course.setSchools(schools);
         }
 
@@ -306,7 +313,8 @@ public class CourseServices {
 
       if (courseTypeOverviewPage != null) {
         return templatingFunctions.link(courseTypeOverviewPage).replace(".html",
-            SelectorUtil.SELECTOR_DELIMITER + categoryName + SelectorUtil.SELECTOR_DELIMITER + ".html");
+            SelectorUtil.SELECTOR_DELIMITER + categoryName + SelectorUtil.SELECTOR_DELIMITER
+                + ".html");
       }
     } catch (RepositoryException e) {
       log.warn("Can't get courseTypeOverviewPage page link [subType={}]", featureSubType, e);
@@ -341,7 +349,7 @@ public class CourseServices {
       final Node node = getCourseNodeByParameter();
 
       for (Node categoryNode : categorizationTemplatingFunctions
-          .getCategories(node, Course.PROPERTY_NAME_COURSE_TYPE)) {
+          .getCategories(node, Course.PROPERTY_NAME_COURSE_TYPES)) {
         final Category category = marshallCategoryNode(categoryNode);
         if (category != null) {
           categories.add(category);
@@ -378,7 +386,8 @@ public class CourseServices {
       }
 
     } catch (RepositoryException e) {
-      log.error("Could not get related courses by category identifier [{}={}].", categoryPropertyName,
+      log.error("Could not get related courses by category identifier [{}={}].",
+          categoryPropertyName,
           identifier, e);
     }
 

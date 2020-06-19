@@ -35,7 +35,7 @@ import java.util.List;
 public class VideoServices {
 
   public static final String VIDEO_QUERY_PARAMETER = "video";
-  public static final String DEFAULT_COURSE = "HA2";
+  public static final String DEFAULT_COURSE = "Honors-Algebra-2";
 
   private final CoursesModule coursesModule;
   private final TemplateTypeHelper templateTypeHelper;
@@ -170,7 +170,7 @@ public class VideoServices {
   }
 
   /**
-   * Creates a {@link video} from a {@link Node}.
+   * Creates a {@link Video} from a {@link Node}.
    */
   public Video marshallVideoNode(Node videoNodeRaw) {
     Video video = null;
@@ -259,12 +259,12 @@ public class VideoServices {
     return null;
   }
 
-  public List<Video> getVideosBySchool(String categoryPropertyName, String identifier) {
+  public List<Video> getVideosByCourseName(String categoryPropertyName, String identifier) {
 
     final List<Video> videos = new LinkedList<>();
 
     try {
-      final Session session = MgnlContext.getJCRSession(CoursesModule.TUTORS_REPOSITORY_NAME);
+      final Session session = MgnlContext.getJCRSession(CoursesModule.VIDEOS_REPOSITORY_NAME);
       String query = String.format("%s LIKE '%%%s%%'", categoryPropertyName, identifier);
 
       final List<Node> videoNodes = templateTypeHelper

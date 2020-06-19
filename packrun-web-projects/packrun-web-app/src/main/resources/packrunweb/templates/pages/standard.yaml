@@ -29,6 +29,8 @@ areas:
         id: packrunweb:components/carousel
       video:
         id: mtk:components/video
+      videoList:
+        id: packrunweb:components/videoList
       social:
         id: packrunweb:components/social
       columnLayout:

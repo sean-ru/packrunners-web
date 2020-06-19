@@ -12,7 +12,7 @@ public class Course {
   public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_DESCRIPTION = "description";
   public static final String PROPERTY_NAME_IMAGE = "image";
-  public static final String PROPERTY_NAME_COURSE_NUMBER = "courseNumber";
+  public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
   public static final String PROPERTY_NAME_WEIGHTED = "weighted";
   public static final String PROPERTY_NAME_PREREQUISITE = "prerequisite";
   public static final String PROPERTY_NAME_LEVEL = "level";
@@ -20,12 +20,12 @@ public class Course {
   public static final String PROPERTY_NAME_CREDIT = "credit";
   public static final String PROPERTY_NAME_TEACHERS = "teachers";
   public static final String PROPERTY_NAME_SYLLABUS = "syllabus";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseTypes";
-  public static final String PROPERTY_NAME_SCHOOL = "schools";
+  public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+  public static final String PROPERTY_NAME_SCHOOLS = "schools";
 
   private String name;
   private String description;
-  private String courseNumber;
+  private List<Category> courseNumbers;
   private Boolean weighted;
   private String prerequisite;
   private String level;
@@ -53,14 +53,6 @@ public class Course {
 
   public void setDescription(String description) {
     this.description = description;
-  }
-
-  public String getCourseNumber() {
-    return courseNumber;
-  }
-
-  public void setCourseNumber(String courseNumber) {
-    this.courseNumber = courseNumber;
   }
 
   public Boolean getWeighted() {
@@ -159,4 +151,11 @@ public class Course {
     this.identifier = identifier;
   }
 
+  public List<Category> getCourseNumbers() {
+    return courseNumbers;
+  }
+
+  public void setCourseNumbers(List<Category> courseNumbers) {
+    this.courseNumbers = courseNumbers;
+  }
 }

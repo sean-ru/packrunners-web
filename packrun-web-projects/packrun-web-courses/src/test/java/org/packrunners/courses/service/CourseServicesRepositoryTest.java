@@ -102,14 +102,14 @@ public class CourseServicesRepositoryTest extends RepositoryTestCase {
     final Node node = NodeUtil
         .createPath(courseSession.getRootNode(), "/another-test", NodeTypes.Content.NAME);
     node.setProperty("isFeatured", true);
-    node.setProperty(Course.PROPERTY_NAME_COURSE_TYPE,
+    node.setProperty(Course.PROPERTY_NAME_COURSE_TYPES,
         new String[]{referenceNode.getIdentifier()});
 
     courseSession.save(); // Need to save, running a query afterwards
 
     // WHEN
     final List<Course> courses = courseServices
-        .getCoursesByCategory(Course.PROPERTY_NAME_COURSE_TYPE,
+        .getCoursesByCategory(Course.PROPERTY_NAME_COURSE_TYPES,
             referenceNode.getIdentifier(), true);
 
     // THEN

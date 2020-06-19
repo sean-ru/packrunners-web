@@ -1,14 +1,13 @@
 [#-------------- ASSIGNMENTS --------------]
-[#include "/courses/templates/macros/videoTeaser.ftl"]
 [#include "/packrunweb/templates/macros/editorAlert.ftl" /]
 
 [#if def.parameters.school??]
-    [#assign category = model.getCategoryByName(def.parameters.school)]
+    [#assign category = model.getCategoryByName(def.parameters.courseName)]
 [#else]
     [#assign category = model.getCategoryByUrl()!]
 [/#if]
 
-[#assign videos = model.getvideosBySchool(category.identifier)]
+[#assign videos = model.getVideosByCourseName(category.identifier)]
 [#assign title = content.title!i18n.get('video.all.videos', [category.name!""])!]
 
 [#-------------- RENDERING --------------]
@@ -19,7 +18,8 @@
 
     <div class="row">
         [#list videos as video]
-            [@videoTeaser video /]
+                ${video.name!}</h3>
+            </a>
         [/#list]
     </div>
 

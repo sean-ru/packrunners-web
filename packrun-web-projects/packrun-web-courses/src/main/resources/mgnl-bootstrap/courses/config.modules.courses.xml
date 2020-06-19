@@ -10,8 +10,8 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
     </sv:property>
-    <sv:property sv:name="courseRootNode" sv:type="String">
-      <sv:value>courses</sv:value>
+    <sv:property sv:name="courseNumberRootNode" sv:type="String">
+      <sv:value>course-numbers</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypeRootNode" sv:type="String">
       <sv:value>course-types</sv:value>
@@ -1564,15 +1564,26 @@
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
-                      <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                      <sv:property sv:name="description" sv:type="String">
+                        <sv:value>courses.detail.editor.courseTypes.description</sv:value>
                       </sv:property>
-                      <sv:property sv:name="i18n" sv:type="String">
-                        <sv:value>true</sv:value>
+                      <sv:property sv:name="extends" sv:type="String">
+                        <sv:value>/modules/categorization/dialogs/generic/tabCategorization/fields/categories</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>courses.detail.editor.courseNumbers.label</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
                         <sv:value>true</sv:value>
                       </sv:property>
+                      <sv:node sv:name="field">
+                        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                          <sv:value>mgnl:contentNode</sv:value>
+                        </sv:property>
+                        <sv:property sv:name="targetTreeRootPath" sv:type="String">
+                          <sv:value>/course-numbers</sv:value>
+                        </sv:property>
+                      </sv:node>
                     </sv:node>
                     <sv:node sv:name="isWeighted">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3467,19 +3478,30 @@
                         <sv:value>Date</sv:value>
                       </sv:property>
                     </sv:node>
-                    <sv:node sv:name="course">
+                    <sv:node sv:name="courseNumbers">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
-                      <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                      <sv:property sv:name="description" sv:type="String">
+                        <sv:value>courses.detail.editor.courseNumbers.description</sv:value>
                       </sv:property>
-                      <sv:property sv:name="i18n" sv:type="String">
-                        <sv:value>true</sv:value>
+                      <sv:property sv:name="extends" sv:type="String">
+                        <sv:value>/modules/categorization/dialogs/generic/tabCategorization/fields/categories</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>courses.detail.editor.courseNumbers.label</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
                         <sv:value>true</sv:value>
                       </sv:property>
+                      <sv:node sv:name="field">
+                        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                          <sv:value>mgnl:contentNode</sv:value>
+                        </sv:property>
+                        <sv:property sv:name="targetTreeRootPath" sv:type="String">
+                          <sv:value>/course-numbers</sv:value>
+                        </sv:property>
+                      </sv:node>
                     </sv:node>
                   </sv:node>
                 </sv:node>
@@ -4975,7 +4997,7 @@
                         <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
-                        <sv:value>true</sv:value>
+                        <sv:value>false</sv:value>
                       </sv:property>
                       <sv:property sv:name="targetWorkspace" sv:type="String">
                         <sv:value>dam</sv:value>
@@ -5008,7 +5030,7 @@
                         <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
-                        <sv:value>true</sv:value>
+                        <sv:value>false</sv:value>
                       </sv:property>
                       <sv:property sv:name="targetTreeRootPath" sv:type="String">
                         <sv:value>/svg-icons</sv:value>
@@ -8361,25 +8383,25 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
-                    <sv:node sv:name="courses">
+                    <sv:node sv:name="courseNumbers">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="description" sv:type="String">
-                        <sv:value>courses.detail.editor.courses.description</sv:value>
+                        <sv:value>courses.detail.editor.courseNumbers.description</sv:value>
                       </sv:property>
                       <sv:property sv:name="extends" sv:type="String">
                         <sv:value>/modules/categorization/dialogs/generic/tabCategorization/fields/categories</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>courses.detail.editor.courses.label</sv:value>
+                        <sv:value>courses.detail.editor.courseNumbers.label</sv:value>
                       </sv:property>
                       <sv:node sv:name="field">
                         <sv:property sv:name="jcr:primaryType" sv:type="Name">
                           <sv:value>mgnl:contentNode</sv:value>
                         </sv:property>
                         <sv:property sv:name="targetTreeRootPath" sv:type="String">
-                          <sv:value>/courses</sv:value>
+                          <sv:value>/course-numbers</sv:value>
                         </sv:property>
                       </sv:node>
                     </sv:node>

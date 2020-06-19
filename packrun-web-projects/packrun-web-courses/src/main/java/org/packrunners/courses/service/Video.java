@@ -13,14 +13,15 @@ public class Video {
 
   public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
   public static final String PROPERTY_NAME_AUTHOR = "author";
-  public static final String PROPERTY_NAME_COURSE = "course";
+  public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
   public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
   public static final String PROPERTY_NAME_ATTACHMENTS = "video";
-  public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
-  public static final String PROPERTY_NAME_SCHOOL = "school";
+  public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+  public static final String PROPERTY_NAME_SCHOOLS = "schools";
   private String name;
   private String author;
-  private List<Category> courses;
+  private List<Category> courseNumbers;
+  private List<Category> courseTypes;
   private List<Category> schools;
   private Date lastModifiedDate;
   private Asset video;
@@ -60,14 +61,6 @@ public class Video {
     this.author = author;
   }
 
-  public List<Category> getCourses() {
-    return courses;
-  }
-
-  public void setCourses(List<Category> courses) {
-    this.courses = courses;
-  }
-
   public Date getLastModifiedDate() {
     return lastModifiedDate;
   }
@@ -92,4 +85,19 @@ public class Video {
     this.schools = schools;
   }
 
+  public List<Category> getCourseNumbers() {
+    return courseNumbers;
+  }
+
+  public void setCourseNumbers(List<Category> courseNumbers) {
+    this.courseNumbers = courseNumbers;
+  }
+
+  public List<Category> getCourseTypes() {
+    return courseTypes;
+  }
+
+  public void setCourseTypes(List<Category> courseTypes) {
+    this.courseTypes = courseTypes;
+  }
 }
