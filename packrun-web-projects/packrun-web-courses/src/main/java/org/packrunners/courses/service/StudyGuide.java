@@ -14,8 +14,8 @@ public class StudyGuide {
   public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
   public static final String PROPERTY_NAME_CONTENT = "content";
   public static final String PROPERTY_NAME_AUTHOR = "author";
-  public static final String PROPERTY_NAME_COURSE = "course";
-  public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
+  public static final String PROPERTY_NAME_COURSE_NAMES = "courseNames";
+  public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
   public static final String PROPERTY_NAME_ATTACHMENTS = "attachments";
   public static final String PROPERTY_NAME_COURSE_TYPE = "courseType";
   public static final String PROPERTY_NAME_SCHOOL = "school";
@@ -23,11 +23,13 @@ public class StudyGuide {
   private String name;
   private String content;
   private String author;
-  private Course course;
   private Date lastModifiedDate;
+  private String identifier;
+  private String link;
   private List<Asset> attachments;
   private List<Category> schools;
   private List<Category> courseTypes;
+  private List<Category> courseNames;
 
   public String getName() {
     return name;
@@ -53,12 +55,12 @@ public class StudyGuide {
     this.author = author;
   }
 
-  public Course getCourse() {
-    return course;
+  public List<Category> getCourseNames() {
+    return courseNames;
   }
 
-  public void setCourse(Course course) {
-    this.course = course;
+  public void setCourseNames(List<Category> courseNames) {
+    this.courseNames = courseNames;
   }
 
   public Date getLastModifiedDate() {
@@ -91,5 +93,21 @@ public class StudyGuide {
 
   public void setCourseTypes(List<Category> courseTypes) {
     this.courseTypes = courseTypes;
+  }
+
+  public String getIdentifier() {
+    return identifier;
+  }
+
+  public void setIdentifier(String identifier) {
+    this.identifier = identifier;
+  }
+
+  public String getLink() {
+    return link;
+  }
+
+  public void setLink(String link) {
+    this.link = link;
   }
 }

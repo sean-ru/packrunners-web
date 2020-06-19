@@ -10,7 +10,7 @@
     <sv:value>course-types</sv:value>
   </sv:property>
   <sv:property sv:name="defaultCourseName" sv:type="String">
-    <sv:value>What a wonderful course!</sv:value>
+    <sv:value>Honors Algebra 2</sv:value>
   </sv:property>
   <sv:property sv:name="resourceTypeRootNode" sv:type="String">
     <sv:value>resource-types</sv:value>
