@@ -2,7 +2,10 @@ package org.packrunners.courses.model;
 
 import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 import javax.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
@@ -13,6 +16,7 @@ import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 import org.packrunners.courses.service.StudyGuide;
 import org.packrunners.courses.service.StudyGuideServices;
+import org.packrunners.courses.service.Video;
 import org.packrunners.courses.service.VideoServices;
 
 
@@ -48,19 +52,32 @@ public class CourseDetailModel<RD extends CourseCategoryTemplateDefinition> exte
     return null;
   }
 
-  public List<StudyGuide> getStudyGuidesByCourseName(String courseName) {
-    Category courseNameCategory = studyGuideServices.getCategoryByName(courseName);
-    return studyGuideServices.getStudyGuidesByCategory(definition.getCategory(), courseNameCategory.getIdentifier());
+  public List<StudyGuide> getStudyGuidesByCourseNumber(List<Category> courseNumbers) {
+    List<StudyGuide> studyGuides = new ArrayList<>();
+    if (courseNumbers != null && !courseNumbers.isEmpty()) {
+      studyGuides = courseNumbers.stream().map(category -> {
+        String categoryName = definition.getCategory();
+        String identifier = category.getIdentifier();
+        return studyGuideServices.getStudyGuidesByCategory(categoryName, identifier);
+      })
+          .flatMap(Collection::stream)
+          .collect(Collectors.toList());
+    }
+    return studyGuides;
   }
-/*
 
-  public List<Video> getVideos() {
-    return courseServices.getCoursesByCategory(definition.getCategory(), identifier);
+  public List<Video> getVideosByCourseNumber(List<Category> courseNumbers) {
+    List<Video> videos = new ArrayList<>();
+    if (courseNumbers != null && !courseNumbers.isEmpty()) {
+      videos = courseNumbers.stream().map(category -> {
+        String categoryName = definition.getCategory();
+        String identifier = category.getIdentifier();
+        return videoServices.getVideosByCategory(categoryName, identifier);
+      })
+          .flatMap(Collection::stream)
+          .collect(Collectors.toList());
+    }
+    return videos;
   }
-
-  public List<Video> getQuizzes() {
-    return courseServices.getCoursesByCategory(definition.getCategory(), identifier);
-  }
-*/
 
 }

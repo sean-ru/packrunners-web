@@ -1529,12 +1529,12 @@
                     <sv:value>true</sv:value>
                   </sv:property>
                 </sv:node>
-                <sv:node sv:name="courseNumber">
+                <sv:node sv:name="courseNumbers">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
                   <sv:property sv:name="description" sv:type="String">
-                    <sv:value>courses.detail.editor.courseTypes.description</sv:value>
+                    <sv:value>courses.detail.editor.courseNumbers.description</sv:value>
                   </sv:property>
                   <sv:property sv:name="extends" sv:type="String">
                     <sv:value>/modules/categorization/dialogs/generic/tabCategorization/fields/categories</sv:value>
@@ -1554,7 +1554,7 @@
                     </sv:property>
                   </sv:node>
                 </sv:node>
-                <sv:node sv:name="isWeighted">
+                <sv:node sv:name="weighted">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1565,7 +1565,7 @@
                     <sv:value>true</sv:value>
                   </sv:property>
                   <sv:property sv:name="type" sv:type="String">
-                    <sv:value>Long</sv:value>
+                    <sv:value>Boolean</sv:value>
                   </sv:property>
                   <sv:node sv:name="options">
                     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1576,7 +1576,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
-                        <sv:value>0</sv:value>
+                        <sv:value>false</sv:value>
                       </sv:property>
                     </sv:node>
                     <sv:node sv:name="Yes">
@@ -1584,7 +1584,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
-                        <sv:value>1</sv:value>
+                        <sv:value>true</sv:value>
                       </sv:property>
                     </sv:node>
                   </sv:node>
@@ -1692,6 +1692,39 @@
                   </sv:property>
                   <sv:property sv:name="required" sv:type="String">
                     <sv:value>true</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="targetWorkspace" sv:type="String">
+                    <sv:value>dam</sv:value>
+                  </sv:property>
+                  <sv:node sv:name="identifierToPathConverter">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="class" sv:type="String">
+                      <sv:value>info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator</sv:value>
+                    </sv:property>
+                  </sv:node>
+                  <sv:node sv:name="contentPreviewDefinition">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="contentPreviewClass" sv:type="String">
+                      <sv:value>info.magnolia.dam.app.ui.field.DamFilePreviewComponent</sv:value>
+                    </sv:property>
+                  </sv:node>
+                </sv:node>
+                <sv:node sv:name="syllabus">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="appName" sv:type="String">
+                    <sv:value>assets</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="required" sv:type="String">
+                    <sv:value>false</sv:value>
                   </sv:property>
                   <sv:property sv:name="targetWorkspace" sv:type="String">
                     <sv:value>dam</sv:value>

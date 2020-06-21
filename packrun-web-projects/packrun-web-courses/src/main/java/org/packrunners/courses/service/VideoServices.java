@@ -259,7 +259,7 @@ public class VideoServices {
     return null;
   }
 
-  public List<Video> getVideosByCourseName(String categoryPropertyName, String identifier) {
+  public List<Video> getVideosByCategory(String categoryPropertyName, String identifier) {
 
     final List<Video> videos = new LinkedList<>();
 

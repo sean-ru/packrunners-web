@@ -39,7 +39,7 @@ public class VideoListModel<RD extends CourseCategoryTemplateDefinition> extends
   }
 
   public List<Video> getVideosByCourseName(String identifier) {
-    return videoServices.getVideosByCourseName(definition.getCategory(), identifier);
+    return videoServices.getVideosByCategory(definition.getCategory(), identifier);
   }
 
   protected VideoServices getVideoServices() {

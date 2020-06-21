@@ -19,7 +19,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-06-15T11:03:51.963-05:00</sv:value>
+    <sv:value>2020-06-14T22:00:48.810-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -28,7 +28,7 @@
     <sv:value>1.0</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-    <sv:value>2020-06-15T11:03:50.402-05:00</sv:value>
+    <sv:value>2020-06-14T22:00:48.592-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
     <sv:value>2020-05-27T16:06:34.163-05:00</sv:value>
@@ -47,7 +47,11 @@
       <sv:value>58509728-343c-4f5c-a35b-a08d47d639d7</sv:value>
     </sv:property>
     <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
-      <sv:value>58be148c-ad06-42a1-9865-281d49263c99</sv:value>
+      <sv:value>3e4ed0a2-bf72-4967-a694-0180c8a0c0ab</sv:value>
+      <sv:value>4b8a6253-173e-47da-b2c8-eacfe56805a3</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>3e4ed0a2-bf72-4967-a694-0180c8a0c0ab</sv:value>
       <sv:value>4b8a6253-173e-47da-b2c8-eacfe56805a3</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
@@ -82,19 +86,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T18:25:55.412-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:59.299-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.1</sv:value>
+      <sv:value>1.3</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-18T18:25:34.643-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:59.136-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T18:24:18.498-05:00</sv:value>
+      <sv:value>2020-06-20T19:52:59.126-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -111,6 +115,9 @@
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
     </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="Honors-Algebra-2">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -123,7 +130,11 @@
       <sv:value>034c05a3-0de5-4577-818a-e7d23df1f696</sv:value>
     </sv:property>
     <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
-      <sv:value>ac2b9da9-4527-4c3c-bba8-68a11e64abd6</sv:value>
+      <sv:value>1d6ef550-a0b9-4174-a073-e648b0d9ea58</sv:value>
+      <sv:value>5b375a12-b37d-4ec0-a410-799d74d678b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>1d6ef550-a0b9-4174-a073-e648b0d9ea58</sv:value>
       <sv:value>5b375a12-b37d-4ec0-a410-799d74d678b7</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
@@ -158,19 +169,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T18:25:59.216-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:02.916-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.1</sv:value>
+      <sv:value>1.3</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-18T18:25:58.604-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:02.838-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T18:24:36.229-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:12.205-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -187,6 +198,9 @@
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
     </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="AP-Physics-1">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -199,7 +213,11 @@
       <sv:value>bbf841a0-f9c4-43ac-ad71-1c0fe9f21460</sv:value>
     </sv:property>
     <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
-      <sv:value>d8938d68-626f-41d3-9671-98feaa29514c</sv:value>
+      <sv:value>cd5d2ae4-8fc7-483f-ac50-24e3f623dcd9</sv:value>
+      <sv:value>1404cdfa-356c-4099-a78d-51712f733e64</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>cd5d2ae4-8fc7-483f-ac50-24e3f623dcd9</sv:value>
       <sv:value>1404cdfa-356c-4099-a78d-51712f733e64</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
@@ -234,19 +252,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:01.703-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:05.238-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.1</sv:value>
+      <sv:value>1.3</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:01.531-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:05.180-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T18:24:54.898-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:25.427-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -263,6 +281,9 @@
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
     </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="AP-Human-Geography">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -275,7 +296,11 @@
       <sv:value>29466d2f-f129-41e1-80bb-a7eae2b774fe</sv:value>
     </sv:property>
     <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
-      <sv:value>dca3f896-ccc2-4018-96c4-ed7c2c1b2b22</sv:value>
+      <sv:value>4bf9c7a1-4404-4d6b-b248-ae71bd6d18fc</sv:value>
+      <sv:value>f46a008d-aac5-4d3b-8674-28ad26a466d2</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>4bf9c7a1-4404-4d6b-b248-ae71bd6d18fc</sv:value>
       <sv:value>f46a008d-aac5-4d3b-8674-28ad26a466d2</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
@@ -310,19 +335,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:03.617-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:07.504-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.1</sv:value>
+      <sv:value>1.3</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:03.484-05:00</sv:value>
+      <sv:value>2020-06-20T19:54:07.343-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T18:25:09.560-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:38.363-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -339,6 +364,9 @@
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
     </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="Spanish-2">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -351,7 +379,11 @@
       <sv:value>9a43a511-db14-4b51-899a-6379547175b6</sv:value>
     </sv:property>
     <sv:property sv:name="courseNumber" sv:type="String" sv:multiple="true">
-      <sv:value>8ebd7821-6428-4621-a6cb-1d9236455317</sv:value>
+      <sv:value>8399da41-8dcf-40cb-b6ff-3d74c80dfc78</sv:value>
+      <sv:value>f46a008d-aac5-4d3b-8674-28ad26a466d2</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>8399da41-8dcf-40cb-b6ff-3d74c80dfc78</sv:value>
       <sv:value>66006611-ea08-471f-bdf8-53b53781b24b</sv:value>
     </sv:property>
     <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
@@ -386,19 +418,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:05.202-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:56.007-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.1</sv:value>
+      <sv:value>1.3</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-18T18:26:05.033-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:50.550-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T18:25:25.114-05:00</sv:value>
+      <sv:value>2020-06-20T19:53:48.132-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -414,6 +446,9 @@
     </sv:property>
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
+    </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>true</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

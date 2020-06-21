@@ -10,11 +10,12 @@
     [#assign imageHtml][@responsiveImageLandscape asset "" "" "header-image" "data-ratio='1.33'" true /][/#assign]
 [/#if]
 
-[#assign studyGuides = model.getStudyGuidesByCourseName(course.name)]
-[#--
-[#assign videos = model.getVideos()]
-[#assign quizzes = model.getQuizzes()]
---]
+[#assign relatedCourseTypes = course.courseTypes!]
+[#assign relatedSchools = course.schools!]
+[#assign relatedCourseNumbers = course.courseNumbers!]
+[#assign studyGuides = model.getStudyGuidesByCourseNumber(course.courseNumbers)]
+[#assign videos = model.getVideosByCourseNumber(course.courseNumbers)]
+[#assign quizzes = []]
 
 [#-------------- RENDERING --------------]
 <!-- Course Detail -->
@@ -47,7 +48,7 @@
     <div class="row product-info product-summary">
 
         <div class="product-location">
-            [#list relateSchools as school]
+            [#list relatedSchools as school]
                  <div class="category-icon absolute-center-container">
                         <a href="${coursefn.getSchoolLink(content, school.nodeName)!'#'}">
                             [@courseTypeIcon school.icon school.name "absolute-center" /]
@@ -63,11 +64,13 @@
             </div>
             <div class="product-property">
                 <div class="property-label">${i18n.get('course.property.courseNumber')}</div>
-                <div class="property-value">${i18n.get('course.courseNumber', [course.courseNumber!])}</div>
+                [#list relatedCourseNumbers as courseNumber]
+                <div class="property-value">${courseNumber.name!}</div>
+                [/#list]
             </div>
             <div class="product-property">
                 <div class="property-label">${i18n.get('course.property.duration')}</div>
-                <div class="property-value">${i18n.get('course.duration', [course.duration!])}</div>
+                <div class="property-value">${course.duration!} Semester(s)</div>
             </div>
             <div class="product-property">
                 <div class="property-label">${i18n.get('course.property.credit')}</div>
@@ -98,20 +101,21 @@
             <p class="summary">${i18n.get('course.property.studyGuides')}</p>
             <hr style="margin-top:1px;"/>
             [#list studyGuides as studyGuide]
-               <div class="body">${studyGuide.name}}</div>
+               <div class="body">${studyGuide.name}</div>
             [/#list]
         </div>
     </div>
     [/#if]
 
-[#--
     [#if videos?has_content]
     <div class="row product-info">
         <div class="col-xs-10 col-xs-push-1 product-property">
             <p class="summary">${i18n.get('course.property.videos')}</p>
             <hr style="margin-top:1px;"/>
             [#list videos as video]
-                <div class="body">${video.name}}</div>
+                <a href="${video.link!}">
+                    <div class="body">${video.name}</div>
+                </a>
             [/#list]
         </div>
     </div>
@@ -129,7 +133,6 @@
     </div>
     [/#if]
 
---]
     [#if assetCredit?has_content]
         <div class="row product-info ">
             <div class="col-xs-10 col-xs-push-1 product-image-credit">
