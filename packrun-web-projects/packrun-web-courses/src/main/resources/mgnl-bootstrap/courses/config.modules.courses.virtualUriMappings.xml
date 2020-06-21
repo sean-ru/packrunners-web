@@ -17,4 +17,18 @@
       <sv:value>forward:/packrunners/course?course=$1</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="videosMapping">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping</sv:value>
+    </sv:property>
+    <sv:property sv:name="fromUri" sv:type="String">
+      <sv:value>^/videos(.*).html</sv:value>
+    </sv:property>
+    <sv:property sv:name="toUri" sv:type="String">
+      <sv:value>forward:/packrunners/videos/$1.html</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
