@@ -11,19 +11,19 @@
 <div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/filters.html'">
 </div>
 
-<!-- Results -->
+<!-- Course Results -->
 <div class="finder-list">
     <div class="finder-summary col-md-12">
         <span class="finder-count">{{ filteredCourses.length }}</span> {{ i18n['courseFinder.search.resultsFound'] }}
     </div>
-    <div class="finder-summary-no-courses col-md-12" ng-hide="filteredTours.length" ng-cloak>
+    <div class="finder-summary-no-courses col-md-12" ng-hide="filteredCourses.length" ng-cloak>
         {{ i18n[notFoundMessage] }}
     </div>
     <div class="course-list">
-        <div class="row" ng-show="filteredTours.length">
-            <div class="col-md-6 course-card card" ng-repeat="course in filteredTours" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+        <div class="row" ng-show="filteredCourses.length">
+            <div class="col-md-6 course-card card" ng-repeat="course in filteredCourses" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
         </div>
-        <div class="row" ng-hide="filteredTours.length">
+        <div class="row" ng-hide="filteredCourses.length">
             <div class="col-md-6 course-card card" ng-repeat="course in courses" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
         </div>
     </div>

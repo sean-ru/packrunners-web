@@ -16,11 +16,6 @@ var CourseFinder = CourseFinder || (function(){
                                             "courseFinder.search.noResults3"];
                     var randomIndex = Math.floor(Math.random() * notFoundMessages.length);
                     $scope.notFoundMessage = notFoundMessages[randomIndex];
-                    $scope.durations = [{ value: 2, name: 'courseFinder.resource.options.studyGuide' },
-                                        { value: 7, name: 'courseFinder.resource.options.video' },
-                                        { value: 21, name: 'courseFinder.resource.options.quiz' }];
-                    $scope.useDurations = {};
-                    $scope.useDestinations = {};
                     $scope.useCourseTypes = {};
                     $scope.search = {};
 
@@ -28,29 +23,11 @@ var CourseFinder = CourseFinder || (function(){
                     $scope.language = args.language;
                     $scope.i18n = args.i18n;
 
-                    if ($routeParams.duration) {
-                        $scope.useDurations = {};
-                        var split = $routeParams.duration.split(',');
-                        for (var i in split) {
-                            $scope.useDurations[split[i]] = true;
-                        }
-                    }
                     if ($routeParams.q) {
                         $scope.search.query = $routeParams.q;
                     }
 
                     // obtain the data
-                    $http.get(args.restBase + '/tutors/v1/?lang=' + args.language).then(function(response) {
-                        $scope.destinations = response.data.results;
-                        if ($routeParams.destination) {
-                            var split = $routeParams.destination.split(',');
-                            for (var i in split) {
-                                $scope.useDestinations[split[i]] = true;
-                            }
-                        }
-                    }, function(response) {
-                        console.error("Couldn't reach endpoint.");
-                    });
                     $http.get(args.restBase + '/courseTypes/v1/?lang=' + args.language).then(function(response) {
                         $scope.courseTypes = response.data.results;
                         if ($routeParams.courseTypes) {
@@ -60,64 +37,54 @@ var CourseFinder = CourseFinder || (function(){
                             }
                         }
                     }, function(response) {
-                        console.error("Couldn't reach endpoint.");
+                        console.error("Couldn't reach endpoint [/courseTypes/v1/].");
                     });
+
                     $http.get(args.restBase + '/courses/v1/?lang=' + args.language).then(function(response) {
                         $scope.courses = response.data.results;
                     }, function(response) {
-                        console.error("Couldn't reach endpoint.");
+                        console.error("Couldn't reach endpoint [/courses/v1/].");
                     });
 
                     // watch for changes
                     $scope.$watch(function() {
                         return {
-                            useDurations: $scope.useDurations,
-                            useDestinations: $scope.useDestinations,
                             useCourseTypes: $scope.useCourseTypes,
                             search: $scope.search,
-                            destinations: $scope.destinations,
                             courseTypes: $scope.courseTypes,
                         };
                     }, function (newValues, oldValues) {
-                        // wait for both courseTypes & tutors to be populated by async calls
-                        if (newValues !== oldValues && newValues.courseTypes && newValues.tutors) {
+                        // wait for both courseTypes to be populated by async calls
+                        if (newValues !== oldValues && newValues.courseTypes) {
                             var randomIndex = Math.floor(Math.random() * notFoundMessages.length);
                             $scope.notFoundMessage = notFoundMessages[randomIndex];
 
                             var qs = '';
-                            var parameters = {duration: [], destination: [], courseTypes: [], q: []};
-                            var durations = Object.keys(newValues.useDurations).reduce(function (filtered, key) {
-                                    if (newValues.useDurations[key]) filtered.push(key);
-                                    return filtered;
-                            }, []);
-                            var destinationKeys = Object.keys(newValues.useDestinations).reduce(function (filtered, key) {
-                                    if (newValues.useDestinations[key]) filtered.push(key);
-                                    return filtered;
-                            }, []);
-                            var courseTypeKeys = Object.keys(newValues.useCourseTypes).reduce(function (filtered, key) {
+                            var parameters = {courseTypes: [], q: []};
+                            var selectedCourseTypeKeys = Object.keys(newValues.useCourseTypes).reduce(function (filtered, key) {
                                     if (newValues.useCourseTypes[key]) filtered.push(key);
                                     return filtered;
                             }, []);
-                            if (durations.length > 0 && durations.length < $scope.durations.length) {
-                                parameters.duration = durations;
-                            }
-                            if (destinationKeys.length > 0 && destinationKeys.length < newValues.destinations.length) {
-                                parameters.destination = destinationKeys;
-                            }
-                            if (courseTypeKeys.length > 0 && courseTypeKeys.length < newValues.courseTypes.length) {
-                                parameters.courseTypes = courseTypeKeys;
+                            if (selectedCourseTypeKeys.length > 0 && selectedCourseTypeKeys.length < newValues.courseTypes.length) {
+                                parameters.courseTypes = selectedCourseTypeKeys;
                             }
                             if (newValues.search.query) {
                                 parameters.q = [newValues.search.query];
                             }
-                            parameters.lang = [args.language];
+                            //parameters.lang = [args.language];
+
+                            // -- Query Courses --
                             var qs = '';
                             if (Object.keys(parameters).length > 0) {
                                 var p = [];
                                 Object.keys(parameters).forEach(function(key) {
                                     if (parameters[key].length > 0) {
                                         var values = parameters[key];
-                                        p.push(key + '=' + values.join('|'));
+                                        if (values.length>1) {
+                                            p.push(key + '=' + values.join('|'));
+                                        } else {
+                                            p.push(key + '=' + values[0]);
+                                        }
                                         $location.search(key, values.join(','));
                                     } else {
                                         $location.search(key, null);
@@ -126,7 +93,8 @@ var CourseFinder = CourseFinder || (function(){
                                 qs = '?' + p.join('&');
                             }
 
-                            $http.get(args.restBase + '/courses/v1/' + qs).then(function(response) {
+                            qs = encodeURI(args.restBase + '/courses/v1/' + qs);
+                            $http.get(qs).then(function(response) {
                                 $scope.filteredCourses = response.data.results;
                             });
                         }

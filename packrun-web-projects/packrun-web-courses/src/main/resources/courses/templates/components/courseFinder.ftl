@@ -12,12 +12,7 @@
                  "courseFinder.search.noResults1",
                  "courseFinder.search.noResults2",
                  "courseFinder.search.noResults3",
-                 "courseFinder.filter.resource",
-                 "courseFinder.filter.tutor",
-                 "courseFinder.filter.type",
-                 "courseFinder.resource.options.studyGuide",
-                 "courseFinder.resource.options.video",
-                 "courseFinder.resource.options.quiz",
+                 "courseFinder.filter.courseType",
                  "course.view",
                  "courseFinder.title"] ]
 

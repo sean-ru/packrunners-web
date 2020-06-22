@@ -1,0 +1,238 @@
+GET http://localhost:8080/magnoliaPublic/.rest/delivery/courses/v1/?courseTypes=61c823ed-8660-4f30-a1f9-7847c2f3afb5|b1691bf9-0277-469c-a000-f82cb8a92751
+
+%%%
+
+# Duration: 94 ms
+# URL: http://localhost:8080/magnoliaPublic/.rest/delivery/courses/v1/?courseTypes=61c823ed-8660-4f30-a1f9-7847c2f3afb5%7Cb1691bf9-0277-469c-a000-f82cb8a92751
+
+# HTTP/1.1 200
+
+@Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+@Access-Control-Allow-Origin: *
+@Access-Control-Allow-Methods: GET
+@Pragma: no-cache
+@Expires: Thu, 01 Jan 1970 00:00:00 GMT
+@Access-Control-Allow-Headers: X-PINGOTHER, Origin, X-Requested-With, Content-Type, Accept
+@Content-Language: en
+@Vary: Accept-Encoding
+@Content-Type: application/json;charset=UTF-8
+@Date: Mon, 22 Jun 2020 03:33:42 GMT
+@Keep-Alive: timeout=20
+@Connection: keep-alive
+
+{
+  "results": [
+    {
+      "@name": "Honors-Algebra-2",
+      "@path": "/NNHS-Courses/Honors-Algebra-2",
+      "@id": "034c05a3-0de5-4577-818a-e7d23df1f696",
+      "@nodeType": "mgnl:content",
+      "prerequisite": "Honors Geometry",
+      "credit": "1.00",
+      "name": "Honors Algebra 2",
+      "isWeighted": "1",
+      "weighted": "true",
+      "level": "9,10,11",
+      "courseNumber": [
+        "1d6ef550-a0b9-4174-a073-e648b0d9ea58",
+        "5b375a12-b37d-4ec0-a410-799d74d678b7"
+      ],
+      "description": "<p>This highly challenging course includes an intense treatment of all topics in Algebra 2 with additional work on permutations, combinations, and math-contest problems. Students will work exercises requiring innovative thinking, applications, and extensions of traditional Algebra 2 material. An exceptional grasp of Algebra 1 concepts is assumed as a prerequisite. A graphing calculator is required. &ndash; Department Placement Required</p>\n",
+      "schools": [
+        {
+          "@name": "NNHS",
+          "@path": "/schools/NNHS",
+          "@id": "51d34af8-37e0-44ff-b3ea-3db51871a64e",
+          "@nodeType": "mgnl:category",
+          "name": "NNHS",
+          "level": "level-1",
+          "icon": "jcr:e3cba04b-10f9-4eda-a5fc-6c33307a93d2",
+          "displayName": "Naperville North High School",
+          "image": "jcr:e1fd7e54-8dd0-4f73-9133-08f719e9df83",
+          "relatedUUID": {
+            "@name": "relatedUUID",
+            "@path": "/schools/NNHS/relatedUUID",
+            "@id": "08c123af-ec51-4925-84e9-c773b0e80e63",
+            "@nodeType": "mgnl:contentNode",
+            "@nodes": []
+          },
+          "@nodes": [
+            "relatedUUID"
+          ]
+        }
+      ],
+      "courseNumbers": [
+        "1d6ef550-a0b9-4174-a073-e648b0d9ea58",
+        "5b375a12-b37d-4ec0-a410-799d74d678b7"
+      ],
+      "teachers": "John Doe",
+      "courseTypes": [
+        {
+          "@name": "Mathematics",
+          "@path": "/course-types/Mathematics",
+          "@id": "b1691bf9-0277-469c-a000-f82cb8a92751",
+          "@nodeType": "mgnl:category",
+          "name": "Mathematics",
+          "level": "level-2",
+          "icon": "jcr:d5aadc2e-8c8c-4c51-aa16-16e37943a4d5",
+          "displayName": "Mathematics",
+          "image": "jcr:fe72b782-dcb9-40b3-8e70-c7f2e7a3e70e",
+          "relatedUUID": {
+            "@name": "relatedUUID",
+            "@path": "/course-types/Mathematics/relatedUUID",
+            "@id": "e0fa8d63-7708-41f0-a75b-4f6eac14d964",
+            "@nodeType": "mgnl:contentNode",
+            "51d34af8-37e0-44ff-b": {
+              "@name": "51d34af8-37e0-44ff-b",
+              "@path": "/course-types/Mathematics/relatedUUID/51d34af8-37e0-44ff-b",
+              "@id": "47eef7c7-3c9f-4e74-8229-7455949fea89",
+              "@nodeType": "mgnl:contentNode",
+              "relatedUUID": "51d34af8-37e0-44ff-b3ea-3db51871a64e",
+              "@nodes": []
+            },
+            "@nodes": [
+              "51d34af8-37e0-44ff-b"
+            ]
+          },
+          "@nodes": [
+            "relatedUUID"
+          ]
+        }
+      ],
+      "duration": "2",
+      "image": {
+        "@name": "HA2.jpg",
+        "@path": "/courses/HA2.jpg",
+        "@id": "jcr:5627c1ca-13d3-49be-9495-fe91d401756a",
+        "@link": "/magnoliaPublic/dam/jcr:5627c1ca-13d3-49be-9495-fe91d401756a/HA2.jpg",
+        "metadata": {
+          "fileName": "HA2.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": "35341",
+          "height": "500",
+          "width": "500",
+          "format": "image/jpeg",
+          "creator": [
+            "superuser"
+          ],
+          "date": "2020-05-27T15:55:23.448-05:00",
+          "created": "2020-05-27T15:55:23.448-05:00",
+          "modified": "2020-05-27T15:55:23.448-05:00"
+        },
+        "renditions": {
+          "960x720": {
+            "mimeType": "image/jpeg",
+            "link": "/magnoliaPublic/.imaging/mte/packrunweb-theme/960x720/dam/courses/HA2.jpg/jcr:content/HA2.jpg"
+          }
+        }
+      },
+      "@nodes": []
+    },
+    {
+      "@name": "AP-Physics-1",
+      "@path": "/NNHS-Courses/AP-Physics-1",
+      "@id": "bbf841a0-f9c4-43ac-ad71-1c0fe9f21460",
+      "@nodeType": "mgnl:content",
+      "prerequisite": "Geometry",
+      "credit": "1.00",
+      "name": "AP Physics 1",
+      "isWeighted": "1",
+      "weighted": "true",
+      "level": "10 (with department consent), 11,12",
+      "courseNumber": [
+        "cd5d2ae4-8fc7-483f-ac50-24e3f623dcd9",
+        "1404cdfa-356c-4099-a78d-51712f733e64"
+      ],
+      "description": "<p>AP Physics 1 is an algebra-based physics course equivalent to a first-semester college course in physics. Students enrolled in this course will learn Newtonian mechanics (including rotational dynamics and angular momentum); work, energy, and power; mechanical waves and sound; and will also be introduced to electric circuits. The AP Physics 1 course will include student-conducted laboratory investigations that provide an experience comparable to introductory college-level physics laboratories. This course is intended for self-motivated students with strong mathematical skills who enjoy scientific inquiry and are interested in a variety of physics topics. &ndash; Co requisite: Algebra 2</p>\n",
+      "schools": [
+        {
+          "@name": "NNHS",
+          "@path": "/schools/NNHS",
+          "@id": "51d34af8-37e0-44ff-b3ea-3db51871a64e",
+          "@nodeType": "mgnl:category",
+          "name": "NNHS",
+          "level": "level-1",
+          "icon": "jcr:e3cba04b-10f9-4eda-a5fc-6c33307a93d2",
+          "displayName": "Naperville North High School",
+          "image": "jcr:e1fd7e54-8dd0-4f73-9133-08f719e9df83",
+          "relatedUUID": {
+            "@name": "relatedUUID",
+            "@path": "/schools/NNHS/relatedUUID",
+            "@id": "08c123af-ec51-4925-84e9-c773b0e80e63",
+            "@nodeType": "mgnl:contentNode",
+            "@nodes": []
+          },
+          "@nodes": [
+            "relatedUUID"
+          ]
+        }
+      ],
+      "courseNumbers": [
+        "cd5d2ae4-8fc7-483f-ac50-24e3f623dcd9",
+        "1404cdfa-356c-4099-a78d-51712f733e64"
+      ],
+      "teachers": "John Doe",
+      "courseTypes": [
+        {
+          "@name": "Science",
+          "@path": "/course-types/Science",
+          "@id": "61c823ed-8660-4f30-a1f9-7847c2f3afb5",
+          "@nodeType": "mgnl:category",
+          "name": "Science",
+          "level": "level-2",
+          "icon": "jcr:973dbfb0-d259-4e67-87af-c8b2ffe39c02",
+          "displayName": "Science",
+          "image": "jcr:893686ba-58bb-45f0-af40-2fd53c33d1a3",
+          "relatedUUID": {
+            "@name": "relatedUUID",
+            "@path": "/course-types/Science/relatedUUID",
+            "@id": "29336fca-4766-42e0-bd4d-2ed40dbccf05",
+            "@nodeType": "mgnl:contentNode",
+            "51d34af8-37e0-44ff-b": {
+              "@name": "51d34af8-37e0-44ff-b",
+              "@path": "/course-types/Science/relatedUUID/51d34af8-37e0-44ff-b",
+              "@id": "1d9a7015-3286-442f-ad65-bd0612b92fd5",
+              "@nodeType": "mgnl:contentNode",
+              "relatedUUID": "51d34af8-37e0-44ff-b3ea-3db51871a64e",
+              "@nodes": []
+            },
+            "@nodes": [
+              "51d34af8-37e0-44ff-b"
+            ]
+          },
+          "@nodes": [
+            "relatedUUID"
+          ]
+        }
+      ],
+      "duration": "2",
+      "image": {
+        "@name": "physics.jpg",
+        "@path": "/courses/physics.jpg",
+        "@id": "jcr:120ace49-8c54-480f-9918-2a61812849e5",
+        "@link": "/magnoliaPublic/dam/jcr:120ace49-8c54-480f-9918-2a61812849e5/physics.jpg",
+        "metadata": {
+          "fileName": "physics.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": "327437",
+          "height": "1650",
+          "width": "1275",
+          "format": "image/jpeg",
+          "creator": [
+            "superuser"
+          ],
+          "date": "2020-05-27T15:58:24.924-05:00",
+          "created": "2020-05-27T15:58:24.924-05:00",
+          "modified": "2020-05-27T15:58:24.924-05:00"
+        },
+        "renditions": {
+          "960x720": {
+            "mimeType": "image/jpeg",
+            "link": "/magnoliaPublic/.imaging/mte/packrunweb-theme/960x720/dam/courses/physics.jpg/jcr:content/physics.jpg"
+          }
+        }
+      },
+      "@nodes": []
+    }
+  ]
+}

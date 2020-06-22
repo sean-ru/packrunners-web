@@ -5,4 +5,4 @@ nodeTypes:
   - mgnl:category
 includeSystemProperties: false
 bypassWorkspaceAcls: false
-limit: 3
+limit: 20
