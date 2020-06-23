@@ -9,4 +9,13 @@ angular-route:
   link: /.resources/courses/webresources/js/angular-route.min.js
 coursefinder:
   addFingerPrint: true
-  link: /.resources/courses/webresources/js/coursefinder.js
+  link: /.resources/courses/webresources/js/course-finder.js
+studyguidefinder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/study-guide-finder.js
+videofinder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/video-finder.js
+quizfinder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/quiz-finder.js
