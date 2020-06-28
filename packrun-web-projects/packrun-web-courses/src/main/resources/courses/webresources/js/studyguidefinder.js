@@ -1,11 +1,11 @@
-var CourseFinder = CourseFinder || (function(){
+var StudyGuideFinder = StudyGuideFinder || (function(){
     return {
         init : function(args) {
             angular
-                .module('CourseFinder', ['ngAnimate', 'ngRoute'])
+                .module('StudyGuideFinder', ['ngAnimate', 'ngRoute'])
                 .config(function($routeProvider) {
                     $routeProvider.when("/", {
-                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/find-course-results.html',
+                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/find-study-guide-results.html',
                         controller: 'MainController',
                         reloadOnSearch: false
                     });
@@ -40,10 +40,10 @@ var CourseFinder = CourseFinder || (function(){
                         console.error("Couldn't reach endpoint [/courseTypes/v1/].");
                     });
 
-                    $http.get(args.restBase + '/courses/v1/?lang=' + args.language).then(function(response) {
+                    $http.get(args.restBase + '/studyGuides/v1/?lang=' + args.language).then(function(response) {
                         $scope.courses = response.data.results;
                     }, function(response) {
-                        console.error("Couldn't reach endpoint [/courses/v1/].");
+                        console.error("Couldn't reach endpoint [/studyGuides/v1/].");
                     });
 
                     // watch for changes
@@ -73,7 +73,7 @@ var CourseFinder = CourseFinder || (function(){
                             }
                             parameters.lang = [args.language];
 
-                            // -- Query Courses --
+                            // -- Query Study Guides --
                             var qs = '';
                             if (Object.keys(parameters).length > 0) {
                                 var p = [];
@@ -93,9 +93,9 @@ var CourseFinder = CourseFinder || (function(){
                                 qs = '?' + p.join('&');
                             }
 
-                            qs = encodeURI(args.restBase + '/courses/v1/' + qs);
+                            qs = encodeURI(args.restBase + '/studyGuides/v1/' + qs);
                             $http.get(qs).then(function(response) {
-                                $scope.filteredCourses = response.data.results;
+                                $scope.filteredStudyGuides = response.data.results;
                             });
                         }
                     }, true);

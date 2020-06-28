@@ -15,7 +15,7 @@ areas:
   main:
     type: list
     availableComponents:
-        tourDetail:
+        courseDetail:
           id: courses:components/courseDetail
         courseDetailRelatedCoueses:
           id: courses:components/courseDetailRelatedCourses

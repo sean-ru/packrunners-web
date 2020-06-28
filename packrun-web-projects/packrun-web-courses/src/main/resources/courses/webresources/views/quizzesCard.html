@@ -1,0 +1,23 @@
+<div class="course-card-background">
+    <img data-sizes="auto" class="course-card-image" ng-src="{{ quiz.image.renditions['960x720'].link }}" />
+</div>
+<a class="course-card-anchor" ng-href="{{ contextPath }}/packrunners/quizzes?quiz={{ quiz['@path'] }}">
+    <div class="course-card-content-shader"></div>
+    <div class="course-card-content">
+        <h4 class="finder-card-title">{{ quiz.name }}</h4>
+        <div class="category-icons finder-coursetype-container">
+            <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseNumber in quiz.courseNumbers">
+                <div class="finder-coursetype-name">{{ courseNumber.name }}</div>
+            </div>
+        </div>
+        <div class="category-icons finder-coursetype-container">
+            <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseType in quiz.courseTypes">
+                <img class="finder-coursetype-icon" ng-src="{{ contextPath }}/dam/{{ courseType.icon }}" />
+                <div class="finder-coursetype-name">{{ courseType.displayName }}</div>
+            </div>
+        </div>
+        <div class="card-button">
+            <div class="btn btn-primary">{{ i18n['quiz.view'] }}</div>
+        </div>
+    </div>
+</a>

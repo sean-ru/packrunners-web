@@ -14,7 +14,7 @@ public class CoursesModule {
   public static final String STUDY_GUIDES_REPOSITORY_NAME = "studyGuides";
   public final static String TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW = "schoolOverview";
   public final static String TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW = "courseTypeOverview";
-  public final static String TEMPLATE_SUB_TYPE_TUTOR_OVERVIEW = "tutorOverview";
+  public final static String TEMPLATE_SUB_TYPE_RESOURCE_TYPE_OVERVIEW = "resourceTypeOverview";
   /**
    * Specifies the root node of schools.
    */
