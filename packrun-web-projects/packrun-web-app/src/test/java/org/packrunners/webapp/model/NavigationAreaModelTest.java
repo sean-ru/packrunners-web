@@ -1,8 +1,8 @@
 package org.packrunners.webapp.model;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.emptyString;
 import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.isEmptyOrNullString;
 import static org.mockito.Mockito.mock;
 
 import info.magnolia.rendering.model.RenderingModel;
@@ -23,7 +23,7 @@ public class NavigationAreaModelTest {
     // WHEN
     // THEN
     assertThat(navigationAreaModel.getLocale("de").getLanguage(), is("de"));
-    assertThat(navigationAreaModel.getLocale("de").getCountry(), emptyString());
+    assertThat(navigationAreaModel.getLocale("de").getCountry(), isEmptyOrNullString());
     assertThat(navigationAreaModel.getLocale("de_CH").getLanguage(), is("de"));
     assertThat(navigationAreaModel.getLocale("de_CH").getCountry(), is("CH"));
   }

@@ -9,12 +9,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <magnoliaBundleVersion>6.2</magnoliaBundleVersion>
+    <magnoliaBundleVersion>6.1</magnoliaBundleVersion>
     <javaVersion>1.8</javaVersion>
     <magnoliaVersion>6.1</magnoliaVersion>
     <magnoliaUiVersion>6.1</magnoliaUiVersion>
     <magnoliaDamVersion>2.6</magnoliaDamVersion>
-    <siteVersion>1.0.8</siteVersion>
     <resourcesVersion>2.4</resourcesVersion>
     <mteVersion>1.2.1</mteVersion>
   </properties>
@@ -39,33 +38,43 @@
       </dependency>
 
       <!-- Import dependency management from main project -->
-      <dependency>
+      <!--<dependency>
         <groupId>info.magnolia</groupId>
         <artifactId>magnolia-project</artifactId>
         <version>${magnoliaVersion}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
-
+-->
       <!-- Import dependency management from UI project -->
-      <dependency>
+
+      <!--<dependency>
         <groupId>info.magnolia.ui</groupId>
         <artifactId>magnolia-ui-project</artifactId>
         <version>${magnoliaUiVersion}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
+      -->
 
       <!-- Overriding dependencies from CE bundle -->
+<!--
       <dependency>
         <groupId>info.magnolia.site</groupId>
         <artifactId>magnolia-site</artifactId>
         <version>${siteVersion}</version>
       </dependency>
+-->
 
+      <!--&lt;!&ndash; Overriding dependencies from magnolia external dependencies &ndash;&gt;
+      <dependency>
+        <groupId>info.magnolia.boms</groupId>
+        <artifactId>magnolia-external-dependencies</artifactId>
+        <version>${magnoliaExternalVersion}</version>
+      </dependency>
+-->
     </dependencies>
   </dependencyManagement>
-
 
   <build>
     <plugins>

@@ -17,7 +17,6 @@
     <module>packrun-web-parent</module>
     <module>packrun-web-app</module>
     <module>packrun-web-courses</module>
-    <module>packrun-build-tools</module>
   </modules>
 
 </project>
