@@ -1,0 +1,12 @@
+templateScript: /courses/templates/components/courseDetail.ftl
+modelClass: org.packrunners.courses.model.CourseDetailModel
+class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
+renderType: freemarker
+category: courseNumbers
+
+areas:
+  summary:
+    type: single
+    availableComponents:
+      social:
+        id: packrunners:components/social
