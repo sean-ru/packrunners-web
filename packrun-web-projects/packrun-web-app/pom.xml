@@ -11,7 +11,7 @@
   </parent>
   <artifactId>packrun-web-app</artifactId>
   <name>PACKRUN :: packrun-web-app</name>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <dependencies>
 
