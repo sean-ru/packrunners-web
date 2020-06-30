@@ -1,11 +1,11 @@
-var CourseFinder = CourseFinder || (function(){
+var StudyGuideFinder = StudyGuideFinder || (function(){
     return {
         init : function(args) {
             angular
                 .module('StudyGuideFinder', ['ngAnimate', 'ngRoute'])
                 .config(function($routeProvider) {
                     $routeProvider.when("/", {
-                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/study-guide-finder-results.html',
+                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/find-study-guide-results.html',
                         controller: 'MainController',
                         reloadOnSearch: false
                     });
@@ -71,9 +71,9 @@ var CourseFinder = CourseFinder || (function(){
                             if (newValues.search.query) {
                                 parameters.q = [newValues.search.query];
                             }
-                            //parameters.lang = [args.language];
+                            parameters.lang = [args.language];
 
-                            // -- Query Courses --
+                            // -- Query Study Guides --
                             var qs = '';
                             if (Object.keys(parameters).length > 0) {
                                 var p = [];

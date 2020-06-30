@@ -19,25 +19,25 @@ import org.packrunners.courses.service.CourseServices;
 
 
 /**
- * Model for displaying the 'featured' courseTypes on the home page. reads the 'courseTypes'
+ * Model for displaying the 'featured' resourceTypes on the home page. reads the 'resourceTypes'
  * property from the content and resolves the categories.
  *
  * @param <RD> Renderable definition.
  */
 @Slf4j
-public class CourseTeaserModel<RD extends RenderableDefinition> extends RenderingModelImpl<RD> {
+public class ResourceTeaserModel<RD extends RenderableDefinition> extends RenderingModelImpl<RD> {
 
   private final CourseServices courseServices;
 
   @Inject
-  public CourseTeaserModel(Node content, RD definition, RenderingModel<?> parent,
+  public ResourceTeaserModel(Node content, RD definition, RenderingModel<?> parent,
       CourseServices courseServices) {
     super(content, definition, parent);
     this.courseServices = courseServices;
   }
 
-  public List<Category> getCourseTypes() {
-    return getCategoriesByName(Category.PROPERTY_NAME_COURSE_TYPES);
+  public List<Category> getResourceTypes() {
+    return getCategoriesByName(Category.PROPERTY_NAME_RESOURCE_TYPES);
   }
 
   private List<Category> getCategoriesByName(String categoryName) {
@@ -70,7 +70,7 @@ public class CourseTeaserModel<RD extends RenderableDefinition> extends Renderin
     final Category category = courseServices.marshallCategoryNode(categoryNode);
     if (category != null) {
       String link = courseServices.getCategoryLink(content, categoryNode.getName(),
-          CoursesModule.TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW);
+          CoursesModule.TEMPLATE_SUB_TYPE_RESOURCE_TYPE_OVERVIEW);
       category.setLink(link);
     }
 

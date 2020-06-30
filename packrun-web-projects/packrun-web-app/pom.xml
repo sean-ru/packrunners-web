@@ -29,11 +29,6 @@
       <type>pom</type>
     </dependency>
 
-    <dependency>
-      <groupId>info.magnolia.site</groupId>
-      <artifactId>magnolia-site</artifactId>
-    </dependency>
-
     <!-- Other dependencies -->
     <dependency>
       <groupId>org.apache.commons</groupId>

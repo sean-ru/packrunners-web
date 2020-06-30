@@ -14,6 +14,7 @@
                  "studyGuideFinder.search.noResults3",
                  "studyGuideFinder.filter.courseType",
                  "studyGuideFinder.view",
+                 "studyGuide.view",
                  "studyGuideFinder.title"] ]
 
 var translations = {

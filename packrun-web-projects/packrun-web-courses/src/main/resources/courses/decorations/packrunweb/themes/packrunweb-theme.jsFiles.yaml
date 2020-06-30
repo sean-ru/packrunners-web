@@ -7,15 +7,15 @@ angular-animate:
 angular-route:
   addFingerPrint: true
   link: /.resources/courses/webresources/js/angular-route.min.js
-coursefinder:
+course-finder:
   addFingerPrint: true
   link: /.resources/courses/webresources/js/course-finder.js
-studyguidefinder:
+study-guide-finder:
   addFingerPrint: true
   link: /.resources/courses/webresources/js/study-guide-finder.js
-videofinder:
+video-finder:
   addFingerPrint: true
   link: /.resources/courses/webresources/js/video-finder.js
-quizfinder:
+quiz-finder:
   addFingerPrint: true
   link: /.resources/courses/webresources/js/quiz-finder.js

@@ -1,6 +1,6 @@
 <div class="finder-background" style="background-image: url(${ctx.contextPath}/.resources/courses/webresources/img/course-finder-background-ross-parmly-25230.jpg);"></div>
 
-<div class="finder-container" ng-app="StudyGuideFinder">
+<div class="finder-container" ng-app="VideoFinder">
     <div ng-view>
     </div>
 </div>
@@ -14,6 +14,7 @@
                  "videoFinder.search.noResults3",
                  "videoFinder.filter.courseType",
                  "videoFinder.view",
+                 "video.view",
                  "videoFinder.title"] ]
 
 var translations = {

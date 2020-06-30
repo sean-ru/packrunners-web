@@ -8,23 +8,23 @@
 </div>
 
 <!-- Search Filters -->
-<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/filters.html'">
+<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/course-type-filters.html'">
 </div>
 
-<!-- Course Results -->
+<!-- Resource Results -->
 <div class="finder-list">
     <div class="finder-summary col-md-12">
-        <span class="finder-count">{{ filteredCourses.length }}</span> {{ i18n['videoFinder.search.resultsFound'] }}
+        <span class="finder-count">{{ filteredVideos.length }}</span> {{ i18n['videoFinder.search.resultsFound'] }}
     </div>
     <div class="finder-summary-no-courses col-md-12" ng-hide="filteredVideos.length" ng-cloak>
         {{ i18n[notFoundMessage] }}
     </div>
     <div class="course-list">
         <div class="row" ng-show="filteredVideos.length">
-            <div class="col-md-6 course-card card" ng-repeat="video in filteredVideos" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="video in filteredVideos" ng-include="contextPath + '/.resources/courses/webresources/views/videoCard.html'" />
         </div>
         <div class="row" ng-hide="filteredVideos.length">
-            <div class="col-md-6 course-card card" ng-repeat="video in videos" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="video in videos" ng-include="contextPath + '/.resources/courses/webresources/views/videoCard.html'" />
         </div>
     </div>
 </div>

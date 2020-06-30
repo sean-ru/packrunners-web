@@ -1,11 +1,11 @@
-var CourseFinder = CourseFinder || (function(){
+var QuizFinder = QuizFinder || (function(){
     return {
         init : function(args) {
             angular
                 .module('QuizFinder', ['ngAnimate', 'ngRoute'])
                 .config(function($routeProvider) {
                     $routeProvider.when("/", {
-                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/course-finder-results.html',
+                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/find-quizzes-results.html',
                         controller: 'MainController',
                         reloadOnSearch: false
                     });
@@ -33,7 +33,7 @@ var CourseFinder = CourseFinder || (function(){
                         if ($routeParams.courseTypes) {
                             var split = $routeParams.courseTypes.split(',');
                             for (var i in split) {
-                                $scope.useCourseTypes[split[i]] = true;
+                                $scope.useResourceTypes[split[i]] = true;
                             }
                         }
                     }, function(response) {
@@ -71,9 +71,9 @@ var CourseFinder = CourseFinder || (function(){
                             if (newValues.search.query) {
                                 parameters.q = [newValues.search.query];
                             }
-                            //parameters.lang = [args.language];
+                            parameters.lang = [args.language];
 
-                            // -- Query Courses --
+                            // -- Query Quizzes --
                             var qs = '';
                             if (Object.keys(parameters).length > 0) {
                                 var p = [];

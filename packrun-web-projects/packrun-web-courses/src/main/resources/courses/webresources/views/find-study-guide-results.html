@@ -8,10 +8,10 @@
 </div>
 
 <!-- Search Filters -->
-<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/filters.html'">
+<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/courses/webresources/views/course-type-filters.html'">
 </div>
 
-<!-- Course Results -->
+<!-- Resource Results -->
 <div class="finder-list">
     <div class="finder-summary col-md-12">
         <span class="finder-count">{{ filteredStudyGuides.length }}</span> {{ i18n['studyGuideFinder.search.resultsFound'] }}
@@ -21,10 +21,10 @@
     </div>
     <div class="course-list">
         <div class="row" ng-show="filteredStudyGuides.length">
-            <div class="col-md-6 course-card card" ng-repeat="studyGuide in filteredStudyGuides" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="studyGuide in filteredStudyGuides" ng-include="contextPath + '/.resources/courses/webresources/views/studyGuideCard.html'" />
         </div>
         <div class="row" ng-hide="filteredStudyGuides.length">
-            <div class="col-md-6 course-card card" ng-repeat="studyGuide in studyGuides" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="studyGuide in studyGuides" ng-include="contextPath + '/.resources/courses/webresources/views/studyGuideCard.html'" />
         </div>
     </div>
 </div>

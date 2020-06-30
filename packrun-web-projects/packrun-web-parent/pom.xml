@@ -66,13 +66,66 @@
       </dependency>
 -->
 
-      <!--&lt;!&ndash; Overriding dependencies from magnolia external dependencies &ndash;&gt;
+      <!-- Overriding dependencies from CE bundle -->
       <dependency>
-        <groupId>info.magnolia.boms</groupId>
-        <artifactId>magnolia-external-dependencies</artifactId>
-        <version>${magnoliaExternalVersion}</version>
+        <groupId>info.magnolia.site</groupId>
+        <artifactId>magnolia-site</artifactId>
+        <version>${siteVersion}</version>
       </dependency>
--->
+      <dependency>
+        <groupId>info.magnolia.resources</groupId>
+        <artifactId>magnolia-resources</artifactId>
+        <version>${resourcesVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-templating</artifactId>
+        <version>${magnoliaDamVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-jcr</artifactId>
+        <version>${magnoliaDamVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-api</artifactId>
+        <version>${magnoliaDamVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-imaging</artifactId>
+        <version>${magnoliaDamVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.categorization</groupId>
+        <artifactId>magnolia-categorization</artifactId>
+        <version>2.4</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.templating</groupId>
+        <artifactId>magnolia-templating-essentials-models</artifactId>
+        <version>${mteVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.templating</groupId>
+        <artifactId>magnolia-templating-kit</artifactId>
+        <version>${mteVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.form</groupId>
+        <artifactId>magnolia-form</artifactId>
+        <version>2.4</version>
+      </dependency>
+
+      <!-- This brings PUR to packrunweb -->
+      <dependency>
+        <groupId>info.magnolia</groupId>
+        <artifactId>magnolia-module-public-user-registration</artifactId>
+        <version>2.5.1</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

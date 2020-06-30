@@ -5,7 +5,7 @@ var CourseFinder = CourseFinder || (function(){
                 .module('CourseFinder', ['ngAnimate', 'ngRoute'])
                 .config(function($routeProvider) {
                     $routeProvider.when("/", {
-                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/course-finder-results.html',
+                        templateUrl: args.contextPath + '/.resources/courses/webresources/views/find-course-results.html',
                         controller: 'MainController',
                         reloadOnSearch: false
                     });
@@ -71,7 +71,7 @@ var CourseFinder = CourseFinder || (function(){
                             if (newValues.search.query) {
                                 parameters.q = [newValues.search.query];
                             }
-                            //parameters.lang = [args.language];
+                            parameters.lang = [args.language];
 
                             // -- Query Courses --
                             var qs = '';

@@ -1,11 +1,16 @@
 <div class="course-card-background">
     <img data-sizes="auto" class="course-card-image" ng-src="{{ course.image.renditions['960x720'].link }}" />
 </div>
-<a class="course-card-anchor" ng-href="{{ contextPath }}/packrunweb/course?course={{ course['@path'] }}">
+<a class="course-card-anchor" ng-href="{{ contextPath }}/packrunners/course?course={{ course['@path'] }}">
     <div class="course-card-content-shader"></div>
     <div class="course-card-content">
         <h4 class="finder-card-title">{{ course.name }}</h4>
-        <div class="finder-card-meta">{{ course.duration }} semester(s), {{ course.destination[0].displayName }}</div>
+        <div class="finder-card-meta">{{ course.duration }} semester(s)</div>
+        <div class="category-icons finder-coursetype-container">
+            <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseNumber in course.courseNumbers">
+                <div class="finder-coursetype-name">{{ courseNumber.name }}</div>
+            </div>
+        </div>
         <div class="category-icons finder-coursetype-container">
             <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseType in course.courseTypes">
                 <img class="finder-coursetype-icon" ng-src="{{ contextPath }}/dam/{{ courseType.icon }}" />
