@@ -16,8 +16,8 @@ import info.magnolia.rendering.template.type.TemplateTypeHelper;
 import info.magnolia.templating.functions.TemplatingFunctions;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.packrunners.categories.Category;
 import org.packrunners.studyguides.StudyGuidesModule;
-import org.packrunners.webapp.Category;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

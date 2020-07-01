@@ -1,7 +1,7 @@
 package org.packrunners.studyguides.service;
 
 import info.magnolia.dam.api.Asset;
-import org.packrunners.webapp.Category;
+import org.packrunners.categories.Category;
 
 import java.util.Date;
 import java.util.List;

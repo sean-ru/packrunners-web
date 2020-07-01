@@ -1,4 +1,4 @@
-package org.packrunners.webapp.definition;
+package org.packrunners.categories.definition;
 
 import info.magnolia.rendering.template.configured.ConfiguredTemplateDefinition;
 import lombok.Data;

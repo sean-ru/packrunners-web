@@ -21,6 +21,7 @@
     <module>packrunners-videos</module>
     <module>packrunners-quizzes</module>
     <module>packrunners-tutors</module>
+    <module>packrunners-categories</module>
   </modules>
 
 </project>

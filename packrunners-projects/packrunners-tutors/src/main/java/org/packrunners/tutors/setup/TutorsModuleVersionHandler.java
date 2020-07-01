@@ -10,10 +10,6 @@ import info.magnolia.ui.contentapp.ConfiguredContentAppDescriptor;
 import info.magnolia.ui.contentapp.contenttypes.ConfiguredContentTypeAppDescriptor;
 import org.packrunners.tutors.TutorTemplatingFunctions;
 import org.packrunners.tutors.TutorsModule;
-import org.packrunners.webapp.setup.AddPermissionTask;
-import org.packrunners.webapp.setup.CopySiteToMultiSiteAndMakeItFallback;
-import org.packrunners.webapp.setup.FolderBootstrapTask;
-import org.packrunners.webapp.setup.SetPageAsPublishedTask;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +34,7 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
             new OrderNodeBeforeTask("", "", WEBSITE, "/packrunners/course", "about"));
 
     public TutorsModuleVersionHandler() {
+/*
         register(DeltaBuilder.update("0.0.1", "")
                         .addTask(new FolderBootstrapTask("/mgnl-bootstrap/courses/packrunners/"))
                         .addTask(new IsInstallSamplesTask("Re-Bootstrap website content for packrunners pages",
@@ -52,10 +49,12 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
                                                         "/mgnl-bootstrap-samples/courses/category.course-types.xml")),
                                         new BootstrapSingleResource("Re bootstrap courses content", "",
                                                 "/mgnl-bootstrap-samples/courses/courses.NNHS-Courses.xml"))))
+*/
 //                new FolderBootstrapTask("/mgnl-bootstrap-samples/courses/assets/"),
 //                new NodeExistsDelegateTask("", "", WEBSITE, "/packrunners/about/careers/main/06",
 //                    new OrderNodeBeforeTask("Order careers 05 node before 06", "", WEBSITE,
 //                        "/packrunners/about/careers/main/05", "06")))))
+/*
                         .addTask(new BootstrapSingleModuleResource("config.modules.courses.apps.courseCategories.xml",
                                 IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                         .addTask(new BootstrapSingleModuleResource("config.modules.courses.apps.courses.xml",
@@ -141,6 +140,7 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
                                         "/modules/courses/apps/courseCategories", "contentType", "courseCategory")
                         )))
         );
+*/
     }
 
     @Override
@@ -167,7 +167,7 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
         /* Add packrunners-base role to user anonymous */
         tasks.add(new AddRoleToUserTask("Adds role 'packrunners-base' to user 'anonymous'", "anonymous",
                 "packrunners-base"));
-        tasks.add(new AddPermissionTask(DAM_PERMISSIONS_ROLES, TRAVEL_DEMO_TOUR_EDITOR_ROLE));
+        //tasks.add(new AddPermissionTask(DAM_PERMISSIONS_ROLES, TRAVEL_DEMO_TOUR_EDITOR_ROLE));
 
         tasks.add(new IsModuleInstalledOrRegistered(
                 "Copy template availability and navigation areas from site definition to multisite module",
@@ -189,7 +189,7 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
                                 "/modules/packrunners/config/packrunners/templates/availability/templates/schoolOverview",
                                 "/modules/multisite/config/sites/packrunners/templates/availability/templates/schoolOverview",
                                 false))));
-        tasks.add(new SetPageAsPublishedTask("/packrunners", true));
+        //tasks.add(new SetPageAsPublishedTask("/packrunners", true));
         return tasks;
     }
 

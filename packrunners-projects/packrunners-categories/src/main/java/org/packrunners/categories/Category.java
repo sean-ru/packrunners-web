@@ -1,4 +1,4 @@
-package org.packrunners.webapp;
+package org.packrunners.categories;
 
 import info.magnolia.dam.api.Asset;
 

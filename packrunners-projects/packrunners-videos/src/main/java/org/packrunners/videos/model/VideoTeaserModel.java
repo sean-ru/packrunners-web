@@ -7,9 +7,9 @@ import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;
 import info.magnolia.rendering.template.RenderableDefinition;
 import lombok.extern.slf4j.Slf4j;
+import org.packrunners.categories.Category;
 import org.packrunners.videos.VideosModule;
 import org.packrunners.videos.service.VideoServices;
-import org.packrunners.webapp.Category;
 
 import javax.inject.Inject;
 import javax.jcr.Node;

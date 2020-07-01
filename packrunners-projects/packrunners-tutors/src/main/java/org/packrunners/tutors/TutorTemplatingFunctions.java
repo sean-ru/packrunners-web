@@ -1,9 +1,9 @@
 package org.packrunners.tutors;
 
 import info.magnolia.jcr.util.ContentMap;
+import org.packrunners.categories.Category;
 import org.packrunners.tutors.service.Tutor;
 import org.packrunners.tutors.service.TutorServices;
-import org.packrunners.webapp.Category;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

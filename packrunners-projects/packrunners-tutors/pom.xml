@@ -48,7 +48,7 @@
         <!-- Dependencies to other modules -->
         <dependency>
             <groupId>org.packrunners</groupId>
-            <artifactId>packrunners-website</artifactId>
+            <artifactId>packrunners-categories</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
