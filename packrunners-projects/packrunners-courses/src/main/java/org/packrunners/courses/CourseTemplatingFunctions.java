@@ -4,7 +4,7 @@ import info.magnolia.jcr.util.ContentMap;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import javax.jcr.Node;
-import org.packrunners.courses.service.Category;
+import org.packrunners.webapp.Category;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 

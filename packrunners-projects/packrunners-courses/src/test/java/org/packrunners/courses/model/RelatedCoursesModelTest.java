@@ -13,7 +13,7 @@ import java.util.List;
 import javax.jcr.Node;
 import org.junit.Before;
 import org.junit.Test;
-import org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition;
+import org.packrunners.webapp.definition.CategoryTemplateDefinition;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 
@@ -25,14 +25,14 @@ public class RelatedCoursesModelTest extends MgnlTestCase {
 
   private CourseServices courseServices;
   private RelatedCoursesModel model;
-  private CourseCategoryTemplateDefinition templateDefinition;
+  private CategoryTemplateDefinition templateDefinition;
 
   @Override
   @Before
   public void setUp() throws Exception {
     super.setUp();
     this.courseServices = mock(CourseServices.class);
-    templateDefinition = mock(CourseCategoryTemplateDefinition.class);
+    templateDefinition = mock(CategoryTemplateDefinition.class);
 
     this.model = new RelatedCoursesModel(mock(Node.class), templateDefinition,
         mock(RenderingModel.class),

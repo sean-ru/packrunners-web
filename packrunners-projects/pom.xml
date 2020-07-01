@@ -17,6 +17,10 @@
     <module>packrunners-parent</module>
     <module>packrunners-website</module>
     <module>packrunners-courses</module>
+    <module>packrunners-study-guides</module>
+    <module>packrunners-videos</module>
+    <module>packrunners-quizzes</module>
+    <module>packrunners-tutors</module>
   </modules>
 
 </project>

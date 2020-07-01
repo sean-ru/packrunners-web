@@ -64,7 +64,7 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
 
   @Override
   protected String getModuleDescriptorPath() {
-    return "/META-INF/magnolia/packrunweb.xml";
+    return "/META-INF/magnolia/packrunners.xml";
   }
 
   @Override

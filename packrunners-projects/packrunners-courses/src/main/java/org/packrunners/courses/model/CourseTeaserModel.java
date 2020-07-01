@@ -14,7 +14,7 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import lombok.extern.slf4j.Slf4j;
 import org.packrunners.courses.CoursesModule;
-import org.packrunners.courses.service.Category;
+import org.packrunners.webapp.Category;
 import org.packrunners.courses.service.CourseServices;
 
 

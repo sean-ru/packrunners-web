@@ -10,21 +10,21 @@ import javax.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import lombok.extern.slf4j.Slf4j;
-import org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition;
-import org.packrunners.courses.service.Category;
+import org.packrunners.webapp.definition.CategoryTemplateDefinition;
+import org.packrunners.studyguides.service.StudyGuide;
+import org.packrunners.studyguides.service.StudyGuideServices;
+import org.packrunners.webapp.Category;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
-import org.packrunners.courses.service.StudyGuide;
-import org.packrunners.courses.service.StudyGuideServices;
-import org.packrunners.courses.service.Video;
-import org.packrunners.courses.service.VideoServices;
+import org.packrunners.videos.service.Video;
+import org.packrunners.videos.service.VideoServices;
 
 
 /**
  * Model for displaying a course and its related courses by type or category.
  */
 @Slf4j
-public class CourseDetailModel<RD extends CourseCategoryTemplateDefinition> extends
+public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
     RenderingModelImpl<RD> {
 
   private final CourseServices courseServices;

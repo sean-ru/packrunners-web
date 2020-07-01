@@ -5,8 +5,8 @@ import info.magnolia.rendering.model.RenderingModelImpl;
 import java.util.List;
 import javax.inject.Inject;
 import javax.jcr.Node;
-import org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition;
-import org.packrunners.courses.service.Category;
+import org.packrunners.webapp.definition.CategoryTemplateDefinition;
+import org.packrunners.webapp.Category;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 
@@ -14,9 +14,9 @@ import org.packrunners.courses.service.CourseServices;
 /**
  * Model for retrieving courses by type or category.
  *
- * @param <RD> The {@link CourseCategoryTemplateDefinition} of the model.
+ * @param <RD> The {@link CategoryTemplateDefinition} of the model.
  */
-public class CourseListModel<RD extends CourseCategoryTemplateDefinition> extends
+public class CourseListModel<RD extends CategoryTemplateDefinition> extends
     RenderingModelImpl<RD> {
 
   private final CourseServices courseServices;

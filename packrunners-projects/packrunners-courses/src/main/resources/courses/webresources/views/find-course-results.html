@@ -21,10 +21,10 @@
     </div>
     <div class="course-list">
         <div class="row" ng-show="filteredCourses.length">
-            <div class="col-md-6 course-card card" ng-repeat="course in filteredCourses" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="course in filteredCourses" ng-include="contextPath + '/.resources/courses/webresources/views/course-card.html'" />
         </div>
         <div class="row" ng-hide="filteredCourses.length">
-            <div class="col-md-6 course-card card" ng-repeat="course in courses" ng-include="contextPath + '/.resources/courses/webresources/views/courseCard.html'" />
+            <div class="col-md-6 course-card card" ng-repeat="course in courses" ng-include="contextPath + '/.resources/courses/webresources/views/course-card.html'" />
         </div>
     </div>
 </div>

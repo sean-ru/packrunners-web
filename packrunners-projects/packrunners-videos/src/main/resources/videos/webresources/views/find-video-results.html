@@ -1,0 +1,30 @@
+<!-- Main Form -->
+<div class="finder-header">
+    <h1><img src="{{ contextPath }}/.resources/courses/webresources/img/map_red.png">{{ i18n['videoFinder.title'] }}</h1>
+    <div class="finder-search-container">
+        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+        <input class="finder-search" type="text" placeholder="{{ i18n['videoFinder.search.placeholder'] }}" ng-model="search.query" ng-model-options="{ updateOn: 'change blur' }" />
+    </div>
+</div>
+
+<!-- Search Filters -->
+<div class="finder-section-filters" id="finder-section-filters" ng-include="contextPath + '/.resources/videos/webresources/views/course-type-filters.html'">
+</div>
+
+<!-- Resource Results -->
+<div class="finder-list">
+    <div class="finder-summary col-md-12">
+        <span class="finder-count">{{ filteredVideos.length }}</span> {{ i18n['videoFinder.search.resultsFound'] }}
+    </div>
+    <div class="finder-summary-no-courses col-md-12" ng-hide="filteredVideos.length" ng-cloak>
+        {{ i18n[notFoundMessage] }}
+    </div>
+    <div class="course-list">
+        <div class="row" ng-show="filteredVideos.length">
+            <div class="col-md-6 course-card card" ng-repeat="video in filteredVideos" ng-include="contextPath + '/.resources/videos/webresources/views/video-card.html'" />
+        </div>
+        <div class="row" ng-hide="filteredVideos.length">
+            <div class="col-md-6 course-card card" ng-repeat="video in videos" ng-include="contextPath + '/.resources/videos/webresources/views/video-card.html'" />
+        </div>
+    </div>
+</div>

@@ -35,6 +35,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.packrunners.courses.CoursesModule;
+import org.packrunners.webapp.Category;
 
 
 /**

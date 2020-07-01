@@ -1,6 +1,8 @@
 package org.packrunners.courses.service;
 
 import info.magnolia.dam.api.Asset;
+import org.packrunners.webapp.Category;
+
 import java.util.List;
 
 

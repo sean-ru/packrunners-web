@@ -37,11 +37,11 @@ public class InstallPurSamplesTask extends ArrayDelegateTask {
   public InstallPurSamplesTask() {
     super("Install PUR samples if public-user-registration module is installed");
     this.addTask(new BootstrapSingleModuleResource(
-        "config.server.filters.securityCallback.clientCallbacks.packrunweb-pur.xml"));
+        "config.server.filters.securityCallback.clientCallbacks.packrunners-pur.xml"));
     this.addTask(new BootstrapSingleResource("Install user role for PUR", "",
-        "/mgnl-bootstrap-samples/packrunweb/userroles.packrunweb-pur.xml"));
+            "/mgnl-bootstrap-samples/packrunners/userroles.packrunners-pur.xml"));
     this.addTask(new BootstrapSingleResource("Install user group for PUR", "",
-        "/mgnl-bootstrap-samples/packrunweb/usergroups.packrunweb-pur.xml"));
+            "/mgnl-bootstrap-samples/packrunners/usergroups.packrunners-pur.xml"));
     this.addTask(new ArrayDelegateTask("",
         new IsAdminInstanceDelegateTask("", (Task) null, this.getPermissionTasks()),
         new OrderNodeBeforeTask("/server/filters/securityCallback/clientCallbacks/packrunweb-pur",

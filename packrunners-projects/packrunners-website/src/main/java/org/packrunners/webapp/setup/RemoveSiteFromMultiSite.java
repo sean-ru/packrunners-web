@@ -23,7 +23,7 @@ public class RemoveSiteFromMultiSite extends RemoveNodeTask {
     if (session.nodeExists(PATH_TO_DEFAULT_SITE)) {
       final Node siteNode = session.getNode(PATH_TO_DEFAULT_SITE);
       if (!siteNode.hasProperty("class") &&
-          "packrunweb-theme".equals(PropertyUtil.getString(siteNode, "theme/name")) &&
+          "packrunners-theme".equals(PropertyUtil.getString(siteNode, "theme/name")) &&
           "packrunweb:pages/home".equals(
               PropertyUtil.getString(siteNode, "templates/availability/templates/home/id"))) {
         super.doExecute(ctx);

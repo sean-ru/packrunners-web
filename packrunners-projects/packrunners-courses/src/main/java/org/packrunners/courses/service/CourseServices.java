@@ -28,6 +28,7 @@ import javax.jcr.query.Query;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.packrunners.courses.CoursesModule;
+import org.packrunners.webapp.Category;
 
 
 /**

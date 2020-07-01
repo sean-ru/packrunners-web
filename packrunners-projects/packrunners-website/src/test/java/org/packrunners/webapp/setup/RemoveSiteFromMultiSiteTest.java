@@ -41,7 +41,7 @@ public class RemoveSiteFromMultiSiteTest {
   public void checkThatTaskRemovesCorrectSiteDefinition() throws Exception {
     // GIVEN
     final Node themeReferenceNode = siteNode.addNode("theme", NodeTypes.ContentNode.NAME);
-    themeReferenceNode.setProperty("name", "packrunweb-theme");
+    themeReferenceNode.setProperty("name", "packrunners-theme");
     final Node homeTemplate = NodeUtil
         .createPath(siteNode, "templates/availability/templates/home", NodeTypes.ContentNode.NAME);
     homeTemplate.setProperty("id", "packrunweb:pages/home");
