@@ -141,7 +141,7 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
     // THEN
     assertTrue(session.propertyExists("/modules/site/config/site/extends"));
     assertThat(session.getProperty("/modules/site/config/site/extends").getString(),
-        is("/modules/packrunweb/config/travel"));
+        is("/modules/packrunners/config/travel"));
   }
 
   @Test
@@ -244,7 +244,7 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
         Version.parseVersion("0.8.1"));
 
     // THEN
-    assertThat(website.getRootNode(), hasNode("packrunweb/book-course"));
+    assertThat(website.getRootNode(), hasNode("packrunners/book-course"));
     this.checkIfEverythingIsActivated();
     this.assertNoMessages(ctx);
   }
@@ -252,14 +252,14 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
   @Test
   public void upgradeFrom014RemovesThemeFromJCR() throws Exception {
     // GIVEN
-    setupConfigNode("/modules/site/config/themes/packrunweb-theme");
+    setupConfigNode("/modules/site/config/themes/packrunners-theme");
 
     // WHEN
     final InstallContext ctx = executeUpdatesAsIfTheCurrentlyInstalledVersionWas(
         Version.parseVersion("0.14"));
 
     // THEN
-    assertThat(session.getRootNode(), not(hasNode("modules/site/config/themes/packrunweb-theme")));
+    assertThat(session.getRootNode(), not(hasNode("modules/site/config/themes/packrunners-theme")));
     this.checkIfEverythingIsActivated();
     this.assertNoMessages(ctx);
   }
@@ -329,13 +329,13 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
     ));
 
     assertThat(MgnlContext.getJCRSession(RepositoryConstants.USER_ROLES).getRootNode(),
-        hasNode("packrunweb-pur"));
+        hasNode("packrunners-pur"));
     assertThat(MgnlContext.getJCRSession(DamConstants.WORKSPACE).getRootNode(),
-        hasNode("packrunweb/img/gate-hernan-pinera.jpg"));
+        hasNode("packrunners/img/gate-hernan-pinera.jpg"));
 
-    assertThat(clientCallbacks, hasNode("packrunweb-pur/originalUrlPattern"));
+    assertThat(clientCallbacks, hasNode("packrunners-pur/originalUrlPattern"));
     Node callback = clientCallbacks.getNodes().nextNode();
-    assertThat(callback.getName(), equalTo("packrunweb-pur"));
+    assertThat(callback.getName(), equalTo("packrunners-pur"));
     assertThat(callback.getNode("originalUrlPattern"),
         hasProperty("patternString", "(*|travel)/members/(profile-update|protected)*"));
     assertThat(callback.getNode("originalUrlPattern").getProperty("patternString").getString(),
@@ -346,7 +346,7 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
         ));
 
     assertThat(session.getRootNode(),
-        hasNode("modules/packrunweb/config/travel/templates/availability/templates/pur"));
+        hasNode("modules/packrunners/config/travel/templates/availability/templates/pur"));
 
     assertThat(MgnlContext.getJCRSession(RepositoryConstants.USER_ROLES).getRootNode(),
         hasNode(UserManager.ANONYMOUS_USER + "/acl_uri"));
@@ -357,16 +357,16 @@ public class PackrunwebModuleVersionHandlerTest extends ModuleVersionHandlerTest
           isIn(InstallPurSamplesTask.PROTECTED_PAGES_PATHS));
     }
     assertThat(MgnlContext.getJCRSession(RepositoryConstants.USER_ROLES).getRootNode(),
-        hasNode("packrunweb-pur" + "/acl_uri"));
+        hasNode("packrunners-pur" + "/acl_uri"));
     permissions = MgnlContext.getJCRSession(RepositoryConstants.USER_ROLES)
-        .getNode("/packrunweb-pur/acl_uri").getNodes();
+        .getNode("/packrunners-pur/acl_uri").getNodes();
     while (permissions.hasNext()) {
       assertThat(permissions.nextNode().getProperty("path").getString(),
           isIn(InstallPurSamplesTask.PROTECTED_PAGES_PATHS));
     }
 
     assertThat(MgnlContext.getJCRSession(RepositoryConstants.USER_GROUPS).getRootNode(),
-        hasNode("packrunweb-pur"));
+        hasNode("packrunners-pur"));
   }
 
   private void checkIfEverythingIsActivated() throws RepositoryException {

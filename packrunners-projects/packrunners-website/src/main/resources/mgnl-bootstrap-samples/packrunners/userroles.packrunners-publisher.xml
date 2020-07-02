@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="packrunweb-publisher" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sv:node sv:name="packrunners-publisher" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:role</sv:value>
   </sv:property>
@@ -25,7 +25,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="name" sv:type="String">
-    <sv:value>packrunweb-publisher</sv:value>
+    <sv:value>packrunners-publisher</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -37,7 +37,7 @@
     <sv:value>2015-08-06T10:04:07.551+02:00</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>Example publisher role for the packrunweb project</sv:value>
+    <sv:value>Example publisher role for the packrunners project</sv:value>
   </sv:property>
   <sv:node sv:name="acl_userroles">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -93,7 +93,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>/packrunweb-publisher</sv:value>
+        <sv:value>/packrunners-publisher</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>

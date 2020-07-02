@@ -18,7 +18,7 @@
     [#assign divClass = "${divClass} text-image-section"]
     [#assign imageClass = "content-image-${imagePosition}"]
     [#assign rendition = damfn.getRendition(content.image, "original")]
-    [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
+    [#include "/packrunners/templates/macros/imageResponsive.ftl"]
     [#assign imageHtml][@imageResponsive rendition content imageClass false def.parameters /][/#assign]
 [/#if]
 

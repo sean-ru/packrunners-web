@@ -2,7 +2,7 @@ realmName: public
 defaultRoles:
   anonymous: anonymous
 defaultGroups:
-  pur: packrunweb-pur
+  pur: packrunners-pur
 registrationStrategy:
   class: info.magnolia.module.publicuserregistration.strategy.Always
 passwordRetrievalStrategy:
@@ -11,7 +11,7 @@ passwordRetrievalStrategy:
   class: info.magnolia.module.publicuserregistration.password.MailChangePasswordLinkStrategy
   emailTemplate: /public-user-registration/templates/mail/password-reset-email.ftl
   fromName: mail.passwordreminder.from
-  targetPagePath: /packrunweb/members/forgotten-password/password-change
+  targetPagePath: /packrunners/members/forgotten-password/password-change
   subject: mail.passwordreminder.subject
 userProfileConfiguration:
   userProfileClass: info.magnolia.module.publicuserregistration.UserProfile

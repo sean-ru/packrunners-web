@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="packrunweb-pur" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sv:node sv:name="packrunners-pur" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:role</sv:value>
   </sv:property>
@@ -40,7 +40,7 @@
     <sv:value/>
   </sv:property>
   <sv:property sv:name="name" sv:type="String">
-    <sv:value>packrunweb-pur</sv:value>
+    <sv:value>packrunners-pur</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
     <sv:value>Travel demo registered public users</sv:value>
@@ -347,7 +347,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>/packrunweb-pur</sv:value>
+        <sv:value>/packrunners-pur</sv:value>
       </sv:property>
       <sv:property sv:name="permissions" sv:type="Long">
         <sv:value>8</sv:value>
@@ -493,7 +493,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>/packrunweb/members/protected*</sv:value>
+        <sv:value>/packrunners/members/protected*</sv:value>
       </sv:property>
       <sv:property sv:name="permissions" sv:type="Long">
         <sv:value>63</sv:value>
@@ -531,7 +531,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>&lt;packrunweb&gt;/members/protected*</sv:value>
+        <sv:value>&lt;packrunners&gt;/members/protected*</sv:value>
       </sv:property>
       <sv:property sv:name="permissions" sv:type="Long">
         <sv:value>63</sv:value>
@@ -560,7 +560,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>/packrunweb/members/profile-update*</sv:value>
+        <sv:value>/packrunners/members/profile-update*</sv:value>
       </sv:property>
       <sv:property sv:name="permissions" sv:type="Long">
         <sv:value>63</sv:value>
@@ -589,7 +589,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="path" sv:type="String">
-        <sv:value>&lt;packrunweb&gt;/members/profile-update*</sv:value>
+        <sv:value>&lt;packrunners&gt;/members/profile-update*</sv:value>
       </sv:property>
       <sv:property sv:name="permissions" sv:type="Long">
         <sv:value>63</sv:value>

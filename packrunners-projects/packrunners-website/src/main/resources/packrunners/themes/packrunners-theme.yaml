@@ -1,7 +1,7 @@
 cssFiles:
   bootstrap:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/twitterbootstrap/css/bootstrap.min.css
+    link: /.resources/packrunners-theme/libs/twitterbootstrap/css/bootstrap.min.css
     media: all
   roboto-condensed:
     addFingerPrint: true
@@ -9,15 +9,15 @@ cssFiles:
     media: all
   slick:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/slick-carousel/css/slick.css
+    link: /.resources/packrunners-theme/libs/slick-carousel/css/slick.css
     media: all
   slick-theme:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/slick-carousel/css/slick-theme.css
+    link: /.resources/packrunners-theme/libs/slick-carousel/css/slick-theme.css
     media: all
-  packrunwebs-magnolia:
+  packrunnerss-magnolia:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/css/packrunners-magnolia.css
+    link: /.resources/packrunners-theme/css/packrunners-magnolia.css
     media: all
   video:
     addFingerPrint: true
@@ -26,25 +26,25 @@ cssFiles:
 jsFiles:
   respimage:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/lazysizes/respimage.min.js
+    link: /.resources/packrunners-theme/libs/lazysizes/respimage.min.js
   lazysizes:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/lazysizes/lazysizes.min.js
+    link: /.resources/packrunners-theme/libs/lazysizes/lazysizes.min.js
   modernizr:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/js/modernizr-2.6.2.min.js
+    link: /.resources/packrunners-theme/js/modernizr-2.6.2.min.js
   jquery:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/js/jquery-1.10.2.min.js
+    link: /.resources/packrunners-theme/js/jquery-1.10.2.min.js
   js.cookies:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/js/js.cookies-2.1.2.js
+    link: /.resources/packrunners-theme/js/js.cookies-2.1.2.js
   jquery.object-fit-cover-simple:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/js/jquery.object-fit-cover-simple.js
+    link: /.resources/packrunners-theme/js/jquery.object-fit-cover-simple.js
   slick:
     addFingerPrint: true
-    link: /.resources/packrunweb-theme/libs/slick-carousel/js/slick.min.js
+    link: /.resources/packrunners-theme/libs/slick-carousel/js/slick.min.js
   addtoany:
     link: https://static.addtoany.com/menu/page.js
 imaging:

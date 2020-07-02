@@ -1,4 +1,4 @@
-templateScript: /packrunweb/templates/components/link.ftl
-dialog: packrunweb:components/link
+templateScript: /packrunners/templates/components/link.ftl
+dialog: packrunners:components/link
 
 renderType: freemarker

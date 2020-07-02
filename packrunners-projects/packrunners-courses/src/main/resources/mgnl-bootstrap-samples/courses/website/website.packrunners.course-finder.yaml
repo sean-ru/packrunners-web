@@ -7,7 +7,7 @@
   mgnl:createdBy: 'superuser'
   mgnl:lastModified: 2018-03-27T11:03:06.652+02:00
   mgnl:lastModifiedBy: 'superuser'
-  mgnl:template: 'packrunweb:pages/standard'
+  mgnl:template: 'packrunners:pages/standard'
   'main': 
     jcr:primaryType: 'mgnl:area'
     jcr:uuid: '9cafcc1e-e561-4f15-83ba-6019c8107a86'

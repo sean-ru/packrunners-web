@@ -122,7 +122,7 @@ GET http://localhost:8080/magnoliaPublic/.rest/delivery/courses/v1/?courseTypes=
         "renditions": {
           "960x720": {
             "mimeType": "image/jpeg",
-            "link": "/magnoliaPublic/.imaging/mte/packrunweb-theme/960x720/dam/courses/HA2.jpg/jcr:content/HA2.jpg"
+            "link": "/magnoliaPublic/.imaging/mte/packrunners-theme/960x720/dam/courses/HA2.jpg/jcr:content/HA2.jpg"
           }
         }
       },
@@ -228,7 +228,7 @@ GET http://localhost:8080/magnoliaPublic/.rest/delivery/courses/v1/?courseTypes=
         "renditions": {
           "960x720": {
             "mimeType": "image/jpeg",
-            "link": "/magnoliaPublic/.imaging/mte/packrunweb-theme/960x720/dam/courses/physics.jpg/jcr:content/physics.jpg"
+            "link": "/magnoliaPublic/.imaging/mte/packrunners-theme/960x720/dam/courses/physics.jpg/jcr:content/physics.jpg"
           }
         }
       },

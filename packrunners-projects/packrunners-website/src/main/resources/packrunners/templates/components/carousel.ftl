@@ -1,5 +1,5 @@
 [#-------------- ASSIGNMENTS --------------]
-[#include "/packrunweb/templates/macros/editorAlert.ftl" /]
+[#include "/packrunners/templates/macros/editorAlert.ftl" /]
 
 [#assign slideShowId = content.id!"carousel-${content.@id}"]
 [#assign cssClass = "component-carousel"]

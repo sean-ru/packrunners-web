@@ -1,7 +1,7 @@
 [#-------------- ASSIGNMENTS --------------]
-[#include "/packrunweb/templates/macros/searchForm.ftl"]
-[#include "/packrunweb/templates/macros/userLinks.ftl"]
-[#include "/packrunweb/templates/macros/navigation.ftl"]
+[#include "/packrunners/templates/macros/searchForm.ftl"]
+[#include "/packrunners/templates/macros/userLinks.ftl"]
+[#include "/packrunners/templates/macros/navigation.ftl"]
 
 [#assign siteRoot = cmsfn.siteRoot(content)]
 [#assign homeLink = cmsfn.link(siteRoot)!"/" /]

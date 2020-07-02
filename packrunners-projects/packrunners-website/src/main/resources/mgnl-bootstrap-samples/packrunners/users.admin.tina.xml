@@ -55,7 +55,7 @@
     <sv:value>$2a$12$7vns/khhZ4/BT2y4WVLZVuWrGFLX1o6KYOewD/h.jA8U8ypwC20g.</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>Tina (Tour editor, packrunweb)</sv:value>
+    <sv:value>Tina (Tour editor, packrunners)</sv:value>
   </sv:property>
   <sv:node sv:name="acl_users">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">

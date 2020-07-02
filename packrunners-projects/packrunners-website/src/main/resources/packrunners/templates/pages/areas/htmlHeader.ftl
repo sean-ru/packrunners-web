@@ -33,7 +33,7 @@
 [/#if]
 
 [#if cmsfn.editMode]
-<link rel="stylesheet" type="text/css" href="${ctx.contextPath}/.resources/packrunweb-theme/css/packrunweb-magnolia-author.css" media="all" />
+<link rel="stylesheet" type="text/css" href="${ctx.contextPath}/.resources/packrunners-theme/css/packrunners-magnolia-author.css" media="all" />
 [/#if]
 
 [#-- jsFiles from the theme are here --]
@@ -44,6 +44,6 @@
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<script>window.html5 || document.write('<script src="${ctx.contextPath}/.resources/packrunweb-theme/js/html5shiv.js"><\/script>')</script>
+<script>window.html5 || document.write('<script src="${ctx.contextPath}/.resources/packrunners-theme/js/html5shiv.js"><\/script>')</script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->

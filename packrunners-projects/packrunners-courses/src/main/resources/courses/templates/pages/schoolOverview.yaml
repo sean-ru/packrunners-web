@@ -17,9 +17,9 @@ areas:
     availableComponents:
       coueseTypeOverviewHeader:
         id: courses:components/courseTypeOverviewHeader
-      courseListFeaturedRowByDestination:
+      courseListFeaturedRowBySchool:
         id: courses:components/courseListFeaturedRowBySchool
-      courseListByDestination:
+      courseListBySchool:
         id: courses:components/courseListBySchool
       social:
         id: packrunners:components/social

@@ -19,7 +19,7 @@ import org.packrunners.webapp.user.UserLinksResolver;
 @Slf4j
 public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
 
-  private static final String ABOUT_TEMPLATE_SUBTYPE = "packrunweb-about";
+  private static final String ABOUT_TEMPLATE_SUBTYPE = "packrunners-about";
   private final TemplatingFunctions templatingFunctions;
   private UserLinksResolver userLinksResolver;
 

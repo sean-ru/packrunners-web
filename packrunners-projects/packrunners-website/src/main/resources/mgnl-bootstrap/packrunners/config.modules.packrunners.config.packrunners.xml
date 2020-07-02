@@ -11,7 +11,7 @@
       <sv:value>info.magnolia.module.site.templates.ReferencingPrototypeTemplateSettings</sv:value>
     </sv:property>
     <sv:property sv:name="prototypeId" sv:type="String">
-      <sv:value>packrunweb:pages/prototype</sv:value>
+      <sv:value>packrunners:pages/prototype</sv:value>
     </sv:property>
     <sv:node sv:name="availability">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -26,7 +26,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>packrunweb:pages/home</sv:value>
+            <sv:value>packrunners:pages/home</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="standard">
@@ -34,7 +34,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>packrunweb:pages/standard</sv:value>
+            <sv:value>packrunners:pages/standard</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="searchResultPage">
@@ -42,7 +42,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>packrunweb:pages/searchResultPage</sv:value>
+            <sv:value>packrunners:pages/searchResultPage</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="pur">
@@ -50,7 +50,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>packrunweb:pages/pur</sv:value>
+            <sv:value>packrunners:pages/pur</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
@@ -72,7 +72,7 @@
       <sv:value>mgnl:contentNode</sv:value>
     </sv:property>
     <sv:property sv:name="name" sv:type="String">
-      <sv:value>packrunweb-theme</sv:value>
+      <sv:value>packrunners-theme</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="i18n">

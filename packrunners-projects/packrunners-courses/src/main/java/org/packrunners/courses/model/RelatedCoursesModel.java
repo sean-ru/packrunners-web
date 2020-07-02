@@ -16,7 +16,7 @@ import org.packrunners.courses.service.CourseServices;
 
 
 /**
- * Model for getting related Courses based on type- and destination-category.
+ * Model for getting related Courses based on type- and school-category.
  *
  * @param <RD> The {@link CategoryTemplateDefinition} of the model.
  */

@@ -10220,7 +10220,7 @@
         <sv:value>^/courses(.*).html</sv:value>
       </sv:property>
       <sv:property sv:name="toUri" sv:type="String">
-        <sv:value>forward:/packrunweb/course?course=$1</sv:value>
+        <sv:value>forward:/packrunners/course?course=$1</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

@@ -44,7 +44,7 @@ public class RemoveSiteFromMultiSiteTest {
     themeReferenceNode.setProperty("name", "packrunners-theme");
     final Node homeTemplate = NodeUtil
         .createPath(siteNode, "templates/availability/templates/home", NodeTypes.ContentNode.NAME);
-    homeTemplate.setProperty("id", "packrunweb:pages/home");
+    homeTemplate.setProperty("id", "packrunners:pages/home");
 
     // WHEN
     task.doExecute(context);

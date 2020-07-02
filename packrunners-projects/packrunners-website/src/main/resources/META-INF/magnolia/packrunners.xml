@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd" >
 <module>
-  <name>packrunweb</name>
+  <name>packrunners</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
   <versionHandler>org.packrunners.webapp.setup.PackrunnersModuleVersionHandler</versionHandler>
@@ -55,7 +55,7 @@
       <version>2.5.1/*</version>
     </dependency>
 
-    <!-- packrunweb-pur group contains roles from these modules:  -->
+    <!-- packrunners-pur group contains roles from these modules:  -->
     <dependency>
       <name>categorization</name>
       <version>2.4/*</version>
@@ -71,7 +71,7 @@
       <version>2.3.1/*</version>
       <optional>true</optional>
     </dependency>
-    <!-- packrunweb-pur group contains roles from these modules ^^^  -->
+    <!-- packrunners-pur group contains roles from these modules ^^^  -->
 
   </dependencies>
 </module>

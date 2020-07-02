@@ -13,9 +13,9 @@ areas:
       linkList:
         id: packrunners:components/linkList
       teaser:
-        id: packrunweb:components/teaser
+        id: packrunners:components/teaser
       carousel:
-        id: packrunweb:components/carousel
+        id: packrunners:components/carousel
       video:
         id: mtk:components/video
       html:

@@ -8,4 +8,4 @@ areas:
     type: list
     availableComponents:
       link:
-        id: packrunweb:components/link
+        id: packrunners:components/link

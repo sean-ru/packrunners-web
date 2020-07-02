@@ -13,7 +13,7 @@ import info.magnolia.repository.RepositoryConstants;
  */
 public class CopySiteToMultiSiteAndMakeItFallback extends ArrayDelegateTask {
 
-  protected static final String PACKRUNNERS_SITE = "/modules/packrunweb/config/packrunners";
+  protected static final String PACKRUNNERS_SITE = "/modules/packrunners/config/packrunners";
   protected static final String MULTISITE_PACKRUNNERS_SITE = "/modules/multisite/config/sites/packrunners";
   protected static final String MULTISITE_FALLBACK_SITE = "/modules/multisite/config/sites/fallback";
 

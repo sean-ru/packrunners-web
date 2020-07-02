@@ -28,7 +28,7 @@ form:
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
           i18n: true
           rows: 5
-    # packrunweb-home-page (search) specific properties
+    # packrunners-home-page (search) specific properties
     - name: tabSearch
       fields:
         - name: searchResultPage

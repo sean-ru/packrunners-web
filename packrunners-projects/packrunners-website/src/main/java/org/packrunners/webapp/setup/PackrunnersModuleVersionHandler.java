@@ -33,16 +33,16 @@ import javax.jcr.ImportUUIDBehavior;
 
 public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler {
 
-  private static final String DEFAULT_URI_NODEPATH = "/modules/ui-admincentral/virtualUriMappings/default";
+  private static final String DEFAULT_URI_NODE_PATH = "/modules/ui-admincentral/virtualUriMappings/default";
   private static final String DEFAULT_URI = "redirect:/packrunners.html";
 
   private final Task setDefaultUriOnPublicInstance = new ValueOfPropertyDelegateTask(
       "Set default URI to home page, when current site is packrunners site",
-      "/modules/site/config/site", "extends", "/modules/packrunweb/config/packrunners", false,
+      "/modules/site/config/site", "extends", "/modules/packrunners/config/packrunners", false,
       new IsAdminInstanceDelegateTask("Set default URI to home page",
           String.format("Set default URI to point to '%s'", DEFAULT_URI), null,
-          new NodeExistsDelegateTask("", DEFAULT_URI_NODEPATH,
-              new SetPropertyTask(RepositoryConstants.CONFIG, DEFAULT_URI_NODEPATH, "toUri",
+          new NodeExistsDelegateTask("", DEFAULT_URI_NODE_PATH,
+              new SetPropertyTask(RepositoryConstants.CONFIG, DEFAULT_URI_NODE_PATH, "toUri",
                   DEFAULT_URI),
               new WarnTask("Set default URI to home page",
                   "Could not set default URI to home packrunners page, default mapping was not found."))));
@@ -52,29 +52,29 @@ public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler
       new HasPropertyDelegateTask("Check extends property and update or create it",
           "/modules/site/config/site", "extends",
           new CheckAndModifyPropertyValueTask("/modules/site/config/site", "extends",
-              "/modules/standard-templating-kit/config/site", "/modules/packrunweb/config/packrunners"),
+              "/modules/standard-templating-kit/config/site", "/modules/packrunners/config/packrunners"),
           new DefaultSiteExistsDelegateTask("", "",
               new SetPropertyTask(RepositoryConstants.CONFIG, "/modules/site/config/site",
-                  "extends", "/modules/packrunweb/config/packrunners"))),
+                  "extends", "/modules/packrunners/config/packrunners"))),
       new ArrayDelegateTask("",
           new CreateNodeTask("", "/modules/site/config", "site", NodeTypes.ContentNode.NAME),
           new SetPropertyTask(RepositoryConstants.CONFIG, "/modules/site/config/site", "extends",
-              "/modules/packrunweb/config/packrunners")
+              "/modules/packrunners/config/packrunners")
       ));
 
   private final Task copySiteToMultiSiteAndMakeItFallback = new CopySiteToMultiSiteAndMakeItFallback();
 
   private final Task setupAccessPermissionsForDemoUsers = new SetupRoleBasedAccessPermissionsTask(
       "Deny access permissions to apps",
-      "Deny access permissions to Contacts app, Web Dev group, Set Up group for packrunweb-admincentral role",
-      Lists.newArrayList("packrunweb-admincentral"), false, "/modules/contacts/apps/contacts",
+      "Deny access permissions to Contacts app, Web Dev group, Set up group for packrunners-admincentral role",
+      Lists.newArrayList("packrunners-admincentral"), false, "/modules/contacts/apps/contacts",
       "/modules/ui-admincentral/config/appLauncherLayout/groups/stk",
       "/modules/ui-admincentral/config/appLauncherLayout/groups/manage");
 
   private final Task setupTargetAppGroupAccessPermissions = new SetupRoleBasedAccessPermissionsTask(
       "Allow access to Target app group",
-      "Allow access to Target app group only to packrunweb-editor and packrunweb-publisher roles",
-      Lists.newArrayList("packrunweb-editor", "packrunweb-publisher"), true,
+      "Allow access to Target app group only to packrunners-editor and packrunners-publisher roles",
+      Lists.newArrayList("packrunners-editor", "packrunners-publisher"), true,
       "/modules/ui-admincentral/config/appLauncherLayout/groups/target");
 
   private final InstallPurSamplesTask installPurSamples = new InstallPurSamplesTask();
@@ -96,9 +96,9 @@ public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler
         .addTask(new BootstrapSingleModuleResource("config.modules.packrunners.config.packrunners.xml",
             ImportUUIDBehavior.IMPORT_UUID_COLLISION_THROW))
 
-        .addTask(new NodeExistsDelegateTask("Remove packrunweb-theme configuration from JCR",
-            "/modules/site/config/themes/packrunweb-theme",
-            new RemoveNodeTask("", "/modules/site/config/themes/packrunweb-theme")))
+        .addTask(new NodeExistsDelegateTask("Remove packrunners-theme configuration from JCR",
+            "/modules/site/config/themes/packrunners-theme",
+            new RemoveNodeTask("", "/modules/site/config/themes/packrunners-theme")))
 
         .addTask(setupPackrunnersSiteAsActiveSite)
         .addTask(setDefaultUriOnPublicInstance)
@@ -108,7 +108,7 @@ public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler
         .addTask(new IsModuleInstalledOrRegistered("Enable packrunners site in multisite configuration",
             "multisite",
             new NodeExistsDelegateTask("Check whether multisite can be enabled for packrunners web site",
-                "/modules/packrunweb/config/packrunners",
+                "/modules/packrunners/config/packrunners",
                 new NodeExistsDelegateTask(
                     "Check whether packrunners was already copied in a previous version",
                     "/modules/multisite/config/sites/default",
@@ -140,7 +140,7 @@ public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler
             "Copy changes in site definition to multisite if multisite is installed", "multisite",
             new IsModuleInstalledOrRegistered("", "public-user-registration",
                 new CopyNodeTask("",
-                    "/modules/packrunweb/config/packrunners/templates/availability/templates/pur",
+                    "/modules/packrunners/config/packrunners/templates/availability/templates/pur",
                     "/modules/multisite/config/sites/packrunners/templates/availability/templates/pur",
                     true))))
     );
@@ -169,7 +169,7 @@ public class PackrunnersModuleVersionHandler extends DefaultModuleVersionHandler
     tasks.add(new IsModuleInstalledOrRegistered("Enable packrunners site in multisite configuration",
         "multisite",
         new NodeExistsDelegateTask("Check whether multisite can be enabled for packrunners site",
-            "/modules/packrunweb/config/packrunners",
+            "/modules/packrunners/config/packrunners",
             copySiteToMultiSiteAndMakeItFallback)));
     tasks.add(new SetupRolesAndGroupsTask());
     tasks.add(setupAccessPermissionsForDemoUsers);

@@ -59,7 +59,7 @@
 
     <${headlineLevel}><a href="${link!}" ${linkTarget!}>${title!}</a></${headlineLevel}>
     [#if image?has_content]
-        [#include "/packrunweb/templates/macros/imageResponsive.ftl"]
+        [#include "/packrunners/templates/macros/imageResponsive.ftl"]
         [#assign imageClass = "content-image-below"]
         [#assign imageHtml][@imageResponsive image content imageClass false def.parameters /][/#assign]
 

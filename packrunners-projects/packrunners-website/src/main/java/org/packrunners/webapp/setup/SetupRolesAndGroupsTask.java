@@ -10,11 +10,11 @@ import info.magnolia.module.delta.NewPropertyTask;
  */
 public class SetupRolesAndGroupsTask extends ArrayDelegateTask {
 
-  public static final String PUBLISHER_ROLE = "packrunweb-publisher";
-  public static final String EDITOR_ROLE = "packrunweb-editor";
-  public static final String ADMINCENTRAL_ROLE = "packrunweb-admincentral";
+  public static final String PUBLISHER_ROLE = "packrunners-publisher";
+  public static final String EDITOR_ROLE = "packrunners-editor";
+  public static final String ADMINCENTRAL_ROLE = "packrunners-admincentral";
 
-  public static final String PUBLISHERS_GROUP = "packrunweb-publishers";
+  public static final String PUBLISHERS_GROUP = "packrunners-publishers";
   public static final String PAGES_ACTIVATE_ACCESS_ROLES = "/modules/pages/apps/pages/subApps/browser/actions/activate/availability/access/roles";
   public static final String DAM_ACTIVATE_ACCESS_ROLES = "/modules/dam-app/apps/assets/subApps/browser/actions/activate/availability/access/roles";
   public static final String PAGES_PERMISSIONS_ROLES = "/modules/pages/apps/pages/permissions/roles";
@@ -24,7 +24,7 @@ public class SetupRolesAndGroupsTask extends ArrayDelegateTask {
   public static final String WORKFLOW_JBPM_MODULE = "workflow-jbpm";
 
   public SetupRolesAndGroupsTask() {
-    super("Set permissions for the packrunweb-editor(s) and packrunweb-publisher(s) roles and groups");
+    super("Set permissions for the packrunners-editor(s) and packrunners-publisher(s) roles and groups");
 
     addTask(new AddPermissionTask(PAGES_PERMISSIONS_ROLES, EDITOR_ROLE));
     addTask(new AddPermissionTask(PAGES_PERMISSIONS_ROLES, PUBLISHER_ROLE));

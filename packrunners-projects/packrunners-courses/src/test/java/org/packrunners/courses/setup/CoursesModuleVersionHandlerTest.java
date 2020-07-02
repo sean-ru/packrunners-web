@@ -97,25 +97,25 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
 
     // THEN
     assertThat(configSession.getNode("/modules/courses/apps/tourCategories/permissions/roles"),
-        hasProperty("packrunweb-editor", "packrunweb-editor"));
+        hasProperty("packrunners-editor", "packrunners-editor"));
     assertThat(configSession.getNode("/modules/courses/apps/tourCategories/permissions/roles"),
-        hasProperty("packrunweb-publisher", "packrunweb-publisher"));
+        hasProperty("packrunners-publisher", "packrunners-publisher"));
   }
 
   @Test
   public void updateTo08SetsPagesAsPublished() throws Exception {
     // GIVEN
     setupBootstrapPages();
-    websiteSession.getRootNode().addNode("packrunweb/foo", NodeTypes.Page.NAME);
-    PropertyUtil.setProperty(websiteSession.getNode("/packrunweb/foo"), Activatable.ACTIVATION_STATUS,
+    websiteSession.getRootNode().addNode("packrunners/foo", NodeTypes.Page.NAME);
+    PropertyUtil.setProperty(websiteSession.getNode("/packrunners/foo"), Activatable.ACTIVATION_STATUS,
         Long.valueOf(Activatable.ACTIVATION_STATUS_MODIFIED));
 
     // WHEN
     executeUpdatesAsIfTheCurrentlyInstalledVersionWas(Version.parseVersion("0.7"));
 
     // THEN
-    int activationStatus = Activatable.getActivationStatus(websiteSession.getNode("/packrunweb/foo"));
-    assertThat("We expect that /packrunweb/foo is activated", activationStatus,
+    int activationStatus = Activatable.getActivationStatus(websiteSession.getNode("/packrunners/foo"));
+    assertThat("We expect that /packrunners/foo is activated", activationStatus,
         equalTo(Activatable.ACTIVATION_STATUS_ACTIVATED));
   }
 
@@ -124,12 +124,12 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     // GIVEN
     setupBootstrapPages();
     PropertyUtil
-        .setProperty(websiteSession.getNode("/packrunweb/tour-type"), Activatable.ACTIVATION_STATUS,
+        .setProperty(websiteSession.getNode("/packrunners/tour-type"), Activatable.ACTIVATION_STATUS,
             Long.valueOf(Activatable.ACTIVATION_STATUS_MODIFIED));
     PropertyUtil
-        .setProperty(websiteSession.getNode("/packrunweb/destination"), Activatable.ACTIVATION_STATUS,
+        .setProperty(websiteSession.getNode("/packrunners/school"), Activatable.ACTIVATION_STATUS,
             Long.valueOf(Activatable.ACTIVATION_STATUS_MODIFIED));
-    PropertyUtil.setProperty(websiteSession.getNode("/packrunweb/tour"), Activatable.ACTIVATION_STATUS,
+    PropertyUtil.setProperty(websiteSession.getNode("/packrunners/tour"), Activatable.ACTIVATION_STATUS,
         Long.valueOf(Activatable.ACTIVATION_STATUS_MODIFIED));
 
     // WHEN
@@ -137,17 +137,17 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
 
     // THEN
     int activationStatus = Activatable
-        .getActivationStatus(websiteSession.getNode("/packrunweb/tour-type"));
-    assertThat("We expect that /packrunweb/tour-type node is activated", activationStatus,
+        .getActivationStatus(websiteSession.getNode("/packrunners/tour-type"));
+    assertThat("We expect that /packrunners/tour-type node is activated", activationStatus,
         equalTo(Activatable.ACTIVATION_STATUS_ACTIVATED));
 
     activationStatus = Activatable
-        .getActivationStatus(websiteSession.getNode("/packrunweb/destination"));
-    assertThat("We expect that /packrunweb/destination node is activated", activationStatus,
+        .getActivationStatus(websiteSession.getNode("/packrunners/school"));
+    assertThat("We expect that /packrunners/school node is activated", activationStatus,
         equalTo(Activatable.ACTIVATION_STATUS_ACTIVATED));
 
-    activationStatus = Activatable.getActivationStatus(websiteSession.getNode("/packrunweb/tour"));
-    assertThat("We expect that /packrunweb/tour node is activated", activationStatus,
+    activationStatus = Activatable.getActivationStatus(websiteSession.getNode("/packrunners/tour"));
+    assertThat("We expect that /packrunners/tour node is activated", activationStatus,
         equalTo(Activatable.ACTIVATION_STATUS_ACTIVATED));
   }
 
@@ -175,12 +175,12 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     executeUpdatesAsIfTheCurrentlyInstalledVersionWas(Version.parseVersion("0.8"));
 
     // THEN
-    final Node packrunwebPages = websiteSession.getNode("/packrunweb");
+    final Node packrunnersPages = websiteSession.getNode("/packrunners");
     final List<Node> pageNames = Lists
-        .newArrayList(NodeUtil.getNodes(packrunwebPages, NodeTypes.Page.NAME));
+        .newArrayList(NodeUtil.getNodes(packrunnersPages, NodeTypes.Page.NAME));
     assertThat(Collections2.transform(pageNames, new ToNodeName()), contains(
         "tour-type",
-        "destination",
+        "school",
         "tour",
         "about",
         "tour-finder"
@@ -192,7 +192,7 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     // GIVEN
     setupBootstrapPages();
     Node careersMain = NodeUtil
-        .createPath(websiteSession.getRootNode(), "/packrunweb/about/careers/main",
+        .createPath(websiteSession.getRootNode(), "/packrunners/about/careers/main",
             NodeTypes.Component.NAME, true);
 
     // WHEN
@@ -213,7 +213,7 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     // GIVEN
     setupBootstrapPages();
     Node careersMain = NodeUtil
-        .createPath(websiteSession.getRootNode(), "/packrunweb/about/careers/main",
+        .createPath(websiteSession.getRootNode(), "/packrunners/about/careers/main",
             NodeTypes.Component.NAME, true);
 
     // WHEN
@@ -267,7 +267,7 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     assertThat(mappings, hasNode(allOf(
         hasProperty("class", RegexpVirtualUriMapping.class.getName()),
         hasProperty("fromUri", "^/courses(.*).html"),
-        hasProperty("toUri", "forward:/packrunweb/tour?tour=$1"))));
+        hasProperty("toUri", "forward:/packrunners/tour?tour=$1"))));
   }
 
   @Test
@@ -276,26 +276,26 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     Node tourTypes = NodeUtil.createPath(configSession.getRootNode(),
         "/modules/courses/apps/courses/subApps/detail/editor/form/tabs/tour/fields/tourTypes",
         NodeTypes.Content.NAME, true);
-    tourTypes.setProperty("i18nBasename", "info.magnolia.module.packrunweb-courses.messages");
-    Node destination = NodeUtil.createPath(configSession.getRootNode(),
-        "/modules/courses/apps/courses/subApps/detail/editor/form/tabs/tour/fields/destination",
+    tourTypes.setProperty("i18nBasename", "info.magnolia.module.packrunners-courses.messages");
+    Node school = NodeUtil.createPath(configSession.getRootNode(),
+        "/modules/courses/apps/courses/subApps/detail/editor/form/tabs/tour/fields/school",
         NodeTypes.Content.NAME, true);
-    destination.setProperty("i18nBasename", "info.magnolia.module.packrunweb-courses.messages");
+    school.setProperty("i18nBasename", "info.magnolia.module.packrunners-courses.messages");
 
     // WHEN
     executeUpdatesAsIfTheCurrentlyInstalledVersionWas(Version.parseVersion("1.0.0-SNAPSHOT"));
 
     //THEN
     assertThat(tourTypes, not(hasProperty("i18nBasename")));
-    assertThat(destination, not(hasProperty("i18nBasename")));
+    assertThat(school, not(hasProperty("i18nBasename")));
   }
 
   @Test
   public void updateFrom122InstallsTourFinder() throws Exception {
     // GIVEN
-    Node packrunweb = NodeUtil
-        .createPath(websiteSession.getRootNode(), "packrunweb", NodeTypes.Content.NAME);
-    Node main = NodeUtil.createPath(packrunweb, "main", NodeTypes.Content.NAME);
+    Node packrunners = NodeUtil
+        .createPath(websiteSession.getRootNode(), "packrunners", NodeTypes.Content.NAME);
+    Node main = NodeUtil.createPath(packrunners, "main", NodeTypes.Content.NAME);
     NodeUtil.createPath(main, "0", NodeTypes.ContentNode.NAME);
     NodeUtil.createPath(main, "00", NodeTypes.ContentNode.NAME);
 
@@ -303,7 +303,7 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     executeUpdatesAsIfTheCurrentlyInstalledVersionWas(Version.parseVersion("1.2.2"));
 
     //THEN
-    assertThat(packrunweb, hasNode("tour-finder"));
+    assertThat(packrunners, hasNode("tour-finder"));
     List<Node> components = Lists.newArrayList(main.getNodes());
     assertThat(Collections2.transform(components, new ToNodeName()), contains(
         "0",
@@ -368,15 +368,15 @@ public class CoursesModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
   }
 
   private void setupBootstrapPages() throws RepositoryException {
-    websiteSession.getRootNode().addNode("packrunweb", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/about", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/tour-type", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/destination", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/tour", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/about/careers", NodeTypes.Page.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/about/careers/main", NodeTypes.Area.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/about/careers/main/01", NodeTypes.Component.NAME);
-    websiteSession.getRootNode().addNode("packrunweb/about/careers/main/06", NodeTypes.Component.NAME);
+    websiteSession.getRootNode().addNode("packrunners", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/about", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/tour-type", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/school", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/tour", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/about/careers", NodeTypes.Page.NAME);
+    websiteSession.getRootNode().addNode("packrunners/about/careers/main", NodeTypes.Area.NAME);
+    websiteSession.getRootNode().addNode("packrunners/about/careers/main/01", NodeTypes.Component.NAME);
+    websiteSession.getRootNode().addNode("packrunners/about/careers/main/06", NodeTypes.Component.NAME);
   }
 
   */

@@ -44,7 +44,7 @@ public class InstallPurSamplesTask extends ArrayDelegateTask {
             "/mgnl-bootstrap-samples/packrunners/usergroups.packrunners-pur.xml"));
     this.addTask(new ArrayDelegateTask("",
         new IsAdminInstanceDelegateTask("", (Task) null, this.getPermissionTasks()),
-        new OrderNodeBeforeTask("/server/filters/securityCallback/clientCallbacks/packrunweb-pur",
+        new OrderNodeBeforeTask("/server/filters/securityCallback/clientCallbacks/packrunners-pur",
             "form")
     ));
   }

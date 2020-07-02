@@ -1,7 +1,7 @@
 'course-type':
   'hideInNav': false
   'navigationTitle': 'courses'
-  'title': 'course Types'
+  'title': 'Course Types'
   jcr:primaryType: 'mgnl:page'
   jcr:uuid: '05872876-073e-40a3-a3c5-0d0a18c1d43d'
   mgnl:activationStatus: true
@@ -59,7 +59,7 @@
       mgnl:lastActivatedBy: 'superuser'
       mgnl:lastModified: 2015-10-27T10:41:44.110+01:00
       mgnl:lastModifiedBy: 'superuser'
-      mgnl:template: 'packrunweb:components/social'
+      mgnl:template: 'packrunners:components/social'
     '00': 
       jcr:primaryType: 'mgnl:component'
       jcr:uuid: 'a835f66f-6d45-41f6-8e6e-8163a1ef79a8'
