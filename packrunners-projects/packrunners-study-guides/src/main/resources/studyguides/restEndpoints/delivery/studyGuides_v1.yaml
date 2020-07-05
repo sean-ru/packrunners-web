@@ -4,7 +4,7 @@ nodeTypes:
 includeSystemProperties: false
 bypassWorkspaceAcls: false
 limit: 50
-workspace: studyGuides
+workspace: study-guides
 references:
   - name: courseTypes
     propertyName: courseTypes
