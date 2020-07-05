@@ -8,13 +8,8 @@ package org.packrunners.studyguides;
  */
 public class StudyGuidesModule {
 
-  public static final String COURSES_REPOSITORY_NAME = "courses";
-  public static final String TUTORS_REPOSITORY_NAME = "tutors";
-  public static final String VIDEOS_REPOSITORY_NAME = "videos";
-  public static final String STUDY_GUIDES_REPOSITORY_NAME = "studyGuides";
-  public final static String TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW = "schoolOverview";
-  public final static String TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW = "courseTypeOverview";
-  public final static String TEMPLATE_SUB_TYPE_RESOURCE_TYPE_OVERVIEW = "resourceTypeOverview";
+  public static final String STUDY_GUIDES_REPOSITORY_NAME = "study-guides";
+
   /**
    * Specifies the root node of schools.
    */

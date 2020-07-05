@@ -33,7 +33,7 @@ public class VideosModuleVersionHandler extends DefaultModuleVersionHandler {
                         new FolderBootstrapTask("/mgnl-bootstrap-samples/videos/assets/")
                 ))
 
-                .addTask(new BootstrapSingleModuleResource("config.modules.videos.apps.videos.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.videos.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                 .addTask(new NodeExistsDelegateTask("Add permission for access to Dam app",
                         DAM_PERMISSIONS_ROLES,

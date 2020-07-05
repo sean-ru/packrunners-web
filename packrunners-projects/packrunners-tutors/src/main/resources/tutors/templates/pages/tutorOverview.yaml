@@ -11,8 +11,8 @@ areas:
     type: list
     availableComponents:
       tutorOverviewHeader:
-        id: courses:components/tutorOverviewHeader
+        id: tutors:components/tutorOverviewHeader
       tutorList:
-        id: courses:components/tutorList
+        id: tutors:components/tutorList
   footer:
     editable: false

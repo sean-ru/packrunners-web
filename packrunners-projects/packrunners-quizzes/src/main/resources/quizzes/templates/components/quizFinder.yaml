@@ -1,2 +1,2 @@
-templateScript: /courses/templates/components/quizFinder.ftl
+templateScript: /quizzes/templates/components/quizFinder.ftl
 renderType: freemarker

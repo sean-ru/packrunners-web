@@ -4,6 +4,6 @@
     <sv:value>mgnl:contentNode</sv:value>
   </sv:property>
   <sv:property sv:name="id" sv:type="String">
-    <sv:value>courses:pages/tutorOverview</sv:value>
+    <sv:value>tutors:pages/tutorOverview</sv:value>
   </sv:property>
 </sv:node>

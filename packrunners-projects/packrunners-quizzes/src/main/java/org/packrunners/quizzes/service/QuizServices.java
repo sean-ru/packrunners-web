@@ -1,4 +1,4 @@
-package org.packrunners.studyguides.service;
+package org.packrunners.quizzes.service;
 
 import info.magnolia.cms.util.QueryUtil;
 import info.magnolia.cms.util.SelectorUtil;
@@ -7,9 +7,7 @@ import info.magnolia.dam.api.Asset;
 import info.magnolia.dam.templating.functions.DamTemplatingFunctions;
 import info.magnolia.jcr.util.NodeUtil;
 import info.magnolia.jcr.wrapper.I18nNodeWrapper;
-import info.magnolia.link.LinkException;
 import info.magnolia.link.LinkTransformerManager;
-import info.magnolia.link.LinkUtil;
 import info.magnolia.module.categorization.functions.CategorizationTemplatingFunctions;
 import info.magnolia.rendering.template.type.DefaultTemplateTypes;
 import info.magnolia.rendering.template.type.TemplateTypeHelper;
@@ -17,14 +15,16 @@ import info.magnolia.templating.functions.TemplatingFunctions;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.packrunners.categories.Category;
-import org.packrunners.studyguides.StudyGuidesModule;
+import org.packrunners.quizzes.QuizzesModule;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.jcr.*;
+import javax.jcr.Node;
+import javax.jcr.NodeIterator;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 import javax.jcr.query.Query;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -34,11 +34,12 @@ import java.util.List;
  */
 @Singleton
 @Slf4j
-public class StudyGuideServices {
+public class QuizServices {
 
-    public static final String STUDY_GUIDE_QUERY_PARAMETER = "studyGuide";
+    public static final String QUIZ_QUERY_PARAMETER = "quiz";
+    public static final String DEFAULT_COURSE = "Honors-Algebra-2";
 
-    private final StudyGuidesModule studyGuidesModule;
+    private final QuizzesModule quizzesModule;
     private final TemplateTypeHelper templateTypeHelper;
     private final TemplatingFunctions templatingFunctions;
     private final CategorizationTemplatingFunctions categorizationTemplatingFunctions;
@@ -46,16 +47,26 @@ public class StudyGuideServices {
     private final LinkTransformerManager linkTransformerManager;
 
     @Inject
-    public StudyGuideServices(StudyGuidesModule studyGuidesModule, TemplateTypeHelper templateTypeHelper,
-                              TemplatingFunctions templatingFunctions,
-                              CategorizationTemplatingFunctions categorizationTemplatingFunctions,
-                              DamTemplatingFunctions damFunctions, LinkTransformerManager linkTransformerManager) {
-        this.studyGuidesModule = studyGuidesModule;
+    public QuizServices(QuizzesModule quizzesModule, TemplateTypeHelper templateTypeHelper,
+                        TemplatingFunctions templatingFunctions,
+                        CategorizationTemplatingFunctions categorizationTemplatingFunctions,
+                        DamTemplatingFunctions damFunctions, LinkTransformerManager linkTransformerManager) {
+        this.quizzesModule = quizzesModule;
         this.templateTypeHelper = templateTypeHelper;
         this.templatingFunctions = templatingFunctions;
         this.categorizationTemplatingFunctions = categorizationTemplatingFunctions;
         this.damFunctions = damFunctions;
         this.linkTransformerManager = linkTransformerManager;
+    }
+
+    /**
+     * Tries to determine {@link Category} from passed URL selector (e.g.
+     * <code>/page~category_name~.html</code>).
+     */
+    public Category getCategoryByUrl() {
+        final String categoryName = StringUtils
+                .defaultIfBlank(SelectorUtil.getSelector(0), DEFAULT_COURSE);
+        return getCategoryByName(categoryName);
     }
 
     /**
@@ -161,111 +172,50 @@ public class StudyGuideServices {
     }
 
     /**
-     * Creates a {@link StudyGuide} from a {@link Node}.
+     * Creates a {@link Quiz} from a {@link Node}.
      */
-    public StudyGuide marshallStudyGuideNode(Node studyGuideNodeRaw) {
-        StudyGuide studyGuide = null;
+    public Quiz marshallQuizNode(Node quizNodeRaw) {
+        Quiz quiz = null;
 
-        if (studyGuideNodeRaw != null) {
-            final Node studyGuideNode = wrapForI18n(studyGuideNodeRaw);
+        if (quizNodeRaw != null) {
+            final Node quizNode = wrapForI18n(quizNodeRaw);
 
-            studyGuide = new StudyGuide();
+            quiz = new Quiz();
 
             try {
-                studyGuide.setIdentifier(studyGuideNode.getIdentifier());
+                quiz.setIdentifier(quizNode.getIdentifier());
 
-                studyGuide.setName(studyGuideNode.getName());
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_DISPLAY_NAME)) {
-                    studyGuide.setName(
-                            studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_DISPLAY_NAME).getString());
+                quiz.setName(quizNode.getName());
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_DISPLAY_NAME)) {
+                    quiz.setName(quizNode.getProperty(Quiz.PROPERTY_NAME_DISPLAY_NAME).getString());
                 }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_CONTENT)) {
-                    Property description = studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_CONTENT);
-                    if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
-                        try {
-                            String bodyWithResolvedLinks = LinkUtil
-                                    .convertLinksFromUUIDPattern(description.getString(),
-                                            linkTransformerManager.getBrowserLink(studyGuideNode.getPath()));
-                            studyGuide.setContent(bodyWithResolvedLinks);
-                        } catch (LinkException e) {
-                            log.warn("Failed to parse links with from {}", description.getName(), e);
-                        }
-                    } else {
-                        studyGuide.setContent(description.getString());
-                    }
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_AUTHOR)) {
+                    quiz.setAuthor(quizNode.getProperty(Quiz.PROPERTY_NAME_AUTHOR).getString());
                 }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_AUTHOR)) {
-                    studyGuide
-                            .setAuthor(studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_AUTHOR).getString());
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET)) {
+                    quiz.setQuizSheet(
+                            damFunctions.getAsset(quizNode.getProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET).getString()));
                 }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_LAST_MODIFIED_DATE)) {
-                    Calendar c = studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_LAST_MODIFIED_DATE)
-                            .getDate();
-                    if (c != null) {
-                        studyGuide.setLastModifiedDate(c.getTime());
-                    }
-                }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_ATTACHMENTS)) {
-                    PropertyIterator iterator = studyGuideNode
-                            .getProperties(StudyGuide.PROPERTY_NAME_ATTACHMENTS);
-                    List<Asset> assetList = new ArrayList<>();
-                    while (iterator.hasNext()) {
-                        assetList.add(damFunctions.getAsset(iterator.nextProperty().getString()));
-                    }
-                    studyGuide.setAttachments(assetList);
-                }
-
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_TYPES)) {
-                    final List<Category> courseTypes = getCategories(studyGuideNode,
-                            StudyGuide.PROPERTY_NAME_COURSE_TYPES);
-                    studyGuide.setCourseTypes(courseTypes);
-                }
-
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_SCHOOLS)) {
-                    final List<Category> schools = getCategories(studyGuideNode,
-                            StudyGuide.PROPERTY_NAME_SCHOOLS);
-                    studyGuide.setSchools(schools);
-                }
-
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_NUMBERS)) {
-                    final List<Category> courseNames = getCategories(studyGuideNode,
-                            StudyGuide.PROPERTY_NAME_COURSE_NUMBERS);
-                    studyGuide.setCourseNames(courseNames);
-                }
-
-                final String studyGuideLink = getStudyGuideLink(studyGuideNode);
-                if (StringUtils.isNotBlank(studyGuideLink)) {
-                    studyGuide.setLink(studyGuideLink);
+                final String quizLink = getQuizLink(quizNode);
+                if (StringUtils.isNotBlank(quizLink)) {
+                    quiz.setLink(quizLink);
                 }
             } catch (RepositoryException e) {
-                log.debug("Could not marshall StudyGuide from node [{}]", studyGuideNodeRaw);
+                log.debug("Could not marshall quiz from node [{}]", quizNodeRaw);
             }
         }
 
-        return studyGuide;
+        return quiz;
     }
 
-    /**
-     * Get and marshall all categories of a {@link Node} stored under the given
-     * <code>categoryPropertyName</code>.
-     */
-    private List<Category> getCategories(Node node, String categoryPropertyName) {
-        final List<Category> categories = new ArrayList<>();
-
-        final List<Node> nodes = categorizationTemplatingFunctions
-                .getCategories(node, categoryPropertyName);
-        for (Node n : nodes) {
-            final Category category = marshallCategoryNode(n);
-            if (category != null) {
-                categories.add(category);
-            }
-        }
-
-        return categories;
+    public Node getQuizNodeByParameter() throws RepositoryException {
+        final String quizName = StringUtils
+                .defaultIfBlank(MgnlContext.getParameter(QUIZ_QUERY_PARAMETER), "NotAvailable");
+        return getContentNodeByName(quizName, QuizzesModule.QUIZZES_REPOSITORY_NAME);
     }
 
     /**
@@ -285,7 +235,7 @@ public class StudyGuideServices {
                                 + ".html");
             }
         } catch (RepositoryException e) {
-            log.warn("Can't get courseTypeOverviewPage page link [subType={}]", featureSubType, e);
+            log.warn("Can't get schoolOverviewPage page link [subType={}]", featureSubType, e);
         }
 
         return StringUtils.EMPTY;
@@ -310,42 +260,35 @@ public class StudyGuideServices {
         return null;
     }
 
-    public List<StudyGuide> getStudyGuidesByCategory(String categoryPropertyName, String identifier) {
-        return getStudyGuidesByCategory(categoryPropertyName, identifier, false);
-    }
+    public List<Quiz> getQuizsByCategory(String categoryPropertyName, String identifier) {
 
-    public List<StudyGuide> getStudyGuidesByCategory(String categoryPropertyName, String identifier,
-                                                     boolean featured) {
-        final List<StudyGuide> courses = new LinkedList<>();
+        final List<Quiz> quizzes = new LinkedList<>();
 
         try {
-            final Session session = MgnlContext.getJCRSession(StudyGuidesModule.STUDY_GUIDES_REPOSITORY_NAME);
+            final Session session = MgnlContext.getJCRSession(QuizzesModule.QUIZZES_REPOSITORY_NAME);
             String query = String.format("%s LIKE '%%%s%%'", categoryPropertyName, identifier);
-            if (featured) {
-                query += " AND isFeatured = 'true'";
-            }
 
-            final List<Node> courseNodes = templateTypeHelper
+            final List<Node> quizNodes = templateTypeHelper
                     .getContentListByTemplateIds(session.getRootNode(), null, Integer.MAX_VALUE, query, null);
-            for (Node courseNode : courseNodes) {
-                final StudyGuide course = marshallStudyGuideNode(courseNode);
-                courses.add(course);
+            for (Node quizNode : quizNodes) {
+                final Quiz quiz = marshallQuizNode(quizNode);
+                quizzes.add(quiz);
             }
 
         } catch (RepositoryException e) {
-            log.error("Could not get related courses by category identifier [{}={}].",
+            log.error("Could not get quizzes by school identifier [{}={}].",
                     categoryPropertyName,
                     identifier, e);
         }
 
-        return courses;
+        return quizzes;
     }
 
     /**
-     * Create a link to a specific course.
+     * Create a link to a specific quiz.
      */
-    public String getStudyGuideLink(Node courseNode) {
-        return templatingFunctions.link(courseNode);
+    public String getQuizLink(Node quizNode) {
+        return templatingFunctions.link(quizNode);
     }
 
 }

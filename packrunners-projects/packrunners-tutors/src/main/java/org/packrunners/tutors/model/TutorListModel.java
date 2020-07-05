@@ -3,7 +3,7 @@ package org.packrunners.tutors.model;
 import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;
 import org.packrunners.categories.Category;
-import org.packrunners.categories.definition.CategoryTemplateDefinition;
+import org.packrunners.categories.model.definition.CategoryTemplateDefinition;
 import org.packrunners.tutors.service.Tutor;
 import org.packrunners.tutors.service.TutorServices;
 

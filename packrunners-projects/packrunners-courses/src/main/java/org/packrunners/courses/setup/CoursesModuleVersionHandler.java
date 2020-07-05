@@ -45,7 +45,7 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
                         new FolderBootstrapTask("/mgnl-bootstrap-samples/courses/assets/")
                 ))
 
-                .addTask(new BootstrapSingleModuleResource("config.modules.courses.apps.courses.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.courses.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                 .addTask(new NodeExistsDelegateTask("Add permission for access to Dam app",
                         DAM_PERMISSIONS_ROLES,
@@ -56,6 +56,7 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
                 .addTask(new SetPageAsPublishedTask("/packrunners", true))
 
 
+/*
                 .addTask(
                         new RemoveNodeTask("Cleanup deprecated virtualURIMapping location before re-install",
                                 "/modules/courses/virtualURIMapping"))
@@ -63,6 +64,7 @@ public class CoursesModuleVersionHandler extends DefaultModuleVersionHandler {
                         new BootstrapSingleResource("Re-Bootstrap virtual URI mapping for courses module.", "",
                                 "/mgnl-bootstrap/courses/config.modules.courses.virtualUriMappings.xml",
                                 IMPORT_UUID_COLLISION_REPLACE_EXISTING))
+*/
         );
 
 

@@ -4,30 +4,20 @@
   <name>courses</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>org.packrunners.studyguides.VideosModule</class>
-  <versionHandler>org.packrunners.studyguides.setup.VideosModuleVersionHandler</versionHandler>
+  <class>org.packrunners.courses.CoursesModule</class>
+  <versionHandler>org.packrunners.courses.setup.CoursesModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <components>
     <id>main</id>
     <component>
-      <type>org.packrunners.studyguides.CourseTemplatingFunctions</type>
-      <implementation>org.packrunners.studyguides.CourseTemplatingFunctions</implementation>
+      <type>org.packrunners.courses.CourseTemplatingFunctions</type>
+      <implementation>org.packrunners.courses.CourseTemplatingFunctions</implementation>
       <scope>singleton</scope>
     </component>
     <component>
       <type>org.packrunners.courses.service.CourseServices</type>
       <implementation>org.packrunners.courses.service.CourseServices</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>org.packrunners.studyguides.TutorTemplatingFunctions</type>
-      <implementation>org.packrunners.studyguides.TutorTemplatingFunctions</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>org.packrunners.tutors.service.TutorServices</type>
-      <implementation>org.packrunners.tutors.service.TutorServices</implementation>
       <scope>singleton</scope>
     </component>
   </components>
@@ -81,7 +71,6 @@
       <name>magnolia</name>
       <workspaces>
         <workspace>courses</workspace>
-        <workspace>studyGuides</workspace>
       </workspaces>
       <nodeTypeFile>/mgnl-nodetypes/magnolia-course-nodetypes.xml</nodeTypeFile>
     </repository>

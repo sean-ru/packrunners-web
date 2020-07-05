@@ -1,2 +1,2 @@
-templateScript: /courses/templates/components/videoFinder.ftl
+templateScript: /videos/templates/components/videoFinder.ftl
 renderType: freemarker

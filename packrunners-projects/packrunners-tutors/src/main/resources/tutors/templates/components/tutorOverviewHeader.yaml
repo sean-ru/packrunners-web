@@ -1,2 +1,2 @@
-templateScript: /courses/templates/components/tutorOverviewHeader.ftl
+templateScript: /tutors/templates/components/tutorOverviewHeader.ftl
 renderType: freemarker

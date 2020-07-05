@@ -33,7 +33,7 @@ public class TutorsModuleVersionHandler extends DefaultModuleVersionHandler {
                                 new BootstrapSingleResource("Re bootstrap tutors content", "",
                                         "/mgnl-bootstrap-samples/tutors/tutors.NNHS.xml")),
                         new FolderBootstrapTask("/mgnl-bootstrap-samples/tutors/assets/")))
-                .addTask(new BootstrapSingleModuleResource("config.modules.tutors.apps.tutors.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.tutors.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                 .addTask(new NodeExistsDelegateTask("Add permission for access to Dam app",
                         DAM_PERMISSIONS_ROLES,

@@ -29,11 +29,11 @@ public class StudyGuidesModuleVersionHandler extends DefaultModuleVersionHandler
                         "Re-bootstrap website content to account for all changes",
                         new ArrayDelegateTask("",
                                 new BootstrapSingleResource("Re bootstrap courses content", "",
-                                        "/mgnl-bootstrap-samples/studyguides/studyGuides.Matthew.xml")),
+                                        "/mgnl-bootstrap-samples/studyguides/study-guides.Matthew.xml")),
                         new FolderBootstrapTask("/mgnl-bootstrap-samples/studyguides/assets/")
                 ))
 
-                .addTask(new BootstrapSingleModuleResource("config.modules.studyguides.apps.studyGuides.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.studyguides.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                 .addTask(new NodeExistsDelegateTask("Add permission for access to Dam app",
                         DAM_PERMISSIONS_ROLES,
@@ -44,22 +44,22 @@ public class StudyGuidesModuleVersionHandler extends DefaultModuleVersionHandler
         );
 
         register(DeltaBuilder.update("0.4.2", "")
-                .addTask(new BootstrapSingleResource("Re-bootstrap the studyGuides workspace",
+                .addTask(new BootstrapSingleResource("Re-bootstrap the study-guides workspace",
                         "Re-bootstrap the video workspace.",
-                        "/mgnl-bootstrap-samples/studyguides/studyguides.Matthew.xml",
+                        "/mgnl-bootstrap-samples/studyguides/study-guides.Matthew.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
         );
 
         register(DeltaBuilder.update("0.4.3", "")
                 .addTask(new FolderBootstrapTask("/mgnl-bootstrap-samples/studyguides/assets/"))
-                .addTask(new NodeExistsDelegateTask("Change video app definition to support Content Type",
-                        "/modules/studyguides/apps/studyGuides",
+                .addTask(new NodeExistsDelegateTask("Change study guide app definition to support Content Type",
+                        "/modules/studyguides/apps/studyguides",
                         new ArrayDelegateTask("",
-                                new CheckAndModifyPropertyValueTask("/modules/studyguides/apps/studyGuides", "class",
+                                new CheckAndModifyPropertyValueTask("/modules/studyguides/apps/studyguides", "class",
                                         ConfiguredContentAppDescriptor.class.getName(),
                                         ConfiguredContentTypeAppDescriptor.class.getName()),
-                                new SetPropertyTask(RepositoryConstants.CONFIG, "/modules/studyguides/apps/studyGuides",
-                                        "contentType", "studyGuide")
+                                new SetPropertyTask(RepositoryConstants.CONFIG, "/modules/studyguides/apps/studyguides",
+                                        "contentType", "studyguide")
                         )))
         );
 

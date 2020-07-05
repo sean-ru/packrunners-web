@@ -1,7 +1,7 @@
-templateScript: /courses/templates/components/videoList.ftl
-dialog: courses:components/videoList
+templateScript: /videos/templates/components/videoList.ftl
+dialog: videos:components/videoList
 modelClass: org.packrunners.videos.model.VideoListModel
-class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
+class: org.packrunners.categories.model.definition.CategoryTemplateDefinition
 
 renderType: freemarker
-category: courseNames
+category: courseNumbers

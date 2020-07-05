@@ -10,8 +10,6 @@ public class TutorsModule {
 
     public static final String TUTORS_REPOSITORY_NAME = "tutors";
 
-    public final static String TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW = "schoolOverview";
-
     /**
      * Specifies the default tutor node name.
      */

@@ -1,5 +1,5 @@
 [#-------------- ASSIGNMENTS --------------]
-[#include "/courses/templates/macros/tutorTeaser.ftl"]
+[#include "/tutors/templates/macros/tutorTeaser.ftl"]
 [#include "/packrunners/templates/macros/editorAlert.ftl" /]
 
 [#if def.parameters.school??]

@@ -28,27 +28,6 @@ public class TutorTemplatingFunctions {
         return tutorServices.getCategoryByUrl();
     }
 
-    /**
-     * Returns the link to the school this tutor belongs.
-     *
-     * <p>Will use given {@link ContentMap} to find feature page of type
-     * {@link TutorsModule#TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW} to link to.</p>
-     */
-    public String getSchoolLink(ContentMap contentMap, String schoolName) {
-        return getSchoolLink(contentMap.getJCRNode(), schoolName);
-    }
-
-    /**
-     * Returns the link to a school.
-     *
-     * <p>Will use given {@link Node} to find feature page of type
-     * {@link TutorsModule#TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW} to link to.</p>
-     */
-    public String getSchoolLink(Node content, String schoolName) {
-        return tutorServices
-                .getCategoryLink(content, schoolName, TutorsModule.TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW);
-    }
-
     public String getTutorLink(ContentMap tutorContentMap) {
         return getTutorLink(tutorContentMap.getJCRNode());
     }

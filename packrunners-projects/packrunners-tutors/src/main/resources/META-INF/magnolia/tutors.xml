@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd" >
 <module>
-  <name>quizzes</name>
+  <name>tutors</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>org.packrunners.quizzes.QuizzesModule</class>
-  <versionHandler>org.packrunners.quizzes.setup.QuizzesModuleVersionHandler</versionHandler>
+  <class>org.packrunners.tutors.TutorsModule</class>
+  <versionHandler>org.packrunners.tutors.setup.TutorsModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <components>
     <id>main</id>
     <component>
-      <type>org.packrunners.quizzes.service.QuizServices</type>
-      <implementation>org.packrunners.quizzes.service.QuizServices</implementation>
+      <type>org.packrunners.tutors.service.TutorServices</type>
+      <implementation>org.packrunners.tutors.service.TutorServices</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>org.packrunners.tutors.TutorTemplatingFunctions</type>
+      <implementation>org.packrunners.tutors.TutorTemplatingFunctions</implementation>
       <scope>singleton</scope>
     </component>
   </components>
@@ -65,9 +70,9 @@
     <repository>
       <name>magnolia</name>
       <workspaces>
-        <workspace>quizzes</workspace>
+        <workspace>tutors</workspace>
       </workspaces>
-      <nodeTypeFile>/mgnl-nodetypes/magnolia-quiz-nodetypes.xml</nodeTypeFile>
+      <nodeTypeFile>/mgnl-nodetypes/magnolia-tutor-nodetypes.xml</nodeTypeFile>
     </repository>
   </repositories>
 </module>

@@ -4,7 +4,7 @@ import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.test.MgnlTestCase;
 import org.junit.Before;
 import org.junit.Test;
-import org.packrunners.categories.definition.CategoryTemplateDefinition;
+import org.packrunners.categories.model.definition.CategoryTemplateDefinition;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 

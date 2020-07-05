@@ -26,9 +26,9 @@ public class CategoriesModuleVersionHandler extends DefaultModuleVersionHandler 
                         )))
                 // We re-bootstrap twice because a simple (and single) re-bootstrap (using ImportUUIDBehavior.IMPORT_UUID_COLLISION_REPLACE_EXISTING) would NOT
                 // "move" an existing site definition (which might actually exist from a previous version) in the site module
-                .addTask(new BootstrapSingleModuleResource("config.modules.categories.apps.categories.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.categories.xml",
                         ImportUUIDBehavior.IMPORT_UUID_COLLISION_REMOVE_EXISTING))
-                .addTask(new BootstrapSingleModuleResource("config.modules.categories.apps.categories.xml",
+                .addTask(new BootstrapSingleModuleResource("config.modules.categories.xml",
                         ImportUUIDBehavior.IMPORT_UUID_COLLISION_THROW))
         );
 

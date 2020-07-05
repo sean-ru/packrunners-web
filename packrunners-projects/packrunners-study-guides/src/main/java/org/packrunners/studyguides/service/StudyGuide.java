@@ -15,7 +15,6 @@ public class StudyGuide {
     public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
     public static final String PROPERTY_NAME_CONTENT = "content";
     public static final String PROPERTY_NAME_AUTHOR = "author";
-    public static final String PROPERTY_NAME_COURSE_NAMES = "courseNames";
     public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
     public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
     public static final String PROPERTY_NAME_ATTACHMENTS = "attachments";

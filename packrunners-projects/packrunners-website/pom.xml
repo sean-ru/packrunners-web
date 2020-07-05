@@ -29,6 +29,12 @@
       <type>pom</type>
     </dependency>
 
+    <!-- Other Magnolia modules -->
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-module-public-user-registration</artifactId>
+    </dependency>
+
     <!-- Other dependencies -->
     <dependency>
       <groupId>org.apache.commons</groupId>

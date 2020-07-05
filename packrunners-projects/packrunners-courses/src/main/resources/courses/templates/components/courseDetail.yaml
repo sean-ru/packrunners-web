@@ -1,6 +1,6 @@
 templateScript: /courses/templates/components/courseDetail.ftl
 modelClass: org.packrunners.courses.model.CourseDetailModel
-class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
+class: org.packrunners.categories.model.definition.CategoryTemplateDefinition
 renderType: freemarker
 category: courseNumbers
 

@@ -10,7 +10,7 @@ import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import lombok.extern.slf4j.Slf4j;
 import org.packrunners.categories.Category;
-import org.packrunners.categories.definition.CategoryTemplateDefinition;
+import org.packrunners.categories.model.definition.CategoryTemplateDefinition;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
 

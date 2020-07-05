@@ -11,8 +11,8 @@ areas:
     type: list
     availableComponents:
       videoOverviewHeader:
-        id: courses:components/videoOverviewHeader
+        id: videos:components/videoOverviewHeader
       videoList:
-        id: courses:components/videoList
+        id: videos:components/videoList
   footer:
     editable: false

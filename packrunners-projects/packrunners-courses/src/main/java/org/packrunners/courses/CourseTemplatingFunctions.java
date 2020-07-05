@@ -48,27 +48,6 @@ public class CourseTemplatingFunctions {
                 .getCategoryLink(content, courseTypeName, CoursesModule.TEMPLATE_SUB_TYPE_COURSE_TYPE_OVERVIEW);
     }
 
-    /**
-     * Returns the link to a course type.
-     *
-     * <p>Will use given {@link ContentMap} to find feature page of type
-     * {@link CoursesModule#TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW} to link to.</p>
-     */
-    public String getSchoolLink(ContentMap contentMap, String schoolName) {
-        return getSchoolLink(contentMap.getJCRNode(), schoolName);
-    }
-
-    /**
-     * Returns the link to a course type.
-     *
-     * <p>Will use given {@link Node} to find feature page of type
-     * {@link CoursesModule#TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW} to link to.</p>
-     */
-    public String getSchoolLink(Node content, String schoolName) {
-        return courseServices.getCategoryLink(content, schoolName,
-                CoursesModule.TEMPLATE_SUB_TYPE_SCHOOL_OVERVIEW);
-    }
-
     public String getCourseLink(ContentMap courseContentMap) {
         return getCourseLink(courseContentMap.getJCRNode());
     }

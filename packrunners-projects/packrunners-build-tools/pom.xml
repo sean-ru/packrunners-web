@@ -21,6 +21,11 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>3.0.0-M1</version>
@@ -65,6 +70,37 @@
                                 ${project.basedir}/../packrunners-website/target/packrunners-website-${project.version}.jar
                             </fromFile>
                             <toFile>/webapps/magnoliaPublic/WEB-INF/lib/packrunners-website-${project.version}.jar
+                            </toFile>
+                        </configuration>
+                    </execution>
+                    <!-- Categories -->
+                    <execution>
+                        <id>deploy-packrunners-categories-local-magnoliaAuthor</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>upload-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>file:${local.tomcat.location}</url>
+                            <fromFile>
+                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${project.version}.jar
+                            </fromFile>
+                            <toFile>/webapps/magnoliaAuthor/WEB-INF/lib/packrunners-categories-${project.version}.jar
+                            </toFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>deploy-packrunners-categories-local-magnoliaPublic</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>upload-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>file:${local.tomcat.location}</url>
+                            <fromFile>
+                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${project.version}.jar
+                            </fromFile>
+                            <toFile>/webapps/magnoliaPublic/WEB-INF/lib/packrunners-categories-${project.version}.jar
                             </toFile>
                         </configuration>
                     </execution>

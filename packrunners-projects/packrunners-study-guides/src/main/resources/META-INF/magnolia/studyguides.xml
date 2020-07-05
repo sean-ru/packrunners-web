@@ -4,8 +4,8 @@
   <name>studyguides</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>org.packrunners.studyguides.VideosModule</class>
-  <versionHandler>org.packrunners.studyguides.setup.VideosModuleVersionHandler</versionHandler>
+  <class>org.packrunners.studyguides.StudyGuidesModule</class>
+  <versionHandler>org.packrunners.studyguides.setup.StudyGuidesModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <components>
@@ -65,7 +65,7 @@
     <repository>
       <name>magnolia</name>
       <workspaces>
-        <workspace>studyGuides</workspace>
+        <workspace>study-guides</workspace>
       </workspaces>
       <nodeTypeFile>/mgnl-nodetypes/magnolia-studyguide-nodetypes.xml</nodeTypeFile>
     </repository>

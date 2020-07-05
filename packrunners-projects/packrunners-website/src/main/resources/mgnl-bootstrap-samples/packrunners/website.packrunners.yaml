@@ -3,7 +3,7 @@
   'jcr:mixinTypes': ['mgnl:hasVersion']
   'jcr:primaryType': 'mgnl:page'
   'jcr:uuid': 'b06b82a2-74b0-4994-8015-028c4fd60716'
-  'keywords': 'Packrunners, NNHS, Tutoring, Student, Website builder'
+  'keywords': 'Pack-runners, NNHS, Tutoring, Student, Website builder'
   'mgnl:activationStatus': true
   'mgnl:created': 2015-01-26T10:17:02.306-06:00
   'mgnl:createdBy': 'superuser'
@@ -13,7 +13,7 @@
   'mgnl:lastActivatedVersionCreated': 2020-06-28T12:22:16.384-05:00
   'mgnl:lastModified': 2020-06-28T12:22:03.503-05:00
   'mgnl:lastModifiedBy': 'superuser'
-  'mgnl:template': 'packrunweb:pages/home'
+  'mgnl:template': 'packrunners:pages/home'
   'searchResultPage': '6df1ebd8-fc9d-4db3-8539-02829c56b9f2'
   'title': 'Pack Runners'' Home'
   'main':
@@ -105,7 +105,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/linkList'
+        'mgnl:template': 'packrunners:components/linkList'
         'subtitle': 'Follow Us'
         'subtitle_de': 'Folge uns'
         'linkList':
@@ -139,7 +139,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/linkList'
+        'mgnl:template': 'packrunners:components/linkList'
         'subtitle': 'General'
         'subtitle_de': 'Allgemeines'
         'linkList':
@@ -164,7 +164,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/link'
+            'mgnl:template': 'packrunners:components/link'
             'title': 'About Pack Runners'
             'title_de': 'Über Magnolia Travels'
           '00':
@@ -179,7 +179,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/link'
+            'mgnl:template': 'packrunners:components/link'
     'footer3':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '97ee2235-7f4e-4bf3-ace4-1441a2b4c641'
@@ -201,7 +201,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/linkList'
+        'mgnl:template': 'packrunners:components/linkList'
         'subtitle': 'Services'
         'subtitle_de': 'Service'
         'linkList':
@@ -239,7 +239,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/textImage'
+        'mgnl:template': 'packrunners:components/textImage'
         'text_de': '<p>Dieser Website dient als Beispielprojekt f&uuml;r Magnolia,
           der Digital Business Plattform mit einem CMS als Kern.</p>
 
@@ -267,7 +267,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/linkList'
+        'mgnl:template': 'packrunners:components/linkList'
         'linkList':
           'jcr:primaryType': 'mgnl:area'
           'jcr:uuid': '01fa2d62-9993-4a2c-a385-858e10f12a3e'
@@ -290,7 +290,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:26.664-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/link'
+            'mgnl:template': 'packrunners:components/link'
           '00':
             'jcr:primaryType': 'mgnl:component'
             'jcr:uuid': 'e4027eab-07e4-4b7d-a129-3f27291ee538'
@@ -303,7 +303,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:55.983-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/link'
+            'mgnl:template': 'packrunners:components/link'
           '01':
             'jcr:primaryType': 'mgnl:component'
             'jcr:uuid': 'a84c2496-9d46-4975-ab13-4ab67176e835'
@@ -316,7 +316,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/link'
+            'mgnl:template': 'packrunners:components/link'
   'course-type':
     'hideInNav': false
     'jcr:mixinTypes': ['mgnl:hasVersion']
@@ -377,7 +377,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T04:41:44.110-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/social'
+        'mgnl:template': 'packrunners:components/social'
         'rounded': 'false'
         'services': ['twitter', 'facebook', 'google_plus']
         'size': '32'
@@ -467,7 +467,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-14T23:02:11.367-05:00
     'mgnl:lastModified': 2020-06-14T21:11:29.008-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'courses:pages/tutorOverview'
+    'mgnl:template': 'tutors:pages/tutorOverview'
     'title': 'Tutors'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -489,7 +489,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-14T20:39:51.456-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'courses:components/tutorOverviewHeader'
+        'mgnl:template': 'tutors:components/tutorOverviewHeader'
       '00':
         'jcr:primaryType': 'mgnl:component'
         'jcr:uuid': 'f6a68651-a73f-442e-b711-b919d0a3c0f3'
@@ -500,7 +500,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-14T21:11:29.009-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'courses:components/tutorList'
+        'mgnl:template': 'tutors:components/tutorList'
         'title': 'NNHS Tutors'
     'footer':
       'jcr:primaryType': 'mgnl:area'
@@ -611,7 +611,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:36:20.084-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/social'
+            'mgnl:template': 'packrunners:components/social'
             'rounded': 'false'
             'services': ['twitter', 'facebook', 'google_plus']
             'size': '32'
@@ -701,7 +701,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-08T21:36:17.247-05:00
     'mgnl:lastModified': 2020-06-08T21:35:52.116-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'About'
     'title_de': 'Über uns'
     'main':
@@ -728,8 +728,8 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:08:06.983-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/jumbotron'
-        'text': '<p>We are a full service, independent packrunweb agency.</p>
+        'mgnl:template': 'packrunners:components/jumbotron'
+        'text': '<p>We are a full service, independent packrunners agency.</p>
 
           <p>We offer unique courses from every continent on the planet. Get inspired
           and book your course with us for an experience you&rsquo;ll always remember.</p> '
@@ -749,7 +749,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T07:50:28.322-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/columnLayout'
+        'mgnl:template': 'packrunners:components/columnLayout'
         'column1':
           'jcr:primaryType': 'mgnl:area'
           'jcr:uuid': '798e98d0-76ac-462b-a790-b34b00868a26'
@@ -803,7 +803,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:40.553-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/textImage'
+            'mgnl:template': 'packrunners:components/textImage'
           '0':
             'hideTeaserImage': true
             'highlight': false
@@ -818,7 +818,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:30.754-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/teaser'
+            'mgnl:template': 'packrunners:components/teaser'
           '01':
             'hideTeaserImage': true
             'highlight': false
@@ -833,7 +833,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:28.120-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/teaser'
+            'mgnl:template': 'packrunners:components/teaser'
           '02':
             'hideTeaserImage': true
             'highlight': false
@@ -848,7 +848,7 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:49:16.881-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/teaser'
+            'mgnl:template': 'packrunners:components/teaser'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '21da1190-52e6-45d5-8e68-5a2878733d6c'
@@ -945,7 +945,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-08T07:51:28.236-05:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/carousel'
+          'mgnl:template': 'packrunners:components/carousel'
           'slidesToShow': '2'
           'variableWidth': 'false'
           'carouselItems':
@@ -973,7 +973,7 @@
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:02.561-05:00
               'mgnl:lastModifiedBy': 'superuser'
-              'mgnl:template': 'packrunweb:components/textImage'
+              'mgnl:template': 'packrunners:components/textImage'
             '0':
               'Resize': 'height'
               'constrainAspectRatio': true
@@ -991,7 +991,7 @@
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:50:50.058-05:00
               'mgnl:lastModifiedBy': 'superuser'
-              'mgnl:template': 'packrunweb:components/textImage'
+              'mgnl:template': 'packrunners:components/textImage'
             '01':
               'Resize': 'height'
               'constrainAspectRatio': true
@@ -1008,7 +1008,7 @@
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:14.013-05:00
               'mgnl:lastModifiedBy': 'superuser'
-              'mgnl:template': 'packrunweb:components/textImage'
+              'mgnl:template': 'packrunners:components/textImage'
             '02':
               'constrainAspectRatio': true
               'headline': 'Czech Republic'
@@ -1025,7 +1025,7 @@
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:34.261-05:00
               'mgnl:lastModifiedBy': 'superuser'
-              'mgnl:template': 'packrunweb:components/textImage'
+              'mgnl:template': 'packrunners:components/textImage'
             '03':
               'constrainAspectRatio': true
               'headline': 'Switzerland'
@@ -1042,7 +1042,7 @@
               'mgnl:lastActivatedBy': 'superuser'
               'mgnl:lastModified': 2015-10-08T05:49:58.215-05:00
               'mgnl:lastModifiedBy': 'superuser'
-              'mgnl:template': 'packrunweb:components/textImage'
+              'mgnl:template': 'packrunners:components/textImage'
   'contact':
     'hideInNav': false
     'jcr:primaryType': 'mgnl:page'
@@ -1054,7 +1054,7 @@
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Contact'
     'title_de': 'Kontakt'
     'main':
@@ -1081,7 +1081,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:31:04.095-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/jumbotron'
+        'mgnl:template': 'packrunners:components/jumbotron'
         'text': '<p>Contact us any time to get a fast, helpful response.</p> '
         'text_de': '<p>Setzen Sie sich jederzeit mit uns in Verbindung, um eine schnelle,
           hilfreiche Antwort zu erhalten.</p> '
@@ -1097,7 +1097,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T04:41:42.039-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/textImage'
+        'mgnl:template': 'packrunners:components/textImage'
         'text': '<p>Do you have a question about one of our courses? Would you like
           to customize a tour - or looking for a trip you just can&rsquo;t find on
           our website?</p>
@@ -1111,8 +1111,8 @@
           <p>For any of these concerns please contact us via the most convenient method
           below. We are available for you 24/7.</p>
 
-          <p><strong>All inquiries</strong><br /> <a href="mailto:contact@magnolia-packrunwebs-example.com"
-          style="text-decoration:none;">contact@magnolia-packrunwebs-example.com</a><br
+          <p><strong>All inquiries</strong><br /> <a href="mailto:contact@magnolia-packrunnerss-example.com"
+          style="text-decoration:none;">contact@magnolia-packrunnerss-example.com</a><br
           /> <a href="tel:+1 800 123 4567">+1 800 123 4567</a></p> '
         'text_de': '<p>Haben Sie Fragen zu einer unserer Reisen? M&ouml;chten Sie
           eine der Reisen auf Ihre pers&ouml;nlichen Bed&uuml;rfnisse zuschneiden
@@ -1127,7 +1127,7 @@
           diese Anfragen k&ouml;nnen Sie uns auf die f&uuml;r Sie geeignetste Art,
           wie Sie sie unten sehen, erreichen. Wir stehen Ihnen rund um die Uhr zur
           Verf&uuml;gung.<br /> &nbsp;&nbsp;&nbsp;<br /> <strong>Alle Anfragen</strong><br
-          /> <a href="mailto:contact@magnolia-packrunwebs-example.com">contact@magnolia-packrunwebs-example.com</a><br
+          /> <a href="mailto:contact@magnolia-packrunnerss-example.com">contact@magnolia-packrunnerss-example.com</a><br
           /> <a href="tel:+1 800 123 4567">+1 800 123 4567</a></p> '
       '02':
         'jcr:primaryType': 'mgnl:component'
@@ -1140,7 +1140,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:components/columnLayout'
+        'mgnl:template': 'packrunners:components/columnLayout'
         'position': 'bottom'
         'column1':
           'jcr:primaryType': 'mgnl:area'
@@ -1166,10 +1166,10 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/textImage'
+            'mgnl:template': 'packrunners:components/textImage'
             'position': 'bottom'
             'text': '<ul> <li>USA: +1-800-MAGNOLIA (toll free)</li> <li>Argentina
-              (54 11) 1234-5678</li> <li>Brazil +55 (11) 1234-5678</li> <li><a href="mailto:us@magnolia-packrunwebs-example.com">us@magnolia-packrunwebs-example.com</a></li>
+              (54 11) 1234-5678</li> <li>Brazil +55 (11) 1234-5678</li> <li><a href="mailto:us@magnolia-packrunnerss-example.com">us@magnolia-packrunnerss-example.com</a></li>
               </ul> '
         'column2':
           'jcr:primaryType': 'mgnl:area'
@@ -1195,15 +1195,15 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:22.583-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/textImage'
+            'mgnl:template': 'packrunners:components/textImage'
             'position': 'bottom'
             'text': '<ul> <li>Australia and New Zealand: 1-800-MAGNOLIA</li> <li>China:
               800 123 4567</li> <li>Hong Kong: 800 55 6666</li> <li>India: +91 12
               34567890</li> <li>Indonesia: +62 234 5 678 9090</li> <li>Japan: +81
               1 2345 6789</li> <li>Korea: +82 1 123 4567</li> <li>Singapore: +65 1234
               5678</li> <li>Taiwan: 0800 111 222</li> <li>Thailand: +66 11 222 4444</li>
-              <li>Vietnam: +84 123 1234</li> <li><a href="mailto:apac@magnolia-packrunwebs-example.com"
-              style="line-height: 1.6em;">apac@magnolia-packrunwebs-example.com</a></li>
+              <li>Vietnam: +84 123 1234</li> <li><a href="mailto:apac@magnolia-packrunnerss-example.com"
+              style="line-height: 1.6em;">apac@magnolia-packrunnerss-example.com</a></li>
               </ul> '
         'column3':
           'jcr:primaryType': 'mgnl:area'
@@ -1229,10 +1229,10 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:15.418-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunweb:components/textImage'
+            'mgnl:template': 'packrunners:components/textImage'
             'position': 'bottom'
             'text': '<ul> <li>France +33 1 23 45 67</li> <li>Germany +49 1 234 567</li>
-              <li>UK +44 1234 567890</li> <li><a href="mailto:europe@magnolia-packrunwebs-example.com">europe@magnolia-packrunwebs-example.com</a></li>
+              <li>UK +44 1234 567890</li> <li><a href="mailto:europe@magnolia-packrunnerss-example.com">europe@magnolia-packrunnerss-example.com</a></li>
               </ul> '
       '01':
         'confirmContentType': 'text'
@@ -1242,12 +1242,12 @@
           Thank you for contacting us! - John
 
           ---- your message ---- ${message}'
-        'confirmMailFrom': 'contact@magnolia-packrunwebs-example.com'
+        'confirmMailFrom': 'contact@magnolia-packrunnerss-example.com'
         'confirmMailSubject': 'We have received your message, ${email}'
         'confirmMailTo': '${email}'
         'contactMailFrom': '${email}'
         'contactMailSubject': '${subject}'
-        'contactMailTo': 'contact@magnolia-packrunwebs-example.com'
+        'contactMailTo': 'contact@magnolia-packrunnerss-example.com'
         'contentType': 'text'
         'contentTypetext': 'Message:
 
@@ -1476,7 +1476,7 @@
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-21T08:43:22.010-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Container for meta pages'
     'privacy':
       'hideInNav': false
@@ -1489,7 +1489,7 @@
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:33.104-05:00
       'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'packrunweb:pages/standard'
+      'mgnl:template': 'packrunners:pages/standard'
       'title': 'Privacy Policy'
       'title_de': 'Datenschutz & Privatsphäre'
       'main':
@@ -1516,7 +1516,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:16:08.308-06:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/textImage'
+          'mgnl:template': 'packrunners:components/textImage'
           'text': '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
             ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -1542,7 +1542,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:16:38.410-06:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/textImage'
+          'mgnl:template': 'packrunners:components/textImage'
           'text': '<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
             in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
@@ -1564,7 +1564,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-02-25T10:17:15.345-06:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/textImage'
+          'mgnl:template': 'packrunners:components/textImage'
           'text': '<p>Et harum quidem rerum facilis est et expedita distinctio. Nam
             libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
             quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
@@ -1644,7 +1644,7 @@
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:35.913-05:00
       'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'packrunweb:pages/standard'
+      'mgnl:template': 'packrunners:pages/standard'
       'title': 'Terms and Conditions'
       'title_de': 'Konditionen'
       'main':
@@ -1670,7 +1670,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:26:24.204-05:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/textImage'
+          'mgnl:template': 'packrunners:components/textImage'
           'text': '<p>Lorem ipsum dolor sit amet, illum legendos duo te. Te vix novum
             tibique torquatos, ignota constituam honestatis ad est. Cu his stet legere
             delicatissimi, cu blandit interesset comprehensam per. His ea purto etiam,
@@ -1831,7 +1831,7 @@
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:36.948-05:00
       'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'packrunweb:pages/standard'
+      'mgnl:template': 'packrunners:pages/standard'
       'title': 'Impressum'
       'main':
         'jcr:primaryType': 'mgnl:area'
@@ -1856,7 +1856,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-03T13:36:38.787-05:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/textImage'
+          'mgnl:template': 'packrunners:components/textImage'
           'text': '<p>Developed by Magnolia International Ltd.</p>
 
             <p>Makes use of Twitter Bootstrap CSS framework, Google Web Fonts, MapGlyphs,
@@ -1939,7 +1939,7 @@
       'mgnl:lastActivatedVersionCreated': 2020-06-28T16:02:31.170-05:00
       'mgnl:lastModified': 2020-06-28T13:29:56.372-05:00
       'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'packrunweb:pages/searchResultPage'
+      'mgnl:template': 'packrunners:pages/searchResultPage'
       'title': 'Search Results'
       'title_de': 'Suchresultate'
       'main':
@@ -1964,7 +1964,7 @@
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-28T13:29:56.372-05:00
           'mgnl:lastModifiedBy': 'superuser'
-          'mgnl:template': 'packrunweb:components/searchResults'
+          'mgnl:template': 'packrunners:components/searchResults'
       'footer':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': '524cc2aa-6dc5-4b80-a1c4-4268a4713f9b'
@@ -2099,7 +2099,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-21T20:59:10.573-05:00
     'mgnl:lastModified': 2020-06-21T11:21:44.730-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Course Finder'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -2183,7 +2183,7 @@
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-21T08:30:05.692-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Test'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -2277,7 +2277,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-21T11:03:39.928-05:00
     'mgnl:lastModified': 2020-06-21T11:02:42.555-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Video Lectures'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -2350,7 +2350,7 @@
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-21T11:03:17.380-05:00
       'mgnl:lastModifiedBy': 'superuser'
-      'mgnl:template': 'packrunweb:pages/standard'
+      'mgnl:template': 'packrunners:pages/standard'
       'title': 'Matthew''s Videos'
       'Video-1':
         'hideInNav': false
@@ -2366,7 +2366,7 @@
         'mgnl:lastActivatedVersionCreated': 2020-06-21T11:09:30.918-05:00
         'mgnl:lastModified': 2020-06-21T11:09:20.568-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunweb:pages/standard'
+        'mgnl:template': 'packrunners:pages/standard'
         'title': 'Video-1'
         'main':
           'jcr:primaryType': 'mgnl:area'
@@ -2523,7 +2523,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:03:49.950-05:00
     'mgnl:lastModified': 2020-06-28T12:18:06.699-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Study Guide Finder'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -2610,7 +2610,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:03:58.598-05:00
     'mgnl:lastModified': 2020-06-28T12:19:08.496-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Video Finder'
     'main':
       'jcr:primaryType': 'mgnl:area'
@@ -2697,7 +2697,7 @@
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:04:01.998-05:00
     'mgnl:lastModified': 2020-06-28T12:20:12.201-05:00
     'mgnl:lastModifiedBy': 'superuser'
-    'mgnl:template': 'packrunweb:pages/standard'
+    'mgnl:template': 'packrunners:pages/standard'
     'title': 'Quizzes Finder'
     'main':
       'jcr:primaryType': 'mgnl:area'
