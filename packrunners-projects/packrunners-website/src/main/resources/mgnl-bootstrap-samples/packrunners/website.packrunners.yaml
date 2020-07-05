@@ -2527,7 +2527,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-28T12:18:06.700-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'courses:components/studyGuideFinder'
+        'mgnl:template': 'studyguides:components/studyGuideFinder'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '2b9b65a6-a184-4235-90ec-6ffa00bcd6c0'
@@ -2614,7 +2614,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-28T12:19:08.496-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'courses:components/videoFinder'
+        'mgnl:template': 'videos:components/videoFinder'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '8bb6b303-aefc-4346-b1ee-c5a78055c015'
@@ -2701,7 +2701,7 @@
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-28T12:20:12.201-05:00
         'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'courses:components/quizFinder'
+        'mgnl:template': 'quizzes:components/quizFinder'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': 'f87d534f-51eb-482d-bdcd-9d47d6bd2e61'
