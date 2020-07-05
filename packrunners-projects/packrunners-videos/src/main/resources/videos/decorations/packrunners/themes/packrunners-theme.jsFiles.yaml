@@ -1,3 +1,12 @@
-study-guide-finder:
+angular:
+  addFingerPrint: true
+  link: /.resources/videos/webresources/js/angular.min.js
+angular-animate:
+  addFingerPrint: true
+  link: /.resources/videos/webresources/js/angular-animate.min.js
+angular-route:
+  addFingerPrint: true
+  link: /.resources/videos/webresources/js/angular-route.min.js
+video-finder:
   addFingerPrint: true
   link: /.resources/videos/webresources/js/video-finder.js

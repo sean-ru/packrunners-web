@@ -12,10 +12,10 @@ course-finder:
   link: /.resources/courses/webresources/js/course-finder.js
 study-guide-finder:
   addFingerPrint: true
-  link: /.resources/courses/webresources/js/study-guide-finder.js
+  link: /.resources/studyguides/webresources/js/study-guide-finder.js
 video-finder:
   addFingerPrint: true
-  link: /.resources/courses/webresources/js/video-finder.js
+  link: /.resources/videos/webresources/js/video-finder.js
 quiz-finder:
   addFingerPrint: true
-  link: /.resources/courses/webresources/js/quiz-finder.js
+  link: /.resources/quizzes/webresources/js/quiz-finder.js

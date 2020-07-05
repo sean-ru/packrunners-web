@@ -27,7 +27,7 @@
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
-  <sv:node sv:name="Naperville-North-High-School">
+  <sv:node sv:name="NNHS">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:category</sv:value>
     </sv:property>

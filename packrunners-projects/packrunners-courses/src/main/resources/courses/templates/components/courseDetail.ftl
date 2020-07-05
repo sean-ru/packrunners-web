@@ -50,9 +50,7 @@
         <div class="product-location">
             [#list relatedSchools as school]
                  <div class="category-icon absolute-center-container">
-                        <a href="${coursefn.getSchoolLink(content, school.nodeName)!'#'}">
-                            [@courseTypeIcon school.icon school.name "absolute-center" /]
-                        </a>
+                    [@courseTypeIcon school.icon school.name "absolute-center" /]
                  </div>
             [/#list]
         </div>
