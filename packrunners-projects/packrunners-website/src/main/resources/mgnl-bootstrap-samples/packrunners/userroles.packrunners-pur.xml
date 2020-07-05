@@ -43,7 +43,7 @@
     <sv:value>packrunners-pur</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>Travel demo registered public users</sv:value>
+    <sv:value>Pack-Runners registered public users</sv:value>
   </sv:property>
   <sv:node sv:name="acl_config">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
