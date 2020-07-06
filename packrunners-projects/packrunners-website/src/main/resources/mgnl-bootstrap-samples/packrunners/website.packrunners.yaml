@@ -7,11 +7,11 @@
   'mgnl:activationStatus': true
   'mgnl:created': 2015-01-26T10:17:02.306-06:00
   'mgnl:createdBy': 'superuser'
-  'mgnl:lastActivated': 2020-07-05T12:36:11.097-05:00
+  'mgnl:lastActivated': 2020-07-05T17:14:36.097-05:00
   'mgnl:lastActivatedBy': 'superuser'
   'mgnl:lastActivatedVersion': '1.0'
-  'mgnl:lastActivatedVersionCreated': 2020-07-05T10:44:54.243-05:00
-  'mgnl:lastModified': 2020-07-05T12:32:23.077-05:00
+  'mgnl:lastActivatedVersionCreated': 2020-07-05T17:14:34.833-05:00
+  'mgnl:lastModified': 2020-07-05T17:13:31.788-05:00
   'mgnl:lastModifiedBy': 'superuser'
   'mgnl:template': 'packrunners:pages/home'
   'searchResultPage': '6df1ebd8-fc9d-4db3-8539-02829c56b9f2'
@@ -22,7 +22,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.795-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+    'mgnl:lastActivated': 2020-07-05T17:14:36.100-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-28T12:22:03.503-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -34,7 +34,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2020-06-14T21:51:52.283-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.103-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-14T22:01:39.978-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -47,7 +47,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:05:57.163-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.103-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:05:57.163-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -60,7 +60,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-12T10:45:09.155-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.103-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-28T12:22:03.503-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -79,7 +79,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-26T10:25:11.810-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+    'mgnl:lastActivated': 2020-07-05T17:14:36.104-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -89,7 +89,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.011-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.104-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -101,7 +101,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:37:21.175-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:36.104-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -114,7 +114,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:37:21.247-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:36.104-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:39:53.713-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -124,7 +124,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.020-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.104-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -135,7 +135,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:27:16.380-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:36.105-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -148,7 +148,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:27:16.571-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:36.105-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -160,7 +160,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:29:36.482-06:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:36.105-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2020-06-06T11:40:35.598-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -175,7 +175,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-02-25T11:32:33.335-06:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:36.105-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T10:53:16.104-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -186,7 +186,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.027-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.106-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -197,7 +197,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:33:49.396-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:36.106-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -210,7 +210,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-02-25T11:33:49.481-06:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:36.106-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2020-06-06T11:40:05.157-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -220,7 +220,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-25T10:20:06.036-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.098-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.106-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -235,7 +235,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-25T11:34:50.575-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:36.106-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2020-06-06T11:41:07.036-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -252,7 +252,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-06-18T09:27:18.306-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:36.107-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T09:58:44.424-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -263,7 +263,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T09:27:59.610-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:36.107-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -274,7 +274,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-06-18T09:27:59.916-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:36.107-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -286,7 +286,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:26.664-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:36.107-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:26.664-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -299,7 +299,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:28:55.983-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:36.107-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:28:55.983-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -312,7 +312,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-06-18T09:29:16.321-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:11.099-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:36.108-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-06-18T09:29:16.321-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -325,7 +325,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-14T20:39:24.530-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:13.144-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.3'
     'mgnl:lastActivatedVersionCreated': 2020-07-05T11:11:37.760-05:00
@@ -424,11 +424,11 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-27T06:21:08.859-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+    'mgnl:lastActivated': 2020-07-05T17:14:32.769-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastActivatedVersion': '1.1'
-    'mgnl:lastActivatedVersionCreated': 2020-07-05T12:35:48.915-05:00
-    'mgnl:lastModified': 2020-07-05T12:34:00.963-05:00
+    'mgnl:lastActivatedVersion': '1.0'
+    'mgnl:lastActivatedVersionCreated': 2020-07-05T17:14:32.128-05:00
+    'mgnl:lastModified': 2020-07-05T16:28:00.029-05:00
     'mgnl:lastModifiedBy': 'superuser'
     'mgnl:template': 'courses:pages/courseTypeOverview'
     'navigationTitle': 'courses'
@@ -439,9 +439,9 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-27T06:21:12.019-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
       'mgnl:lastActivatedBy': 'superuser'
-      'mgnl:lastModified': 2020-07-05T12:34:00.963-05:00
+      'mgnl:lastModified': 2020-07-05T13:18:19.700-05:00
       'mgnl:lastModifiedBy': 'superuser'
       '0':
         'jcr:primaryType': 'mgnl:component'
@@ -449,7 +449,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-28T09:47:31.831-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-01-28T09:47:31.831-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -460,7 +460,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-29T09:46:43.704-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-01-29T09:46:43.704-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -471,7 +471,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-26T09:14:31.940-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:22:48.868-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -481,7 +481,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:31.955-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:31.955-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -491,7 +491,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:31.990-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.770-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:31.990-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -501,7 +501,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:32.016-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.771-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:32.016-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -511,7 +511,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:32.035-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.771-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:32.035-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -521,7 +521,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:22:48.872-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.077-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:32.771-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:22:48.872-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -532,9 +532,9 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-01-31T13:48:17.516-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastModified': 2020-07-05T12:32:23.021-05:00
+    'mgnl:lastModified': 2020-07-05T16:27:59.909-05:00
     'mgnl:lastModifiedBy': 'superuser'
     'mgnl:template': 'courses:pages/course'
     'title': 'course detail'
@@ -544,7 +544,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-31T13:48:28.133-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+      'mgnl:lastActivated': 2015-10-27T07:40:42.960-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -554,7 +554,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-01-31T13:48:35.191-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.960-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -565,7 +565,7 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2015-10-27T07:33:40.633-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+          'mgnl:lastActivated': 2015-10-27T07:40:42.960-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2015-10-27T07:36:20.083-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -576,7 +576,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2015-10-27T07:36:20.084-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+            'mgnl:lastActivated': 2015-10-27T07:40:42.963-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2015-10-27T07:36:20.084-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -591,7 +591,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T10:18:45.018-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.966-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-02T10:18:45.018-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -602,7 +602,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-01-31T13:48:28.153-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+      'mgnl:lastActivated': 2015-10-27T07:40:42.966-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:10:44.661-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -612,7 +612,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.390-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.967-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.390-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -622,7 +622,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.421-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.967-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.421-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -632,7 +632,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.450-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.967-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.450-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -642,7 +642,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:14:41.467-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.969-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:14:41.467-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -652,7 +652,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:10:44.666-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:13.008-05:00
+        'mgnl:lastActivated': 2015-10-27T07:40:42.970-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:10:44.666-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -664,11 +664,11 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T10:34:28.816-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:12.818-05:00
+    'mgnl:lastActivated': 2020-07-05T17:14:29.680-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastActivatedVersion': '1.1'
-    'mgnl:lastActivatedVersionCreated': 2020-06-08T21:36:17.247-05:00
-    'mgnl:lastModified': 2020-06-08T21:35:52.116-05:00
+    'mgnl:lastActivatedVersion': '1.0'
+    'mgnl:lastActivatedVersionCreated': 2020-07-05T17:14:28.649-05:00
+    'mgnl:lastModified': 2020-07-05T16:59:24.675-05:00
     'mgnl:lastModifiedBy': 'superuser'
     'mgnl:template': 'packrunners:pages/standard'
     'title': 'About'
@@ -679,12 +679,12 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T10:34:34.651-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.818-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:29.680-05:00
       'mgnl:lastActivatedBy': 'superuser'
-      'mgnl:lastModified': 2015-10-27T07:50:28.322-05:00
+      'mgnl:lastModified': 2020-07-05T16:59:24.675-05:00
       'mgnl:lastModifiedBy': 'superuser'
       '00':
-        'headline': 'About Magnolia Travels'
+        'headline': 'About PackRunners'
         'headlineLevel': 'small'
         'headline_de': 'Über Magnolia Travels'
         'imagePosition': 'below'
@@ -693,138 +693,141 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T13:23:37.199-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.818-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.681-05:00
         'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2015-06-18T04:08:06.983-05:00
+        'mgnl:lastModified': 2020-07-05T16:47:40.416-05:00
         'mgnl:lastModifiedBy': 'superuser'
         'mgnl:template': 'packrunners:components/jumbotron'
-        'text': '<p>We are a full service, independent packrunners agency.</p>
+        'text': '<p>PackRunners is a platform designed to bring educational videos
+          taught by tutors in the NNHS Peer Tutoring Program on a wide variety of
+          topics in the NNHS curriculum for students.</p>
 
-          <p>We offer unique courses from every continent on the planet. Get inspired
-          and book your course with us for an experience you&rsquo;ll always remember.</p> '
+          '
         'text_de': '<p>Wir sind eine unabh&auml;ngige Reiseagentur mit Rundumservice.</p>
 
           <p>Wir bieten einzigartige Reisen f&uuml;r jeden Kontinent der Erde an.
           Lassen Sie sich inspirieren und buchen Sie Ihre Reise bei uns, um Erfahrungen
           zu machen, die Ihnen f&uuml;r immer in Erinnerung bleiben werden.</p> '
-      '04':
+      '0':
+        'assetautoplay': false
+        'assetcontrols': true
+        'assetloop': false
+        'assetmuted': false
+        'assetpreload': 'auto'
+        'assetsource': 'jcr:cbef68c8-148f-44bf-935e-9016c90a42f0'
         'jcr:primaryType': 'mgnl:component'
-        'jcr:uuid': '834ef0b0-1519-4834-b1f5-4166ae004ac0'
-        'layout': '8x4'
+        'jcr:uuid': '4ea65804-31a6-4905-82e5-4a7427dfe9f4'
         'mgnl:activationStatus': true
-        'mgnl:created': 2015-10-27T06:03:30.193-05:00
+        'mgnl:created': 2020-07-05T16:44:47.100-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.818-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.681-05:00
         'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2015-10-27T07:50:28.322-05:00
+        'mgnl:lastModified': 2020-07-05T16:44:58.548-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'mtk:components/video'
+        'scale': 'true'
+        'type': 'asset'
+      '01':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '02a8a231-b962-4986-9d09-47312bb59cf1'
+        'layout': '4x4x4'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-07-05T16:52:52.204-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-07-05T17:14:29.682-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2020-07-05T16:59:24.675-05:00
         'mgnl:lastModifiedBy': 'superuser'
         'mgnl:template': 'packrunners:components/columnLayout'
         'column1':
           'jcr:primaryType': 'mgnl:area'
-          'jcr:uuid': '798e98d0-76ac-462b-a790-b34b00868a26'
+          'jcr:uuid': '90d60395-a269-4241-86a7-e3d81a2df5c1'
           'mgnl:activationStatus': true
-          'mgnl:created': 2015-10-27T06:50:49.241-05:00
+          'mgnl:created': 2020-07-05T16:52:53.202-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.818-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:29.683-05:00
           'mgnl:lastActivatedBy': 'superuser'
-          'mgnl:lastModified': 2015-10-27T07:47:55.803-05:00
+          'mgnl:lastModified': 2020-07-05T16:56:21.478-05:00
           'mgnl:lastModifiedBy': 'superuser'
           '0':
-            'assetautoplay': false
-            'assetcontrols': true
-            'assetloop': false
-            'assetmuted': false
-            'assetpreload': 'auto'
-            'assetsource': 'jcr:cbef68c8-148f-44bf-935e-9016c90a42f0'
-            'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': '398699bf-dd9a-4ae3-875e-f36198c8a8fc'
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-10-25T03:37:41.142-05:00
-            'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
-            'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-27T07:48:35.936-05:00
-            'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'mtk:components/video'
-            'scale': true
-            'type': 'asset'
-        'column2':
-          'jcr:primaryType': 'mgnl:area'
-          'jcr:uuid': 'dc699052-c8b4-4981-a421-511948269653'
-          'mgnl:activationStatus': true
-          'mgnl:created': 2015-10-27T06:50:49.343-05:00
-          'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
-          'mgnl:lastActivatedBy': 'superuser'
-          'mgnl:lastModified': 2015-10-27T07:49:40.553-05:00
-          'mgnl:lastModifiedBy': 'superuser'
-          '03':
-            'headline': 'Learn more'
-            'headlineLevel': 'medium'
-            'headline_de': 'Mehr erfahren'
+            'constrainAspectRatio': false
+            'headline': 'Tutors'
+            'headlineLevel': 'small'
             'imagePosition': 'below'
             'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': 'b1960df4-e572-4154-8946-f620609b2d5e'
+            'jcr:uuid': 'b0e4a9c9-b76a-4519-8366-1d092659ce1c'
             'mgnl:activationStatus': true
-            'mgnl:created': 2015-06-03T11:28:22.750-05:00
+            'mgnl:created': 2020-07-05T16:56:21.479-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:29.684-05:00
             'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-27T07:49:40.553-05:00
+            'mgnl:lastModified': 2020-07-05T16:56:21.479-05:00
             'mgnl:lastModifiedBy': 'superuser'
             'mgnl:template': 'packrunners:components/textImage'
+            'text': "<p>Our tutors are led by:</p>\n\n<ul>\n\t<li>&nbsp;</li>\n</ul>\n\
+              \n<p><a href=\"${link:{uuid:{d96e2d50-d524-4a4b-8296-fa7c29ff4c25},repository:{website},path:{/packrunners/tutors}}}\"\
+              >For a full list of tutors, click here</a></p>\n"
+        'column2':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': '15404117-01cd-41ba-afe3-6925dd8c9c97'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2020-07-05T16:52:53.290-05:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2020-07-05T17:14:29.685-05:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2020-07-05T16:58:55.062-05:00
+          'mgnl:lastModifiedBy': 'superuser'
           '0':
-            'hideTeaserImage': true
-            'highlight': false
+            'constrainAspectRatio': false
+            'headline': 'Developers'
+            'headlineLevel': 'small'
+            'imagePosition': 'below'
             'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': 'a674e6ae-015c-4526-8b4b-96580eb7cc4f'
-            'linkType': 'page'
-            'linkTypepage': '8fa4a73f-51c3-40ac-b698-715595216186'
+            'jcr:uuid': 'e417e0be-d17b-4455-8af5-b43aeeaf29a9'
             'mgnl:activationStatus': true
-            'mgnl:created': 2015-06-03T11:27:04.516-05:00
+            'mgnl:created': 2020-07-05T16:58:55.063-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:29.685-05:00
             'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-27T07:49:30.754-05:00
+            'mgnl:lastModified': 2020-07-05T16:58:55.063-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunners:components/teaser'
-          '01':
-            'hideTeaserImage': true
-            'highlight': false
+            'mgnl:template': 'packrunners:components/textImage'
+            'text': "<p>Our website is developed by:</p>\n\n<ul>\n\t<li>&nbsp;</li>\n\
+              </ul>\n"
+        'column3':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': '6edf2cd4-f245-4748-8ee5-2b511a0ef300'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2020-07-05T16:52:53.356-05:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2020-07-05T17:14:29.686-05:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2020-07-05T16:59:24.675-05:00
+          'mgnl:lastModifiedBy': 'superuser'
+          '0':
+            'constrainAspectRatio': false
+            'headline': 'Adminstrators'
+            'headlineLevel': 'small'
+            'imagePosition': 'below'
             'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': 'afd8b752-1ab9-4665-b794-86d0845b70b9'
-            'linkType': 'page'
-            'linkTypepage': 'f28c5cec-3567-485e-a8db-196339aa82b5'
+            'jcr:uuid': 'c69a2dab-7ec0-4b75-bae8-c965e7dd1bf5'
             'mgnl:activationStatus': true
-            'mgnl:created': 2015-06-03T11:27:43.922-05:00
+            'mgnl:created': 2020-07-05T16:59:24.676-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:29.686-05:00
             'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-27T07:49:28.120-05:00
+            'mgnl:lastModified': 2020-07-05T16:59:24.676-05:00
             'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunners:components/teaser'
-          '02':
-            'hideTeaserImage': true
-            'highlight': false
-            'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': '9b453dbe-1c04-4406-ad66-667d279c83ed'
-            'linkType': 'page'
-            'linkTypepage': '30058d95-f1c8-4b0a-b0ad-34b710e7c367'
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-06-03T11:28:02.172-05:00
-            'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
-            'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-27T07:49:16.881-05:00
-            'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'packrunners:components/teaser'
+            'mgnl:template': 'packrunners:components/textImage'
+            'text': "<p>Our website is administrated by:</p>\n\n<ul>\n\t<li>&nbsp;</li>\n\
+              </ul>\n"
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '21da1190-52e6-45d5-8e68-5a2878733d6c'
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T10:34:34.666-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:43:12.575-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -834,7 +837,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.082-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.082-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -844,7 +847,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.109-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.109-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -854,7 +857,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.138-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.138-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -864,7 +867,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:05.155-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:05.155-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -874,7 +877,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-06-18T10:43:12.583-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.819-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:29.687-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-06-18T10:43:12.583-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1014,14 +1017,17 @@
               'mgnl:template': 'packrunners:components/textImage'
   'contact':
     'hideInNav': false
+    'jcr:mixinTypes': ['mgnl:hasVersion']
     'jcr:primaryType': 'mgnl:page'
     'jcr:uuid': '53b073cc-ea3a-4e44-bdea-8c8a790b55c5'
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T14:04:23.355-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:12.699-05:00
+    'mgnl:lastActivated': 2020-07-05T17:14:25.971-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
+    'mgnl:lastActivatedVersion': '1.0'
+    'mgnl:lastActivatedVersionCreated': 2020-07-05T17:14:24.895-05:00
+    'mgnl:lastModified': 2020-07-05T17:03:24.177-05:00
     'mgnl:lastModifiedBy': 'superuser'
     'mgnl:template': 'packrunners:pages/standard'
     'title': 'Contact'
@@ -1032,9 +1038,9 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T14:23:58.043-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:25.972-05:00
       'mgnl:lastActivatedBy': 'superuser'
-      'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
+      'mgnl:lastModified': 2020-07-05T17:03:24.177-05:00
       'mgnl:lastModifiedBy': 'superuser'
       '0':
         'headline': 'Contact'
@@ -1046,68 +1052,27 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-02T14:24:42.507-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.972-05:00
         'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2015-06-18T04:31:04.095-05:00
+        'mgnl:lastModified': 2020-07-05T16:48:39.552-05:00
         'mgnl:lastModifiedBy': 'superuser'
         'mgnl:template': 'packrunners:components/jumbotron'
-        'text': '<p>Contact us any time to get a fast, helpful response.</p> '
+        'text': '<p>Please don&rsquo;t hesitate to contact any of our staff or Peer
+          Tutor Teachers with any concerns.</p>
+
+          '
         'text_de': '<p>Setzen Sie sich jederzeit mit uns in Verbindung, um eine schnelle,
           hilfreiche Antwort zu erhalten.</p> '
-      '00':
-        'headlineLevel': 'big'
-        'imagePosition': 'below'
-        'jcr:primaryType': 'mgnl:component'
-        'jcr:uuid': 'f4cff05b-be96-4b88-a1ea-9361a105039f'
-        'mgnl:activationStatus': true
-        'mgnl:created': 2015-02-02T14:28:45.700-06:00
-        'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-        'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2015-06-18T04:41:42.039-05:00
-        'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'packrunners:components/textImage'
-        'text': '<p>Do you have a question about one of our courses? Would you like
-          to customize a tour - or looking for a trip you just can&rsquo;t find on
-          our website?</p>
-
-          <p>Do you have a question about how our courses work, about a booking you&rsquo;ve
-          placed or about payment? Or are you on your trip now and have a question
-          or need support?</p>
-
-          <p>Or do you have a media or press query?</p>
-
-          <p>For any of these concerns please contact us via the most convenient method
-          below. We are available for you 24/7.</p>
-
-          <p><strong>All inquiries</strong><br /> <a href="mailto:contact@magnolia-packrunnerss-example.com"
-          style="text-decoration:none;">contact@magnolia-packrunnerss-example.com</a><br
-          /> <a href="tel:+1 800 123 4567">+1 800 123 4567</a></p> '
-        'text_de': '<p>Haben Sie Fragen zu einer unserer Reisen? M&ouml;chten Sie
-          eine der Reisen auf Ihre pers&ouml;nlichen Bed&uuml;rfnisse zuschneiden
-          lassen &ndash; oder sind Sie auf der Suche nach einer Reise, die Sie auf
-          unserer Webseite nicht gefunden haben?</p>
-
-          <p>Haben Sie eine Frage dazu, wie unsere Reisen durchgef&uuml;hrt werden,
-          zu Ihrer Buchung oder den Zahlungsmodalit&auml;ten? Oder befinden Sie sich
-          gerade auf einer der Reisen und haben eine Frage dazu oder ben&ouml;tigen
-          Unterst&uuml;tzung?<br /> &nbsp;&nbsp; &nbsp;<br /> Oder haben Sie eine
-          Medien- oder Presseanfrage?<br /> &nbsp;&nbsp; &nbsp;<br /> F&uuml;r all
-          diese Anfragen k&ouml;nnen Sie uns auf die f&uuml;r Sie geeignetste Art,
-          wie Sie sie unten sehen, erreichen. Wir stehen Ihnen rund um die Uhr zur
-          Verf&uuml;gung.<br /> &nbsp;&nbsp;&nbsp;<br /> <strong>Alle Anfragen</strong><br
-          /> <a href="mailto:contact@magnolia-packrunnerss-example.com">contact@magnolia-packrunnerss-example.com</a><br
-          /> <a href="tel:+1 800 123 4567">+1 800 123 4567</a></p> '
       '02':
         'jcr:primaryType': 'mgnl:component'
         'jcr:uuid': '1e0d64f3-bc2d-46cc-a362-19fde34e6b30'
-        'layout': '4x4x4'
+        'layout': '6x6'
         'mgnl:activationStatus': true
         'mgnl:created': 2016-09-21T08:46:29.735-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.972-05:00
         'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
+        'mgnl:lastModified': 2020-07-05T17:03:24.177-05:00
         'mgnl:lastModifiedBy': 'superuser'
         'mgnl:template': 'packrunners:components/columnLayout'
         'position': 'bottom'
@@ -1117,13 +1082,13 @@
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.279-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:25.972-05:00
           'mgnl:lastActivatedBy': 'superuser'
-          'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
+          'mgnl:lastModified': 2020-07-05T17:03:14.315-05:00
           'mgnl:lastModifiedBy': 'superuser'
           '0':
             'constrainAspectRatio': false
-            'headline': 'Americas'
+            'headline': 'Administrators'
             'headlineLevel': 'medium'
             'imagePosition': 'below'
             'jcr:primaryType': 'mgnl:component'
@@ -1131,28 +1096,26 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:47:02.903-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:25.973-05:00
             'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2016-09-21T08:49:29.299-05:00
+            'mgnl:lastModified': 2020-07-05T17:03:14.315-05:00
             'mgnl:lastModifiedBy': 'superuser'
             'mgnl:template': 'packrunners:components/textImage'
             'position': 'bottom'
-            'text': '<ul> <li>USA: +1-800-MAGNOLIA (toll free)</li> <li>Argentina
-              (54 11) 1234-5678</li> <li>Brazil +55 (11) 1234-5678</li> <li><a href="mailto:us@magnolia-packrunnerss-example.com">us@magnolia-packrunnerss-example.com</a></li>
-              </ul> '
+            'text': "<ul>\n\t<li>&nbsp;</li>\n</ul>\n"
         'column2':
           'jcr:primaryType': 'mgnl:area'
           'jcr:uuid': 'e0fe68b7-f2a3-4fc1-afa9-dd18bd291eae'
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.480-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:25.973-05:00
           'mgnl:lastActivatedBy': 'superuser'
-          'mgnl:lastModified': 2016-09-21T08:49:22.583-05:00
+          'mgnl:lastModified': 2020-07-05T17:03:24.177-05:00
           'mgnl:lastModifiedBy': 'superuser'
           '0':
             'constrainAspectRatio': false
-            'headline': 'Asia Pacific'
+            'headline': 'Teachers'
             'headlineLevel': 'medium'
             'imagePosition': 'below'
             'jcr:primaryType': 'mgnl:component'
@@ -1160,27 +1123,20 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:47:34.849-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:25.973-05:00
             'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2016-09-21T08:49:22.583-05:00
+            'mgnl:lastModified': 2020-07-05T17:03:24.177-05:00
             'mgnl:lastModifiedBy': 'superuser'
             'mgnl:template': 'packrunners:components/textImage'
             'position': 'bottom'
-            'text': '<ul> <li>Australia and New Zealand: 1-800-MAGNOLIA</li> <li>China:
-              800 123 4567</li> <li>Hong Kong: 800 55 6666</li> <li>India: +91 12
-              34567890</li> <li>Indonesia: +62 234 5 678 9090</li> <li>Japan: +81
-              1 2345 6789</li> <li>Korea: +82 1 123 4567</li> <li>Singapore: +65 1234
-              5678</li> <li>Taiwan: 0800 111 222</li> <li>Thailand: +66 11 222 4444</li>
-              <li>Vietnam: +84 123 1234</li> <li><a href="mailto:apac@magnolia-packrunnerss-example.com"
-              style="line-height: 1.6em;">apac@magnolia-packrunnerss-example.com</a></li>
-              </ul> '
+            'text': "<ul>\n\t<li>&nbsp;</li>\n</ul>\n"
         'column3':
           'jcr:primaryType': 'mgnl:area'
           'jcr:uuid': 'b8099e24-78f7-4724-9f94-516652b2f080'
           'mgnl:activationStatus': true
           'mgnl:created': 2016-09-21T08:46:30.702-05:00
           'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+          'mgnl:lastActivated': 2020-07-05T17:14:25.973-05:00
           'mgnl:lastActivatedBy': 'superuser'
           'mgnl:lastModified': 2016-09-21T08:49:15.418-05:00
           'mgnl:lastModifiedBy': 'superuser'
@@ -1194,7 +1150,7 @@
             'mgnl:activationStatus': true
             'mgnl:created': 2016-09-21T08:48:06.298-05:00
             'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+            'mgnl:lastActivated': 2020-07-05T17:14:25.973-05:00
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2016-09-21T08:49:15.418-05:00
             'mgnl:lastModifiedBy': 'superuser'
@@ -1203,184 +1159,13 @@
             'text': '<ul> <li>France +33 1 23 45 67</li> <li>Germany +49 1 234 567</li>
               <li>UK +44 1234 567890</li> <li><a href="mailto:europe@magnolia-packrunnerss-example.com">europe@magnolia-packrunnerss-example.com</a></li>
               </ul> '
-      '01':
-        'confirmContentType': 'text'
-        'confirmContentTypetext': 'We have received a message sent from ${email} through
-          our contact form. For your convenience, the message is repeated below.
-
-          Thank you for contacting us! - John
-
-          ---- your message ---- ${message}'
-        'confirmMailFrom': 'contact@magnolia-packrunnerss-example.com'
-        'confirmMailSubject': 'We have received your message, ${email}'
-        'confirmMailTo': '${email}'
-        'contactMailFrom': '${email}'
-        'contactMailSubject': '${subject}'
-        'contactMailTo': 'contact@magnolia-packrunnerss-example.com'
-        'contentType': 'text'
-        'contentTypetext': 'Message:
-
-          Email: ${email}
-
-          Subject: ${subject}
-
-          Message: ${message}'
-        'displayStepNavigation': false
-        'formName': 'contact-form'
-        'formTitle': 'Contact Form'
-        'formTitle_de': 'Kontaktformular'
-        'jcr:primaryType': 'mgnl:component'
-        'jcr:uuid': 'a06b7d98-0d13-4f17-8e15-5c3449e4a839'
-        'mgnl:activationStatus': true
-        'mgnl:created': 2015-09-03T02:36:33.087-05:00
-        'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-        'mgnl:lastActivatedBy': 'superuser'
-        'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
-        'mgnl:lastModifiedBy': 'superuser'
-        'mgnl:template': 'form:components/form'
-        'requiredSymbol': '*'
-        'rightText': 'required'
-        'rightText_de': 'erforderlich'
-        'sendConfirmation': false
-        'trackMail': false
-        'confirmContentTypecode':
-          'jcr:uuid': '3e5a50b2-3c41-4509-841a-e65b6753e65b'
-          'mgnl:activationStatus': true
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-          'mgnl:lastActivatedBy': 'superuser'
-        'contentTypehtml':
-          'jcr:uuid': '247c3f36-3fdd-4de3-80ee-310a33e20c9d'
-          'mgnl:activationStatus': true
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-          'mgnl:lastActivatedBy': 'superuser'
-        'fieldsets':
-          'jcr:primaryType': 'mgnl:area'
-          'jcr:uuid': '4d399f43-3a13-45eb-80d0-f42a1f45ef2c'
-          'mgnl:activationStatus': true
-          'mgnl:created': 2015-09-03T02:36:33.253-05:00
-          'mgnl:createdBy': 'superuser'
-          'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-          'mgnl:lastActivatedBy': 'superuser'
-          'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
-          'mgnl:lastModifiedBy': 'superuser'
-          '0':
-            'jcr:primaryType': 'mgnl:component'
-            'jcr:uuid': '5ff6a445-7e2a-4bdd-bf81-c802087a3bd5'
-            'mgnl:activationStatus': true
-            'mgnl:created': 2015-09-03T02:37:09.255-05:00
-            'mgnl:createdBy': 'superuser'
-            'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-            'mgnl:lastActivatedBy': 'superuser'
-            'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
-            'mgnl:lastModifiedBy': 'superuser'
-            'mgnl:template': 'form:components/formGroupFields'
-            'fields':
-              'jcr:primaryType': 'mgnl:area'
-              'jcr:uuid': '5d5fea45-8e61-4849-a1cb-d625e74a3584'
-              'mgnl:activationStatus': true
-              'mgnl:created': 2015-09-03T02:37:09.416-05:00
-              'mgnl:createdBy': 'superuser'
-              'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-              'mgnl:lastActivatedBy': 'superuser'
-              'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
-              'mgnl:lastModifiedBy': 'superuser'
-              '0':
-                'autocomplete': false
-                'autofocus': false
-                'controlName': 'email'
-                'disabled': false
-                'inputType': 'email'
-                'jcr:primaryType': 'mgnl:component'
-                'jcr:uuid': '2585d39e-7970-4cf7-b30e-1b8d544a3195'
-                'mandatory': true
-                'mgnl:activationStatus': true
-                'mgnl:created': 2015-09-03T02:37:47.300-05:00
-                'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-                'mgnl:lastActivatedBy': 'superuser'
-                'mgnl:lastModified': 2015-10-30T05:42:31.429-05:00
-                'mgnl:lastModifiedBy': 'superuser'
-                'mgnl:template': 'form:components/formEdit'
-                'readonly': false
-                'rows': 1
-                'title': 'Your Email'
-                'title_de': 'Ihre E-Mail'
-                'validation': ['email']
-              '00':
-                'autocomplete': false
-                'autofocus': false
-                'controlName': 'subject'
-                'disabled': false
-                'inputType': 'text'
-                'jcr:primaryType': 'mgnl:component'
-                'jcr:uuid': '485f5f35-ac32-498f-86ec-9f2d5910ce4b'
-                'mandatory': false
-                'mgnl:activationStatus': true
-                'mgnl:created': 2015-09-03T02:39:20.636-05:00
-                'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-                'mgnl:lastActivatedBy': 'superuser'
-                'mgnl:lastModified': 2015-10-30T05:43:43.193-05:00
-                'mgnl:lastModifiedBy': 'superuser'
-                'mgnl:template': 'form:components/formEdit'
-                'readonly': false
-                'rows': 1
-                'title': 'Subject'
-                'title_de': 'Betreff'
-              '01':
-                'autocomplete': false
-                'autofocus': false
-                'controlName': 'message'
-                'description': 'Your message to our company'
-                'description_de': 'Ihre Nachricht an uns'
-                'disabled': false
-                'inputType': 'text'
-                'jcr:primaryType': 'mgnl:component'
-                'jcr:uuid': '2a9a982b-cfa8-40d3-88f3-9b3ba7072a11'
-                'mandatory': true
-                'mgnl:activationStatus': true
-                'mgnl:created': 2015-09-03T02:40:11.327-05:00
-                'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-                'mgnl:lastActivatedBy': 'superuser'
-                'mgnl:lastModified': 2015-10-30T05:44:40.902-05:00
-                'mgnl:lastModifiedBy': 'superuser'
-                'mgnl:template': 'form:components/formEdit'
-                'readonly': false
-                'rows': 4
-                'title': 'Message'
-                'title_de': 'Nachricht'
-              '02':
-                'buttonText': 'Send'
-                'buttonText_de': 'Abschicken'
-                'jcr:primaryType': 'mgnl:component'
-                'jcr:uuid': '39d899d6-f7a4-4d1a-880d-a219617e6533'
-                'mgnl:activationStatus': true
-                'mgnl:created': 2015-09-03T03:02:32.319-05:00
-                'mgnl:createdBy': 'superuser'
-                'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-                'mgnl:lastActivatedBy': 'superuser'
-                'mgnl:lastModified': 2015-10-30T05:44:55.784-05:00
-                'mgnl:lastModifiedBy': 'superuser'
-                'mgnl:template': 'form:components/formSubmit'
-                'conditionList':
-                  'jcr:primaryType': 'mgnl:area'
-                  'jcr:uuid': 'febfa5f7-be2e-4c41-bdbf-4a37ef21c16a'
-                  'mgnl:activationStatus': true
-                  'mgnl:created': 2015-09-03T03:02:32.456-05:00
-                  'mgnl:createdBy': 'superuser'
-                  'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
-                  'mgnl:lastActivatedBy': 'superuser'
-                  'mgnl:lastModified': 2015-09-03T03:02:32.456-05:00
-                  'mgnl:lastModifiedBy': 'superuser'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': 'ca6f5835-6ba9-4fb1-aab7-d9279e6f9524'
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T14:23:58.056-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+      'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-07-01T03:41:43.498-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1390,7 +1175,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.864-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.864-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1400,7 +1185,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.886-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.886-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1410,7 +1195,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.906-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.906-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1420,7 +1205,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-02-26T09:27:47.931-06:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.700-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-02-26T09:27:47.931-06:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1430,7 +1215,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2015-07-01T03:41:43.502-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:12.701-05:00
+        'mgnl:lastActivated': 2020-07-05T17:14:25.974-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2015-07-01T03:41:43.502-05:00
         'mgnl:lastModifiedBy': 'superuser'
@@ -1441,7 +1226,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2015-02-02T13:58:23.939-06:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.958-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-21T08:43:22.010-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -1454,7 +1239,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:58:43.044-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.370-05:00
+      'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:33.104-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1609,7 +1394,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:59:02.922-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.270-05:00
+      'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:35.913-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1796,7 +1581,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-02-02T13:59:19.503-06:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.182-05:00
+      'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2015-06-18T10:48:36.948-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -1902,7 +1687,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2015-04-22T05:45:53.243-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:12.073-05:00
+      'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastActivatedVersion': '1.4'
       'mgnl:lastActivatedVersionCreated': 2020-06-28T16:02:31.170-05:00
@@ -2061,81 +1846,60 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2018-03-27T04:02:36.701-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.847-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
-    'mgnl:lastModified': 2020-07-05T12:32:23.080-05:00
+    'mgnl:lastModified': 2020-07-05T16:28:00.108-05:00
     'mgnl:lastModifiedBy': 'superuser'
     'mgnl:template': 'packrunners:pages/standard'
     'title': 'course Finder'
     'main':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': '9cafcc1e-e561-4f15-83ba-6019c8107a86'
-      'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:02:45.786-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.847-05:00
-      'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:03:06.652-05:00
       'mgnl:lastModifiedBy': 'superuser'
       '0':
         'jcr:primaryType': 'mgnl:component'
         'jcr:uuid': '506bfd9a-ef9f-42bf-8650-f32a3b2fd841'
-        'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:03:06.654-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.849-05:00
-        'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:03:06.654-05:00
         'mgnl:lastModifiedBy': 'superuser'
         'mgnl:template': 'courses:components/courseFinder'
     'footer':
       'jcr:primaryType': 'mgnl:area'
       'jcr:uuid': 'ce31ad28-22b2-4c94-9bff-515ee7883634'
-      'mgnl:activationStatus': true
       'mgnl:created': 2018-03-27T04:02:45.924-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.850-05:00
-      'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2018-03-27T04:02:46.822-05:00
       'mgnl:lastModifiedBy': 'superuser'
       'footer1':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': '76c936d5-c305-4745-8e23-cfb694692bad'
-        'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.032-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.851-05:00
-        'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.032-05:00
         'mgnl:lastModifiedBy': 'superuser'
       'footer2':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': 'a2d47f9d-eddf-493e-bf83-e7a64c7be2f0'
-        'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.468-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.851-05:00
-        'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.468-05:00
         'mgnl:lastModifiedBy': 'superuser'
       'footer3':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': '7f6f9305-d354-4e24-b9a4-b2c8d0f231ef'
-        'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.707-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.852-05:00
-        'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.707-05:00
         'mgnl:lastModifiedBy': 'superuser'
       'footer4':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': 'e98167e0-3732-4d22-a223-77542756f51d'
-        'mgnl:activationStatus': true
         'mgnl:created': 2018-03-27T04:02:46.831-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.852-05:00
-        'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastModified': 2018-03-27T04:02:46.831-05:00
         'mgnl:lastModifiedBy': 'superuser'
   'test':
@@ -2145,7 +1909,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-16T18:05:18.345-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.732-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastModified': 2020-06-21T08:30:05.692-05:00
     'mgnl:lastModifiedBy': 'superuser'
@@ -2237,7 +2001,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-21T08:44:44.933-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.457-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.1'
     'mgnl:lastActivatedVersionCreated': 2020-06-21T11:03:39.928-05:00
@@ -2312,7 +2076,7 @@
       'mgnl:activationStatus': true
       'mgnl:created': 2020-06-21T09:23:24.499-05:00
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastActivated': 2020-07-05T12:36:11.553-05:00
+      'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
       'mgnl:lastActivatedBy': 'superuser'
       'mgnl:lastModified': 2020-06-21T11:03:17.380-05:00
       'mgnl:lastModifiedBy': 'superuser'
@@ -2326,7 +2090,7 @@
         'mgnl:activationStatus': true
         'mgnl:created': 2020-06-21T08:47:13.170-05:00
         'mgnl:createdBy': 'superuser'
-        'mgnl:lastActivated': 2020-07-05T12:36:11.637-05:00
+        'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
         'mgnl:lastActivatedBy': 'superuser'
         'mgnl:lastActivatedVersion': '1.15'
         'mgnl:lastActivatedVersionCreated': 2020-06-21T11:09:30.918-05:00
@@ -2415,6 +2179,103 @@
             'mgnl:lastActivatedBy': 'superuser'
             'mgnl:lastModified': 2020-06-21T08:47:16.799-05:00
             'mgnl:lastModifiedBy': 'superuser'
+      'Video-2':
+        'hideInNav': false
+        'jcr:mixinTypes': ['mgnl:hasVersion']
+        'jcr:primaryType': 'mgnl:page'
+        'jcr:uuid': '3f3cf4b9-885c-48b5-bdbf-4568dba64416'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2020-07-05T17:05:03.388-05:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2020-07-05T17:14:17.140-05:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastActivatedVersion': '1.0'
+        'mgnl:lastActivatedVersionCreated': 2020-07-05T17:14:16.426-05:00
+        'mgnl:lastModified': 2020-07-05T17:06:45.326-05:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'packrunners:pages/standard'
+        'title': 'Video-2'
+        'main':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': 'e45d0e22-ca26-444c-8ab7-b93518f02bb0'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2020-07-05T17:05:03.388-05:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2020-07-05T17:14:17.140-05:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2020-07-05T17:06:05.228-05:00
+          'mgnl:lastModifiedBy': 'superuser'
+          '0':
+            'assetautoplay': true
+            'assetcontrols': true
+            'assetloop': false
+            'assetmuted': false
+            'assetposter': 'jcr:5627c1ca-13d3-49be-9495-fe91d401756a'
+            'assetpreload': 'auto'
+            'assetsource': 'jcr:b8f3ffda-0b8a-4faf-ab1f-e006720a5427'
+            'jcr:primaryType': 'mgnl:component'
+            'jcr:uuid': '3660d90a-d08f-4029-8f78-0e9a6fdf8a92'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2020-07-05T17:05:03.388-05:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2020-07-05T17:14:17.140-05:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2020-07-05T17:06:05.228-05:00
+            'mgnl:lastModifiedBy': 'superuser'
+            'mgnl:template': 'mtk:components/video'
+            'scale': 'true'
+            'type': 'asset'
+            'videoCaption': 'What is cool?'
+        'footer':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': 'd3a1993f-bc53-411e-9a2f-e001579c7a3b'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2020-07-05T17:05:03.388-05:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2020-07-05T17:14:17.140-05:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2020-07-05T17:05:03.388-05:00
+          'mgnl:lastModifiedBy': 'superuser'
+          'footer1':
+            'jcr:primaryType': 'mgnl:area'
+            'jcr:uuid': 'dd22d143-c81a-4297-8929-a7af98dac7a1'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2020-07-05T17:05:03.388-05:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2020-07-05T17:14:17.141-05:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2020-07-05T17:05:03.388-05:00
+            'mgnl:lastModifiedBy': 'superuser'
+          'footer2':
+            'jcr:primaryType': 'mgnl:area'
+            'jcr:uuid': '5c5e57ed-e4a1-42b8-a445-73e14179d35c'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2020-07-05T17:05:03.388-05:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2020-07-05T17:14:17.141-05:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2020-07-05T17:05:03.388-05:00
+            'mgnl:lastModifiedBy': 'superuser'
+          'footer3':
+            'jcr:primaryType': 'mgnl:area'
+            'jcr:uuid': '06b2893b-0c4f-4614-ad0f-c20afd590b95'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2020-07-05T17:05:03.388-05:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2020-07-05T17:14:17.141-05:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2020-07-05T17:05:03.388-05:00
+            'mgnl:lastModifiedBy': 'superuser'
+          'footer4':
+            'jcr:primaryType': 'mgnl:area'
+            'jcr:uuid': 'a0cdbe43-ce5a-4e62-ae1f-a19289872501'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2020-07-05T17:05:03.388-05:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2020-07-05T17:14:17.141-05:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2020-07-05T17:05:03.388-05:00
+            'mgnl:lastModifiedBy': 'superuser'
       'main':
         'jcr:primaryType': 'mgnl:area'
         'jcr:uuid': 'd46458f1-f2e2-4940-a584-f565683191b7'
@@ -2483,7 +2344,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-28T12:17:53.076-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.361-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.3'
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:03:49.950-05:00
@@ -2570,7 +2431,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-28T12:18:53.843-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.283-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.3'
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:03:58.598-05:00
@@ -2657,7 +2518,7 @@
     'mgnl:activationStatus': true
     'mgnl:created': 2020-06-28T12:20:00.565-05:00
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastActivated': 2020-07-05T12:36:11.197-05:00
+    'mgnl:lastActivated': 2020-07-05T16:28:06.609-05:00
     'mgnl:lastActivatedBy': 'superuser'
     'mgnl:lastActivatedVersion': '1.3'
     'mgnl:lastActivatedVersionCreated': 2020-06-28T13:04:01.998-05:00
