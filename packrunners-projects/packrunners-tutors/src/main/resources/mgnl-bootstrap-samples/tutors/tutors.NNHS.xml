@@ -19,16 +19,16 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-06-13T21:12:35.533-05:00</sv:value>
+    <sv:value>2020-07-06T15:13:29.112Z</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-    <sv:value>1.2</sv:value>
+    <sv:value>1.0</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-    <sv:value>2020-06-13T21:12:35.452-05:00</sv:value>
+    <sv:value>2020-07-06T15:13:29.071Z</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
     <sv:value>2020-06-09T11:57:39.906-05:00</sv:value>
@@ -84,19 +84,19 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:40.161-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:17.926Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.4</sv:value>
+      <sv:value>1.0</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:40.075-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:17.880Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-10T18:39:23.049-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:07.797Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -108,10 +108,7 @@
       <sv:value>jcr:acc16d77-4102-47b3-907d-7d944892a44e</sv:value>
     </sv:property>
     <sv:property sv:name="profile" sv:type="String">
-      <sv:value>&lt;p&gt;I have extensive teaching experience in&amp;nbsp;physics&amp;nbsp;at&amp;nbsp;Wesleyan University, MIT, and&amp;nbsp;&lt;a href="https://frogtutoring.com/tutors/Harvard_University_Tutors"&gt;Harvard University&lt;/a&gt;&amp;nbsp;while a PhD student at MIT. I have been granted several scholarships in theoretical&amp;nbsp;physics&amp;nbsp;for engaging in research and teaching with numerous Nobel Prize winners in&amp;nbsp;physics, e.g., Barry Barish, Sam Ting, Wolfgang Ketterle, and Jim Peebles.&lt;br /&gt;
-&lt;br /&gt;
-I am an excellent teacher, and I can insure that you will learn and love&amp;nbsp;physics.&lt;/p&gt;
-</sv:value>
+      <sv:value>About Sean Ru</sv:value>
     </sv:property>
     <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
       <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
@@ -162,19 +159,19 @@ I am an excellent teacher, and I can insure that you will learn and love&amp;nbs
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:42.997-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:22.346Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.3</sv:value>
+      <sv:value>1.0</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:42.913-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:22.277Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-10T18:29:56.207-05:00</sv:value>
+      <sv:value>2020-07-06T15:12:27.064Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -186,8 +183,7 @@ I am an excellent teacher, and I can insure that you will learn and love&amp;nbs
       <sv:value>jcr:350ac296-d5eb-45b1-b4ff-042f5b7b1f00</sv:value>
     </sv:property>
     <sv:property sv:name="profile" sv:type="String">
-      <sv:value>&lt;p&gt;My greatest passion in life is teaching. I was born and raised in Sydney, and experienced great success at school and at university due to amazing and unforgettable teachers. This is the foundation of my commitment to helping out my students, whatever their abilities may be. Currently, I am studying a masters degree specializing in teaching elementary students with Autism Spectrum Disorders, rounding out my undergraduate background in primary education. I have been tutoring and teaching for 8 years in various settings &amp;ndash; tutoring small and large groups, private individual tutoring, and teaching in rural, suburban, and urban classroom and home settings.&lt;/p&gt;
-</sv:value>
+      <sv:value>Write something about the profile</sv:value>
     </sv:property>
     <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
       <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
@@ -238,19 +234,19 @@ I am an excellent teacher, and I can insure that you will learn and love&amp;nbs
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:45.169-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:25.650Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
-      <sv:value>1.4</sv:value>
+      <sv:value>1.0</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-      <sv:value>2020-06-13T21:12:45.103-05:00</sv:value>
+      <sv:value>2020-07-06T15:13:25.617Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-10T18:31:26.496-05:00</sv:value>
+      <sv:value>2020-07-06T15:12:50.823Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -262,8 +258,7 @@ I am an excellent teacher, and I can insure that you will learn and love&amp;nbs
       <sv:value>jcr:350ac296-d5eb-45b1-b4ff-042f5b7b1f00</sv:value>
     </sv:property>
     <sv:property sv:name="profile" sv:type="String">
-      <sv:value>&lt;p&gt;I am a professional in the investment management industry. Previously, I worked as a consultant to top financial services firms advising on balance sheet management, portfolio strategy, and valuations. I currently study an MBA part-time at Melbourne University, where I became a tutor in Accounting and Hedge Fund Strategies as well as a mentor/coach in an equity research initiative for part-time students. I also advise start-ups to improve their presentations to prospective investors. My background includes a BA in Economics, Masters in Finance and I&amp;rsquo;m a Chartered Accountant. I love teaching and helping people achieve their goals.&lt;/p&gt;
-</sv:value>
+      <sv:value>Write something about the profile</sv:value>
     </sv:property>
     <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
       <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
