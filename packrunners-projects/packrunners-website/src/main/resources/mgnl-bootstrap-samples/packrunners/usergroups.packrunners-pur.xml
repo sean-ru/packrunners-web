@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="packrunners-pur" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="packrunners-pur">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:group</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>d80dced5-b9d9-448c-9147-cfce08547ca0</sv:value>
-  </sv:property>
-  <sv:property sv:name="jcr:createdBy" sv:type="String">
-    <sv:value>admin</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
     <sv:value>true</sv:value>
@@ -19,16 +16,16 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
+    <sv:value>2020-07-19T21:39:49.396-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2016-01-18T10:54:09.906+01:00</sv:value>
+    <sv:value>2020-07-19T21:39:49.393-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-    <sv:value>superuser</sv:value>
+    <sv:value>anonymous</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
     <sv:value>A sample public users group for packrunners</sv:value>
@@ -37,14 +34,8 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:contentNode</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>ad0fc41a-d72d-4f45-8545-f088be41a317</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:createdBy" sv:type="String">
-      <sv:value>admin</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
       <sv:value>true</sv:value>
@@ -56,7 +47,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
+      <sv:value>2020-07-19T21:39:49.397-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -71,9 +62,6 @@
   <sv:node sv:name="roles">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:contentNode</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>bbe93765-5e63-4b57-9dc0-b8029a055c2e</sv:value>
@@ -96,9 +84,6 @@
     <sv:property sv:name="5" sv:type="String">
       <sv:value>ebfdd7dd-2132-4cb5-bb63-e5c09675a16f</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:createdBy" sv:type="String">
-      <sv:value>admin</sv:value>
-    </sv:property>
     <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
       <sv:value>true</sv:value>
     </sv:property>
@@ -109,7 +94,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
+      <sv:value>2020-07-19T21:39:49.397-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
