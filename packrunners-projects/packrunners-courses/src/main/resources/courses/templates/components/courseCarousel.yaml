@@ -1,0 +1,4 @@
+templateScript: /courses/templates/components/courseCarousel.ftl
+dialog: courses:components/courseCarousel
+modelClass: org.packrunners.courses.model.CarouselModel
+renderType: freemarker

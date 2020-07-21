@@ -1,0 +1,4 @@
+templateScript: /packrunners/templates/components/social.ftl
+dialog: packrunners:components/social
+
+renderType: freemarker

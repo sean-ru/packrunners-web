@@ -1,0 +1,2 @@
+templateScript: /studyguides/templates/components/studyGuideFinder.ftl
+renderType: freemarker

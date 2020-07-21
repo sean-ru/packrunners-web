@@ -1,0 +1,5 @@
+templateScript: /courses/templates/components/courseTypeTeaserRow.ftl
+dialog: courses:components/courseTypeTeaserRow
+modelClass: org.packrunners.courses.model.CourseTeaserModel
+
+renderType: freemarker

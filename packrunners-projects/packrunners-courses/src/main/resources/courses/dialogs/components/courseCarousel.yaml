@@ -1,0 +1,27 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: courses
+          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+          buttonSelectAddLabel: field.link.select.add
+          field:
+            class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+            targetWorkspace: courses
+            appName: courses
+            identifierToPathConverter:
+              class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+            fieldEditable: false
+            label: Courses
+            buttonSelectNewLabel: field.link.select.new
+            buttonSelectOtherLabel: field.link.select.another
+        - name: showCourseTypes
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          defaultValue: true
+          type: Boolean
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

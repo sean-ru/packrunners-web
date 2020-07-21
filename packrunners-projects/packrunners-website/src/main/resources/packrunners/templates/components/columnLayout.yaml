@@ -1,0 +1,27 @@
+templateScript: /packrunners/templates/components/columnLayout.ftl
+dialog: packrunners:components/columnLayout
+
+renderType: freemarker
+areas:
+  column1: &column1
+    type: list
+    availableComponents:
+      textImage:
+        id: packrunners:components/textImage
+      jumbotron:
+        id: packrunners:components/jumbotron
+      linkList:
+        id: packrunners:components/linkList
+      teaser:
+        id: packrunners:components/teaser
+      carousel:
+        id: packrunners:components/carousel
+      video:
+        id: mtk:components/video
+      html:
+        id: mtk:components/html
+      form:
+        id: form:components/form
+  column2: *column1
+  column3: *column1
+  column4: *column1

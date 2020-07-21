@@ -1,0 +1,24 @@
+<div class="course-card-background">
+    <img data-sizes="auto" class="course-card-image" ng-src="{{ studyGuide.image.renditions['960x720'].link }}" />
+</div>
+<a class="course-card-anchor" ng-href="{{ contextPath }}/packrunners/studyGuides?studyGuide={{ studyGuide['@path'] }}">
+    <div class="course-card-content-shader"></div>
+    <div class="course-card-content">
+        <h4 class="finder-card-title">{{ studyGuide.name }}</h4>
+        <div class="finder-card-meta">{{ studyGuide.content }}</div>
+        <div class="category-icons finder-coursetype-container">
+            <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseNumber in studyGuide.courseNumbers">
+                <div class="finder-coursetype-name">{{ courseNumber.name }}</div>
+            </div>
+        </div>
+        <div class="category-icons finder-coursetype-container">
+            <div class="category-icon finder-coursetype absolute-center-container" ng-repeat="courseType in studyGuide.courseTypes">
+                <img class="finder-coursetype-icon" ng-src="{{ contextPath }}/dam/{{ courseType.icon }}" />
+                <div class="finder-coursetype-name">{{ courseType.displayName }}</div>
+            </div>
+        </div>
+        <div class="card-button">
+            <div class="btn btn-primary">{{ i18n['studyGuide.view'] }}</div>
+        </div>
+    </div>
+</a>

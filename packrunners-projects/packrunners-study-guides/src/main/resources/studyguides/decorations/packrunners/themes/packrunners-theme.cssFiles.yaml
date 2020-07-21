@@ -1,0 +1,4 @@
+study-guide-finder:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/css/finder.css
+  media: all

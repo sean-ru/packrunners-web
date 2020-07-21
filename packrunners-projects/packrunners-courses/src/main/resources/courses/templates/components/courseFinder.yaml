@@ -1,0 +1,2 @@
+templateScript: /courses/templates/components/courseFinder.ftl
+renderType: freemarker

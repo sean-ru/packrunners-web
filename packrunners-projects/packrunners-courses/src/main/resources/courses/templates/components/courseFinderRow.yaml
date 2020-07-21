@@ -1,0 +1,3 @@
+templateScript: /courses/templates/components/courseFinderRow.ftl
+dialog: courses:components/courseFinderRow
+renderType: freemarker

@@ -1,0 +1,4 @@
+video-finder:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/css/finder.css
+  media: all

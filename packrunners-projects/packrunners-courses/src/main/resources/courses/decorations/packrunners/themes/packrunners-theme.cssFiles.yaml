@@ -1,0 +1,4 @@
+coursefinder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/css/coursefinder.css
+  media: all

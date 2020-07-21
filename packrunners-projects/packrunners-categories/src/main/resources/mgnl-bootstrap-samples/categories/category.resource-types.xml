@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="resource-types">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>52f56e04-eb6e-48aa-b68f-aa79a86c1fc8</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-06-02T21:19:48.587-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-06-02T21:25:04.304-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="Study-Guides">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4567c7ca-5a70-471d-98f8-3dc911d934d6</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Study Guides</sv:value>
+    </sv:property>
+    <sv:property sv:name="icon" sv:type="String">
+      <sv:value>jcr:edb3eb8c-920c-4b4a-9fcf-d2482154f9b2</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:8159febf-175a-4a28-911a-c43a2d66c45b</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-06-02T21:23:05.441-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-06-02T21:23:05.441-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Study Guides</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Videos">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e426d81e-0742-4118-9404-5e3c094a72e1</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Videos</sv:value>
+    </sv:property>
+    <sv:property sv:name="icon" sv:type="String">
+      <sv:value>jcr:8beab4bb-7661-49ba-9c09-b90d5b0468f6</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:d9d73c4a-64e8-4bf2-915e-def733576a1d</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-06-02T21:25:04.305-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-06-02T21:26:59.245-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Videos</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Quizzes">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ac2ee632-2c83-4528-be6f-e9b5a7774036</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Quizzes</sv:value>
+    </sv:property>
+    <sv:property sv:name="icon" sv:type="String">
+      <sv:value>jcr:d03a4c57-eba2-4041-a744-e19c5b651208</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:a1c5e8e7-5faf-4607-83af-6fddf6eb22cb</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-06-02T21:26:59.246-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-06-02T21:27:11.805-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Quizzes</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

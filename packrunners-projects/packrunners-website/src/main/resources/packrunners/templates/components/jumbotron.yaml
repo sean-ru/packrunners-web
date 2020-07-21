@@ -1,0 +1,7 @@
+templateScript: /mtk/templates/components/textImage.ftl
+dialog: mtk:components/textImage
+
+renderType: freemarker
+parameters:
+  divClass: jumbotron
+  headlineLevel: h2

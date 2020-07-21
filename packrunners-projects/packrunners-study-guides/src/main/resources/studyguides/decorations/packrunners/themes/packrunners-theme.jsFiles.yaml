@@ -1,0 +1,12 @@
+angular:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/js/angular.min.js
+angular-animate:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/js/angular-animate.min.js
+angular-route:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/js/angular-route.min.js
+study-guide-finder:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/js/study-guide-finder.js

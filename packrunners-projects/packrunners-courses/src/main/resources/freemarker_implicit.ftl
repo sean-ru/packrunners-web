@@ -1,0 +1,6 @@
+[#ftl]
+[#-- @implicitly included --]
+[#-- @ftlvariable name="ctx" type="info.magnolia.context.MgnlContext" --]
+[#-- @ftlvariable name="cmsfn" type="info.magnolia.templating.functions.TemplatingFunctions" --]
+[#-- @ftlvariable name="coursefn" type="org.packrunners.courses.CourseTemplatingFunctions" --]
+[#-- @ftlvariable name="tutorfn" type="org.packrunners.tutors.TutorTemplatingFunctions" --]

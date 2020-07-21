@@ -1,0 +1,4 @@
+templateScript: /packrunners/templates/components/link.ftl
+dialog: packrunners:components/link
+
+renderType: freemarker
