@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.packrunners</groupId>
     <artifactId>packrunners-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <relativePath>../packrunners-parent/pom.xml</relativePath>
   </parent>
   <artifactId>packrunners-website</artifactId>
