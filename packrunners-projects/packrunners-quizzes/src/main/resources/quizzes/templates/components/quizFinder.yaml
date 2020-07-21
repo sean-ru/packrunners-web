@@ -1,0 +1,2 @@
+templateScript: /quizzes/templates/components/quizFinder.ftl
+renderType: freemarker

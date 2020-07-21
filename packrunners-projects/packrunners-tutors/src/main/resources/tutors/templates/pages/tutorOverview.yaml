@@ -1,0 +1,18 @@
+
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: feature
+subtype: tutorOverview
+areas:
+  main:
+    type: list
+    availableComponents:
+      tutorOverviewHeader:
+        id: tutors:components/tutorOverviewHeader
+      tutorList:
+        id: tutors:components/tutorList
+  footer:
+    editable: false

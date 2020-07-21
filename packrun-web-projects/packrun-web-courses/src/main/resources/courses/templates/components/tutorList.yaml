@@ -1,7 +1,0 @@
-templateScript: /courses/templates/components/tutorList.ftl
-dialog: courses:components/tutorList
-modelClass: org.packrunners.courses.model.TutorListModel
-class: org.packrunners.courses.model.definition.CourseCategoryTemplateDefinition
-
-renderType: freemarker
-category: schools

@@ -1,0 +1,21 @@
+angular:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular.min.js
+angular-animate:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular-animate.min.js
+angular-route:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/angular-route.min.js
+course-finder:
+  addFingerPrint: true
+  link: /.resources/courses/webresources/js/course-finder.js
+study-guide-finder:
+  addFingerPrint: true
+  link: /.resources/studyguides/webresources/js/study-guide-finder.js
+video-finder:
+  addFingerPrint: true
+  link: /.resources/videos/webresources/js/video-finder.js
+quiz-finder:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/js/quiz-finder.js

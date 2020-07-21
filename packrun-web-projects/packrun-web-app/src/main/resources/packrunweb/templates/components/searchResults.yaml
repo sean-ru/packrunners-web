@@ -1,3 +1,0 @@
-renderType: freemarker
-templateScript: /packrunweb/templates/components/searchResults.ftl
-dialog: packrunweb:components/searchResults

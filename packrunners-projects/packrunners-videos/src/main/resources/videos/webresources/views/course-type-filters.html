@@ -1,0 +1,12 @@
+<div class="finder-filter">
+    <div class="finder-filter-header">
+        <span>{{ i18n['courseFinder.filter.type'] }}</span>
+    </div>
+    <div class="form-group">
+        <div class="checkbox" ng-repeat="courseType in courseTypes" ng-cloak>
+            <label>
+                <input type="checkbox" value="{{ courseType['@id'] }}" ng-model="useCourseTypes[courseType['@id']]" />{{ courseType.displayName }}
+            </label>
+        </div>
+    </div>
+</div>

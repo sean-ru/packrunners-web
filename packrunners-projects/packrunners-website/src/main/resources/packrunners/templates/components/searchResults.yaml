@@ -1,0 +1,3 @@
+renderType: freemarker
+templateScript: /packrunners/templates/components/searchResults.ftl
+dialog: packrunners:components/searchResults

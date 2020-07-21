@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>quizzes</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <class>org.packrunners.quizzes.QuizzesModule</class>
+  <version>${project.version}</version>
+
+  <components>
+    <id>main</id>
+  </components>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>virtual-uri</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>packrunners</name>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <name>ui-admincentral</name>
+      <version>${magnoliaUiVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>ui-framework</name>
+      <version>${magnoliaUiVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>dam</name>
+      <version>${magnoliaDamVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>categorization</name>
+      <version>2.4/*</version>
+    </dependency>
+    <dependency>
+      <name>site</name>
+      <version>${siteVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>multisite</name>
+      <version>1.2.1/*</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <name>mtk</name>
+      <version>${mteVersion}/*</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <name>magnolia</name>
+      <workspaces>
+        <workspace>quizzes</workspace>
+      </workspaces>
+      <nodeTypeFile>/mgnl-nodetypes/magnolia-quiz-nodetypes.xml</nodeTypeFile>
+    </repository>
+  </repositories>
+</module>

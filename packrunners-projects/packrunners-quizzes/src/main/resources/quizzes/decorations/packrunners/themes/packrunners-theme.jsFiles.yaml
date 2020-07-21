@@ -1,0 +1,12 @@
+angular:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/js/angular.min.js
+angular-animate:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/js/angular-animate.min.js
+angular-route:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/js/angular-route.min.js
+quiz-finder:
+  addFingerPrint: true
+  link: /.resources/quizzes/webresources/js/quiz-finder.js

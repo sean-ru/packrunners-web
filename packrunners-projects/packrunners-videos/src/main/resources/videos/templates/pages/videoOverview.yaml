@@ -1,0 +1,18 @@
+
+
+dialog: mte:pages/pageProperties
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: feature
+subtype: videoOverview
+areas:
+  main:
+    type: list
+    availableComponents:
+      videoOverviewHeader:
+        id: videos:components/videoOverviewHeader
+      videoList:
+        id: videos:components/videoList
+  footer:
+    editable: false
