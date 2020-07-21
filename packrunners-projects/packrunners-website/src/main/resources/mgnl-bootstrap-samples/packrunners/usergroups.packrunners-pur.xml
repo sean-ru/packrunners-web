@@ -16,19 +16,19 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-07-19T21:39:49.396-05:00</sv:value>
+    <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2020-07-19T21:39:49.393-05:00</sv:value>
+    <sv:value>2020-07-20T23:19:19.474Z</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-    <sv:value>anonymous</sv:value>
+    <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>A sample public users group for packrunners</sv:value>
+    <sv:value>A public users group for packrunners</sv:value>
   </sv:property>
   <sv:node sv:name="groups">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -47,7 +47,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-07-19T21:39:49.397-05:00</sv:value>
+      <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -67,7 +67,7 @@
       <sv:value>bbe93765-5e63-4b57-9dc0-b8029a055c2e</sv:value>
     </sv:property>
     <sv:property sv:name="0" sv:type="String">
-      <sv:value>cf760801-f21e-4548-af47-e21cf9c4317a</sv:value>
+      <sv:value>ebfdd7dd-2132-4cb5-bb63-e5c09675a16f</sv:value>
     </sv:property>
     <sv:property sv:name="1" sv:type="String">
       <sv:value>65412bcd-3ac3-429f-a3e7-fbaa6f2ce7cb</sv:value>
@@ -79,10 +79,10 @@
       <sv:value>0e008dcd-3412-47fe-ab91-a1a1b3c38baa</sv:value>
     </sv:property>
     <sv:property sv:name="4" sv:type="String">
-      <sv:value>4a0a9fab-e567-4edb-a91b-421932af3051</sv:value>
+      <sv:value>cf760801-f21e-4548-af47-e21cf9c4317a</sv:value>
     </sv:property>
     <sv:property sv:name="5" sv:type="String">
-      <sv:value>ebfdd7dd-2132-4cb5-bb63-e5c09675a16f</sv:value>
+      <sv:value>4a0a9fab-e567-4edb-a91b-421932af3051</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
       <sv:value>true</sv:value>
@@ -94,13 +94,13 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-07-19T21:39:49.397-05:00</sv:value>
+      <sv:value>2016-01-18T11:24:10.920+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2016-01-18T10:54:09.908+01:00</sv:value>
+      <sv:value>2020-07-20T23:19:19.515Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
