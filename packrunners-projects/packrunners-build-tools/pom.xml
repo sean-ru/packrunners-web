@@ -16,6 +16,13 @@
     <properties>
         <!--suppress UnresolvedMavenProperty -->
         <local.tomcat.location>${tomcat.home}</local.tomcat.location>
+        <packrunners-categories.version>1.0</packrunners-categories.version>
+        <packrunners-courses.version>1.1</packrunners-courses.version>
+        <packrunners-quizzes.version>1.0</packrunners-quizzes.version>
+        <packrunners-study-guides.version>1.0</packrunners-study-guides.version>
+        <packrunners-videos.version>1.0</packrunners-videos.version>
+        <packrunners-website.version>1.0</packrunners-website.version>
+        <packrunners-tutors.version>1.0</packrunners-tutors.version>
     </properties>
 
     <build>
@@ -52,9 +59,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-website/target/packrunners-website-${project.version}.jar
+                                ${project.basedir}/../packrunners-website/target/packrunners-website-${packrunners-website.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-website-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-website-${packrunners-website.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -67,9 +74,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-website/target/packrunners-website-${project.version}.jar
+                                ${project.basedir}/../packrunners-website/target/packrunners-website-${packrunners-website.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-website-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-website-${packrunners-website.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -83,9 +90,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${project.version}.jar
+                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${packrunners-categories.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-categories-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-categories-${packrunners-categories.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -98,9 +105,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${project.version}.jar
+                                ${project.basedir}/../packrunners-categories/target/packrunners-categories-${packrunners-categories.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-categories-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-categories-${packrunners-categories.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -114,9 +121,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-courses/target/packrunners-courses-${project.version}.jar
+                                ${project.basedir}/../packrunners-courses/target/packrunners-courses-${packrunners-courses.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-courses-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-courses-${packrunners-courses.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -129,9 +136,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-courses/target/packrunners-courses-${project.version}.jar
+                                ${project.basedir}/../packrunners-courses/target/packrunners-courses-${packrunners-courses.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-courses-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-courses-${packrunners-courses.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -145,10 +152,10 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-study-guides/target/packrunners-study-guides-${project.version}.jar
+                                ${project.basedir}/../packrunners-study-guides/target/packrunners-study-guides-${packrunners-study-guides.version}.jar
                             </fromFile>
                             <toFile>
-                                /webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-study-guides-${project.version}.jar
+                                /webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-study-guides-${packrunners-study-guides.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -161,10 +168,10 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-study-guides/target/packrunners-study-guides-${project.version}.jar
+                                ${project.basedir}/../packrunners-study-guides/target/packrunners-study-guides-${packrunners-study-guides.version}.jar
                             </fromFile>
                             <toFile>
-                                /webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-study-guides-${project.version}.jar
+                                /webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-study-guides-${packrunners-study-guides.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -178,9 +185,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-videos/target/packrunners-videos-${project.version}.jar
+                                ${project.basedir}/../packrunners-videos/target/packrunners-videos-${packrunners-videos.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-videos-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-videos-${packrunners-videos.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -193,9 +200,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-videos/target/packrunners-videos-${project.version}.jar
+                                ${project.basedir}/../packrunners-videos/target/packrunners-videos-${packrunners-videos.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-videos-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-videos-${packrunners-videos.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -209,9 +216,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-quizzes/target/packrunners-quizzes-${project.version}.jar
+                                ${project.basedir}/../packrunners-quizzes/target/packrunners-quizzes-${packrunners-quizzes.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-quizzes-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-quizzes-${packrunners-quizzes.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -224,9 +231,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-quizzes/target/packrunners-quizzes-${project.version}.jar
+                                ${project.basedir}/../packrunners-quizzes/target/packrunners-quizzes-${packrunners-quizzes.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-quizzes-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-quizzes-${packrunners-quizzes.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -240,9 +247,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-tutors/target/packrunners-tutors-${project.version}.jar
+                                ${project.basedir}/../packrunners-tutors/target/packrunners-tutors-${packrunners-tutors.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-tutors-${project.version}.jar
+                            <toFile>/webapps/magnoliaAuthor/ROOT/WEB-INF/lib/packrunners-tutors-${packrunners-tutors.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
@@ -255,9 +262,9 @@
                         <configuration>
                             <url>file:${local.tomcat.location}</url>
                             <fromFile>
-                                ${project.basedir}/../packrunners-tutors/target/packrunners-tutors-${project.version}.jar
+                                ${project.basedir}/../packrunners-tutors/target/packrunners-tutors-${packrunners-tutors.version}.jar
                             </fromFile>
-                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-tutors-${project.version}.jar
+                            <toFile>/webapps/magnoliaPublic/ROOT/WEB-INF/lib/packrunners-tutors-${packrunners-tutors.version}.jar
                             </toFile>
                         </configuration>
                     </execution>
