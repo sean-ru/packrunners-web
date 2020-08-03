@@ -591,9 +591,9 @@ h1.category {
 /* PRODUCT PAGE
 -------------------------------------------------- */
 .product-header-spacer {
-    height: 680px; /* fallback for browsers that do not support vh */
-    height: 100vh;
-    min-height: 400px;
+    height: 200px; /* fallback for browsers that do not support vh */
+    height: 20vh;
+    min-height: 200px;
 }
 
 .header-wrapper {
