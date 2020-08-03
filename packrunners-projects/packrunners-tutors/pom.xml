@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.packrunners</groupId>
         <artifactId>packrunners-parent</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
         <relativePath>../packrunners-parent/pom.xml</relativePath>
     </parent>
     <artifactId>packrunners-tutors</artifactId>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.packrunners</groupId>
             <artifactId>packrunners-categories</artifactId>
-            <version>1.0</version>
+            <version>1.1</version>
         </dependency>
 
         <!-- Other dependencies -->
