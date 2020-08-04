@@ -4,13 +4,29 @@
     <sv:value>mgnl:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:versionable</sv:value>
     <sv:value>mgnl:hasVersion</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>5288a0c7-1334-4093-b011-d290d00c7252</sv:value>
   </sv:property>
+  <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+    <sv:value>40f161b9-bb82-434a-9d2e-42648309fcf8</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+    <sv:value>40f161b9-bb82-434a-9d2e-42648309fcf8</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+    <sv:value>6575ffdc-d0e5-4504-b498-75dce713ecfc</sv:value>
+  </sv:property>
   <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
     <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
   </sv:property>
   <sv:property sv:name="mgnl:created" sv:type="Date">
     <sv:value>2020-05-27T16:06:19.986-05:00</sv:value>
@@ -19,7 +35,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-07-05T11:19:53.683-05:00</sv:value>
+    <sv:value>2020-08-03T21:51:24.811-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -28,20 +44,17 @@
     <sv:value>1.0</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
-    <sv:value>2020-07-05T11:19:53.479-05:00</sv:value>
+    <sv:value>2020-08-03T21:51:24.772-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2020-05-27T16:06:34.163-05:00</sv:value>
+    <sv:value>2020-08-03T21:51:24.808-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-    <sv:value>superuser</sv:value>
+    <sv:value>anonymous</sv:value>
   </sv:property>
   <sv:node sv:name="Introduction-to-Business">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mgnl:hasVersion</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>58509728-343c-4f5c-a35b-a08d47d639d7</sv:value>
@@ -123,9 +136,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mgnl:hasVersion</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>034c05a3-0de5-4577-818a-e7d23df1f696</sv:value>
     </sv:property>
@@ -205,9 +215,6 @@
   <sv:node sv:name="AP-Physics-1">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mgnl:hasVersion</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>bbf841a0-f9c4-43ac-ad71-1c0fe9f21460</sv:value>
@@ -289,9 +296,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mgnl:hasVersion</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>29466d2f-f129-41e1-80bb-a7eae2b774fe</sv:value>
     </sv:property>
@@ -372,9 +376,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mgnl:hasVersion</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>9a43a511-db14-4b51-899a-6379547175b6</sv:value>
     </sv:property>
@@ -446,6 +447,98 @@
     </sv:property>
     <sv:property sv:name="teachers" sv:type="String">
       <sv:value>John Doe</sv:value>
+    </sv:property>
+    <sv:property sv:name="weighted" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="AP-Calculus-BC">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>56893722-ddc1-4d7e-b891-1f23a7092202</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>451e6e43-16ca-421e-8a78-fef65098aa91</sv:value>
+      <sv:value>d8bc52b2-b835-4bf2-9af0-24708c9783bc</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="credit" sv:type="String">
+      <sv:value>1.00</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>&lt;p&gt;This course includes all the topics covered in AP Calculus AB. Additional topics include sequences and series, polar coordinates, vector functions, additional integration methods, and differential equations. Students desiring two semesters of college placement/credit will be encouraged to take the Advanced Placement Exam. Students enrolling in Calculus BC after completing Calculus AB will take an audit grade for the first semester with no credit (because of the overlap of material from Calculus AB) and will earn an academic grade with 0.5 credit for second semester. A graphing calculator is required. &amp;ndash; Department Placement Required&lt;/p&gt;
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="duration" sv:type="Long">
+      <sv:value>1</sv:value>
+    </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:bd66b7b8-b47b-4511-a06a-8bc71867fbc2</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+      <sv:value>02b324b8-b7b8-47be-b48f-ef31e004c912</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+      <sv:value>02b324b8-b7b8-47be-b48f-ef31e004c912</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+      <sv:value>36941c30-754f-46e1-92f8-7609a77ac594</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>11, 12</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-08-02T21:35:53.576Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-08-03T21:53:06.887-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-08-03T21:53:06.822-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-08-03T21:53:06.885-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>anonymous</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>AP Calculus BC</sv:value>
+    </sv:property>
+    <sv:property sv:name="prerequisite" sv:type="String">
+      <sv:value>Honors Precalculus</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="teachers" sv:type="String">
+      <sv:value>Elizabeth Moore</sv:value>
     </sv:property>
     <sv:property sv:name="weighted" sv:type="Boolean">
       <sv:value>true</sv:value>
