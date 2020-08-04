@@ -1,6 +1,5 @@
 package org.packrunners.videos.service;
 
-import info.magnolia.dam.api.Asset;
 import org.packrunners.categories.Category;
 
 import java.util.Date;
@@ -13,19 +12,22 @@ import java.util.List;
 public class Video {
 
     public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
+    public static final String PROPERTY_NAME_DESCRIPTION = "description";
     public static final String PROPERTY_NAME_AUTHOR = "author";
-    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
-    public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-    public static final String PROPERTY_NAME_ATTACHMENTS = "video";
+    public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
+    public static final String PROPERTY_NAME_VIDEO_URL = "videoUrl";
     public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
     public static final String PROPERTY_NAME_SCHOOLS = "schools";
+    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
+
     private String name;
+    private String description;
     private String author;
     private List<Category> courseNumbers;
     private List<Category> courseTypes;
     private List<Category> schools;
     private Date lastModifiedDate;
-    private Asset video;
+    private String videoUrl;
     private String link;
     private String identifier;
 
@@ -54,6 +56,14 @@ public class Video {
         this.name = name;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public String getAuthor() {
         return author;
     }
@@ -70,12 +80,12 @@ public class Video {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public Asset getVideo() {
-        return video;
+    public String getVideoUrl() {
+        return videoUrl;
     }
 
-    public void setVideo(Asset video) {
-        this.video = video;
+    public void setVideoUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
     }
 
     public List<Category> getSchools() {

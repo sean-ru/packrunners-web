@@ -7,7 +7,9 @@ import info.magnolia.dam.api.Asset;
 import info.magnolia.dam.templating.functions.DamTemplatingFunctions;
 import info.magnolia.jcr.util.NodeUtil;
 import info.magnolia.jcr.wrapper.I18nNodeWrapper;
+import info.magnolia.link.LinkException;
 import info.magnolia.link.LinkTransformerManager;
+import info.magnolia.link.LinkUtil;
 import info.magnolia.module.categorization.functions.CategorizationTemplatingFunctions;
 import info.magnolia.rendering.template.type.DefaultTemplateTypes;
 import info.magnolia.rendering.template.type.TemplateTypeHelper;
@@ -19,12 +21,10 @@ import org.packrunners.videos.VideosModule;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.jcr.Node;
-import javax.jcr.NodeIterator;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
+import javax.jcr.*;
 import javax.jcr.query.Query;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -190,15 +190,55 @@ public class VideoServices {
                     video.setName(videoNode.getProperty(Video.PROPERTY_NAME_DISPLAY_NAME).getString());
                 }
 
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_DESCRIPTION)) {
+                    Property description = videoNode.getProperty(Video.PROPERTY_NAME_DESCRIPTION);
+                    if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
+                        try {
+                            String bodyWithResolvedLinks = LinkUtil
+                                    .convertLinksFromUUIDPattern(description.getString(),
+                                            linkTransformerManager.getBrowserLink(videoNode.getPath()));
+                            video.setDescription(bodyWithResolvedLinks);
+                        } catch (LinkException e) {
+                            log.warn("Failed to parse links with from {}", description.getName(), e);
+                        }
+                    } else {
+                        video.setDescription(description.getString());
+                    }
+                }
+
                 if (videoNode.hasProperty(Video.PROPERTY_NAME_AUTHOR)) {
                     video.setAuthor(videoNode.getProperty(Video.PROPERTY_NAME_AUTHOR).getString());
                 }
 
-                if (videoNode.hasProperty(Video.PROPERTY_NAME_ATTACHMENTS)) {
-                    video.setVideo(
-                            damFunctions.getAsset(videoNode.getProperty(Video.PROPERTY_NAME_ATTACHMENTS).getString()));
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_LAST_MODIFIED_DATE)) {
+                    Calendar c = videoNode.getProperty(Video.PROPERTY_NAME_LAST_MODIFIED_DATE)
+                            .getDate();
+                    if (c != null) {
+                        video.setLastModifiedDate(c.getTime());
+                    }
                 }
 
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_VIDEO_URL)) {
+                    video.setVideoUrl(videoNode.getProperty(Video.PROPERTY_NAME_VIDEO_URL).getString());
+                }
+
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_COURSE_NUMBERS)) {
+                    final List<Category> courseNumbers = getCategories(videoNode,
+                            Video.PROPERTY_NAME_COURSE_NUMBERS);
+                    video.setCourseNumbers(courseNumbers);
+                }
+
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_COURSE_TYPES)) {
+                    final List<Category> courseTypes = getCategories(videoNode,
+                            Video.PROPERTY_NAME_COURSE_TYPES);
+                    video.setCourseTypes(courseTypes);
+                }
+
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_SCHOOLS)) {
+                    final List<Category> schools = getCategories(videoNode,
+                            Video.PROPERTY_NAME_SCHOOLS);
+                    video.setSchools(schools);
+                }
 
                 final String videoLink = getVideoLink(videoNode);
                 if (StringUtils.isNotBlank(videoLink)) {
@@ -210,6 +250,25 @@ public class VideoServices {
         }
 
         return video;
+    }
+
+    /**
+     * Get and marshall all categories of a {@link Node} stored under the given
+     * <code>categoryPropertyName</code>.
+     */
+    private List<Category> getCategories(Node node, String categoryPropertyName) {
+        final List<Category> categories = new ArrayList<>();
+
+        final List<Node> nodes = categorizationTemplatingFunctions
+                .getCategories(node, categoryPropertyName);
+        for (Node n : nodes) {
+            final Category category = marshallCategoryNode(n);
+            if (category != null) {
+                categories.add(category);
+            }
+        }
+
+        return categories;
     }
 
     public Node getVideoNodeByParameter() throws RepositoryException {
