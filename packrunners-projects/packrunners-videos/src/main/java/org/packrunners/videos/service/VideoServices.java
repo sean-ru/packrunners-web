@@ -210,6 +210,10 @@ public class VideoServices {
                     video.setAuthor(videoNode.getProperty(Video.PROPERTY_NAME_AUTHOR).getString());
                 }
 
+                if (videoNode.hasProperty(Video.PROPERTY_NAME_TAGS)) {
+                    video.setTags(videoNode.getProperty(Video.PROPERTY_NAME_TAGS).getString());
+                }
+
                 if (videoNode.hasProperty(Video.PROPERTY_NAME_LAST_MODIFIED_DATE)) {
                     Calendar c = videoNode.getProperty(Video.PROPERTY_NAME_LAST_MODIFIED_DATE)
                             .getDate();

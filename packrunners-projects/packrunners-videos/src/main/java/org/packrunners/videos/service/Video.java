@@ -14,6 +14,7 @@ public class Video {
     public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
     public static final String PROPERTY_NAME_DESCRIPTION = "description";
     public static final String PROPERTY_NAME_AUTHOR = "author";
+    public static final String PROPERTY_NAME_TAGS = "tags";
     public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
     public static final String PROPERTY_NAME_VIDEO_URL = "videoUrl";
     public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
@@ -23,6 +24,7 @@ public class Video {
     private String name;
     private String description;
     private String author;
+    private String tags;
     private List<Category> courseNumbers;
     private List<Category> courseTypes;
     private List<Category> schools;
@@ -70,6 +72,14 @@ public class Video {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 
     public Date getLastModifiedDate() {

@@ -18,6 +18,10 @@ import javax.jcr.RepositoryException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 
@@ -76,9 +80,14 @@ public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
                 return videoServices.getVideosByCategory(categoryName, identifier);
             })
                     .flatMap(Collection::stream)
+                    .filter(distinctByKey(Video::getIdentifier))
                     .collect(Collectors.toList());
         }
         return videos;
     }
 
+    private static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
+        Set<Object> seen = ConcurrentHashMap.newKeySet();
+        return t -> seen.add(keyExtractor.apply(t));
+    }
 }
