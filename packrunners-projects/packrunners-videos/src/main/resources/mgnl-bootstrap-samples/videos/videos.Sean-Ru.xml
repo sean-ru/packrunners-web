@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="Sean-Ru">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>mgnl:hasVersion</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3b03ee70-4b8b-4710-9c2c-618558442d8e</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+    <sv:value>ed17147f-88ef-4f06-9a1f-f4530106cf4b</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+    <sv:value>ed17147f-88ef-4f06-9a1f-f4530106cf4b</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+    <sv:value>936c354e-0a22-4cd7-816b-b5ab078d955d</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-08-03T18:48:56.510-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2020-08-05T20:56:40.792-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+    <sv:value>1.2</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+    <sv:value>2020-08-05T20:56:40.725-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-08-05T20:56:40.789-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>anonymous</sv:value>
+  </sv:property>
+  <sv:node sv:name="Chain-Rule">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c3dc2975-d372-4d9d-a91b-05ee262b6a56</sv:value>
+    </sv:property>
+    <sv:property sv:name="author" sv:type="String">
+      <sv:value>Sean Ru</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>451e6e43-16ca-421e-8a78-fef65098aa91</sv:value>
+      <sv:value>d8bc52b2-b835-4bf2-9af0-24708c9783bc</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>An introduction to Chain Rule, one of the most fundamental rules of differential calculus.
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+      <sv:value>651b47ec-31ec-4c99-ae0f-e7b85597ec39</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+      <sv:value>651b47ec-31ec-4c99-ae0f-e7b85597ec39</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+      <sv:value>3dacab37-6641-4528-a5bb-6731e07b5faa</sv:value>
+    </sv:property>
+    <sv:property sv:name="lastModifiedDate" sv:type="Date">
+      <sv:value>2020-08-03T00:00:00.000-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-08-03T21:29:55.848-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-08-05T20:53:52.283-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.5</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-08-05T20:53:52.190-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-08-05T20:53:52.280-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>anonymous</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Chain Rule</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="tags" sv:type="String">
+      <sv:value>Derivatives, Chain Rule</sv:value>
+    </sv:property>
+    <sv:property sv:name="videoUrl" sv:type="String">
+      <sv:value>https://youtu.be/96W1eNIKl4g</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Power-Rule">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fa28e432-4ad6-434f-9644-90ea6636b27d</sv:value>
+    </sv:property>
+    <sv:property sv:name="author" sv:type="String">
+      <sv:value>Sean Ru</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>451e6e43-16ca-421e-8a78-fef65098aa91</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>Introduction to the Power Rule, a basic yet fundamental rule to ease the process of taking the derivative of a function.</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+      <sv:value>d5dfbfd2-adc7-4cab-a894-2c95bc2b7517</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+      <sv:value>d5dfbfd2-adc7-4cab-a894-2c95bc2b7517</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+      <sv:value>47d9bedc-dae8-4435-91ad-1934a7a9eba6</sv:value>
+    </sv:property>
+    <sv:property sv:name="lastModifiedDate" sv:type="Date">
+      <sv:value>2020-08-05T00:00:00.000-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-08-05T20:56:32.730-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-08-05T20:56:37.605-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-08-05T20:56:37.512-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-08-05T20:56:37.602-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>anonymous</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Power Rule</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="tags" sv:type="String">
+      <sv:value>Derivatives, Power Rule</sv:value>
+    </sv:property>
+    <sv:property sv:name="videoUrl" sv:type="String">
+      <sv:value>https://youtu.be/bwyjjxbr3g8</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -1,5 +1,6 @@
 [#-------------- ASSIGNMENTS --------------]
 [#include "/packrunners/templates/macros/imageResponsive.ftl"]
+[#include "/videos/templates/macros/videoTeaser.ftl"]
 [#include "/courses/templates/macros/courseTypeIcon.ftl" /]
 
 [#assign course = model.course]
@@ -110,11 +111,11 @@
         <div class="col-xs-10 col-xs-push-1 product-property">
             <p class="summary">${i18n.get('course.property.videos')}</p>
             <hr style="margin-top:1px;"/>
+            <div class="list-group">
             [#list videos as video]
-                <a href="${video.link!}">
-                    <div class="body">${video.name}</div>
-                </a>
+                [@videoTeaser video /]
             [/#list]
+            </div>
         </div>
     </div>
     [/#if]

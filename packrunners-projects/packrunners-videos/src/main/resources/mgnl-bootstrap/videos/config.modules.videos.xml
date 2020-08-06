@@ -4,7 +4,7 @@
     <sv:value>mgnl:content</sv:value>
   </sv:property>
   <sv:property sv:name="version" sv:type="String">
-    <sv:value>1.0.0-SNAPSHOT</sv:value>
+    <sv:value>1.1.0</sv:value>
   </sv:property>
   <sv:node sv:name="apps">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -49,7 +49,7 @@
                 <sv:value>mgnl:contentNode</sv:value>
               </sv:property>
               <sv:property sv:name="appName" sv:type="String">
-                <sv:value>studyguides</sv:value>
+                <sv:value>videos</sv:value>
               </sv:property>
               <sv:property sv:name="class" sv:type="String">
                 <sv:value>info.magnolia.ui.contentapp.detail.action.CreateItemActionDefinition</sv:value>
@@ -98,7 +98,7 @@
                 <sv:value>mgnl:contentNode</sv:value>
               </sv:property>
               <sv:property sv:name="appName" sv:type="String">
-                <sv:value>studyguides</sv:value>
+                <sv:value>videos</sv:value>
               </sv:property>
               <sv:property sv:name="class" sv:type="String">
                 <sv:value>info.magnolia.ui.contentapp.detail.action.EditItemActionDefinition</sv:value>
@@ -1526,52 +1526,64 @@
                         <sv:value>true</sv:value>
                       </sv:property>
                     </sv:node>
-                    <sv:node sv:name="content">
+                    <sv:node sv:name="description">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.RichTextFieldDefinition</sv:value>
+                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
                       </sv:property>
                       <sv:property sv:name="i18n" sv:type="String">
                         <sv:value>true</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
-                        <sv:value>false</sv:value>
+                        <sv:value>true</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="rows" sv:type="String">
+                        <sv:value>5</sv:value>
                       </sv:property>
                     </sv:node>
-                    <sv:node sv:name="video">
+                    <sv:node sv:name="videoUrl">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
-                      <sv:property sv:name="appName" sv:type="String">
-                        <sv:value>assets</sv:value>
-                      </sv:property>
                       <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
+                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="i18n" sv:type="String">
+                        <sv:value>true</sv:value>
                       </sv:property>
                       <sv:property sv:name="required" sv:type="String">
-                        <sv:value>false</sv:value>
+                        <sv:value>true</sv:value>
                       </sv:property>
-                      <sv:property sv:name="targetWorkspace" sv:type="String">
-                        <sv:value>dam</sv:value>
+                    </sv:node>
+                    <sv:node sv:name="author">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
-                      <sv:node sv:name="identifierToPathConverter">
-                        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                          <sv:value>mgnl:contentNode</sv:value>
-                        </sv:property>
-                        <sv:property sv:name="class" sv:type="String">
-                          <sv:value>info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator</sv:value>
-                        </sv:property>
-                      </sv:node>
-                      <sv:node sv:name="contentPreviewDefinition">
-                        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                          <sv:value>mgnl:contentNode</sv:value>
-                        </sv:property>
-                        <sv:property sv:name="contentPreviewClass" sv:type="String">
-                          <sv:value>info.magnolia.dam.app.ui.field.DamFilePreviewComponent</sv:value>
-                        </sv:property>
-                      </sv:node>
+                      <sv:property sv:name="class" sv:type="String">
+                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="i18n" sv:type="String">
+                        <sv:value>true</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="required" sv:type="String">
+                        <sv:value>true</sv:value>
+                      </sv:property>
+                    </sv:node>
+                    <sv:node sv:name="tags">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="class" sv:type="String">
+                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="i18n" sv:type="String">
+                        <sv:value>true</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="required" sv:type="String">
+                        <sv:value>true</sv:value>
+                      </sv:property>
                     </sv:node>
                     <sv:node sv:name="schools">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1617,34 +1629,6 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
-                    <sv:node sv:name="author">
-                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                        <sv:value>mgnl:contentNode</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="i18n" sv:type="String">
-                        <sv:value>true</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="required" sv:type="String">
-                        <sv:value>true</sv:value>
-                      </sv:property>
-                    </sv:node>
-                    <sv:node sv:name="lastModified">
-                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                        <sv:value>mgnl:contentNode</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="class" sv:type="String">
-                        <sv:value>info.magnolia.ui.form.field.definition.DateFieldDefinition</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="time" sv:type="String">
-                        <sv:value>false</sv:value>
-                      </sv:property>
-                      <sv:property sv:name="type" sv:type="String">
-                        <sv:value>Date</sv:value>
-                      </sv:property>
-                    </sv:node>
                     <sv:node sv:name="courseNumbers">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
@@ -1669,6 +1653,20 @@
                           <sv:value>/course-numbers</sv:value>
                         </sv:property>
                       </sv:node>
+                    </sv:node>
+                    <sv:node sv:name="lastModifiedDate">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="class" sv:type="String">
+                        <sv:value>info.magnolia.ui.form.field.definition.DateFieldDefinition</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="time" sv:type="String">
+                        <sv:value>false</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="type" sv:type="String">
+                        <sv:value>Date</sv:value>
+                      </sv:property>
                     </sv:node>
                   </sv:node>
                 </sv:node>

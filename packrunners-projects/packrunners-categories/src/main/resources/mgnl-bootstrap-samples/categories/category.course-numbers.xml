@@ -16,16 +16,16 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-    <sv:value>2020-06-18T17:54:12.788-05:00</sv:value>
+    <sv:value>2020-08-03T21:36:52.203-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2020-06-18T17:24:10.435-05:00</sv:value>
+    <sv:value>2020-08-03T21:36:52.198-05:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-    <sv:value>superuser</sv:value>
+    <sv:value>anonymous</sv:value>
   </sv:property>
   <sv:node sv:name="Mathematics">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -44,16 +44,16 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T17:54:14.911-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.645-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T17:44:05.413-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.643-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-      <sv:value>superuser</sv:value>
+      <sv:value>anonymous</sv:value>
     </sv:property>
     <sv:node sv:name="M430H1">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -78,16 +78,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:15.350-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.756-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:43:23.416-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.750-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>M430H1</sv:value>
@@ -109,7 +109,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:15.351-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.756-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -145,19 +145,95 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:15.022-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.720-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:44:05.415-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.718-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>M430H2</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="M610A1">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:category</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>451e6e43-16ca-421e-8a78-fef65098aa91</sv:value>
+      </sv:property>
+      <sv:property sv:name="displayName" sv:type="String">
+        <sv:value>M610A1</sv:value>
+      </sv:property>
+      <sv:property sv:name="level" sv:type="String">
+        <sv:value>level-1</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2020-08-03T21:36:19.734-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2020-08-03T21:36:52.694-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2020-08-03T21:36:52.691-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>anonymous</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>M610A1</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="M610A2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:category</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d8bc52b2-b835-4bf2-9af0-24708c9783bc</sv:value>
+      </sv:property>
+      <sv:property sv:name="displayName" sv:type="String">
+        <sv:value>M610A2</sv:value>
+      </sv:property>
+      <sv:property sv:name="level" sv:type="String">
+        <sv:value>level-1</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2020-08-03T21:36:44.111-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2020-08-03T21:36:52.669-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2020-08-03T21:36:52.667-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>anonymous</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>M610A2</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -178,16 +254,16 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T17:54:14.508-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.559-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T17:46:51.489-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.557-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-      <sv:value>superuser</sv:value>
+      <sv:value>anonymous</sv:value>
     </sv:property>
     <sv:node sv:name="S600A1">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -212,16 +288,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:14.808-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.619-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:44:55.776-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.617-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>S600A1</sv:value>
@@ -243,7 +319,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:14.809-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.619-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -279,16 +355,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:14.644-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.590-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:46:51.490-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.584-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>S600A2</sv:value>
@@ -312,16 +388,16 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T17:54:14.025-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.477-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T17:48:53.315-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.475-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-      <sv:value>superuser</sv:value>
+      <sv:value>anonymous</sv:value>
     </sv:property>
     <sv:node sv:name="T150A1">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -346,16 +422,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:14.391-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.536-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:48:37.460-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.533-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>T150A1</sv:value>
@@ -377,7 +453,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:14.392-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.536-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -413,16 +489,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:14.206-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.503-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:48:53.316-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.500-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>T150A2</sv:value>
@@ -446,16 +522,16 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T17:54:13.590-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.392-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T17:50:19.398-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.390-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-      <sv:value>superuser</sv:value>
+      <sv:value>anonymous</sv:value>
     </sv:property>
     <sv:node sv:name="W82011">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -480,16 +556,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:13.884-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.452-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:50:04.979-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.447-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>W82011</sv:value>
@@ -511,7 +587,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:13.884-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.452-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -547,16 +623,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:13.682-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.416-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:50:19.399-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.414-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
         <sv:value>W82012</sv:value>
@@ -580,16 +656,16 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-      <sv:value>2020-06-18T17:54:13.009-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.242-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2020-06-18T17:24:10.435-05:00</sv:value>
+      <sv:value>2020-08-03T21:36:52.239-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-      <sv:value>superuser</sv:value>
+      <sv:value>anonymous</sv:value>
     </sv:property>
     <sv:node sv:name="Business-Department">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -608,16 +684,16 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2020-06-18T17:54:13.192-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.273-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2020-06-18T17:52:01.667-05:00</sv:value>
+        <sv:value>2020-08-03T21:36:52.269-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-        <sv:value>superuser</sv:value>
+        <sv:value>anonymous</sv:value>
       </sv:property>
       <sv:node sv:name="B10011">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -642,16 +718,16 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:13.460-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.368-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2020-06-18T17:51:45.178-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.364-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-          <sv:value>superuser</sv:value>
+          <sv:value>anonymous</sv:value>
         </sv:property>
         <sv:property sv:name="name" sv:type="String">
           <sv:value>B10011</sv:value>
@@ -673,7 +749,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-            <sv:value>2020-06-18T17:54:13.460-05:00</sv:value>
+            <sv:value>2020-08-03T21:36:52.368-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -709,16 +785,16 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-          <sv:value>2020-06-18T17:54:13.290-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.298-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2020-06-18T17:52:01.668-05:00</sv:value>
+          <sv:value>2020-08-03T21:36:52.296-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-          <sv:value>superuser</sv:value>
+          <sv:value>anonymous</sv:value>
         </sv:property>
         <sv:property sv:name="name" sv:type="String">
           <sv:value>B10012</sv:value>
