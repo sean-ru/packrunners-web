@@ -1,5 +1,6 @@
 [#-------------- ASSIGNMENTS --------------]
 [#include "/packrunners/templates/macros/imageResponsive.ftl"]
+[#include "/studyguides/templates/macros/studyGuideTeaser.ftl"]
 [#include "/videos/templates/macros/videoTeaser.ftl"]
 [#include "/courses/templates/macros/courseTypeIcon.ftl" /]
 
@@ -99,9 +100,11 @@
         <div class="col-xs-10 col-xs-push-1 product-property">
             <p class="summary">${i18n.get('course.property.studyGuides')}</p>
             <hr style="margin-top:1px;"/>
+            <div class="list-group">
             [#list studyGuides as studyGuide]
-               <div class="body">${studyGuide.name}</div>
+               [@studyGuideTeaser studyGuide /]
             [/#list]
+            </div>
         </div>
     </div>
     [/#if]

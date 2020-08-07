@@ -1,6 +1,5 @@
 package org.packrunners.studyguides.service;
 
-import info.magnolia.dam.api.Asset;
 import org.packrunners.categories.Category;
 
 import java.util.Date;
@@ -12,26 +11,27 @@ import java.util.List;
  */
 public class StudyGuide {
 
-    public static final String PROPERTY_NAME_DISPLAY_NAME = "title";
-    public static final String PROPERTY_NAME_CONTENT = "content";
+    public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
+    public static final String PROPERTY_NAME_DESCRIPTION = "description";
     public static final String PROPERTY_NAME_AUTHOR = "author";
+    public static final String PROPERTY_NAME_TAGS = "tags";
     public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
-    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
-    public static final String PROPERTY_NAME_ATTACHMENTS = "attachments";
-    public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+    public static final String PROPERTY_NAME_DOC_URL = "docUrl";
     public static final String PROPERTY_NAME_SCHOOLS = "schools";
+    public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
 
     private String name;
-    private String content;
+    private String description;
     private String author;
+    private String tags;
+    private String docUrl;
     private List<Category> courseNumbers;
+    private List<Category> schools;
+    private List<Category> courseTypes;
     private Date lastModifiedDate;
     private String identifier;
     private String link;
-    private List<Asset> attachments;
-    private List<Category> schools;
-    private List<Category> courseTypes;
-    private List<Category> courseNames;
 
     public String getName() {
         return name;
@@ -41,12 +41,12 @@ public class StudyGuide {
         this.name = name;
     }
 
-    public String getContent() {
-        return content;
+    public String getDescription() {
+        return description;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getAuthor() {
@@ -57,28 +57,28 @@ public class StudyGuide {
         this.author = author;
     }
 
-    public List<Category> getCourseNames() {
-        return courseNames;
+    public String getTags() {
+        return tags;
     }
 
-    public void setCourseNames(List<Category> courseNames) {
-        this.courseNames = courseNames;
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 
-    public Date getLastModifiedDate() {
-        return lastModifiedDate;
+    public String getDocUrl() {
+        return docUrl;
     }
 
-    public void setLastModifiedDate(Date lastModifiedDate) {
-        this.lastModifiedDate = lastModifiedDate;
+    public void setDocUrl(String docUrl) {
+        this.docUrl = docUrl;
     }
 
-    public List<Asset> getAttachments() {
-        return attachments;
+    public List<Category> getCourseNumbers() {
+        return courseNumbers;
     }
 
-    public void setAttachments(List<Asset> attachments) {
-        this.attachments = attachments;
+    public void setCourseNumbers(List<Category> courseNumbers) {
+        this.courseNumbers = courseNumbers;
     }
 
     public List<Category> getSchools() {
@@ -97,6 +97,14 @@ public class StudyGuide {
         this.courseTypes = courseTypes;
     }
 
+    public Date getLastModifiedDate() {
+        return lastModifiedDate;
+    }
+
+    public void setLastModifiedDate(Date lastModifiedDate) {
+        this.lastModifiedDate = lastModifiedDate;
+    }
+
     public String getIdentifier() {
         return identifier;
     }
@@ -111,13 +119,5 @@ public class StudyGuide {
 
     public void setLink(String link) {
         this.link = link;
-    }
-
-    public List<Category> getCourseNumbers() {
-        return courseNumbers;
-    }
-
-    public void setCourseNumbers(List<Category> courseNumbers) {
-        this.courseNumbers = courseNumbers;
     }
 }

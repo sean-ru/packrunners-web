@@ -66,6 +66,7 @@ public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
                 return studyGuideServices.getStudyGuidesByCategory(categoryName, identifier);
             })
                     .flatMap(Collection::stream)
+                    .filter(distinctByKey(StudyGuide::getIdentifier))
                     .collect(Collectors.toList());
         }
         return studyGuides;

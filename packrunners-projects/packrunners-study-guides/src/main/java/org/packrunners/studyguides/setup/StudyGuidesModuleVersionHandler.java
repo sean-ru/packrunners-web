@@ -29,7 +29,7 @@ public class StudyGuidesModuleVersionHandler extends DefaultModuleVersionHandler
                         "Re-bootstrap website content to account for all changes",
                         new ArrayDelegateTask("",
                                 new BootstrapSingleResource("Re bootstrap courses content", "",
-                                        "/mgnl-bootstrap-samples/studyguides/study-guides.Matthew.xml")),
+                                        "/mgnl-bootstrap-samples/studyguides/study-guides.Sean-Ru.xml")),
                         new FolderBootstrapTask("/mgnl-bootstrap-samples/studyguides/assets/")
                 ))
 
@@ -46,7 +46,7 @@ public class StudyGuidesModuleVersionHandler extends DefaultModuleVersionHandler
         register(DeltaBuilder.update("0.4.2", "")
                 .addTask(new BootstrapSingleResource("Re-bootstrap the study-guides workspace",
                         "Re-bootstrap the video workspace.",
-                        "/mgnl-bootstrap-samples/studyguides/study-guides.Matthew.xml",
+                        "/mgnl-bootstrap-samples/studyguides/study-guides.Sean-Ru.xml",
                         IMPORT_UUID_COLLISION_REPLACE_EXISTING))
         );
 

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="Sean-Ru">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>mgnl:hasVersion</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>c23c042d-4266-4c34-9fd8-b74ac6b71b27</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+    <sv:value>a04bdedd-69d9-43a5-91a1-c00837f01eca</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+    <sv:value>a04bdedd-69d9-43a5-91a1-c00837f01eca</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+    <sv:value>68205c1b-5e8e-4fde-94ad-7912b4243223</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-08-06T18:40:11.884-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2020-08-06T18:42:53.537-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+    <sv:value>1.0</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+    <sv:value>2020-08-06T18:42:53.501-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-08-06T18:42:53.535-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>anonymous</sv:value>
+  </sv:property>
+  <sv:node sv:name="AP-Calculus-BC-Study-Guide">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0090ca85-dbaf-4167-a687-b6b6a8d413fe</sv:value>
+    </sv:property>
+    <sv:property sv:name="author" sv:type="String">
+      <sv:value>Sean Ru</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>451e6e43-16ca-421e-8a78-fef65098aa91</sv:value>
+      <sv:value>d8bc52b2-b835-4bf2-9af0-24708c9783bc</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>A written guide to AP Calculus BC, a class that includes lessons on limits, derivatives, integration, sequences and series, polar coordinates, vector functions, and differential equations.</sv:value>
+    </sv:property>
+    <sv:property sv:name="docUrl" sv:type="String">
+      <sv:value>https://drive.google.com/file/d/1r62Ro-0aZ-7Nx2rXG34sI-cTyfss3mjR/view?usp=sharing</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+      <sv:value>e879e835-cc00-4069-8fbb-570ffada3f06</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+      <sv:value>e879e835-cc00-4069-8fbb-570ffada3f06</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+      <sv:value>ed721b61-69ad-4d54-8802-9b4874490fd0</sv:value>
+    </sv:property>
+    <sv:property sv:name="lastModifiedDate" sv:type="Date">
+      <sv:value>2020-08-06T00:00:00.000-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-08-06T18:42:44.976-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-08-06T18:42:47.623-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-08-06T18:42:47.556-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-08-06T18:42:47.620-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>anonymous</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>AP Calculus BC Study Guide</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="tags" sv:type="String">
+      <sv:value>AP Calculus BC</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
