@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="studyguides">
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="quizzes">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>mgnl:content</sv:value>
   </sv:property>
@@ -10,7 +10,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:content</sv:value>
     </sv:property>
-    <sv:node sv:name="studyguides">
+    <sv:node sv:name="quizzes">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:contentNode</sv:value>
       </sv:property>
@@ -21,10 +21,10 @@
         <sv:value>info.magnolia.ui.contentapp.contenttypes.ConfiguredContentTypeAppDescriptor</sv:value>
       </sv:property>
       <sv:property sv:name="contentType" sv:type="String">
-        <sv:value>studyGuide</sv:value>
+        <sv:value>quiz</sv:value>
       </sv:property>
       <sv:property sv:name="name" sv:type="String">
-        <sv:value>studyguides</sv:value>
+        <sv:value>quizzes</sv:value>
       </sv:property>
       <sv:node sv:name="subApps">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -49,7 +49,7 @@
                 <sv:value>mgnl:contentNode</sv:value>
               </sv:property>
               <sv:property sv:name="appName" sv:type="String">
-                <sv:value>studyguides</sv:value>
+                <sv:value>quizzes</sv:value>
               </sv:property>
               <sv:property sv:name="class" sv:type="String">
                 <sv:value>info.magnolia.ui.contentapp.detail.action.CreateItemActionDefinition</sv:value>
@@ -98,7 +98,7 @@
                 <sv:value>mgnl:contentNode</sv:value>
               </sv:property>
               <sv:property sv:name="appName" sv:type="String">
-                <sv:value>studyguides</sv:value>
+                <sv:value>quizzes</sv:value>
               </sv:property>
               <sv:property sv:name="class" sv:type="String">
                 <sv:value>info.magnolia.ui.contentapp.detail.action.EditItemActionDefinition</sv:value>
@@ -1419,7 +1419,7 @@
               <sv:value>/</sv:value>
             </sv:property>
             <sv:property sv:name="workspace" sv:type="String">
-              <sv:value>study-guides</sv:value>
+              <sv:value>quizzes</sv:value>
             </sv:property>
             <sv:node sv:name="nodeTypes">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1504,7 +1504,7 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="studyGuide">
+                <sv:node sv:name="quiz">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -1557,7 +1557,7 @@
                         <sv:value>true</sv:value>
                       </sv:property>
                     </sv:node>
-                    <sv:node sv:name="docUrl">
+                    <sv:node sv:name="quizSheetUrl">
                       <sv:property sv:name="jcr:primaryType" sv:type="Name">
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
@@ -1717,7 +1717,7 @@
               <sv:value>mgnl:contentNode</sv:value>
             </sv:property>
             <sv:property sv:name="workspace" sv:type="String">
-              <sv:value>study-guides</sv:value>
+              <sv:value>quizzes</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

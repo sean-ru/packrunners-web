@@ -9,7 +9,7 @@
         <p class="mb-1">${video.description!}</p>
         <span class="badge badge-primary badge-pill">${video.tags!}</span>
         <p>
-           <a class="btn btn-primary btn-lg" href="${video.videoUrl!}" role="button">${i18n['video.view']}</a>
+           <a class="btn btn-primary btn-lg" href="${video.videoUrl!}" target="_blank" role="button">${i18n['video.view']}</a>
         </p>
     </li>
 

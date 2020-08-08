@@ -299,7 +299,7 @@ public class VideoServices {
                                 + ".html");
             }
         } catch (RepositoryException e) {
-            log.warn("Can't get schoolOverviewPage page link [subType={}]", featureSubType, e);
+            log.warn("Can't get category page link [subType={}]", featureSubType, e);
         }
 
         return StringUtils.EMPTY;

@@ -1,6 +1,8 @@
 [#-------------- ASSIGNMENTS --------------]
 [#include "/packrunners/templates/macros/imageResponsive.ftl"]
+[#include "/studyguides/templates/macros/studyGuideTeaser.ftl"]
 [#include "/videos/templates/macros/videoTeaser.ftl"]
+[#include "/quizzes/templates/macros/quizTeaser.ftl"]
 [#include "/courses/templates/macros/courseTypeIcon.ftl" /]
 
 [#assign course = model.course]
@@ -16,7 +18,7 @@
 [#assign relatedCourseNumbers = course.courseNumbers!]
 [#assign studyGuides = model.getStudyGuidesByCourseNumber(course.courseNumbers)]
 [#assign videos = model.getVideosByCourseNumber(course.courseNumbers)]
-[#assign quizzes = []]
+[#assign quizzes = model.getQuizzesByCourseNumber(course.courseNumbers)]
 
 [#-------------- RENDERING --------------]
 <!-- Course Detail -->
@@ -99,9 +101,11 @@
         <div class="col-xs-10 col-xs-push-1 product-property">
             <p class="summary">${i18n.get('course.property.studyGuides')}</p>
             <hr style="margin-top:1px;"/>
+            <div class="list-group">
             [#list studyGuides as studyGuide]
-               <div class="body">${studyGuide.name}</div>
+               [@studyGuideTeaser studyGuide /]
             [/#list]
+            </div>
         </div>
     </div>
     [/#if]
@@ -125,9 +129,11 @@
         <div class="col-xs-10 col-xs-push-1 product-property">
             <p class="summary">${i18n.get('course.property.quizzes')}</p>
             <hr style="margin-top:1px;"/>
+            <div class="list-group">
             [#list quizzes as quiz]
-                <div class="body">${quiz.name}}</div>
+                [@quizTeaser quiz /]
             [/#list]
+            </div>
         </div>
     </div>
     [/#if]

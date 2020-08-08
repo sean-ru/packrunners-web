@@ -180,25 +180,28 @@ public class StudyGuideServices {
                             studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_DISPLAY_NAME).getString());
                 }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_CONTENT)) {
-                    Property description = studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_CONTENT);
+                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_DESCRIPTION)) {
+                    Property description = studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_DESCRIPTION);
                     if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
                         try {
                             String bodyWithResolvedLinks = LinkUtil
                                     .convertLinksFromUUIDPattern(description.getString(),
                                             linkTransformerManager.getBrowserLink(studyGuideNode.getPath()));
-                            studyGuide.setContent(bodyWithResolvedLinks);
+                            studyGuide.setDescription(bodyWithResolvedLinks);
                         } catch (LinkException e) {
                             log.warn("Failed to parse links with from {}", description.getName(), e);
                         }
                     } else {
-                        studyGuide.setContent(description.getString());
+                        studyGuide.setDescription(description.getString());
                     }
                 }
 
                 if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_AUTHOR)) {
-                    studyGuide
-                            .setAuthor(studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_AUTHOR).getString());
+                    studyGuide.setAuthor(studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_AUTHOR).getString());
+                }
+
+                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_TAGS)) {
+                    studyGuide.setTags(studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_TAGS).getString());
                 }
 
                 if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_LAST_MODIFIED_DATE)) {
@@ -209,14 +212,8 @@ public class StudyGuideServices {
                     }
                 }
 
-                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_ATTACHMENTS)) {
-                    PropertyIterator iterator = studyGuideNode
-                            .getProperties(StudyGuide.PROPERTY_NAME_ATTACHMENTS);
-                    List<Asset> assetList = new ArrayList<>();
-                    while (iterator.hasNext()) {
-                        assetList.add(damFunctions.getAsset(iterator.nextProperty().getString()));
-                    }
-                    studyGuide.setAttachments(assetList);
+                if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_DOC_URL)) {
+                    studyGuide.setDocUrl(studyGuideNode.getProperty(StudyGuide.PROPERTY_NAME_DOC_URL).getString());
                 }
 
                 if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_TYPES)) {
@@ -234,7 +231,7 @@ public class StudyGuideServices {
                 if (studyGuideNode.hasProperty(StudyGuide.PROPERTY_NAME_COURSE_NUMBERS)) {
                     final List<Category> courseNames = getCategories(studyGuideNode,
                             StudyGuide.PROPERTY_NAME_COURSE_NUMBERS);
-                    studyGuide.setCourseNames(courseNames);
+                    studyGuide.setCourseNumbers(courseNames);
                 }
 
                 final String studyGuideLink = getStudyGuideLink(studyGuideNode);
@@ -285,7 +282,7 @@ public class StudyGuideServices {
                                 + ".html");
             }
         } catch (RepositoryException e) {
-            log.warn("Can't get courseTypeOverviewPage page link [subType={}]", featureSubType, e);
+            log.warn("Can't get category page link [subType={}]", featureSubType, e);
         }
 
         return StringUtils.EMPTY;

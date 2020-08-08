@@ -7,7 +7,9 @@ import info.magnolia.dam.api.Asset;
 import info.magnolia.dam.templating.functions.DamTemplatingFunctions;
 import info.magnolia.jcr.util.NodeUtil;
 import info.magnolia.jcr.wrapper.I18nNodeWrapper;
+import info.magnolia.link.LinkException;
 import info.magnolia.link.LinkTransformerManager;
+import info.magnolia.link.LinkUtil;
 import info.magnolia.module.categorization.functions.CategorizationTemplatingFunctions;
 import info.magnolia.rendering.template.type.DefaultTemplateTypes;
 import info.magnolia.rendering.template.type.TemplateTypeHelper;
@@ -19,12 +21,10 @@ import org.packrunners.quizzes.QuizzesModule;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.jcr.Node;
-import javax.jcr.NodeIterator;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
+import javax.jcr.*;
 import javax.jcr.query.Query;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -190,20 +190,65 @@ public class QuizServices {
                     quiz.setName(quizNode.getProperty(Quiz.PROPERTY_NAME_DISPLAY_NAME).getString());
                 }
 
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_DESCRIPTION)) {
+                    Property description = quizNode.getProperty(Quiz.PROPERTY_NAME_DESCRIPTION);
+                    if (LinkUtil.UUID_PATTERN.matcher(description.getString()).find()) {
+                        try {
+                            String bodyWithResolvedLinks = LinkUtil
+                                    .convertLinksFromUUIDPattern(description.getString(),
+                                            linkTransformerManager.getBrowserLink(quizNode.getPath()));
+                            quiz.setDescription(bodyWithResolvedLinks);
+                        } catch (LinkException e) {
+                            log.warn("Failed to parse links with from {}", description.getName(), e);
+                        }
+                    } else {
+                        quiz.setDescription(description.getString());
+                    }
+                }
+
                 if (quizNode.hasProperty(Quiz.PROPERTY_NAME_AUTHOR)) {
                     quiz.setAuthor(quizNode.getProperty(Quiz.PROPERTY_NAME_AUTHOR).getString());
                 }
 
-                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET)) {
-                    quiz.setQuizSheet(
-                            damFunctions.getAsset(quizNode.getProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET).getString()));
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_TAGS)) {
+                    quiz.setTags(quizNode.getProperty(Quiz.PROPERTY_NAME_TAGS).getString());
                 }
 
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_LAST_MODIFIED_DATE)) {
+                    Calendar c = quizNode.getProperty(Quiz.PROPERTY_NAME_LAST_MODIFIED_DATE)
+                            .getDate();
+                    if (c != null) {
+                        quiz.setLastModifiedDate(c.getTime());
+                    }
+                }
+
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET_URL)) {
+                    quiz.setQuizSheetUrl(quizNode.getProperty(Quiz.PROPERTY_NAME_QUIZ_SHEET_URL).getString());
+                }
+
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_COURSE_TYPES)) {
+                    final List<Category> courseTypes = getCategories(quizNode,
+                            Quiz.PROPERTY_NAME_COURSE_TYPES);
+                    quiz.setCourseTypes(courseTypes);
+                }
+
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_SCHOOLS)) {
+                    final List<Category> schools = getCategories(quizNode,
+                            Quiz.PROPERTY_NAME_SCHOOLS);
+                    quiz.setSchools(schools);
+                }
+
+                if (quizNode.hasProperty(Quiz.PROPERTY_NAME_COURSE_NUMBERS)) {
+                    final List<Category> courseNames = getCategories(quizNode,
+                            Quiz.PROPERTY_NAME_COURSE_NUMBERS);
+                    quiz.setCourseNumbers(courseNames);
+                }
 
                 final String quizLink = getQuizLink(quizNode);
                 if (StringUtils.isNotBlank(quizLink)) {
                     quiz.setLink(quizLink);
                 }
+
             } catch (RepositoryException e) {
                 log.debug("Could not marshall quiz from node [{}]", quizNodeRaw);
             }
@@ -216,6 +261,25 @@ public class QuizServices {
         final String quizName = StringUtils
                 .defaultIfBlank(MgnlContext.getParameter(QUIZ_QUERY_PARAMETER), "NotAvailable");
         return getContentNodeByName(quizName, QuizzesModule.QUIZZES_REPOSITORY_NAME);
+    }
+
+    /**
+     * Get and marshall all categories of a {@link Node} stored under the given
+     * <code>categoryPropertyName</code>.
+     */
+    private List<Category> getCategories(Node node, String categoryPropertyName) {
+        final List<Category> categories = new ArrayList<>();
+
+        final List<Node> nodes = categorizationTemplatingFunctions
+                .getCategories(node, categoryPropertyName);
+        for (Node n : nodes) {
+            final Category category = marshallCategoryNode(n);
+            if (category != null) {
+                categories.add(category);
+            }
+        }
+
+        return categories;
     }
 
     /**
@@ -235,7 +299,7 @@ public class QuizServices {
                                 + ".html");
             }
         } catch (RepositoryException e) {
-            log.warn("Can't get schoolOverviewPage page link [subType={}]", featureSubType, e);
+            log.warn("Can't get category page link [subType={}]", featureSubType, e);
         }
 
         return StringUtils.EMPTY;
@@ -260,7 +324,7 @@ public class QuizServices {
         return null;
     }
 
-    public List<Quiz> getQuizsByCategory(String categoryPropertyName, String identifier) {
+    public List<Quiz> getQuizByCategory(String categoryPropertyName, String identifier) {
 
         final List<Quiz> quizzes = new LinkedList<>();
 

@@ -7,6 +7,8 @@ import org.packrunners.categories.Category;
 import org.packrunners.categories.model.definition.CategoryTemplateDefinition;
 import org.packrunners.courses.service.Course;
 import org.packrunners.courses.service.CourseServices;
+import org.packrunners.quizzes.service.Quiz;
+import org.packrunners.quizzes.service.QuizServices;
 import org.packrunners.studyguides.service.StudyGuide;
 import org.packrunners.studyguides.service.StudyGuideServices;
 import org.packrunners.videos.service.Video;
@@ -35,16 +37,18 @@ public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
     private final CourseServices courseServices;
     private final StudyGuideServices studyGuideServices;
     private final VideoServices videoServices;
+    private final QuizServices quizServices;
 
     @Inject
     public CourseDetailModel(Node content, RD definition, RenderingModel<?> parent,
                              CourseServices courseServices, StudyGuideServices studyGuideServices,
-                             VideoServices videoServices
+                             VideoServices videoServices, QuizServices quizServices
     ) {
         super(content, definition, parent);
         this.courseServices = courseServices;
         this.studyGuideServices = studyGuideServices;
         this.videoServices = videoServices;
+        this.quizServices = quizServices;
     }
 
     public Course getCourse() {
@@ -66,6 +70,7 @@ public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
                 return studyGuideServices.getStudyGuidesByCategory(categoryName, identifier);
             })
                     .flatMap(Collection::stream)
+                    .filter(distinctByKey(StudyGuide::getIdentifier))
                     .collect(Collectors.toList());
         }
         return studyGuides;
@@ -84,6 +89,21 @@ public class CourseDetailModel<RD extends CategoryTemplateDefinition> extends
                     .collect(Collectors.toList());
         }
         return videos;
+    }
+
+    public List<Quiz> getQuizzesByCourseNumber(List<Category> courseNumbers) {
+        List<Quiz> quizzes = new ArrayList<>();
+        if (courseNumbers != null && !courseNumbers.isEmpty()) {
+            quizzes = courseNumbers.stream().map(category -> {
+                String categoryName = definition.getCategory();
+                String identifier = category.getIdentifier();
+                return quizServices.getQuizByCategory(categoryName, identifier);
+            })
+                    .flatMap(Collection::stream)
+                    .filter(distinctByKey(Quiz::getIdentifier))
+                    .collect(Collectors.toList());
+        }
+        return quizzes;
     }
 
     private static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
