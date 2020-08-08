@@ -1,6 +1,5 @@
 package org.packrunners.quizzes.service;
 
-import info.magnolia.dam.api.Asset;
 import org.packrunners.categories.Category;
 
 import java.util.Date;
@@ -8,24 +7,29 @@ import java.util.List;
 
 
 /**
- * Simple POJO for wrapping a video node.
+ * Simple POJO for wrapping a quiz node.
  */
 public class Quiz {
 
     public static final String PROPERTY_NAME_DISPLAY_NAME = "name";
+    public static final String PROPERTY_NAME_DESCRIPTION = "description";
     public static final String PROPERTY_NAME_AUTHOR = "author";
-    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
-    public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "date";
-    public static final String PROPERTY_NAME_QUIZ_SHEET = "quizSheet";
-    public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+    public static final String PROPERTY_NAME_TAGS = "tags";
+    public static final String PROPERTY_NAME_LAST_MODIFIED_DATE = "lastModifiedDate";
+    public static final String PROPERTY_NAME_QUIZ_SHEET_URL = "quizSheetUrl";
     public static final String PROPERTY_NAME_SCHOOLS = "schools";
+    public static final String PROPERTY_NAME_COURSE_TYPES = "courseTypes";
+    public static final String PROPERTY_NAME_COURSE_NUMBERS = "courseNumbers";
+
     private String name;
+    private String description;
     private String author;
+    private String tags;
+    private String quizSheetUrl;
     private List<Category> courseNumbers;
     private List<Category> courseTypes;
     private List<Category> schools;
     private Date lastModifiedDate;
-    private Asset quizSheet;
     private String link;
     private String identifier;
 
@@ -70,12 +74,28 @@ public class Quiz {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public Asset getQuizSheet() {
-        return quizSheet;
+    public String getDescription() {
+        return description;
     }
 
-    public void setQuizSheet(Asset quizSheet) {
-        this.quizSheet = quizSheet;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public String getQuizSheetUrl() {
+        return quizSheetUrl;
+    }
+
+    public void setQuizSheetUrl(String quizSheetUrl) {
+        this.quizSheetUrl = quizSheetUrl;
     }
 
     public List<Category> getSchools() {

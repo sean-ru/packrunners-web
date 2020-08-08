@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="Sean-Ru">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>mgnl:hasVersion</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>aaeb617a-9dec-43e0-8cad-4f2d1cf037a2</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+    <sv:value>d316332e-fe24-4f73-8cec-b495135750cb</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+    <sv:value>d316332e-fe24-4f73-8cec-b495135750cb</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+    <sv:value>b3caef45-5ebe-4dcb-903a-d03a733683e7</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2020-08-07T18:33:40.993-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2020-08-07T18:50:49.095-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+    <sv:value>1.2</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+    <sv:value>2020-08-07T18:50:49.027-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2020-08-07T18:50:49.093-05:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>anonymous</sv:value>
+  </sv:property>
+  <sv:node sv:name="Sample-Quiz">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:content</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mgnl:hasVersion</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ead21837-b545-4830-a554-9c4813331e66</sv:value>
+    </sv:property>
+    <sv:property sv:name="author" sv:type="String">
+      <sv:value>Sean Ru</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseNumbers" sv:type="String" sv:multiple="true">
+      <sv:value>ac2b9da9-4527-4c3c-bba8-68a11e64abd6</sv:value>
+      <sv:value>5b375a12-b37d-4ec0-a410-799d74d678b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="courseTypes" sv:type="String" sv:multiple="true">
+      <sv:value>b1691bf9-0277-469c-a000-f82cb8a92751</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>This is a test for sample quiz document</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:baseVersion" sv:type="Reference">
+      <sv:value>f5fca094-abef-40f0-89b2-d9a63eba7a5b</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:isCheckedOut" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:predecessors" sv:type="Reference" sv:multiple="true">
+      <sv:value>f5fca094-abef-40f0-89b2-d9a63eba7a5b</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:versionHistory" sv:type="Reference">
+      <sv:value>c27f41f7-da92-4e85-b122-1518d80244fe</sv:value>
+    </sv:property>
+    <sv:property sv:name="lastModifiedDate" sv:type="Date">
+      <sv:value>2020-08-07T00:00:00.000-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2020-08-07T18:50:42.115-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2020-08-08T11:31:15.451-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersion" sv:type="String">
+      <sv:value>1.1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedVersionCreated" sv:type="Date">
+      <sv:value>2020-08-08T11:31:14.034-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2020-08-08T11:31:15.423-05:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>anonymous</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>Sample Quiz</sv:value>
+    </sv:property>
+    <sv:property sv:name="quizSheetUrl" sv:type="String">
+      <sv:value>#</sv:value>
+    </sv:property>
+    <sv:property sv:name="schools" sv:type="String" sv:multiple="true">
+      <sv:value>51d34af8-37e0-44ff-b3ea-3db51871a64e</sv:value>
+    </sv:property>
+    <sv:property sv:name="tags" sv:type="String">
+      <sv:value>Honors Algebra 2</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
